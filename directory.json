@@ -1,0 +1,1267 @@
+{
+    "work": {
+        "endless": {
+            "title": "Endless",
+            "info": "Fractal-generated sci-fi short film.",
+            "year": 2017,
+            "style": 2,
+            "id": "endless",
+            "btn": "View Project",
+            "tags": "CGI, sci-fi, fractals, short film, animation, 3D, art, video",
+            "img": [
+                "endless1.jpg",
+                "endless2.jpg",
+                "endless3.jpg"
+            ],
+            "thumb_vid": "endless.mp4",
+            "thumb": "endless.jpg"
+        },
+        "thoughts": {
+            "title": "Thought Process",
+            "info": "Sound-sensitive particle system representing thoughts.",
+            "year": 2015,
+            "style": 1,
+            "id": "thoughts",
+            "btn": "View Project",
+            "tags": "Processing, Java, interactive, generative, CGI, new media, code, art",
+            "img": [
+                "thoughts2.jpg",
+                "thoughts1.jpg",
+                "thoughts3.jpg"
+            ],
+            "thumb_vid": "thoughts.mp4",
+            "thumb": "thoughts.jpg"
+        },
+        "clock": {
+            "title": "Clock Clock",
+            "info": "Group of analog clocks creating a single digital time display.",
+            "year": 2014,
+            "style": 3,
+            "id": "clock",
+            "url": "http://cmuems.com/2014a/hc/10/01/clock-in-clock-wip/",
+            "btn": "View Project",
+            "tags": "Processing, Java, CGI, new media, art, code",
+            "img": [
+                "clock1.jpg",
+                "clock2.jpg",
+                "clock3.jpg"
+            ],
+            "thumb_vid": "clock.mp4",
+            "thumb": "clock.jpg"
+        },
+        "oil": {
+            "title": "Oil paintings",
+            "info": "Oil on canvas.",
+            "year": "2011,2015",
+            "style": 4,
+            "id": "oil",
+            "btn": "View Collection",
+            "tags": "oil, painting, art",
+            "img": [
+                "oil1.jpg",
+                "oil2.jpg",
+                "oil3.jpg"
+            ],
+            "group": [
+                {
+                    "group_id": "oil",
+                    "title": "Self Portrait",
+                    "year": 2015,
+                    "thumb": "selfportrait.jpg"
+                },
+                {
+                    "group_id": "oil",
+                    "title": "Dress",
+                    "year": 2015,
+                    "thumb": "dress.jpg"
+                },
+                {
+                    "group_id": "oil",
+                    "title": "Uncanny",
+                    "year": 2015,
+                    "thumb": "uncanny.jpg"
+                },
+                {
+                    "group_id": "oil",
+                    "title": "Flight",
+                    "year": 2015,
+                    "thumb": "flight.jpg"
+                },
+                {
+                    "group_id": "oil",
+                    "title": "Lily",
+                    "year": 2011,
+                    "thumb": "lily.jpg"
+                },
+                {
+                    "group_id": "oil",
+                    "title": "Poly",
+                    "year": 2015,
+                    "thumb": "poly.jpg"
+                },
+                {
+                    "group_id": "oil",
+                    "title": "Wave",
+                    "year": 2011,
+                    "thumb": "wave.jpg"
+                },
+                {
+                    "group_id": "oil",
+                    "title": "Physical Painting Series",
+                    "year": 2015,
+                    "thumb": "rocks.jpg"
+                }
+            ]
+        },
+        "city": {
+            "title": "PowerPoint City",
+            "info": "Digital painting made in PowerPoint with 45k shapes.",
+            "year": 2015,
+            "style": 3,
+            "id": "city",
+            "btn": "View Project",
+            "tags": "PowerPoint, animation, digital art, looping, video, art",
+            "img": [
+                "city1.jpg",
+                "city2.jpg",
+                "city3.jpg"
+            ],
+            "thumb_vid": "city.mp4",
+            "thumb": "city.jpg"
+        },
+        "inverse": {
+            "title": "Inverse",
+            "info": "Hand painted and digitally animated.",
+            "year": 2015,
+            "style": 2,
+            "id": "inverse",
+            "url": "/comingsoon",
+            "btn": "View Project",
+            "tags": "Photoshop, ink, animation, painting, looping, art, video",
+            "img": [
+                "inverse1.jpg",
+                "inverse2.jpg",
+                "inverse3.jpg"
+            ],
+            "thumb": "inverse.jpg"
+        },
+        "time": {
+            "title": "Time",
+            "info": "Ink series and interactive PowerPoint animation.",
+            "year": "2015-16",
+            "style": 1,
+            "id": "time",
+            "btn": "View Projects",
+            "tags": "PowerPoint, ink, drawing, illustration, series, animation, art, video",
+            "img": [
+                "time1.jpg",
+                "time2.jpg",
+                "time3.jpg"
+            ],
+            "group": [
+                {   
+                    "group_id": "time",
+                    "title": "Time",
+                    "year": 2015,
+                    "thumb": "time.jpg"
+                },
+                {
+                    "group_id": "time",
+                    "title": "Time, Interactive",
+                    "year": 2016,
+                    "thumb_vid": "time_ppt.mp4",
+                    "thumb": "time_ppt.jpg"
+                }
+            ]
+        },
+        "graphite": {
+            "title": "Graphite renderings",
+            "info": "Graphite on paper.",
+            "year": 2014,
+            "style": 4,
+            "id": "graphite",
+            "btn": "View Collection",
+            "tags": "graphite, drawing, illustration, still-life, art",
+            "img": [
+                "graphite1.jpg",
+                "graphite2.jpg",
+                "graphite3.jpg"
+            ],
+            "group": [
+                {   
+                    "group_id": "graphite",
+                    "title": "Shoe",
+                    "year": 2014,
+                    "thumb": "shoe.jpg"
+                },
+                {
+                    "group_id": "graphite",
+                    "title": "Cola",
+                    "year": 2014,
+                    "thumb": "cola.jpg"
+                },
+                {
+                    "group_id": "graphite",
+                    "title": "Milkshake",
+                    "year": 2014,
+                    "thumb": "milkshake.jpg"
+                },
+                {
+                    "group_id": "graphite",
+                    "title": "Antique Car",
+                    "year": 2014,
+                    "thumb": "car.jpg"
+                }
+            ]
+        },
+        "yearone": {
+            "title": "Year One",
+            "info": "Book, 734 pages, computer-generated data-visualizing artworks.",
+            "year": 2016,
+            "style": 2,
+            "id": "yearone",
+            "url": "http://cmuems.com/2016/60212/hizlik/10/28/hizlik-book/",
+            "btn": "View Project",
+            "tags": "Python, bash, Processing, Basil.js, datavis, CGI, new media, generative, art, code, design",
+            "img": [
+                "yearone1.jpg",
+                "yearone2.jpg",
+                "yearone3.jpg"
+            ],
+            "thumb_vid": "yearone.mp4",
+            "thumb": "yearone.jpg"
+        },
+        "charcoal": {
+            "title": "Charcoal drawings",
+            "info": "Charcoal on paper.",
+            "year": "2011,2014",
+            "style": 4,
+            "id": "charcoal",
+            "btn": "View Collection",
+            "tags": "charcoal, drawing, illustration, art",
+            "img": [
+                "charcoal1.jpg",
+                "charcoal2.jpg",
+                "charcoal3.jpg"
+            ],
+            "group": [
+                {
+                    "group_id": "charcoal",
+                    "title": "Faces 01",
+                    "year": 2011,
+                    "thumb": "faces1.jpg"
+                },
+                {
+                    "group_id": "charcoal",
+                    "title": "Faces 02",
+                    "year": 2011,
+                    "thumb": "faces2.jpg"
+                },
+                {
+                    "group_id": "charcoal",
+                    "title": "Charcoal Studies",
+                    "year": 2014,
+                    "thumb": "charcoalstudies.jpg"
+                }
+            ]
+        },
+        "surveillancebot": {
+            "title": "SurveillanceBot",
+            "info": "Experimental performances conducted with a remote control car.",
+            "year": 2016,
+            "style": 3,
+            "id": "surveillancebot",
+            "url": "https://vimeo.com/162565549",
+            "btn": "View Video",
+            "tags": "RC car, contextual, public art, experimental, HCI, art, video",
+            "img": [
+                "cp1.jpg",
+                "cp3.jpg",
+                "cp2.jpg"
+            ],
+            "thumb": "surveillancebot.jpg"
+        },
+        "piper": {
+            "title": "Pied Piper of Hamelin",
+            "info": "2D stylized animation. (Unfinished)",
+            "year": 2015,
+            "style": 3,
+            "id": "piper",
+            "btn": "View Project",
+            "tags": "Photoshop, After Effects, 2D, animation, short film, art, video",
+            "img": [
+                "piper1.jpg",
+                "piper2.jpg",
+                "piper3.jpg"
+            ],
+            "thumb_vid": "piper.mp4",
+            "thumb": "piper.jpg"
+        },
+        "bose": {
+            "title": "Wrong Sounds",
+            "info": "Mock Bose ad as a found-footage remix project.",
+            "year": 2015,
+            "style": 1,
+            "id": "bose",
+            "btn": "Watch Video",
+            "tags": "found-footage, remix, art, video",
+            "img": [
+                "bose1.jpg",
+                "bose2.jpg",
+                "bose3.jpg"
+            ],
+            "thumb": "bose.jpg"
+        },
+        "moonwalk": {
+            "title": "Moon Walk",
+            "info": "A simple lunar cycle.",
+            "year": 2016,
+            "style": 4,
+            "id": "moonwalk",
+            "btn": "Watch Video",
+            "tags": "Maya, Vue xStream, animation, 3D, looping, art, video",
+            "img": [
+                "moonwalk1.jpg",
+                "moonwalk2.jpg",
+                "moonwalk3.jpg"
+            ],
+            "thumb_vid": "moonwalk.mp4",
+            "thumb": "moonwalk.jpg"
+        },
+        "action": {
+            "title": "Action",
+            "info": "Short action film. Director, D.P., editor.",
+            "year": 2016,
+            "style": 3,
+            "id": "action",
+            "btn": "View Film",
+            "tags": "short film, live action, video",
+            "img": [
+                "action1.jpg",
+                "action2.jpg",
+                "action3.jpg"
+            ],
+            "thumb": "action.jpg"
+        },
+        "lego": {
+            "title": "Brickfilms",
+            "info": "LEGO stop-motion animations.",
+            "year": "2010-12, 2017",
+            "style": 2,
+            "id": "lego",
+            "url": "https://www.youtube.com/user/DerTarchin/videos",
+            "btn": "View Collection",
+            "tags": "animation, stop-motion, LEGO, short film, video",
+            "img": [
+                "lego1.jpg",
+                "lego2.jpg",
+                "lego3.jpg"
+            ],
+            "group": [
+                {
+                    "url": "https://www.youtube.com/watch?v=IdDuy7Iz3TI",
+                    "group_id": "lego",
+                    "title": "What If...",
+                    "year": 2017,
+                    "thumb_vid": "legowhatif.mp4",
+                    "thumb": "legowhatif.jpg"
+                },
+                {
+                    "url": "https://www.youtube.com/watch?v=QQ5HnVMyiiQ",
+                    "group_id": "lego",
+                    "title": "Le Mime",
+                    "year": 2011,
+                    "thumb": "legomime.jpg"
+                },
+                {
+                    "url": "https://www.youtube.com/watch?v=-XxvFD6Sfkk",
+                    "group_id": "lego",
+                    "title": "Energy-X Ad",
+                    "year": 2011,
+                    "thumb_vid": "legoenergyx.mp4",
+                    "thumb": "legoenergyx.jpg"
+                }
+            ]
+        },
+        "sna": {
+            "title": "Social Network Analyzer",
+            "info": "Modular framework and visualizer library.",
+            "year": 2015,
+            "style": 2,
+            "id": "sna",
+            "btn": "View Project",
+            "tags": "Java, JS, UI-UX, front end, design, code",
+            "img": [
+                "sna1.jpg",
+                "sna2.jpg",
+                "sna3.jpg"
+            ],
+            "thumb": "sna.jpg"
+        },
+        "scrabble": {
+            "title": "Scrabble",
+            "info": "An intuitively designed experience for a desktop game.",
+            "year": 2015,
+            "style": 1,
+            "id": "scrabble",
+            "btn": "View Project",
+            "tags": "Java, back end, front end, full-stack, UI-UX, design, code",
+            "img": [
+                "scrabble1.jpg",
+                "scrabble2.jpg",
+                "scrabble3.jpg"
+            ],
+            "thumb": "scrabble.jpg"
+        },
+        "graphicdesign": {
+            "title": "Graphic designs",
+            "info": "Miscellaneous graphic designs, posters, etc.",
+            "year": "2014-16",
+            "style": 4,
+            "id": "graphicdesign",
+            "btn": "View Collection",
+            "tags": "poster, postcard, marketting, graphic design, design",
+            "img": [
+                "graphicdesign1.jpg",
+                "graphicdesign2.jpg",
+                "graphicdesign3.jpg"
+            ],
+            "group": [
+                {
+                    "group_id": "graphicdesign",
+                    "title": "Late Night",
+                    "year": 2016,
+                    "thumb": "latenight.jpg"
+                },
+                {
+                    "group_id": "graphicdesign",
+                    "title": "PACE Events",
+                    "year": 2015,
+                    "thumb": "paceevents.jpg"
+                },
+                {
+                    "group_id": "graphicdesign",
+                    "title": "RHD",
+                    "year": 2015,
+                    "thumb": "rhd.jpg"
+                },
+                {
+                    "group_id": "graphicdesign",
+                    "title": "PACE Volunteer Fair",
+                    "year": 2015,
+                    "thumb": "pacevolunteer.jpg"
+                },
+                {
+                    "group_id": "graphicdesign",
+                    "title": "PACE Stop Hunger Now",
+                    "year": 2015,
+                    "thumb": "pacehunger.jpg"
+                },
+                {
+                    "group_id": "graphicdesign",
+                    "title": "FIRST Robotics Team Poster",
+                    "year": 2014,
+                    "thumb": "roboposter.jpg"
+                },
+                {
+                    "group_id": "graphicdesign",
+                    "title": "PACE Apply",
+                    "year": 2015,
+                    "thumb": "paceapply.jpg"
+                },
+                {
+                    "group_id": "graphicdesign",
+                    "title": "PTI, Inc Training Program",
+                    "year": 2014,
+                    "thumb": "pti.jpg"
+                }
+            ]
+        },
+        "albumart": {
+            "title": "Subsecond Album Artworks",
+            "info": "Album artworks for EPs by artist Subsecond.",
+            "year": 2014,
+            "style": 1,
+            "id": "albumart",
+            "btn": "View Artworks",
+            "tags": "music, professional, design",
+            "img": [
+                "albumart1.jpg",
+                "albumart2.jpg",
+                "albumart3.jpg"
+            ],
+            "thumb": "albumart.jpg"
+        },
+        "telle": {
+            "title": "Tell-e",
+            "info": "Webapp that manages your shows and movies.",
+            "year": 2016,
+            "style": 1,
+            "id": "telle",
+            "btn": "View Project",
+            "tags": "Django, Python, JS, HTML, CSS, jQuery, webapp, mobile, UI-UX, front end, back end, full-stack, code, design",
+            "img": [
+                "telle1.jpg",
+                "telle2.jpg",
+                "telle3.jpg"
+            ],
+            "thumb_vid": "telle.mp4",
+            "thumb": "telle.jpg"
+        },
+        "pixtory": {
+            "title": "Pixtory",
+            "info": "Maps all images by over 16 million colors.",
+            "year": 2016,
+            "style": 3,
+            "id": "pixtory",
+            "btn": "View Project",
+            "tags": "Python, JS, HTML, CSS, jQuery, webapp, datavis, front end, back end, UI-UX, new media, code, art, photography, design",
+            "img": [
+                "pixtory1.jpg",
+                "pixtory2.jpg",
+                "pixtory3.jpg"
+            ],
+            "thumb": "pixtory.jpg"
+        },
+        "darktheme": {
+            "title": "CSS Dark Themes",
+            "info": "Dark themes created for TradingView, StockTwits, TradeTheTrend.",
+            "year": 2017,
+            "style": 4,
+            "id": "darktheme",
+            "url": "https://userstyles.org/users/412168",
+            "btn": "View Project",
+            "tags": "CSS3, front end, UI-UX, professional, code, design",
+            "img": [
+                "darktheme1.jpg",
+                "darktheme2.jpg",
+                "darktheme3.jpg"
+            ],
+            "thumb": "tvdarktheme.jpg"
+        },
+        "nickel": {
+            "title": "Nickel",
+            "info": "Stock trend analysis and alert app.",
+            "year": 2017,
+            "style": 4,
+            "id": "nickel",
+            "btn": "View Project",
+            "tags": "Django, Python, JS, HTML5, CSS3, jQuery, webapp, back end, front end, full-stack, UI-UX, professional, code, design",
+            "img": [
+                "nickel1.jpg",
+                "nickel2.jpg",
+                "nickel3.jpg"
+            ],
+            "thumb": "nickel.jpg"
+        },
+        "pffl": {
+            "title": "PFFL Scheduler",
+            "info": "Scheduling app for Pittsburgh Flag Football League.",
+            "year": 2016,
+            "id": "pffl",
+            "tags": "Django, Python, JS, HTML, CSS, jQuery, webapp, back end, front end, full-stack, UI-UX, professional, code, design",
+            "thumb": "pffl.jpg"
+        },
+        "followerbot": {
+            "title": "FollowerBot",
+            "info": "Self-driving car that chases red clothing.",
+            "year": 2014,
+            "style": 3,
+            "id": "followerbot",
+            "url": "http://cmuems.com/2014a/hc/12/12/final-project-follower-robot/",
+            "btn": "View Project",
+            "tags": "Arduino, Java, robotics, HCI, new media, RC car, code, art",
+            "img": [
+                "followerbot1.jpg",
+                "followerbot2.jpg",
+                "followerbot3.jpg"
+            ],
+            "thumb_vid": "followerbot.mp4",
+            "thumb": "followerbot.jpg"
+        },
+        "missilecommand": {
+            "title": "Multiplayer Missile Command",
+            "info": "A modern twist to the classic game.",
+            "year": 2014,
+            "style": 4,
+            "id": "missilecommand",
+            "btn": "View Project",
+            "tags": "Python, game design, code",
+            "img": [
+                "missilecommand1.jpg",
+                "missilecommand2.jpg",
+                "missilecommand3.jpg"
+            ],
+            "thumb_vid": "missilecommand.mp4",
+            "thumb": "missilecommand.jpg"
+        },
+        "superman": {
+            "title": "Superman",
+            "info": "Arduino slider-controlled game.",
+            "year": 2014,
+            "id": "superman",
+            "url": "http://cmuems.com/2014a/hc/10/29/superman-mini/",
+            "tags": "Arduino, Processing, Java, game design, HCI, code",
+            "thumb_vid": "superman.mp4",
+            "thumb": "superman.jpg"
+        },
+        "spec": {
+            "title": "Real-time Spectrum Analyzer",
+            "info": "Real-time audio frequency spectrum visualzer.",
+            "year": 2017,
+            "style": 3,
+            "id": "spec",
+            "btn": "View Project",
+            "tags": "Processing, Java, After Effects, music, video, motion graphics, code, design",
+            "img": [
+                "spec1.jpg",
+                "spec2.jpg",
+                "spec3.jpg"
+            ],
+            "thumb_vid": "spec.mp4",
+            "thumb": "spec.jpg"
+        },
+        "carscanner": {
+            "title": "Little Car Scanner",
+            "info": "Little car scanning underbellies of big cars.",
+            "year": 2017,
+            "style": 4,
+            "id": "carscanner",
+            "url": "http://golancourses.net/excap17/hizlik/05/10/hizlik-final/",
+            "btn": "View Project",
+            "tags": "Processing, Java, RC car, HCI, new media, robotics, 3D, code, art",
+            "img": [
+                "carscanner1.jpg",
+                "carscanner2.jpg",
+                "carscanner3.jpg"
+            ],
+            "thumb_vid": "carscanner.mp4",
+            "thumb": "carscanner.jpg"
+        },
+        "stereo": {
+            "title": "Experimental Capture",
+            "info": "Stereoscopic video filmed from an RC car.",
+            "year": 2017,
+            "id": "stereo",
+            "url": "http://golancourses.net/excap17/hizlik/04/13/hizlik-event/",
+            "tags": "stereoscopic 3d, 3d, experimental, HCI, RC car, art, video",
+            "thumb_vid": "stereo.mp4",
+            "thumb": "stereo.jpg"
+        },
+        "pro-portrait": {
+            "dirignore": 1,
+            "title": "Pro. Portrait Photography",
+            "info": "Professional portrait photography.",
+            "year": "2014-17",
+            "style": 2,
+            "id": "pro-portrait",
+            "url": "http://photography.hizalcelik.com/tagged/portrait",
+            "btn": "View Photos",
+            "tags": "professional, photo",
+            "img": [
+                "pro-portrait1.jpg",
+                "pro-portrait3.jpg",
+                "pro-portrait2.jpg"
+            ],
+            "thumb": "pro-portrait.jpg"
+        },
+        "pro-event": {
+            "dirignore": 1,
+            "title": "Pro. Event Photography",
+            "info": "Professional event photography.",
+            "year": "2012-17",
+            "style": 1,
+            "id": "pro-event",
+            "url": "http://photography.hizalcelik.com/tagged/event",
+            "btn": "View Photos",
+            "tags": "professional, photo",
+            "img": [
+                "pro-event1.jpg",
+                "pro-event2.jpg",
+                "pro-event3.jpg"
+            ],
+            "thumb": "pro-event.jpg"
+        },
+        "pro-wedding": {
+            "dirignore": 1,
+            "title": "Pro. Wedding Photography",
+            "info": "Professional wedding photography.",
+            "year": "2012-17",
+            "style": 2,
+            "id": "pro-wedding",
+            "url": "http://photography.hizalcelik.com/tagged/wedding",
+            "btn": "View Photos",
+            "tags": "professional, photo",
+            "img": [
+                "pro-wedding3.jpg",
+                "pro-wedding2.jpg",
+                "pro-wedding1.jpg"
+            ],
+            "thumb": "pro-wedding.jpg"
+        },
+        "pro-sports": {
+            "dirignore": 1,
+            "title": "Pro. Sports Photography",
+            "info": "Professional sports photography.",
+            "year": "2012-17",
+            "style": 4,
+            "id": "pro-sports",
+            "url": "http://photography.hizalcelik.com/tagged/professional",
+            "btn": "View Photos",
+            "tags": "professional, photo",
+            "img": [
+                "pro-sports1.jpg",
+                "pro-sports2.jpg",
+                "pro-sports3.jpg"
+            ],
+            "thumb": "pro-sports.jpg"
+        },
+        "pro-misc": {
+            "dirignore": 1,
+            "title": "Misc. Pro. Photography",
+            "info": "Miscellaneous professional photography",
+            "year": "2012-17",
+            "style": 1,
+            "id": "pro-misc",
+            "url": "http://photography.hizalcelik.com/tagged/professional",
+            "btn": "View Photos",
+            "tags": "professional, photo",
+            "img": [
+                "pro-misc1.jpg",
+                "pro-misc2.jpg",
+                "pro-misc3.jpg"
+            ],
+            "thumb": "pro-misc.jpg"
+        },
+        "photo-people": {
+            "dirignore": 1,
+            "title": "People",
+            "info": "Portrait and people photography",
+            "year": "2013-17",
+            "style": 4,
+            "id": "photo-people",
+            "url": "http://photography.hizalcelik.com/tagged/people",
+            "btn": "View Photos",
+            "tags": "photo",
+            "img": [
+                "photo-people2.jpg",
+                "photo-people1.jpg",
+                "photo-people3.jpg"
+            ],
+            "thumb": "photo-people.jpg"
+        },
+        "photo-place": {
+            "dirignore": 1,
+            "title": "Places",
+            "info": "Street photography, landscapes, location shoots",
+            "year": "2013-17",
+            "style": 3,
+            "id": "photo-place",
+            "url": "http://photography.hizalcelik.com/tagged/places",
+            "btn": "View Photos",
+            "tags": "photo",
+            "img": [
+                "photo-place1.jpg",
+                "photo-place2.jpg",
+                "photo-place3.jpg"
+            ],
+            "thumb": "photo-place.jpg"
+        },
+        "photo-misc": {
+            "dirignore": 1,
+            "title": "Miscellaneous Photography",
+            "info": "Uncategorized photos",
+            "year": "2013-17",
+            "style": 2,
+            "id": "photo-misc",
+            "url": "http://photography.hizalcelik.com/tagged/personal",
+            "btn": "View Photos",
+            "tags": "photo",
+            "img": [
+                "photo-misc1.jpg",
+                "photo-misc3.jpg",
+                "photo-misc2.jpg"
+            ],
+            "thumb": "photo-misc.jpg"
+        },
+        "galleryend-code": {
+            "dirignore": 1,
+            "style": 5,
+            "id": "galleryend-code",
+            "url": "/index?k=code/",
+            "btn": "See all programming projects",
+            "img": [
+                "endcode1.jpg",
+                "endcode2.jpg",
+                "endcode3.jpg",
+                "endcode4.jpg",
+                "endcode5.jpg",
+                "endcode6.jpg"
+            ]
+        },
+        "galleryend-design": {
+            "dirignore": 1,
+            "style": 5,
+            "id": "galleryend-design",
+            "url": "/index?k=design/",
+            "btn": "See all design examples",
+            "img": [
+                "enddesign1.jpg",
+                "enddesign2.jpg",
+                "enddesign3.jpg",
+                "enddesign4.jpg",
+                "enddesign5.jpg",
+                "enddesign6.jpg"
+            ]
+        },
+        "galleryend-art": {
+            "dirignore": 1,
+            "style": 5,
+            "id": "galleryend-art",
+            "url": "/index?k=art/",
+            "btn": "See all artworks",
+            "img": [
+                "endart1.jpg",
+                "endart2.jpg",
+                "endart3.jpg",
+                "endart4.jpg",
+                "endart5.jpg",
+                "endart6.jpg"
+            ]
+        },
+        "galleryend-video": {
+            "dirignore": 1,
+            "style": 5,
+            "id": "galleryend-video",
+            "url": "/index?k=video/",
+            "btn": "See all video projects",
+            "img": [
+                "endvideo1.jpg",
+                "endvideo2.jpg",
+                "endvideo3.jpg",
+                "endvideo4.jpg",
+                "endvideo5.jpg",
+                "endvideo6.jpg"
+            ]
+        },
+        "galleryend-photo": {
+            "dirignore": 1,
+            "style": 5,
+            "id": "galleryend-photo",
+            "url": "https://dertarchin.deviantart.com/gallery/",
+            "btn": "View more photography",
+            "img": [
+                "endphoto1.jpg",
+                "endphoto2.jpg",
+                "endphoto3.jpg",
+                "endphoto4.jpg",
+                "endphoto5.jpg",
+                "endphoto6.jpg"
+            ]
+        },
+        "novaxin": {
+            "title": "Novaxin",
+            "info": "Satirical pharma commercial",
+            "year": 2016,
+            "id": "novaxin",
+            "url": "https://vimeo.com/185372150",
+            "tags": "found-footage, satire, art, video",
+            "thumb": "novaxin.jpg"
+        },
+        "hayal": {
+            "title": "Hayâl",
+            "info": "Sci-fi world",
+            "year": 2017,
+            "id": "hayal",
+            "url": "https://www.youtube.com/watch?v=PHHJsVGRomQ",
+            "tags": "sci-fi, art, video",
+            "thumb": "hayal.jpg"
+        },
+        "mexico": {
+            "title": "Infinite Mexico City",
+            "info": "Endless Mexico City",
+            "year": 2017,
+            "id": "mexico",
+            "url": "https://vimeo.com/207673397",
+            "tags": "Photoshop, new media, art, video",
+            "thumb": "mexico.jpg"
+        },
+        "abstract": {
+            "title": "Abstraction",
+            "info": "Abstract sci-fi video",
+            "year": 2016,
+            "id": "abstract",
+            "url": "https://vimeo.com/235269002",
+            "tags": "found-footage, abstract, sci-fi, art, video",
+            "thumb": "abstract.jpg"
+        },
+        "80s": {
+            "title": "80s Themed Backdrop",
+            "info": "Created as a performance backdrop for a team on the fashion show Lunar Gala.",
+            "year": 2015,
+            "id": "80s",
+            "url": "https://vimeo.com/250010179",
+            "tags": "abstract, art, video",
+            "thumb": "80s.jpg"
+        },
+        "70s": {
+            "title": "That 70's Show Insert",
+            "info": "Injecting our own footage into existing footage.",
+            "year": 2015,
+            "id": "70s",
+            "url": "https://vimeo.com/250010300",
+            "tags": "found-footage, art, video",
+            "thumb": "70s.jpg"
+        },
+        "samsun": {
+            "title": "Documentary: Samsun, Turkey",
+            "info": "Documentary of our volunteering in Samsun, Turkey",
+            "year": 2013,
+            "id": "samsun",
+            "url": "https://www.youtube.com/watch?v=bVdj3kZkWl4",
+            "tags": "documentary, professional, video",
+            "thumb": "samsun.jpg"
+        },
+        "wwii": {
+            "title": "WWII Fighter Planes",
+            "info": "Documentary on WWII aerial warfare.",
+            "year": 2012,
+            "id": "wwii",
+            "url": "https://www.youtube.com/watch?v=BJnMcq4bR-I",
+            "tags": "found-footage, satire, art, video",
+            "thumb": "wwii.jpg"
+        },
+        "chirp": {
+            "title": "3D Deformers",
+            "info": "A test on deformers in Maya, environment with Vue.",
+            "year": 2016,
+            "id": "chirp",
+            "url": "https://vimeo.com/250010431",
+            "tags": "Maya, Vue xStream, animation, 3D, art, video",
+            "thumb": "chirp.jpg"
+        },
+        "fishbowl": {
+            "title": "Fishbowl",
+            "info": "A short story of a fish discovering a portal network.",
+            "year": 2016,
+            "id": "fishbowl",
+            "url": "https://vimeo.com/250009027",
+            "tags": "Maya, 3D, art, video",
+            "thumb": "fishbowl.jpg"
+        },
+        "attic": {
+            "title": "Attic",
+            "info": "Textures, lighting, some modeling and set design.",
+            "year": 2013,
+            "id": "attic",
+            "url": "https://www.youtube.com/watch?v=HqJLU_nOny0",
+            "tags": "3ds Max, 3D, art, video",
+            "thumb": "attic.jpg"
+        },
+        "treeclock": {
+            "title": "Tree Clock",
+            "info": "Generative 24 hour clock in the shape of a tree.",
+            "year": 2016,
+            "id": "treeclock",
+            "url": "http://cmuems.com/2016/60212/hizlik/09/16/hizlik-clock/",
+            "tags": "Processing, Java, CGI, new media, generative, art, code",
+            "thumb_vid": "treeclock.mp4",
+            "thumb": "treeclock.jpg"
+        },
+        "lightspeed": {
+            "title": "Lightspeed",
+            "info": "Face-tracking interactive work.",
+            "year": 2016,
+            "id": "lightspeed",
+            "url": "http://cmuems.com/2016/60212/hizlik/10/14/hizlik-faceosc/",
+            "tags": "Processing, Java, FaceOSC, face-tracking, CGI, new media, interactive, generative, art, code",
+            "thumb_vid": "lightspeed.mp4",
+            "thumb": "lightspeed.jpg"
+        },
+        "lineplotter": {
+            "title": "Line Plotter",
+            "info": "Robotic line plotter project.",
+            "year": 2016,
+            "id": "lineplotter",
+            "url": "http://cmuems.com/2016/60212/hizlik/09/30/hizlik-plot/",
+            "tags": "Processing, Java, CGI, new media, art, code",
+            "thumb": "lineplotter.jpg"
+        },
+        "togetheragain": {
+            "title": "Together Again",
+            "info": "Simple but challenging mouse game.",
+            "year": 2016,
+            "id": "togetheragain",
+            "url": "http://cmuems.com/2016/60212/hizlik/12/16/hizlik-lastproject/",
+            "tags": "Processing, Java, game design, art, code",
+            "thumb_vid": "togetheragain.mp4",
+            "thumb": "togetheragain.jpg"
+        },
+        "leet": {
+            "title": "1337",
+            "info": "Interactive PowerPoint game.",
+            "year": 2016,
+            "id": "leet",
+            "url": "https://vimeo.com/214788939",
+            "tags": "PowerPoint, interactive, game design, art",
+            "thumb": "1337.jpg"
+        },
+        "publicdefense": {
+            "title": "Public Defense Crisis",
+            "info": "Informative website about the indigent defense crisis.",
+            "year": 2016,
+            "id": "publicdefense",
+            "url": "http://hizalcelik.com/dev/publicdefense/",
+            "tags": "HTML, CSS, research, art, code",
+            "thumb": "publicdefense.jpg"
+        },
+        "satire": {
+            "title": "Post-Trump Video Games",
+            "info": "Classic games in Post-Trump America.",
+            "year": 2017,
+            "id": "satire",
+            "url": "http://hizalcelik.com/dev/satire/",
+            "tags": "Photoshop, looping, interactive, satire, art",
+            "thumb": "satire.jpg"
+        },
+        "shapes": {
+            "title": "Shapes",
+            "info": "Squares and Circles meet.",
+            "year": 2017,
+            "id": "shapes",
+            "url": "https://vimeo.com/240554161",
+            "tags": "2D, drawing, animation, art, video",
+            "thumb": "shapes.jpg"
+        },
+        "minecraft": {
+            "title": "Public Art in Minecraft",
+            "info": "Public art in Minecraft.",
+            "year": 2016,
+            "id": "minecraft",
+            "url": "https://vimeo.com/154676267",
+            "tags": "public art, art",
+            "thumb": "minecraft.jpg"
+        },
+        "elaineking": {
+            "title": "Elaine A. King Website",
+            "info": "Personal website of this CMU professor.",
+            "year": 2016,
+            "id": "elaineking",
+            "url": "http://artscool.cfa.cmu.edu/~king/",
+            "tags": "HTML, CSS, professional, code",
+            "thumb": "elaineking.jpg"
+        },
+        "sem": {
+            "title": "Scanning Electron Microscope Photos",
+            "info": "Photography with a million dollar camera.",
+            "year": 2017,
+            "id": "sem",
+            "url": "http://golancourses.net/excap17/hizlik/02/01/hizlik-sem/",
+            "tags": "photography, art",
+            "thumb": "sem.jpg"
+        },
+        "ppt": {
+            "title": "PowerPoints (2013 Showreel)",
+            "info": "PowerPoint games, animations and artworks from before 2013.",
+            "year": 2013,
+            "id": "ppt",
+            "url": "https://vimeo.com/253038494",
+            "tags": "PowerPoint, game design, 2D, animation, showreel, compilation, art, video",
+            "thumb": "ppt.jpg"
+        },
+        "brenizer": {
+            "title": "Brenizer Method Seires",
+            "info": "Photography series focused on using the Brenizer Method.",
+            "year": 2016,
+            "id": "brenizer",
+            "url": "/comingsoon",
+            "tags": "Photoshop, photography, art",
+            "thumb": "brenizer.jpg"
+        },
+        "carrig": {
+            "title": "Car Rig",
+            "info": "Car rigged in 3ds Max for suspension and steering.",
+            "year": 2012,
+            "id": "carrig",
+            "url": "https://vimeo.com/253096222",
+            "tags": "3ds Max, 3D, rig, art",
+            "thumb": "carrig.jpg"
+        },
+        "catnbot": {
+            "title": "Cat 'n Bot",
+            "info": "Cats in space!",
+            "year": 2017,
+            "id": "catnbot",
+            "url": "https://vimeo.com/253096260",
+            "tags": "PowerPoint, Unity, game design, graphic design, illustration, art",
+            "thumb": "catnbot.jpg"
+        },
+        "childhood": {
+            "title": "Childhood Portraits",
+            "info": "Combining my current photos to match my childhood photos.",
+            "year": 2017,
+            "id": "childhood",
+            "url": "/comingsoon",
+            "tags": "Photoshop, photography, art",
+            "thumb": "childhood.jpg"
+        },
+        "coffee": {
+            "title": "Coffee",
+            "info": "Short film, camerwork by me.",
+            "year": 2016,
+            "id": "coffee",
+            "url": "https://vimeo.com/253094867",
+            "tags": "short film, video",
+            "thumb": "coffee.jpg"
+        },
+        "color": {
+            "title": "Color Theory",
+            "info": "Color theory final in form of presentation.",
+            "year": 2017,
+            "id": "color",
+            "url": "https://vimeo.com/253094856",
+            "tags": "PowerPoint, 2D, graphic design, animation, motion graphics, design, art, video",
+            "thumb": "color.jpg"
+        },
+        "gta": {
+            "title": "GTA Photography",
+            "info": "Color theory final in form of presentation.",
+            "year": 2017,
+            "id": "gta",
+            "url": "/comingsoon",
+            "tags": "satire, new media, photography, art",
+            "thumb": "gta.jpg"
+        },
+        "heyrobot": {
+            "title": "Bubble Seat",
+            "info": "Crafted a seat for a big bubble.",
+            "year": 2014,
+            "id": "heyrobot",
+            "url": "/comingsoon",
+            "tags": "3D, CAD, manufacturing, wood, CNC machine, art",
+            "thumb": "heyrobot.jpg"
+        },
+        "labs": {
+            "title": "Liquidnet Labs",
+            "info": "A fresh design with unique solutions.",
+            "year": 2017,
+            "id": "labs",
+            "url": "/comingsoon",
+            "tags": "HTML5, CSS3, JS, graphic design, UI-UX, front-end, design, code",
+            "thumb": "labs.jpg"
+        },
+        "metals": {
+            "title": "Metals Pieces",
+            "info": "Small metals manufacturing and design.",
+            "year": 2015,
+            "id": "metals",
+            "url": "/comingsoon",
+            "tags": "3D, manufacturing, metal, art",
+            "thumb": "metals.jpg"
+        },
+        "theytalk": {
+            "title": "They Talk",
+            "info": "A short film about world with telepathic communication.",
+            "year": 2017,
+            "id": "theytalk",
+            "url": "https://vimeo.com/253096854",
+            "tags": "short film, video",
+            "thumb": "theytalk.jpg"
+        },
+        "ussenterprise": {
+            "title": "USS Enterprise",
+            "info": "My first 3D model (incomplete).",
+            "year": 2013,
+            "id": "ussenterprise",
+            "url": "https://vimeo.com/253094826",
+            "tags": "3ds Max, 3D, art",
+            "thumb": "ussenterprise.jpg"
+        }
+    },
+
+
+
+
+
+
+
+    
+
+
+    
+    "gallery": {
+        "code": "nickel, telle, pixtory, yearone, scrabble, missilecommand, sna, followerbot, spec, carscanner, thoughts, clock, galleryend-code",
+        "design": "telle, darktheme, pixtory, nickel, scrabble, sna, yearone, graphicdesign, galleryend-design",
+        "art": "yearone, city, endless, graphite, time, inverse, oil, thoughts, pixtory, charcoal, galleryend-art",
+        "video": "endless, piper, bose, moonwalk, action, lego, galleryend-video",
+        "photo": "photo-people, photo-place, photo-misc, pro-portrait, pro-wedding, pro-event, pro-sports, pro-misc, galleryend-photo"
+    },
+    "intro": [
+        {
+            "text": "Developer",
+            "id": "dev",
+            "img": [
+                "pixtory2.jpg",
+                "scrabble2.jpg",
+                "sna3.jpg",
+                "missilecommand1.jpg",
+                "followerbot2.jpg",
+                "nickel2.jpg"
+            ]
+        },
+        {
+            "text": "Designer",
+            "id": "des",
+            "img": [
+                "telle3.jpg",
+                "scrabble3.jpg",
+                "graphicdesign3.jpg",
+                "yearone1.jpg",
+                "darktheme1.jpg",
+                "telle2.jpg"
+            ]
+        },
+        {
+            "text": "Artist",
+            "id": "art",
+            "img": [
+                "oil1.jpg",
+                "endless2.jpg",
+                "graphite3.jpg",
+                "moonwalk3.jpg",
+                "oil2.jpg",
+                "city1.jpg"
+            ]
+        },
+        {
+            "text": "Photographer",
+            "id": "photo",
+            "img": [
+                "pro-sports2.jpg",
+                "pro-wedding2.jpg",
+                "pro-portrait3.jpg",
+                "photo-people2.jpg",
+                "pro-portrait2.jpg",
+                "photo-people1.jpg"
+            ]
+        },
+        {
+            "text": "And More...",
+            "id": "more",
+            "img": [
+                "lego2.jpg",
+                "charcoal1.jpg",
+                "photo-misc1.jpg",
+                "spec1.jpg",
+                "time3.jpg",
+                "piper1.jpg"
+            ]
+        }
+    ],
+    "need-to-make-from-gallery": {
+        "code": "yearone, followerbot, carscanner, clock",
+        "design": "_darktheme_, yearone",
+        "art": "yearone, inverse",
+        "video": "lego"
+    }
+}
