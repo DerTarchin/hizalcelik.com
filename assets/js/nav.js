@@ -14,7 +14,7 @@ var activeCategory = "", activeWork = "", galleryCallback;
   ul.innerHTML += "<li class='divider'></li>"
                 + "<li id='sidenav-about'><a class='direct' href='/about'>About Me</a></li>"
                 + "<li id='sidenav-dump'><a class='direct' href='/dump'>Creative Dump</a></li>"
-                + "<li id='sidenav-index'><a class='direct' href='/index'>Project Index</a></li>"
+                + "<li id='sidenav-index'><a class='direct' href='/index'>Search</a></li>"
                 + close_tmpl;
   sidenav.appendChild(ul);
 

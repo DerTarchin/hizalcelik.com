@@ -1493,7 +1493,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .fullpage em { font-weight: bolder; }
-.fullpage .light { font-weight: 300; }
+.fullpage .light { font-weight: 400; }
 .fullpage .muted { color: #465a63; }
 .fullpage .muted a {
   color: #7697a6;
