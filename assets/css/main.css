@@ -261,13 +261,14 @@ template {
 .sidenav li {
   font-size: 4em;
   cursor: pointer;
-  padding: .5em 2em;
   white-space: nowrap;
+  position: relative;
 }
 
 .sidenav li a {
   display: inline-block;
   width: 100%;
+  padding: .5em 2em;
 }
 
 .hover .sidenav li:not(.active):not(.divider):hover:before,
@@ -278,7 +279,8 @@ template {
   background: white;
   position: absolute;
   left: 0;
-  margin-top: .55em;
+  top: 50%;
+  top: calc(50% - 1px);
 }
 .hover .sidenav li:not(.active):not(.divider):hover:after {
   left: auto;
@@ -288,9 +290,9 @@ template {
 .sidenav li.active a { color: #78909b; }
 .sidenav.vis { width: 100%; }
 .sidenav.vis ul { opacity: 1; -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"; }
-.sidenav li:first-of-type { padding-top: 1em; }
-.sidenav li:last-of-type { padding-bottom: 1em; }
-.sidenav .divider { cursor: default; }
+.sidenav li:first-of-type { margin-top: 1em; }
+.sidenav li:last-of-type { margin-bottom: 1em; }
+.sidenav .divider { cursor: default; margin: .5em }
 
 .close-container {
   position: absolute;

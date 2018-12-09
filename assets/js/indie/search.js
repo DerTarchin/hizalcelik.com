@@ -1,5 +1,6 @@
 (function(){
-  var dir_tags = {},
+  var dir = {},
+      dir_tags = {},
       dir_tags_hidden = {}, // not to be autocompleted
       ul = $('#index-thumbs'),
       thumb_tmpl = $('#thumb-tmpl').html(),
@@ -25,7 +26,7 @@
 
   function filter() {
     clearTimeout(blazyTimeout);
-    var currVal = awe.input.value.toLowerCase();
+    var currVal = awe.input.value.toLowerCase().trim();
     // exit if nothing changed
     if(currVal === filterVal) return; 
     // show all if no filter
@@ -34,7 +35,8 @@
     else if(currVal.length > 1 && filterVal.length > 1
         && currVal.length > filterVal.length 
         && currVal.startsWith(filterVal)
-        && currVal.split(',').length < 2) { 
+        && !currVal.includes(',')
+        && !currVal.includes('+')) { 
       for(var i=0; i<activeList.length; i++) $(activeList[i]).hide();
       activeList = [];
       var newActiveTags = [];
@@ -53,14 +55,18 @@
       activeTags = [];
       activeList = [];
       $('#index-thumbs li').hide();
+      // search for single queries
       for(tag in dir_tags) {
         // check if tag includes anything from CSVs:
         var includes = false, csv = currVal.split(',');
         for(var k=0; k<csv.length; k++) {
-          if(csv[k].trim().length && tag.includes(csv[k].trim())) {
-            includes = true;
-            break;
-          }
+          var clean = csv[k].trim();
+          if(!clean.length) continue;
+          // check for compound searches
+          var split = clean.split('+').filter(function(j) { return j.trim() });
+          clean = split[0].trim();
+          if(split.length !== 1) continue;
+          if(clean && tag.includes(clean)) includes = true;
         }
         if(includes) {
           for(var i=0; i<dir_tags[tag].length; i++) {
@@ -68,6 +74,32 @@
             activeList.push(dir_tags[tag][i]);
           }
           activeTags.push(tag);
+        }
+      }
+      // search for compound queries
+      if(currVal.includes('+')) {
+        var csv = currVal.split(',').filter(function(k){ return k.includes('+') });
+        for(var k=0; k<csv.length; k++) {
+          var split = csv[k].split('+').filter(function(j) { return j.trim() });
+          if(split.length < 2) continue;
+          Object.keys(dir).filter(function(id){
+            var hasAll = true;
+            for(var q=0; q<split.length; q++) { 
+              if(!hasAll) break;
+              var hasQuery = false;
+              for(var ti=0; ti<dir[id].tags.length; ti++) {
+                if(dir[id].tags[ti].includes(split[q].trim())) {
+                  hasQuery = true;
+                  break;
+                }
+              }
+              if(!hasQuery) hasAll = false;
+            }
+            if(hasAll) {
+              $(dir[id].el).show();
+              activeList.push(dir[id].el);
+            }
+          })
         }
       }
     }
@@ -83,6 +115,16 @@
 
     function processTmpl(data, tags) {
       var li = document.createElement("li");
+      function addTag(tag) {
+        if(!dir_tags[tag]) dir_tags[tag] = [li];
+        else dir_tags[tag].push(li);
+        var id = data.group_id ? data.title : data.id;
+        if(!dir[id]) dir[id] = {
+          el: li,
+          tags: [id]
+        };
+        if(!dir[id].tags.includes(tag+'')) dir[id].tags.push(tag+'');
+      }
       // if videos supported, and video exists, use video template
       li.innerHTML = tmpl(thumb_tmpl, data);
       // append child
@@ -90,17 +132,14 @@
       // add element to tags in map
       
       // add title
-      if(!(data.title.toLowerCase() in dir_tags)) dir_tags[data.title.toLowerCase()] = [li];
-      else dir_tags[data.title.toLowerCase()].push(li);
+      addTag(data.title.toLowerCase());
       // add shortcut-corrected title
       var shortcut_title = data.title.toLowerCase().split(' ');
-      for(var i=0; i<shortcut_title.length; i++) 
+      for(var i=0; i<shortcut_title.length; i++) {
         if(shortcut_title[i] in abbrevs) shortcut_title[i] = abbrevs[shortcut_title[i]]
-      shortcut_title = shortcut_title.join(' ');
-      if(shortcut_title !== data.title.toLowerCase()) {
-        if(!(shortcut_title in dir_tags)) dir_tags[shortcut_title] = [li];
-        else dir_tags[shortcut_title].push(li);
       }
+      shortcut_title = shortcut_title.join(' ');
+      if(shortcut_title !== data.title.toLowerCase()) addTag(shortcut_title)
       
       // add years (parse text like "2015-17,2019")
       var years = typeof data.year === 'string' ? data.year.split(/[/s ,]+/) : [data.year];
@@ -122,8 +161,7 @@
         // e.g. convert 18 > 2018
         if(parseInt(years[i], 10) < 100) years[i] = parseInt(years[i], 10) + 2000;
         else years[i] = parseInt(years[i], 10);
-        if(!(years[i] in dir_tags)) dir_tags[years[i]] = [li];
-        else dir_tags[years[i]].push(li);
+        addTag(years[i]);
       }
       
       // add shortcut tags
@@ -134,12 +172,9 @@
         if(tag !== tags[i].toLowerCase()) tags.push(tag);
       }
       // add included tags
-      for(var i=0; i<tags.length; i++) {
-        if(!(tags[i].toLowerCase() in dir_tags)) dir_tags[tags[i].toLowerCase()] = [li];
-        else dir_tags[tags[i].toLowerCase()].push(li);
-      }
+      for(var i=0; i<tags.length; i++) addTag(tags[i].toLowerCase())
 
-      var id = 'group_id' in data ? data.group_id.toLowerCase() : data.id.toLowerCase();
+      var id = (data.group_id || data.id).toLowerCase();
       if(!(id in dir_tags_hidden)) dir_tags_hidden[id] = [li];
       else dir_tags_hidden[id].push(li);
       
@@ -147,14 +182,7 @@
       var cats = Object.keys(p_cache.gallery);
       for(var i=0; i<cats.length; i++) {
         for(var j=0; j<p_cache.gallery[cats[i]].split(", ").length; j++) {
-          var t = "group_id" in data ? data['group_id'].toLowerCase() : data['id'].toLowerCase();
-          if(p_cache.gallery[cats[i]].split(", ")[j].includes(t)) {
-            // add group title
-            if("group_id" in data) {
-              if(!(p_cache.work[t].title.toLowerCase() in dir_tags)) dir_tags[p_cache.work[t].title.toLowerCase()] = [li];
-              else dir_tags[p_cache.work[t].title.toLowerCase()].push(li);
-            }
-          }
+          if(p_cache.gallery[cats[i]].split(", ")[j].includes(id) && "group_id" in data) addTag(p_cache.work[id].title.toLowerCase())
         }
       }
     }
@@ -210,15 +238,12 @@
         var ga_page = "/search/" + url_addition;
         ga('set', 'page', ga_page);
         ga('send', 'pageview');
-        // console.log("Set Google Analytics page to " + ga_page);
       },0);
     }
 
     $('#filter').on('keyup', filter);
     $('#filter').on('change', filterAndURL);
     $('#filter').on('awesomplete-select', filterAndURL);
-
-    // alert($('html')[0].classList + " | " + Modernizr.video + " | " + Modernizr.videoautoplay);
   }
   if(document_loaded) deferred();
   window.addEventListener('load', deferred);

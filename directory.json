@@ -997,11 +997,11 @@
             "thumb_vid": "togetheragain.mp4",
             "thumb": "togetheragain.jpg"
         },
-        "leet": {
+        "1337": {
             "title": "1337",
             "info": "Interactive PowerPoint game.",
             "year": 2016,
-            "id": "leet",
+            "id": "1337",
             "url": "https://vimeo.com/214788939",
             "tags": "PowerPoint, interactive, game design, art",
             "thumb": "1337.jpg"
@@ -1093,7 +1093,7 @@
             "year": 2017,
             "id": "catnbot",
             "url": "https://vimeo.com/253096260",
-            "tags": "PowerPoint, Unity, game design, graphic design, illustration, art",
+            "tags": "PowerPoint, Unity, game design, design, illustration, art",
             "thumb": "catnbot.jpg"
         },
         "childhood": {
