@@ -135,7 +135,6 @@
             "year": 2015,
             "style": 2,
             "id": "inverse",
-            "url": "/comingsoon",
             "btn": "View Project",
             "tags": "Photoshop, ink, animation, painting, looping, art, video",
             "img": [
@@ -1261,7 +1260,7 @@
     "need-to-make-from-gallery": {
         "code": "yearone, followerbot, carscanner, clock",
         "design": "_darktheme_, yearone",
-        "art": "yearone, inverse",
+        "art": "yearone",
         "video": "lego"
     }
 }
