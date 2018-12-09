@@ -293,7 +293,7 @@ function addTags() {
   var tags = p_cache.work[work].tags.split(', ');
   for(var i=0; i<tags.length; i++) {
     var a = $(document.createElement('a'));
-    a.attr('href', '/index/?k=' + tags[i].toLowerCase() + "/");
+    a.attr('href', '/search/?k=' + tags[i].toLowerCase() + "/");
     a.text(tags[i]);
     $('.footer-tags')[0].appendChild(a[0]);
   }

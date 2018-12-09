@@ -51,7 +51,7 @@
         tags = getWorkData().tags.split(', '),
         cats = Object.keys(p_cache.gallery);
     for(var i=0; i<tags.length; i++) {
-      if(cats.indexOf(tags[i]) < 0) tags_html += '<li><a url="/index/?k=' 
+      if(cats.indexOf(tags[i]) < 0) tags_html += '<li><a url="/search/?k=' 
                                                 + tags[i].toLowerCase() + '">' + tags[i] 
                                                 + '</a></li>';
     }

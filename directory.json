@@ -484,7 +484,7 @@
             "style": 1,
             "id": "albumart",
             "btn": "View Artworks",
-            "tags": "music, professional, design",
+            "tags": "music, professional, design, graphic design",
             "img": [
                 "albumart1.jpg",
                 "albumart2.jpg",
@@ -788,7 +788,7 @@
             "dirignore": 1,
             "style": 5,
             "id": "galleryend-code",
-            "url": "/index?k=code/",
+            "url": "/search?k=code/",
             "btn": "See all programming projects",
             "img": [
                 "endcode1.jpg",
@@ -803,7 +803,7 @@
             "dirignore": 1,
             "style": 5,
             "id": "galleryend-design",
-            "url": "/index?k=design/",
+            "url": "/search?k=design/",
             "btn": "See all design examples",
             "img": [
                 "enddesign1.jpg",
@@ -818,7 +818,7 @@
             "dirignore": 1,
             "style": 5,
             "id": "galleryend-art",
-            "url": "/index?k=art/",
+            "url": "/search?k=art/",
             "btn": "See all artworks",
             "img": [
                 "endart1.jpg",
@@ -833,7 +833,7 @@
             "dirignore": 1,
             "style": 5,
             "id": "galleryend-video",
-            "url": "/index?k=video/",
+            "url": "/search?k=video/",
             "btn": "See all video projects",
             "img": [
                 "endvideo1.jpg",

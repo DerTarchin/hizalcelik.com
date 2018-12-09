@@ -207,7 +207,7 @@
         var url_addition = filterVal === "" ? "" : "?k=" + filterVal + "/";
         var new_url = window.location.href.split('?')[0] + url_addition;
         history.replaceState(null, null, new_url);
-        var ga_page = "/index/" + url_addition;
+        var ga_page = "/search/" + url_addition;
         ga('set', 'page', ga_page);
         ga('send', 'pageview');
         // console.log("Set Google Analytics page to " + ga_page);
