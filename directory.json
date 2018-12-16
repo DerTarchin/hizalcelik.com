@@ -1122,13 +1122,12 @@
             "tags": "PowerPoint, 2D, graphic design, animation, motion graphics, design, art, video",
             "thumb": "color.jpg"
         },
-        "gta": {
-            "title": "GTA Photography",
-            "info": "Color theory final in form of presentation.",
+        "gtaphoto": {
+            "title": "Anerican West",
+            "info": "Travel photography from inside a video game.",
             "year": 2017,
-            "id": "gta",
-            "url": "/comingsoon",
-            "tags": "satire, new media, photography, art",
+            "id": "gtaphoto",
+            "tags": "gta v, video games, satire, new media, photography, art",
             "thumb": "gta.jpg"
         },
         "heyrobot": {
