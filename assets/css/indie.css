@@ -178,7 +178,7 @@ blockquote.source:hover { filter: brightness(2); }
 }
 
 .img-grid.img-small img {
-  height: 100px;
+  height: 75px;
 }
 
 .img-grid .b-lazy {
@@ -649,6 +649,7 @@ div.awesomplete {
   .parallel > *:first-child.img-grid { -webkit-box-pack: start; -ms-flex-pack: start; justify-content: flex-start; }
   .parallel .img-grid { -webkit-box-ordinal-group: 100; -ms-flex-order: 99; order: 99; }
   .img-grid img { margin: 3px; height: 115px; }
+  .img-grid.img-small img { height: 50px; }
   .fullpage { font-size: 15px; }
   .project-header { margin-bottom: 35px; }
   .indie .project-header { margin-top: 35px; }
@@ -699,6 +700,9 @@ div.awesomplete {
   .img-grid img {
     margin: 2px;
     height: 75px;
+  }
+  .img-grid.img-small img {
+    height: 30px;
   }
   .footer-tags a {
     padding: .8em .8em .8em 1.2em;

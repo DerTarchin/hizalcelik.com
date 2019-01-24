@@ -886,7 +886,7 @@
             "thumb": "mexico.jpg"
         },
         "abstract": {
-            "title": "Abstraction",
+            "title": "Between the Lines",
             "info": "Abstract sci-fi video",
             "year": 2016,
             "id": "abstract",
@@ -913,7 +913,7 @@
             "thumb": "70s.jpg"
         },
         "samsun": {
-            "title": "Documentary: Samsun, Turkey",
+            "title": "Documentary (Samsun, Turkey)",
             "info": "Documentary of our volunteering in Samsun, Turkey",
             "year": 2013,
             "id": "samsun",
@@ -945,7 +945,7 @@
             "year": 2016,
             "id": "fishbowl",
             "url": "https://vimeo.com/250009027",
-            "tags": "Maya, 3D, art, video",
+            "tags": "Maya, 3D, animation, art, video",
             "thumb": "fishbowl.jpg"
         },
         "attic": {
@@ -1069,11 +1069,10 @@
             "thumb": "ppt.jpg"
         },
         "brenizer": {
-            "title": "Brenizer Method Seires",
+            "title": "Brenizer Method Series",
             "info": "Photography series focused on using the Brenizer Method.",
             "year": 2016,
             "id": "brenizer",
-            "url": "/comingsoon",
             "tags": "Photoshop, photography, art",
             "thumb": "brenizer.jpg"
         },
@@ -1123,7 +1122,7 @@
             "thumb": "color.jpg"
         },
         "gtaphoto": {
-            "title": "Anerican West",
+            "title": "American West",
             "info": "Travel photography from inside a video game.",
             "year": 2017,
             "id": "gtaphoto",

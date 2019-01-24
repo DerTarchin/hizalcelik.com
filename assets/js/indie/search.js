@@ -115,6 +115,7 @@
 
     function processTmpl(data, tags) {
       var li = document.createElement("li");
+      li.setAttribute('title', data.info || data.title)
       function addTag(tag) {
         if(!dir_tags[tag]) dir_tags[tag] = [li];
         else dir_tags[tag].push(li);
@@ -213,9 +214,7 @@
   // deferred scripts until page load
   function deferred() {
     // start Awesomplete
-    awe = new Awesomplete($("#filter")[0], {
-      minChars: 1
-    });
+    awe = new Awesomplete($("#filter")[0], { minChars: 1 });
     // get data if not got yet
     // init the directory
     function getProjectData(res, err) {
@@ -244,6 +243,8 @@
     $('#filter').on('keyup', filter);
     $('#filter').on('change', filterAndURL);
     $('#filter').on('awesomplete-select', filterAndURL);
+
+    if(!isMobile()) $("#filter")[0].focus();
   }
   if(document_loaded) deferred();
   window.addEventListener('load', deferred);
