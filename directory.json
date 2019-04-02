@@ -1,5 +1,20 @@
 {
     "work": {
+        "singularity": {
+            "title": "Singularity",
+            "info": "Music video for De Lirium's Order",
+            "year": 2019,
+            "style": 4,
+            "id": "singularity",
+            "btn": "View Project",
+            "tags": "CGI, sci-fi, fractal, short film, music video, Photoshop, After Effects, animation, 3D, art, video",
+            "img": [
+                "endless1.jpg",
+                "endless2.jpg",
+                "endless3.jpg"
+            ],
+            "thumb": "endless.jpg"
+        },
         "endless": {
             "title": "Endless",
             "info": "Fractal-generated sci-fi short film.",
@@ -7,7 +22,7 @@
             "style": 2,
             "id": "endless",
             "btn": "View Project",
-            "tags": "CGI, sci-fi, fractals, short film, animation, 3D, art, video",
+            "tags": "CGI, sci-fi, fractal, short film, animation, music video, 3D, art, video",
             "img": [
                 "endless1.jpg",
                 "endless2.jpg",
@@ -1190,7 +1205,7 @@
         "code": "nickel, telle, pixtory, yearone, scrabble, missilecommand, sna, followerbot, spec, carscanner, thoughts, clock, galleryend-code",
         "design": "telle, darktheme, pixtory, nickel, scrabble, sna, yearone, graphicdesign, galleryend-design",
         "art": "yearone, city, endless, graphite, time, inverse, oil, thoughts, pixtory, charcoal, galleryend-art",
-        "video": "endless, piper, bose, moonwalk, action, lego, galleryend-video",
+        "video": "singularity, endless, piper, bose, moonwalk, action, lego, galleryend-video",
         "photo": "photo-people, photo-place, photo-misc, pro-portrait, pro-wedding, pro-event, pro-sports, pro-misc, galleryend-photo"
     },
     "intro": [
