@@ -332,6 +332,7 @@ var simulateClick = function (elem) {
   document.addEventListener('mousemove', enableHover, true);
   enableHover();
 })()
+
 var activeCategory = "", activeWork = "", galleryCallback;
 
 (function(){
@@ -395,7 +396,7 @@ var activeCategory = "", activeWork = "", galleryCallback;
       $('#nav-'+activeCategory).addClass('active');
       $('#sidenav-'+activeCategory).addClass('active');
       // update URL and browser history
-      var params = activeCategory !== "" ? "?c=" + activeCategory.toLowerCase() : "";
+      var params = activeCategory !== "" ? "?c=" + activeCategory.toLowerCase() : ""
       history.pushState(null, null, window.location.href.split("?")[0] + params);
       // homepage
       if(params === "") { 
@@ -410,4 +411,28 @@ var activeCategory = "", activeWork = "", galleryCallback;
     e.stopPropagation();
   });
   window.addEventListener('popstate', checkForActiveLinks);
+
+  function sidebarKeyShortcut(e) {
+    if(e.target.nodeName === 'INPUT') return;
+    var modded = false;
+    if(e.key === '/' || e.which === 191 || e.code === 'Slash') {
+      modded = true;
+      $("#sidenav").addClass('vis');
+    }
+    if($("#sidenav").hasClass('vis')) {
+      if((e.key || e.code) === 'Escape' || e.which === 27) {
+        modded = true;
+        $("#sidenav").removeClass('vis');
+      }
+      if(e.key === 's' || e.which === 83 || e.code === 'KeyS') {
+        $("#sidenav #sidenav-index a")[0].click();
+      }
+    }
+    if(modded) {
+      e.stopPropagation();
+      e.preventDefault();
+    }
+  }
+
+  document.addEventListener('keydown', sidebarKeyShortcut)
 })();

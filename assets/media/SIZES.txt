@@ -1,0 +1,20 @@
+SIZES
+
+= GALLERY =
+gallery-l	2000
+gallery-m	1200
+gallery-s	800
+gallery-xs	500 (quality = 10%)
+
+
+= SEARCH =
+thumb		500
+thumb-s		256
+
+
+= INDIE =
+full		2000
+thumb-2x	400
+thumb		200
+thumb-s		100
+thumb-xs	100 (quality = 10%)
