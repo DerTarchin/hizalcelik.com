@@ -259,7 +259,18 @@ if(areClipPathShapesSupported()) $('html').addClass('clippath');
 else $('html').addClass('no-clippath');
 
 // Modernizr is missing no-videoautoplay
-Modernizr.on('videoautoplay',function(r){if(!r)$('html').addClass('no-videoautoplay')});
+// Modernizr.on('videoautoplay',function(r){if(!r)$('html').addClass('no-videoautoplay')});
+// https://github.com/Modernizr/Modernizr/issues/1095#issuecomment-304682473
+var supports_video_autoplay = function(callback) {
+  var v = document.createElement("video");
+  v.paused = true;
+  var p = "play" in v && v.play();
+  typeof callback === "function" && callback(!v.paused || "Promise" in window && p instanceof Promise);
+};
+supports_video_autoplay(function(supported) {
+  if (supported) $('html').addClass('videoautoplay');
+  else $('html').addClass('no-videoautoplay')
+});
 
 /**
  * Simulate a click event.
