@@ -2,3 +2,14 @@ tools:
 
 https://www.minifier.org/
 https://www.uglifyjs.net/
+
+to set up venv run:
+
+$ python3 -m venv venv
+$ source venv/bin/activate
+$ curl https://bootstrap.pypa.io/get-pip.py | python && pip install --upgrade setuptools
+
+to install libs run
+$ source venv/bin/activate
+$ pip install csscompressor
+$ pip install jsmin
