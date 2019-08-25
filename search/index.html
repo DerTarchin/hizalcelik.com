@@ -106,7 +106,7 @@
       <a href="/{%=o.id%}">
       {% } %}
         {% if (o.thumb_vid) { %}
-        <video class="b-lazy" autoplay loop muted data-src="/assets/media/thumb/{%=o.thumb_vid%}" poster="/assets/media/black.jpg"></video>
+        <video class="b-lazy" autoplay playsinline loop muted data-src="/assets/media/thumb/{%=o.thumb_vid%}" poster="/assets/media/black.jpg"></video>
         {% } %}
         <img class="b-lazy" data-src-s="/assets/media/thumb-s/{%=o.thumb%}" data-src="/assets/media/thumb/{%=o.thumb%}" src="/assets/media/black.jpg" alt="{%=o.title%}"/>
         <div class="thumb-overlay"><span>{%=o.title%}</span></div>

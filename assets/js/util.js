@@ -185,19 +185,51 @@ function areClipPathShapesSupported() {
 if(areClipPathShapesSupported()) $('html').addClass('clippath');
 else $('html').addClass('no-clippath');
 
-// Modernizr is missing no-videoautoplay
-// Modernizr.on('videoautoplay',function(r){if(!r)$('html').addClass('no-videoautoplay')});
-// https://github.com/Modernizr/Modernizr/issues/1095#issuecomment-304682473
-var supports_video_autoplay = function(callback) {
-  var v = document.createElement("video");
-  v.paused = true;
-  var p = "play" in v && v.play();
-  typeof callback === "function" && callback(!v.paused || "Promise" in window && p instanceof Promise);
-};
-supports_video_autoplay(function(supported) {
-  if (supported) $('html').addClass('videoautoplay');
-  else $('html').addClass('no-videoautoplay')
-});
+
+/*
+* CHECKS FOR VIDEO AUTPLAY SUPPORT
+*/
+var checkVideoAutplaySupport = function(e) {
+  if(e) {
+    document.removeEventListener('touchstart', checkVideoAutplaySupport)
+    document.removeEventListener('click', checkVideoAutplaySupport)
+  }
+  var checkVideoObj = function(callback) {
+    var v = document.createElement("video");
+    v.src = "";
+    v.pause()
+    var returnFn = function(p) {
+      typeof callback === "function" && callback(!v.paused || "Promise" in window && p instanceof Promise);
+    }
+    var p = "play" in v;
+    if(p) {
+      var playPromise = v.play();
+      if (playPromise !== undefined) {
+        playPromise.then(_ => {
+          returnFn(p)
+        }).catch(error => {
+          returnFn(p)
+        });
+      }
+    } else {
+      returnFn(p)
+    }
+  };
+  if($('html').hasClass('videoautoplay')) return;
+  else $('html').removeClass('no-videoautoplay');
+  checkVideoObj(function(supported) {
+    if(supported) $('html').addClass('videoautoplay');
+    else $('html').addClass('no-videoautoplay');
+  });
+}
+checkVideoAutplaySupport();
+// if mobile, use touch event
+if (('ontouchstart' in window) || window.DocumentTouch && document instanceof DocumentTouch) {
+  // document.addEventListener('touchstart', checkVideoAutplaySupport)
+  // temporarily disabled as probs mobile browsers won't permit it, plus it returns true... idk why
+} else {
+  document.addEventListener('click', checkVideoAutplaySupport)
+}
 
 /**
  * Simulate a click event.
