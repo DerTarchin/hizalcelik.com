@@ -107,7 +107,8 @@ blockquote .text h6 {
 blockquote .text p { margin: 20px 0 0 0; }
 blockquote .text > :first-child { margin-top: 0px; }
 blockquote .card-img, blockquote .card-img-static { width: 33%; }
-blockquote .card-img-static img { height: 50px; }
+blockquote .card-img-static img { height: 60px; }
+blockquote .card-img-static img.doc { height: 80px; }
 blockquote .card-gallery { padding: 10px; }
 blockquote .card-gallery.black { background: black; }
 blockquote .card-gallery .img-grid { 
@@ -117,6 +118,20 @@ blockquote .card-gallery .img-grid {
 }
 blockquote.source a { text-decoration: none; cursor: pointer; }
 blockquote.source:hover { filter: brightness(2); }
+blockquote .code-window {
+  max-height: 250px;
+  overflow: auto;
+}
+blockquote .code-window pre { 
+  margin: 50px;
+  margin: 30px 50px; 
+  font-size: 15px;
+}
+blockquote .code-window .srclink {
+  margin-bottom: -1em;
+  font-weight: bold;
+  white-space: normal;
+}
 
 .card-img a,
 .card-img-static a {
@@ -206,6 +221,7 @@ blockquote.source:hover { filter: brightness(2); }
   font-weight: 400;
   font-style: normal;
   opacity: .7;
+  margin-left: 15px;
 }
 
 .ta-right { text-align: right; }
@@ -659,6 +675,10 @@ div.awesomplete {
   .project-header p { font-weight: 600; }
   .project-header a { font-weight: inherit; }
   blockquote .text { padding: 35px; }
+  blockquote .code-window pre { 
+    margin: 35px; 
+    margin: 15px 35px;
+  }
   .footer-tags a { font-size: .9em }
   .project-content p,
   .project-content blockquote,
@@ -714,6 +734,11 @@ div.awesomplete {
   .project-header .info-block { display: block; }
   .project-header .info-block > * { margin-bottom: 15px; }
   blockquote .text { padding: 10px; }
+  blockquote .code-window pre { 
+    margin: 10px; 
+    margin: 0 10px;
+    font-size: 10px;
+  }
   .project-content p,
   .project-content blockquote,
   .spaced,

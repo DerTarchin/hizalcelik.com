@@ -2,6 +2,7 @@ tools:
 
 https://www.minifier.org/
 https://www.uglifyjs.net/
+https://compressjpeg.com/
 
 to set up venv run:
 
@@ -13,3 +14,12 @@ to install libs run
 $ source venv/bin/activate
 $ pip install csscompressor
 $ pip install jsmin
+
+to enter venv run: 
+von
+
+to exit venv run: 
+voff
+
+to run minifier:
+python3 minifier.py

@@ -1,4 +1,6 @@
 SIZES
+(use JPEGMini and https://compressjpeg.com/)
+
 
 = GALLERY =
 gallery-l	2000
