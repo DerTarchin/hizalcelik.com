@@ -24,37 +24,37 @@ var img_data = [
       img: 'book1.JPG',
       size: '2000x1500',
       title: 'Final Book',
-      cap: 'The final book is over 730 pages and cost $150.'
+      cap: 'The final book is over 734 pages and cost $150.'
     },
     {
       img: 'book2.JPG',
       size: '2000x1500',
       title: 'Final Book',
-      cap: 'The final book is over 730 pages and cost $150.'
+      cap: 'The final book is over 734 pages and cost $150.'
     },
     {
       img: 'book3.JPG',
       size: '2000x1500',
       title: 'Final Book',
-      cap: 'The final book is over 730 pages and cost $150.'
+      cap: 'The final book is over 734 pages and cost $150.'
     },
     {
       img: 'class1.JPG',
       size: '2000x1500',
       title: 'Class Presentation',
-      cap: 'The abridged version (around 30 pages) was displayed in the class critique.'
+      cap: 'The abridged version (154 pages) was displayed in the class critique.'
     },
     {
       img: 'class2.JPG',
       size: '2000x1500',
       title: 'Class Presentation',
-      cap: 'The abridged version (around 30 pages) was displayed in the class critique.'
+      cap: 'The abridged version (154 pages) was displayed in the class critique.'
     },
     {
       img: 'class3.JPG',
       size: '1500x2000',
       title: 'Class Presentation',
-      cap: 'The abridged version (around 30 pages) was displayed in the class critique.'
+      cap: 'The abridged version (154 pages) was displayed in the class critique.'
     },
     {
       img: 'cover_front.jpg',
