@@ -32,7 +32,6 @@ var img_data = [
       img: 'proto.jpg',
       size: '2000x1130',
       title: 'Wireframe Prototype',
-      cap: ''
     },
     {
       img: 'desktop.jpg',

@@ -3,8 +3,6 @@ var img_data = [
     {
       img: 'banner.jpg',
       size: '4630x500',
-      title: '',
-      cap: ''
     }
   ],
   [
@@ -20,7 +18,6 @@ var img_data = [
       img: 'entrance.jpg',
       size: '2315x500',
       title: 'Town Entrance',
-      cap: ''
     }
   ],
   [
@@ -28,7 +25,6 @@ var img_data = [
       img: 'forest.jpg',
       size: '2315x500',
       title: 'Town Entrance',
-      cap: ''
     }
   ],
   [
@@ -36,7 +32,6 @@ var img_data = [
       img: 'town.jpg',
       size: '2315x500',
       title: 'Town Entrance',
-      cap: ''
     }
   ],
   [
@@ -44,7 +39,6 @@ var img_data = [
       img: 'lake.jpg',
       size: '2315x500',
       title: 'Town Entrance',
-      cap: ''
     }
   ],
   [
@@ -90,7 +84,6 @@ var img_data = [
       img: 'moodboard1.jpg',
       size: '2000x1125',
       title: 'Inspirations',
-      cap: ''
     }
   ],
   [
@@ -98,7 +91,6 @@ var img_data = [
       img: 'moodboard2.jpg',
       size: '2000x1125',
       title: 'Inspirations',
-      cap: ''
     }
   ]
 ];

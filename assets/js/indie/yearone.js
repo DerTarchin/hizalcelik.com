@@ -60,13 +60,11 @@ var img_data = [
       img: 'cover_front.jpg',
       size: '1972x2000',
       title: 'Front Cover',
-      cap: ''
     },
     {
       img: 'cover_back.jpg',
       size: '1972x2000',
       title: 'Front Cover',
-      cap: ''
     },
     {
       img: 'page.jpg',

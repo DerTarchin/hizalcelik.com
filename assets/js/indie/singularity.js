@@ -25,165 +25,202 @@ var img_data = [
   ],
   [
     {
-      img: 'world9.jpg',
-      size: '2000x834',
-      title: '',
-      cap: ''
+      img: 'iter1.jpg',
+      size: '2000x2000',
+      title: 'Version 1'
     },
     {
-      img: 'world10.jpg',
-      size: '2000x1250',
-      title: '',
-      cap: ''
+      img: 'iter2.jpg',
+      size: '2000x2000',
+      title: 'Version 2'
     },
     {
-      img: 'world2.jpg',
-      size: '1920x800',
-      title: '',
-      cap: ''
-    },
-    {
-      img: 'world3.jpg',
-      size: '1920x800',
-      title: '',
-      cap: ''
-    },
-    {
-      img: 'world4.jpg',
-      size: '1920x800',
-      title: '',
-      cap: ''
-    },
-    // {
-    //   img: 'world5.jpg',
-    //   size: '1920x800',
-    //   title: '',
-    //   cap: ''
-    // },
-    {
-      img: 'world6.jpg',
-      size: '1920x800',
-      title: '',
-      cap: ''
-    },
-    {
-      img: 'world7.jpg',
-      size: '1920x800',
-      title: '',
-      cap: ''
-    },
-    {
-      img: 'world8.jpg',
-      size: '1920x800',
-      title: '',
-      cap: ''
+      img: 'iter3.jpg',
+      size: '2000x2000',
+      title: 'Singularity: Final Cover Artwork'
     }
   ],
   [
     {
-      img: 'city1.jpg',
-      size: '1920x800',
-      title: '',
-      cap: ''
+      img: '3_billion_years_timelapse.jpg',
+      size: '2000x1000',
+      title: 'Singularity: Timelapse of 3 Billion Years'
     },
     {
-      img: 'city2.jpg',
-      size: '2000x834',
-      title: '',
-      cap: ''
+      img: 'ai.jpg',
+      size: '2000x997',
+      title: 'Singularity: A.I.'
     },
     {
-      img: 'city3.jpg',
-      size: '1920x800',
-      title: '',
-      cap: ''
+      img: 'alone1.jpg',
+      size: '2000x1000',
+      title: 'Singularity: Alone'
     },
     {
-      img: 'city4.jpg',
-      size: '1920x800',
-      title: '',
-      cap: ''
+      img: 'alone2.jpg',
+      size: '2000x1000',
+      title: 'Singularity: Alone'
     },
     {
-      img: 'city5.jpg',
-      size: '1920x800',
-      title: '',
-      cap: ''
+      img: 'alone3.jpg',
+      size: '2000x1000',
+      title: 'Singularity: Alone'
     },
     {
-      img: 'city6.jpg',
-      size: '1920x800',
-      title: '',
-      cap: ''
+      img: 'brother1.jpg',
+      size: '2000x996',
+      title: 'Singularity: Brother A.I.'
     },
     {
-      img: 'city7.jpg',
-      size: '1920x800',
-      title: '',
-      cap: ''
-    }
-  ],
-  [
-    {
-      img: 'abstract5.jpg',
-      size: '2000x1146',
-      title: '',
-      cap: ''
+      img: 'brother2.jpg',
+      size: '2000x1000',
+      title: 'Singularity: Brother A.I.'
     },
     {
-      img: 'abstract9.jpg',
-      size: '1920x800',
-      title: '',
-      cap: ''
+      img: 'buildings1.jpg',
+      size: '2000x1000',
+      title: 'Singularity: Buildings'
     },
     {
-      img: 'abstract1.jpg',
-      size: '1920x800',
-      title: '',
-      cap: ''
-    },
-    // {
-    //   img: 'abstract2.jpg',
-    //   size: '1920x800',
-    //   title: '',
-    //   cap: ''
-    // },
-    {
-      img: 'abstract3.jpg',
-      size: '1920x800',
-      title: '',
-      cap: ''
-    },
-    // {
-    //   img: 'abstract4.jpg',
-    //   size: '2000x1125',
-    //   title: '',
-    //   cap: ''
-    // },
-    {
-      img: 'abstract6.jpg',
-      size: '1920x800',
-      title: '',
-      cap: ''
+      img: 'buildings2.jpg',
+      size: '2000x1000',
+      title: 'Singularity: Buildings'
     },
     {
-      img: 'abstract7.jpg',
-      size: '1920x800',
-      title: '',
-      cap: ''
+      img: 'buildings3.jpg',
+      size: '2000x1000',
+      title: 'Singularity: Buildings'
     },
     {
-      img: 'abstract8.jpg',
-      size: '1920x800',
-      title: '',
-      cap: ''
+      img: 'buildings4.jpg',
+      size: '2000x1000',
+      title: 'Singularity: Buildings'
     },
     {
-      img: 'abstract10.jpg',
-      size: '1920x800',
-      title: '',
-      cap: ''
-    }
+      img: 'cave.jpg',
+      size: '2000x997',
+      title: 'Singularity: Cave'
+    },
+    {
+      img: 'cell1.jpg',
+      size: '2000x1000',
+      title: 'Singularity: Cell'
+    },
+    {
+      img: 'cell2.jpg',
+      size: '2000x1000',
+      title: 'Singularity: Cell'
+    },
+    {
+      img: 'cell3.jpg',
+      size: '2000x1000',
+      title: 'Singularity: Cell'
+    },
+    {
+      img: 'cell4.jpg',
+      size: '2000x1000',
+      title: 'Singularity: Cell'
+    },
+    {
+      img: 'cell5.jpg',
+      size: '2000x1000',
+      title: 'Singularity: Cell'
+    },
+    {
+      img: 'cell6.jpg',
+      size: '2000x1000',
+      title: 'Singularity: Cell'
+    },
+    {
+      img: 'circuit1.jpg',
+      size: '2000x998',
+      title: 'Singularity: Circuits'
+    },
+    {
+      img: 'circuit2.jpg',
+      size: '2000x997',
+      title: 'Singularity: Circuits'
+    },
+    {
+      img: 'circuit3.jpg',
+      size: '2000x997',
+      title: 'Singularity: Circuits'
+    },
+    {
+      img: 'city.jpg',
+      size: '2000x1000',
+      title: 'Singularity: City'
+    },
+    {
+      img: 'convergance.jpg',
+      size: '2000x1000',
+      title: 'Singularity: Convergance'
+    },
+    {
+      img: 'eye.jpg',
+      size: '2000x996',
+      title: 'Singularity: Eye'
+    },
+    {
+      img: 'flyby.jpg',
+      size: '2000x994',
+      title: 'Singularity: Flyby'
+    },
+    {
+      img: 'forest.jpg',
+      size: '2000x1000',
+      title: 'Singularity: Forest'
+    },
+    {
+      img: 'glowing_city.jpg',
+      size: '2000x1000',
+      title: 'Singularity: Glowing City'
+    },
+    {
+      img: 'martian_landscape.jpg',
+      size: '2000x1000',
+      title: 'Singularity: Martian Landscape'
+    },
+    {
+      img: 'small.jpg',
+      size: '2000x998',
+      title: 'Singularity: Small'
+    },
+    {
+      img: 'strings.jpg',
+      size: '2000x995',
+      title: 'Singularity: Strings'
+    },
+    {
+      img: 'temple.jpg',
+      size: '2000x1000',
+      title: 'Singularity: Temple'
+    },
+    {
+      img: 'wave.jpg',
+      size: '2000x997',
+      title: 'Singularity: Wave'
+    },
+    {
+      img: 'world.jpg',
+      size: '2000x1000',
+      title: 'Singularity: World'
+    },
+    {
+      img: 'zoom1.jpg',
+      size: '2000x1000',
+      title: 'Singularity: Zoom'
+    },
+    {
+      img: 'zoom2.jpg',
+      size: '2000x1000',
+      title: 'Singularity: Zoom'
+    },
+    {
+      img: 'zoom3.jpg',
+      size: '2000x1000',
+      title: 'Singularity: Zoom'
+    },
   ]
 ];
 

@@ -20,7 +20,6 @@ var img_data = [
       img: 'filter.jpg',
       size: '2000x1899',
       title: 'Filter and Sort popup',
-      cap: ''
     }
   ]
 ];

@@ -22,7 +22,6 @@ var img_data = [
       img: 'figure2.jpg',
       size: '210x400',
       title: 'Controls',
-      cap: ''
     }
   ],
   [
@@ -30,7 +29,6 @@ var img_data = [
       img: 'figure4.jpg',
       size: '713x240',
       title: 'Groups and Labels',
-      cap: ''
     }
   ],
   [
@@ -38,7 +36,6 @@ var img_data = [
       img: 'figure3.jpg',
       size: '2000x864',
       title: 'Charts',
-      cap: ''
     }
   ],
 ];

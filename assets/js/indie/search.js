@@ -192,6 +192,7 @@
       var work = p_cache.work[w]; // current work
       if("dirignore" in work) continue; // skip directory-ignored items
       var tags = "tags" in work ? work.tags.split(', ') : [];
+      if("meta" in work) tags.push(...work.meta.split(', '));
       if("group" in p_cache.work[w]) {
         for(var j=0; j<p_cache.work[w]['group'].length; j++)
           processTmpl(p_cache.work[w]['group'][j], tags);

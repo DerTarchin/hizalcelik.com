@@ -12,25 +12,21 @@ var img_data = [
       img: 'test1.gif',
       size: '1385x464',
       title: 'Frequency Range Test',
-      cap: ''
     },
     {
       img: 'test2.gif',
       size: '1385x464',
       title: 'Spectrum Analyzer Comparison',
-      cap: ''
     },
     {
       img: 'test3.gif',
       size: '681x414',
       title: 'Circular Equalizer Test',
-      cap: ''
     },
     {
       img: 'test4.gif',
       size: '786x332',
       title: 'Pulse Background Test',
-      cap: ''
     }
   ]
 ];

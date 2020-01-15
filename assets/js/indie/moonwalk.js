@@ -40,7 +40,6 @@ var img_data = [
       img: 'workspace.jpg',
       size: '2000x1250',
       title: 'Workspace',
-      cap: ''
     }
   ]
 ];

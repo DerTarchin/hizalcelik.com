@@ -38,43 +38,36 @@ var img_data = [
       img: 'scan2.jpg',
       size: '1545x2000',
       title: 'Scan 2',
-      cap: ''
     },
     {
       img: 'scan4.jpg',
       size: '1545x2000',
       title: 'Scan 4',
-      cap: ''
     },
     {
       img: 'scan7.jpg',
       size: '1545x2000',
       title: 'Scan 7',
-      cap: ''
     },
     {
       img: 'scan10.jpg',
       size: '1545x2000',
       title: 'Scan 10',
-      cap: ''
     },
     {
       img: 'scan13.jpg',
       size: '1545x2000',
       title: 'Scan 13',
-      cap: ''
     },
     {
       img: 'scan16.jpg',
       size: '1545x2000',
       title: 'Scan 16',
-      cap: ''
     },
     {
       img: 'scan19.jpg',
       size: '1545x2000',
       title: 'Scan 19',
-      cap: ''
     }
   ],
   [
@@ -82,25 +75,21 @@ var img_data = [
       img: 'interactive1.jpg',
       size: '2000x2000',
       title: 'Frame Construction',
-      cap: ''
     },
     {
       img: 'interactive2.jpg',
       size: '2000x2000',
       title: 'Plywood and Walls',
-      cap: ''
     },
     {
       img: 'interactive3.jpg',
       size: '2000x2000',
       title: 'Completed House',
-      cap: ''
     },
     {
       img: 'interactive4.jpg',
       size: '2000x2000',
       title: 'Sketches for Deterioration',
-      cap: ''
     }
   ]
 ];

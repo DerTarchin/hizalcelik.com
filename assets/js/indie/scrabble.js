@@ -20,13 +20,11 @@ var img_data = [
       img: 'bts1.jpg',
       size: '1920x1080',
       title: 'Eclipse',
-      cap: ''
     },
     {
       img: 'bts2.jpg',
       size: '2000x1250',
       title: 'Eclipse',
-      cap: ''
     },
     {
       img: 'bts3.jpg',
@@ -38,13 +36,11 @@ var img_data = [
       img: 'bts4.jpg',
       size: '1920x1080',
       title: 'Eclipse',
-      cap: ''
     },
     {
       img: 'bts5.jpg',
       size: '2000x1250',
       title: 'Test Run',
-      cap: ''
     }
   ]
 ];

@@ -12,7 +12,6 @@ var img_data = [
       img: 'load.jpg',
       size: '1022x1022',
       title: 'Load Button',
-      cap: ''
     }
   ]
 ];

@@ -25,165 +25,121 @@ var img_data = [
   ],
   [
     {
+      img: 'world1.jpg',
+      size: '2000x1250',
+    },
+    {
+      img: 'world2.jpg',
+      size: '2000x1250',
+    },
+    {
+      img: 'world3.jpg',
+      size: '2000x1250',
+    },
+    {
+      img: 'world4.jpg',
+      size: '2000x1250',
+    },
+    {
+      img: 'world5.jpg',
+      size: '2000x1250',
+    },
+    {
+      img: 'world6.jpg',
+      size: '2000x1250',
+    },
+    {
+      img: 'world7.jpg',
+      size: '2000x1250',
+    },
+    {
+      img: 'world8.jpg',
+      size: '2000x1250',
+    },
+    {
       img: 'world9.jpg',
-      size: '2000x834',
-      title: '',
-      cap: ''
+      size: '2000x1250',
     },
     {
       img: 'world10.jpg',
       size: '2000x1250',
-      title: '',
-      cap: ''
     },
     {
-      img: 'world2.jpg',
-      size: '1920x800',
-      title: '',
-      cap: ''
+      img: 'world11.jpg',
+      size: '2000x1250',
     },
-    {
-      img: 'world3.jpg',
-      size: '1920x800',
-      title: '',
-      cap: ''
-    },
-    {
-      img: 'world4.jpg',
-      size: '1920x800',
-      title: '',
-      cap: ''
-    },
-    // {
-    //   img: 'world5.jpg',
-    //   size: '1920x800',
-    //   title: '',
-    //   cap: ''
-    // },
-    {
-      img: 'world6.jpg',
-      size: '1920x800',
-      title: '',
-      cap: ''
-    },
-    {
-      img: 'world7.jpg',
-      size: '1920x800',
-      title: '',
-      cap: ''
-    },
-    {
-      img: 'world8.jpg',
-      size: '1920x800',
-      title: '',
-      cap: ''
-    }
   ],
   [
     {
-      img: 'city1.jpg',
-      size: '1920x800',
-      title: '',
-      cap: ''
+      img: 'metropolis1.jpg',
+      size: '2000x1250',
     },
     {
-      img: 'city2.jpg',
-      size: '2000x834',
-      title: '',
-      cap: ''
+      img: 'metropolis2.jpg',
+      size: '2000x1250',
     },
     {
-      img: 'city3.jpg',
-      size: '1920x800',
-      title: '',
-      cap: ''
+      img: 'metropolis3.jpg',
+      size: '2000x1250',
     },
     {
-      img: 'city4.jpg',
-      size: '1920x800',
-      title: '',
-      cap: ''
+      img: 'metropolis4.jpg',
+      size: '2000x1250',
     },
     {
-      img: 'city5.jpg',
-      size: '1920x800',
-      title: '',
-      cap: ''
+      img: 'metropolis5.jpg',
+      size: '2000x1250',
     },
     {
-      img: 'city6.jpg',
-      size: '1920x800',
-      title: '',
-      cap: ''
+      img: 'metropolis6.jpg',
+      size: '2000x1250',
     },
     {
-      img: 'city7.jpg',
-      size: '1920x800',
-      title: '',
-      cap: ''
-    }
+      img: 'metropolis7.jpg',
+      size: '2000x1250',
+    },
+    {
+      img: 'metropolis8.jpg',
+      size: '2000x1250',
+    },
   ],
   [
-    {
-      img: 'abstract5.jpg',
-      size: '2000x1146',
-      title: '',
-      cap: ''
-    },
-    {
-      img: 'abstract9.jpg',
-      size: '1920x800',
-      title: '',
-      cap: ''
-    },
     {
       img: 'abstract1.jpg',
-      size: '1920x800',
-      title: '',
-      cap: ''
+      size: '2000x1250',
     },
-    // {
-    //   img: 'abstract2.jpg',
-    //   size: '1920x800',
-    //   title: '',
-    //   cap: ''
-    // },
+    {
+      img: 'abstract2.jpg',
+      size: '2000x1250',
+    },
     {
       img: 'abstract3.jpg',
-      size: '1920x800',
-      title: '',
-      cap: ''
+      size: '2000x1250',
     },
-    // {
-    //   img: 'abstract4.jpg',
-    //   size: '2000x1125',
-    //   title: '',
-    //   cap: ''
-    // },
+    {
+      img: 'abstract4.jpg',
+      size: '2000x1250',
+    },
+    {
+      img: 'abstract5.jpg',
+      size: '2000x1250',
+    },
     {
       img: 'abstract6.jpg',
-      size: '1920x800',
-      title: '',
-      cap: ''
+      size: '2000x1250',
     },
     {
       img: 'abstract7.jpg',
-      size: '1920x800',
-      title: '',
-      cap: ''
+      size: '2000x1250',
     },
     {
       img: 'abstract8.jpg',
-      size: '1920x800',
-      title: '',
-      cap: ''
+      size: '2000x1250',
     },
     {
-      img: 'abstract10.jpg',
-      size: '1920x800',
-      title: '',
-      cap: ''
-    }
+      img: 'abstract9.jpg',
+      size: '2000x1250',
+    },
   ]
 ];
 
