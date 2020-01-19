@@ -192,6 +192,21 @@ blockquote .code-window .srclink {
   outline: none;
 }
 
+.img-grid .b-lazy-wrapper {
+  margin: 5px;
+  overflow: hidden;
+}
+
+.img-grid .b-lazy-wrapper .b-lazy {
+  margin: 0;
+  transition: filter .3s, transform .3s;
+}
+
+.img-grid .b-lazy-wrapper .b-lazy:not(.b-loaded) {
+  filter: blur(5px);
+  transform: scale(1.2);
+}
+
 .img-grid.img-small img {
   height: 75px;
 }

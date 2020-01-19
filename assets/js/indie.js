@@ -264,6 +264,8 @@ function fillImgContainers(img_data, folder) {
       a.attr('href', img_path + (isGif ? '' : p.f) + data.img);
       a.attr('data-size', data.size);
       a.attr('id', data.img.split('.').slice(0,-1).join('.'));
+      var wrapper = $(document.createElement('div'));
+      wrapper.addClass('b-lazy-wrapper');
       var img = $(document.createElement('img'));
       img.addClass('b-lazy');
       if(isFull) {
@@ -273,14 +275,14 @@ function fillImgContainers(img_data, folder) {
         img.attr('data-src', img_path + data.img);
       } else {
         img.attr('data-src-s', img_path + p.s + data.img);
-        img.attr('data-src', img_path + p.m + data.img + '|'
-          + img_path + p.l + data.img);
+        img.attr('data-src', img_path + p.m + data.img + '|' + img_path + p.l + data.img);
       }
       img.attr('src', img_path + (isFull ? p.s : p.xs) + data.img.replace('.gif', '.jpg'));
       img.attr('alt', data.title || '');
       img.attr('data-caption', data.cap || '');
 
-      a[0].appendChild(img[0]);
+      wrapper[0].appendChild(img[0]);
+      a[0].appendChild(wrapper[0]);
       thumbs.appendChild(a[0]);
     }
     containers[g].appendChild(thumbs);
