@@ -127,7 +127,7 @@
             
             <p><em>Year One</em> is a generative data-viz book of texting and cityscapes. Each city represents the daily volume of text messages that my girlfriend and I sent each other during our first year of dating. There are 366 total cities (I included both our first day, and first anniversary), and each building represents an hour in the day (24 total buildings, at most), in the manner of a bar chart.</p>
 
-            <p class="sub muted"><em>You can view the original project documentation <a target="_blank" href="http://cmuems.com/2016/60212/hizlik/10/28/hizlik-book/">on the class website</a></em>. This was part of a class-wide generative book assignment.</p>
+            <p class="sub muted"><em>You can view the original project documentation <a target="_blank" href="http://cmuems.com/2016/60212/hizlik/10/28/hizlik-book/">on the class website</a>. This was part of a class-wide generative book assignment.</em></p>
 
             <div class="spaced responsive-embed">
                 <iframe class="b-lazy" data-src="https://player.vimeo.com/video/189265930?color=ffffff&title=1&byline=0&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
@@ -484,7 +484,7 @@ ArrayList<PImage> mids = new ArrayList<PImage>();
 void setup() {
   size(1700,1700); //start 350 in from 1700
   String[] fileLines = loadStrings("../txtcounter/data.txt");
-  for(int i=0; i<fileLines.length; i++)
+  for(int i=0; i&#x3008;fileLines.length; i++)
     texts.add(parseData(fileLines[i]));
   
   // trees
@@ -526,7 +526,7 @@ void draw() {
     int right = int(random(rights.size()));
     if(round(random(2))>0)
       image(rights.get(right),0,0);
-    for(int i=0; i<round(random(4,6)); i++) {
+    for(int i=0; i&#x3008;round(random(4,6)); i++) {
       int mid = int(random(mids.size()));
       image(mids.get(mid),random(-100,100),0);
     }
@@ -534,7 +534,7 @@ void draw() {
   }
   // draw template
   String[][] data = texts.get(index);
-  if(hour>0 && hour<data.length) {
+  if(hour>0 && hour&#x3008;data.length) {
     buildCity(data, hour);
     hour++;
   }
@@ -574,7 +574,7 @@ String getMetadata(String[][] data){
   String info = data[0][0]+" ";
   int texts = 0;
   int att = 0;
-  for(int i=1; i<data.length; i++) {
+  for(int i=1; i&#x3008;data.length; i++) {
     texts += parseInt(data[i][0]);
     att += parseInt(data[i][2]);
   }
@@ -728,7 +728,7 @@ String[][] parseData(String texts) {
   String[] hours = texts.split("-");
   hourlyData[0] = new String[1];
   hourlyData[0][0] = hours[0];
-  for(int i=1; i<hours.length; i++) {
+  for(int i=1; i&#x3008;hours.length; i++) {
     hourlyData[i] = hours[i].split("&");
   }
   return hourlyData;
@@ -917,7 +917,7 @@ void stairLeft(float startx, float starty, float w, float h, float x1, float y1)
 
 void stairRight(float startx, float starty, float w, float h, float x2, float y2) {
   int steps = round(random(4,6));
-  for(int i=0; i<steps; i++) {
+  for(int i=0; i&#x3008;steps; i++) {
     float x = startx + (w-x2) + ((x2/steps)*i);
     float y = (starty - h) + ((y2/steps)*i);
     vertex(x,y);
@@ -1152,7 +1152,7 @@ void var3(float startx, float starty, float w, float h, int numAtt) {
   vertex((startx+w)-(w-x1)/2, starty);
   endShape(CLOSE);
   boolean top = true;
-  for(int i=0; i<bridges; i++) {
+  for(int i=0; i&#x3008;bridges; i++) {
     float y2 = random(h/2); //height on building
     float x3 = random(3,8); //thickness
     if(top) {
@@ -2060,7 +2060,6 @@ b.go();
         </section>
 
         <div class="spaced">
-            
             <div class="footer-tags"></div>
         </div>
 

@@ -334,16 +334,15 @@ function initIndiePage(img_data, page) {
   // fill photoswipe image galleries
   fillImgContainers(img_data, page);
 
-  // init thumbnails
-  blazy.revalidate();
-  setTimeout(function() { blazy.revalidate() }, 50);
-  initPhotoSwipeFromDOM('.ps-img');
-
   // add external gallery triggers
   $('.ps-trigger').on('click', function(e){
     $.stop(e);
     simulateClick($('#'+$(this).attr('data-target'))[0]);
   })
+
+  // init thumbnails
+  blazy.revalidate();
+  initPhotoSwipeFromDOM('.ps-img');
 
   // add footer tags
   if(!p_cache) p_cache_callbacks.push(addTags);
@@ -351,6 +350,12 @@ function initIndiePage(img_data, page) {
 
   // prep card-img hover behaviors
   cardImgPrep();
+
+  // init some functions that require the page to fully render first:
+  setTimeout(function() { 
+    // reinit blazy
+    blazy.revalidate();
+  }, 50);
 }
 
 

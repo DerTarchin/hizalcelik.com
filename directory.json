@@ -298,7 +298,7 @@
             "url": "https://vimeo.com/162565549",
             "btn": "View Video",
             "tags": "RC car, contextual, public art, experimental, HCI, art, video",
-            "meta": "college, classwork",
+            "meta": "college, classwork, Slash 4x4",
             "img": [
                 "cp1.jpg",
                 "cp3.jpg",
@@ -610,7 +610,7 @@
             "url": "http://cmuems.com/2014a/hc/12/12/final-project-follower-robot/",
             "btn": "View Project",
             "tags": "Arduino, Java, robotics, HCI, new media, RC car, code, art",
-            "meta": "college, classwork",
+            "meta": "college, classwork, Slash 4x4",
             "img": [
                 "followerbot1.jpg",
                 "followerbot2.jpg",
@@ -666,14 +666,13 @@
         },
         "carscanner": {
             "title": "Little Car Scanner",
-            "info": "Little car scanning underbellies of big cars.",
+            "info": "Little car scanning the undercarriage of bigger cars.",
             "year": 2017,
             "style": 4,
             "id": "carscanner",
-            "url": "http://golancourses.net/excap17/hizlik/05/10/hizlik-final/",
             "btn": "View Project",
             "tags": "Processing, Java, RC car, HCI, new media, robotics, 3D, code, art",
-            "meta": "college, classwork",
+            "meta": "college, classwork, Slash 4x4",
             "img": [
                 "carscanner1.jpg",
                 "carscanner2.jpg",
@@ -689,7 +688,7 @@
             "id": "stereo",
             "url": "http://golancourses.net/excap17/hizlik/04/13/hizlik-event/",
             "tags": "stereoscopic 3d, 3d, experimental, HCI, RC car, art, video",
-            "meta": "college, classwork",
+            "meta": "college, classwork, Slash 4x4",
             "thumb_vid": "stereo.mp4",
             "thumb": "stereo.jpg"
         },
