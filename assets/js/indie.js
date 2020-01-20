@@ -264,8 +264,6 @@ function fillImgContainers(img_data, folder) {
       a.attr('href', img_path + (isGif ? '' : p.f) + data.img);
       a.attr('data-size', data.size);
       a.attr('id', data.img.split('.').slice(0,-1).join('.'));
-      var wrapper = $(document.createElement('div'));
-      wrapper.addClass('b-lazy-wrapper');
       var img = $(document.createElement('img'));
       img.addClass('b-lazy');
       if(isFull) {
@@ -281,8 +279,8 @@ function fillImgContainers(img_data, folder) {
       img.attr('alt', data.title || '');
       img.attr('data-caption', data.cap || '');
 
-      wrapper[0].appendChild(img[0]);
-      a[0].appendChild(wrapper[0]);
+      a[0].appendChild(img[0]);
+
       thumbs.appendChild(a[0]);
     }
     containers[g].appendChild(thumbs);
