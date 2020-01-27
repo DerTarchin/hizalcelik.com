@@ -1,3 +1,9 @@
+updating website, run:
+$ von
+$ server3 
+$ python3 minifier.py
+$ voff
+
 tools:
 
 https://www.minifier.org/
