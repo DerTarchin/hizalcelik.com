@@ -10,13 +10,13 @@ gallery-xs	500 (quality = 10%)
 
 
 = SEARCH =
-thumb		500
-thumb-s		256
+thumb		   500
+thumb-s		 256
 
 
 = INDIE =
-full		2000
-thumb-2x	400
-thumb		200
-thumb-s		100
-thumb-xs	100 (quality = 10%)
+full		     2000 (max-longest)
+thumb-2x	   400 (max-height)
+thumb		     200 (max-height)
+thumb-s		   100 (max-height)
+thumb-xs	   100 (max-height, quality = 10%)

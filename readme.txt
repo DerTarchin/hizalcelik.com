@@ -1,8 +1,14 @@
-updating website, run:
+editing website, run:
 $ von
 $ server3 
-$ python3 minifier.py
 $ voff
+
+updating CSS/JS assets:
+$ ./min
+
+
+
+========================
 
 tools:
 
@@ -28,4 +34,4 @@ to exit venv run:
 voff
 
 to run minifier:
-python3 minifier.py
+python3 min.py
