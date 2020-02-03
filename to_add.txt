@@ -8,7 +8,6 @@ MAIN
 - Art ML projects
 
 ENHANCEMENTS:
-- singularity wallpaper gallery
 - 1337 ptt
 - public defense
 - satire
@@ -49,6 +48,7 @@ DUMP? (add info icon (?) to page to explain)
 - instructional assignment: http://cmuems.com/2014a/hc/09/03/instructional-assignment-hc/
 - processing inspirations: http://cmuems.com/2014a/hc/09/03/looking-outwards-2-processing-hc/
 - any looking outwards ^ ? All inspiration files in all projects?
+- one thousdand lines http://cmuems.com/2014a/hc/10/01/one-thousand-lines-perlin-mess/
 - ten lines http://cmuems.com/2014a/hc/10/01/ten-lines-evade-the-lines/ << fix the gif in blog
 - one line http://cmuems.com/2014a/hc/10/01/one-line-game-keep-it-up/ << fix the gif in blog
 - everlight http://cmuems.com/2014a/hc/09/24/everlight/

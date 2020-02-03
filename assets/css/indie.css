@@ -170,6 +170,15 @@ blockquote .code-window .srclink {
   width: 100%;
 }
 
+.img-double {
+  display: flex;
+}
+.img-double > * {
+  width: 50%;
+  flex-shrink: 1;
+  flex-grow: 1;
+}
+
 .img-grid {
   width: 100%;
   min-height: 10px;
@@ -195,6 +204,8 @@ blockquote .code-window .srclink {
 .img-grid a {
   margin: 5px;
   overflow: hidden;
+  display: flex;
+  position: relative;
 }
 
 .img-grid .b-lazy,
@@ -216,11 +227,6 @@ blockquote .code-window .srclink {
 .img-grid .b-lazy {
   opacity: 1;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"
-}
-
-.img-grid a {
-  display: block;
-  position: relative;
 }
 
 .hover .ps-img img:hover { 

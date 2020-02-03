@@ -239,7 +239,7 @@
         },
         "yearone": {
             "title": "Year One",
-            "info": "Book, 734 pages, computer-generated data-visualizing artworks.",
+            "info": "A beautiful generative data-viz book of text conversations.",
             "year": 2016,
             "style": 2,
             "id": "yearone",
@@ -602,8 +602,8 @@
             "thumb": "pffl.jpg"
         },
         "followerbot": {
-            "title": "FollowerBot",
-            "info": "Self-driving car that chases red clothing.",
+            "title": "Follower-Bot",
+            "info": "Robotic car that chases specific colors.",
             "year": 2014,
             "style": 3,
             "id": "followerbot",
@@ -664,8 +664,8 @@
             "thumb": "spec.jpg"
         },
         "carscanner": {
-            "title": "Little Car Scanner",
-            "info": "Little car scanning the undercarriage of bigger cars.",
+            "title": "Little 3D Car Scanner",
+            "info": "Using an RC car to 3D scan the underside of cars.",
             "year": 2017,
             "style": 4,
             "id": "carscanner",
@@ -1154,12 +1154,11 @@
             "meta": "college, classwork",
             "thumb": "catnbot.jpg"
         },
-        "childhood": {
-            "title": "Childhood Portraits",
-            "info": "Combining my current photos to match my childhood photos.",
+        "childhoodrevisited": {
+            "title": "Childhood Revisited",
+            "info": "Blending current day me with portraits from my childhood.",
             "year": 2017,
-            "id": "childhood",
-            "url": "/comingsoon",
+            "id": "childhoodrevisited",
             "tags": "Photoshop, photography, art",
             "meta": "college, classwork",
             "thumb": "childhood.jpg"
