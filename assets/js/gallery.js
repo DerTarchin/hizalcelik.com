@@ -32,7 +32,6 @@
     var ga_page = "/" + params;
     ga('set', 'page', ga_page);
     ga('send', 'pageview');
-    // console.log("Set Google Analytics page to " + ga_page);
     $('body').removeClass('isHome');
   }
 
@@ -76,13 +75,11 @@
         else if(!loadFullSize) img_cache[work] = [];
         if(loadFullSize && (work+"--fullsize" in img_cache)) return;
         else if(loadFullSize) img_cache[work+"--fullsize"] = [];
-        // console.log("prelaoding: " + work + " " + loadFullSize)
         var fpath = loadFullSize ? filepath.replace('-xs', fullsize) : filepath;
 
         for(var i=0; i<p_cache.work[work].img.length; i++) {
           var img = new Image();
           img.src = fpath + p_cache.work[work].img[i];
-          // img.onload = function(){ console.log(this.src) };
           img_cache[loadFullSize ? work + "--fullsize" : work].push(img);
         }
       }, delay);
@@ -424,7 +421,6 @@
       history.replaceState(null, null, next_url);
       ga('set', 'page', next_url);
       ga('send', 'pageview');
-      // console.log("Set Google Analytics page to " + next_url);
     }
   }
 

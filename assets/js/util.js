@@ -6,7 +6,6 @@ var project_data_url = "/directory.json",
 var close_tmpl = '<div class="close-container"><div class="nav-btn close"><svg viewBox="0 0 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg"><line x1="1" y1="11" x2="11" y2="1"/><line x1="1" y1="1" x2="11" y2="11"/></svg></div></div>';
 
 function getFile(url, fn) {
-  // console.log("File get: " + url);
   var request = new XMLHttpRequest();
   request.open('GET', url, true);
   request.onload = function() {

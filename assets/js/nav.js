@@ -68,9 +68,7 @@ var activeCategory = "", activeWork = "", galleryCallback;
         var ga_page = "/";
         ga('set', 'page', ga_page);
         ga('send', 'pageview');
-        // console.log("Set Google Analytics page to " + ga_page);
       }
-      // else console.log('New category state pushed. No new Google Analytics set.');
       if(typeof galleryCallback !== 'undefined') galleryCallback();
     }
     e.stopPropagation();

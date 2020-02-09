@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" data-page="childhoodrevisited">
+<html lang="en" data-page="photodata">
   <head>
     <!-- META -->
     <meta charset="utf-8">
@@ -51,11 +51,11 @@
     <!-- /FAVICON -->
     
     <!-- PAGE-SPECIFIC -->
-    <title>Childhood Revisited | Hızal Çelik</title>
-    <meta property="og:title" content="Childhood Revisited | Hızal Çelik">
-    <meta property="og:url" content="http://hizalcelik.com/childhoodrevisited/">
-    <meta name="description" content="Blending current day me with portraits from my childhood">
-    <meta property="og:description" content="Blending current day me with portraits from my childhood">
+    <title>Photographer's Data | Hızal Çelik</title>
+    <meta property="og:title" content="Photographer's Data | Hızal Çelik">
+    <meta property="og:url" content="http://hizalcelik.com/photodata/">
+    <meta name="description" content="Building a portrait of a photographer through metadata">
+    <meta property="og:description" content="Building a portrait of a photographer through metadata">
     <!-- /PAGE-SPECIFIC -->
   </head>
   
@@ -84,13 +84,13 @@
       <div class="fullpage-content">
         
         <section class="project-header">
-            <h1>Childhood Revisited</h1>
-            <p class="info-subtitle light">Blending current day me with portraits from my childhood.</p>
+            <h1>Photographer's Data</h1>
+            <p class="info-subtitle light">Building a portrait of a photographer through metadata.</p>
             <div class="project-info">
                 <div class="info-block">
                     <div>
                         <h5 class="info-title muted">category</h5>
-                        <p><a href="/search?k=art/">Art</a></p>
+                        <p><a href="/search?k=art/">Art</a>, <a href="/search?k=code/">Code</a></p>
                     </div>
                     <div>
                         <h5 class="info-title muted">date</h5>
@@ -101,7 +101,8 @@
                     <div>
                         <h5 class="info-title muted">technologies used</h5>
                         <p>
-                            <a target="_blank" href="http://www.adobe.com/products/photoshop.html">Photoshop</a>
+                            Python, 
+                            <a target="_blank" href="https://www.chartjs.org/">Chart.js</a>
                         </p>
                     </div>
                     <div>
@@ -115,42 +116,76 @@
         <section class="project-content ps-gallery">
 
             <p>
-                This is a collaborative project between myself and <a target="_blank" href="https://soonhokwon.com/">Soonho Kwon</a>, a photographer and design major from Carnegie Mellon University. The theme of the assignment was portraits. Due to the experimental nature of the course, and the photography interests we both have, we designed his interpretation of the assignment to be a blending of current day me with portraits from my childhood.
+                This is a collaborative project between myself and <a target="_blank" href="https://soonhokwon.com/">Soonho Kwon</a>, a photographer and design major from Carnegie Mellon University. The theme of the assignment was portraits. Due to the experimental nature of the course, and the photography interests we both have, we designed my interpretation of the assignment to be a data visualization, a "portrait of a photographer," using our photograph metadata.
                 <br /><br />
-                We created these images by having me pose as close as I could to match the person I would be replacing (unfortunately quite often, my sister) or scene I would be placed in. We took note of angles of light and other factors. He then Photoshopped me in to them, matching the styles, color tone, grain and blur as closely as he could.
+                All of the following data portraits were created by first converting our photography to JPGs (Soonho had over 90k RAW images which took over a week to convert). We then ran a custom software I wrote which analyzed each image's metadata for a multitude of datapoints, such as aperture, focal length, ISO rating, etc.
             </p>
 
-            <p class="sub muted"><em>You can view my interpretation of this portrait assignment <a target="_blank" href="/photodata">here</a>.</em></p>
+            <p class="sub muted"><em>You can view the original project documentation <a target="_blank" href="http://golancourses.net/excap17/hizlik/02/14/hizlik-portraits-temp/">on the class website</a>, and Soonho's interpretation of this portrait assignment <a target="_blank" href="/childhoodrevisited">here</a>.</em></p>
 
-            <div class="ps-img spaced full img-double"></div>
-            <p class="sub ta-right"><em>"Boat" - Soonho Kwon</em></p>
+            <blockquote>
+                <div class="card-img ps-img"></div>
+                <div class="text">
+                    <h3>Focal Length</h3>
+                    <p>
+                        This chart shows that I tended to use my 50mm prime and zoom lenses the most. I often used the 50mm for weddings, and did 4 years of sports photography with a telescopic lens. Soonho's favorite lens is in the 35mm range.
+                        <br /><br />
+                        The only outlier in this data would be a point-and-shoot that I used to use, which measured in a 9mm but looked more like a standard 18mm photo.
+                    </p>
+                </div>
+            </blockquote>
 
-            <div class="ps-img spaced full img-double"></div>
-            <p class="sub ta-right"><em>"Cake" - Soonho Kwon</em></p>
+            <div class="spaced responsive-embed" height="200px">
+                <iframe class="b-lazy" data-src="./focal/" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            </div>
 
-            <div class="ps-img spaced full img-double"></div>
-            <p class="sub ta-right"><em>"Chicken" - Soonho Kwon</em></p>
+            <blockquote>
+                <div class="text">
+                    <h3>Aperture</h3>
+                    <p>
+                        Aperture is, among other uses, great for controlling how out of focus the foreground and background are compared to the subject. The smaller the aperture, the thinner the plane of focus is. Click <a href="https://www.nikonusa.com/en/learn-and-explore/a/tips-and-techniques/understanding-maximum-aperture.html" target="_blank">here</a> to learn more about aperture.
+                        <br /><br />
+                        I started a majority my photography with beginner's set of lenses, which has a lower quality, higher aperture. Later on I had portrait lenses at 1.8mm and such. However at the time of this data, Soonho had much nicer, lower-aperture lenses in his arsenal.
+                    </p>
+                </div>
+                <div class="card-img ps-img"></div>
+            </blockquote>
 
-            <div class="ps-img spaced full img-double"></div>
-            <p class="sub ta-right"><em>"Dino" - Soonho Kwon</em></p>
+            <div class="spaced responsive-embed" height="200px">
+                <iframe class="b-lazy" data-src="./aperture/" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            </div>
 
-            <div class="ps-img spaced full img-double"></div>
-            <p class="sub ta-right"><em>"Dollhouse" - Soonho Kwon</em></p>
+            <blockquote>
+                <div class="card-img ps-img"></div>
+                <div class="text">
+                    <h3>Ambience (Hızal)</h3>
+                    <p>
+                        This chart shows that I tended to use my 50mm prime and zoom lenses the most. I often used the 50mm for weddings, and did 4 years of sports photography with a telescopic lens. Soonho's favorite lens is in the 35mm range.
+                        <br /><br />
+                        The only outlier in this data would be a point-and-shoot that I used to use, which measured in a 9mm but looked more like a standard 18mm photo.
+                    </p>
+                </div>
+            </blockquote>
 
-            <div class="ps-img spaced full img-double"></div>
-            <p class="sub ta-right"><em>"Fence" - Soonho Kwon</em></p>
+            <div class="spaced responsive-embed" height="200px">
+                <iframe class="b-lazy" data-src="./ambience-hizal/" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            </div>
 
-            <div class="ps-img spaced full img-double"></div>
-            <p class="sub ta-right"><em>"Floor" - Soonho Kwon</em></p>
+            <blockquote>
+                <div class="text">
+                    <h3>Ambience (Soonho)</h3>
+                    <p>
+                        This chart shows that I tended to use my 50mm prime and zoom lenses the most. I often used the 50mm for weddings, and did 4 years of sports photography with a telescopic lens. Soonho's favorite lens is in the 35mm range.
+                        <br /><br />
+                        The only outlier in this data would be a point-and-shoot that I used to use, which measured in a 9mm but looked more like a standard 18mm photo.
+                    </p>
+                </div>
+                <div class="card-img ps-img"></div>
+            </blockquote>
 
-            <div class="ps-img spaced full img-double"></div>
-            <p class="sub ta-right"><em>"Merry" - Soonho Kwon</em></p>
-
-            <div class="ps-img spaced full img-double"></div>
-            <p class="sub ta-right"><em>"Studio" - Soonho Kwon</em></p>
-
-            <div class="ps-img spaced full img-double"></div>
-            <p class="sub ta-right"><em>"Toys" - Soonho Kwon</em></p>
+            <div class="spaced responsive-embed" height="200px">
+                <iframe class="b-lazy" data-src="./ambience-soonho/" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            </div>
 
         </section>
 
@@ -169,6 +204,6 @@
     <script src="/assets/js/main.pkgd.min.js"></script>
     <script src="/assets/js/indie.pkgd.min.js"></script>
     
-    <script src="/assets/js/indie/childhoodrevisited.js" data-dynamic="js"></script>
+    <script src="/assets/js/indie/photodata.js" data-dynamic="js"></script>
   </body>
 </html>

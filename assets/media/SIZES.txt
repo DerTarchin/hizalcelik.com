@@ -3,15 +3,15 @@ SIZES
 
 
 = GALLERY =
-gallery-l	2000
-gallery-m	1200
-gallery-s	800
-gallery-xs	500 (quality = 10%)
+gallery-l	   2000
+gallery-m	   1200
+gallery-s	   800
+gallery-xs	 500 (quality = 10%)
 
 
 = SEARCH =
-thumb		   500
-thumb-s		 256
+thumb		     500
+thumb-s		   256
 
 
 = INDIE =
