@@ -1,7 +1,10 @@
+FIX IMAGE SIZES:
+- inverse
+- gtaphoto
+
 MAIN
 - Grata work
 - Grata logo
-- childhood (portraits)
 - heyrobot
 - labs (liquidnet)
 - metals (small metals)
@@ -48,9 +51,6 @@ DUMP? (add info icon (?) to page to explain)
 - instructional assignment: http://cmuems.com/2014a/hc/09/03/instructional-assignment-hc/
 - processing inspirations: http://cmuems.com/2014a/hc/09/03/looking-outwards-2-processing-hc/
 - any looking outwards ^ ? All inspiration files in all projects?
-- one thousdand lines http://cmuems.com/2014a/hc/10/01/one-thousand-lines-perlin-mess/
-- ten lines http://cmuems.com/2014a/hc/10/01/ten-lines-evade-the-lines/ << fix the gif in blog
-- one line http://cmuems.com/2014a/hc/10/01/one-line-game-keep-it-up/ << fix the gif in blog
 - everlight http://cmuems.com/2014a/hc/09/24/everlight/
 - something cute http://cmuems.com/2014a/hc/09/22/something-cute-i-hope/
 - chaos vs order http://cmuems.com/2014a/hc/09/22/jingle-balls/ (or Jingle Balls)
@@ -79,7 +79,6 @@ DUMP? (add info icon (?) to page to explain)
 - color: Wrong
 - outlier project (s17)
 - 3d2.gif (s17)
-- portrait project excap http://golancourses.net/excap17/hizlik/02/14/hizlik-portraits-temp/
 - iconic history (one for every year?) (s17)
 - compare my website with older one
 - fiyel motion graphic

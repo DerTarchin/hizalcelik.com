@@ -1,13 +1,6 @@
 var img_data = [
   [
     {
-      img: 'square.gif',
-      size: '672x378',
-      title: 'inverse',
-    }
-  ],
-  [
-    {
       img: 'bg.jpg',
       size: '2000x1210',
       title: 'Background Texture',

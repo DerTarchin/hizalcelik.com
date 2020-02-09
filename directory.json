@@ -58,7 +58,7 @@
             "id": "clock",
             "url": "http://cmuems.com/2014a/hc/10/01/clock-in-clock-wip/",
             "btn": "View Project",
-            "tags": "Processing, Java, CGI, new media, art, code",
+            "tags": "Processing, Java, CGI, new media, interactive, art, code",
             "meta": "college, classwork",
             "img": [
                 "clock1.jpg",
@@ -173,7 +173,7 @@
             "style": 1,
             "id": "time",
             "btn": "View Projects",
-            "tags": "PowerPoint, ink, drawing, illustration, series, animation, art, video",
+            "tags": "PowerPoint, ink, drawing, illustration, series, animation, interactive, art, video",
             "meta": "college, classwork",
             "img": [
                 "time1.jpg",
@@ -437,7 +437,7 @@
             "id": "scrabble",
             "btn": "View Project",
             "tags": "Java, back end, front end, full-stack, UI-UX, design, code",
-            "meta": "college, classwork",
+            "meta": "college, classwork, game design",
             "img": [
                 "scrabble1.jpg",
                 "scrabble2.jpg",
@@ -533,8 +533,8 @@
             "style": 1,
             "id": "telle",
             "btn": "View Project",
-            "tags": "Django, Python, JS, HTML, CSS, jQuery, webapp, mobile, UI-UX, front end, back end, full-stack, code, design",
-            "meta": "college, classwork",
+            "tags": "Django, Python, JS, HTML, CSS, jQuery, webapp, UI-UX, front end, back end, full-stack, code, design",
+            "meta": "college, classwork, mobile",
             "img": [
                 "telle1.jpg",
                 "telle2.jpg",
@@ -1249,6 +1249,15 @@
             "tags": "datavis, art, code",
             "meta": "college, classwork, photography, photographer, portrait",
             "thumb": "photodata.jpg"
+        },
+        "lines": {
+            "title": "1, 10, 1000 Lines",
+            "info": "Compositions with 1, 10, and 1000 lines responding to the cursor.",
+            "year": 2014,
+            "id": "lines",
+            "tags": "Processing, interactive, new media, art, code",
+            "meta": "college, classwork",
+            "thumb": "lines.jpg"
         }
     },
 
