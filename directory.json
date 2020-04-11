@@ -41,7 +41,7 @@
             "id": "thoughts",
             "btn": "View Project",
             "tags": "Processing, Java, interactive, generative, CGI, new media, code, art",
-            "meta": "college, classwork",
+            "meta": "college, classwork, synapses",
             "img": [
                 "thoughts2.jpg",
                 "thoughts1.jpg",
@@ -637,12 +637,11 @@
         },
         "superman": {
             "title": "Superman",
-            "info": "Arduino slider-controlled game.",
+            "info": "An arduino controlled 8-bit game.",
             "year": 2014,
             "id": "superman",
-            "url": "http://cmuems.com/2014a/hc/10/29/superman-mini/",
             "tags": "Arduino, Processing, Java, game design, HCI, code",
-            "meta": "college, classwork",
+            "meta": "college, classwork, 8-bit, 8bit",
             "thumb_vid": "superman.mp4",
             "thumb": "superman.jpg"
         },
