@@ -15,8 +15,8 @@ ENHANCEMENTS:
 - public defense
 - satire
 - shapes
-- minecraft
-- elaineking
+- minecraft (contextual)
+- elaineking [dump?]
 - ppt (showreel)
 * all lego animations
 - car rig
@@ -24,7 +24,7 @@ ENHANCEMENTS:
 - coffee
 - color
 - theytalk
-- uss enterprise
+- uss enterprise [dump?]
 
 CONVERSIONS:
 - clock
@@ -40,7 +40,7 @@ CONVERSIONS:
 
 
 DUMP? (add info icon (?) to page to explain)
-- college plan
+- college plan (... is this the large web/map pptZ)
 - architecture spiral drawing (f14)
 - perspective home (f14)
 - perspective basement (f14)
@@ -91,3 +91,4 @@ DUMP? (add info icon (?) to page to explain)
 - faces video
 - WIP and small LEGO video practices
 - photo restoration for baba dad
+- URL shortener (hiz.al)
