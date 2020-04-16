@@ -2,7 +2,7 @@
     "work": {
         "singularity": {
             "title": "Singularity",
-            "info": "Fractal-generated sci-fi music video.",
+            "info": "Fractal-generated sci-fi music video for De Lirium's Order.",
             "year": 2019,
             "style": 4,
             "id": "singularity",
@@ -34,14 +34,14 @@
             "thumb": "endless.jpg"
         },
         "thoughts": {
-            "title": "Thought Process",
+            "title": "Thinking Mind",
             "info": "Sound-sensitive particle system representing thoughts.",
             "year": 2015,
             "style": 1,
             "id": "thoughts",
             "btn": "View Project",
             "tags": "Processing, Java, interactive, generative, new media, code, art",
-            "meta": "college, classwork, synapses, CGI, digital",
+            "meta": "college, classwork, synapses, CGI, digital, thought process",
             "img": [
                 "thoughts2.jpg",
                 "thoughts1.jpg",
@@ -151,7 +151,7 @@
         },
         "inverse": {
             "title": "Inverse",
-            "info": "Hand painted and digitally animated.",
+            "info": "A handpainted digital animation.",
             "year": 2015,
             "style": 2,
             "id": "inverse",
@@ -307,7 +307,7 @@
         },
         "piper": {
             "title": "Pied Piper of Hamelin",
-            "info": "2D stylized animation. (Unfinished)",
+            "info": "A stylized 2D animated folktale. (Unfinished)",
             "year": 2015,
             "style": 3,
             "id": "piper",
@@ -414,7 +414,7 @@
         },
         "sna": {
             "title": "Social Network Analyzer",
-            "info": "Modular framework and visualizer library.",
+            "info": "A modular JAVA framework and visualizer library for common APIs.",
             "year": 2015,
             "style": 2,
             "id": "sna",
@@ -619,7 +619,7 @@
         },
         "missilecommand": {
             "title": "Multiplayer Missile Command",
-            "info": "A modern twist to the classic game.",
+            "info": "A modern twist to a classic game.",
             "year": 2014,
             "style": 4,
             "id": "missilecommand",
@@ -645,7 +645,7 @@
             "thumb": "superman.jpg"
         },
         "spec": {
-            "title": "Real-time Spectrum Analyzer",
+            "title": "Frequency Spectrum Analyzers",
             "info": "Real-time audio frequency spectrum visualzer.",
             "year": 2017,
             "style": 3,
