@@ -1,7 +1,3 @@
-FIX IMAGE SIZES:
-- inverse
-- gtaphoto
-
 MAIN
 - Grata work
 - Grata logo
@@ -27,17 +23,12 @@ ENHANCEMENTS:
 - uss enterprise [dump?]
 
 CONVERSIONS:
-- clock
 - surveillancebot
 - dark theme?
-- superman
 - stereo
-- tree clock
 - lightspeed
 - lineplotter
 - togetheragain
-- SEM
-
 
 DUMP? (add info icon (?) to page to explain)
 - college plan (... is this the large web/map pptZ)
@@ -92,3 +83,4 @@ DUMP? (add info icon (?) to page to explain)
 - WIP and small LEGO video practices
 - photo restoration for baba dad
 - URL shortener (hiz.al)
+- in case not mentioned here, all of https://github.com/DerTarchin/cmuems-60212

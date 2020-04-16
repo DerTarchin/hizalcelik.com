@@ -1,4 +1,4 @@
-editing website, run:
+editing website, run*:
 $ von
 $ server3 
 $ voff
@@ -27,11 +27,16 @@ $ source venv/bin/activate
 $ pip install csscompressor
 $ pip install jsmin
 
-to enter venv run: 
+to enter venv run*: 
 von
 
-to exit venv run: 
+to exit venv run*: 
 voff
 
 to run minifier:
 python3 min.py
+
+
+
+*
+alias is specific to device

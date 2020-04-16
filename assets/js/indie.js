@@ -88,6 +88,7 @@ var initPhotoSwipeFromDOM = function(gallerySelector) {
       // define gallery index (for URL)
       // galleryUID: galleryElement.getAttribute('data-pswp-uid'),
       history: false,
+      closeOnScroll: false,
       getThumbBoundsFn: function(index) {
         var thumbnail = items[index].el.getElementsByTagName('img')[0], // find thumbnail
             pageYScroll = window.pageYOffset || document.documentElement.scrollTop,
