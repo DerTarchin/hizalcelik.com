@@ -292,6 +292,8 @@ function addTags() {
   var work = $('[data-page]').attr('data-page');
   if(work === 'gallery') work = $('.fullpage').attr('id');
   var tags = p_cache.work[work].tags.split(', ');
+  // add meta tags as well
+  if('meta' in p_cache.work[work]) tags = tags.concat(p_cache.work[work].meta.split(', '));
   for(var i=0; i<tags.length; i++) {
     var a = $(document.createElement('a'));
     a.attr('href', '/search/?k=' + tags[i].toLowerCase() + "/");

@@ -31,7 +31,7 @@
     if(currVal === filterVal) return; 
     // show all if no filter
     else if(currVal === "") $('#index-thumbs li').show(); 
-    // stricter filter so only apply to currently vis
+    // stricter filter so only apply to currently visible
     else if(currVal.length > 1 && filterVal.length > 1
         && currVal.length > filterVal.length 
         && currVal.startsWith(filterVal)
@@ -64,9 +64,15 @@
           if(!clean.length) continue;
           // check for compound searches
           var split = clean.split('+').filter(function(j) { return j.trim() });
-          clean = split[0].trim();
           if(split.length !== 1) continue;
-          if(clean && tag.includes(clean)) includes = true;
+          clean = split[0].trim();
+          if(!clean) continue;
+          // check for exact matches (uses "quotes")
+          if(clean.includes("\"")) {
+            if(tag === clean.substring(1, clean.length - 1)) includes = true
+          }
+          // check if tag contains query
+          else if(tag.includes(clean)) includes = true;
         }
         if(includes) {
           for(var i=0; i<dir_tags[tag].length; i++) {
@@ -88,7 +94,16 @@
               if(!hasAll) break;
               var hasQuery = false;
               for(var ti=0; ti<dir[id].tags.length; ti++) {
-                if(dir[id].tags[ti].includes(split[q].trim())) {
+                var clean = split[q].trim();
+                // check for exact matches (uses "quotes")
+                if(clean.includes("\"")) {
+                  if(dir[id].tags[ti] === clean.substring(1, clean.length - 1)) {
+                    hasQuery = true;
+                    break;
+                  }
+                }
+                // check if tag contains query
+                else if(dir[id].tags[ti].includes(clean)) {
                   hasQuery = true;
                   break;
                 }

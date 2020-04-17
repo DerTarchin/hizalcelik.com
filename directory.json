@@ -7,8 +7,8 @@
             "style": 4,
             "id": "singularity",
             "btn": "View Project",
-            "tags": "CGI, sci-fi, fractal, short film, music video, Photoshop, After Effects, animation, 3D, art, video",
-            "meta": "commission work, digital",
+            "tags": "CGI, fractal, After Effects, 3D animation, art, video",
+            "meta": "commission work, music video, Photoshop, sci-fi, short film, animation",
             "img": [
                 "singularity1.jpg",
                 "singularity3.jpg",
@@ -23,8 +23,8 @@
             "style": 2,
             "id": "endless",
             "btn": "View Project",
-            "tags": "CGI, sci-fi, fractal, short film, animation, music video, 3D, art, video",
-            "meta": "college, classwork, digital",
+            "tags": "CGI, fractal, 3D animation, art, video",
+            "meta": "college, classwork, sci-fi, short film, music video, animation",
             "img": [
                 "endless1.jpg",
                 "endless2.jpg",
@@ -40,8 +40,8 @@
             "style": 1,
             "id": "thoughts",
             "btn": "View Project",
-            "tags": "Processing, Java, interactive, generative, new media, code, art",
-            "meta": "college, classwork, synapses, CGI, digital, thought process",
+            "tags": "Processing, interactive, generative, new media, code, art",
+            "meta": "college, classwork, synapses, CGI, thought process, Java",
             "img": [
                 "thoughts2.jpg",
                 "thoughts1.jpg",
@@ -57,8 +57,8 @@
             "style": 3,
             "id": "clock",
             "btn": "View Project",
-            "tags": "Processing, Java, new media, interactive, art, code",
-            "meta": "college, classwork, analog, digital, CGI",
+            "tags": "Processing, new media, interactive, art, code",
+            "meta": "college, classwork, analog, CGI, Java",
             "img": [
                 "clock1.jpg",
                 "clock2.jpg",
@@ -75,7 +75,7 @@
             "id": "oil",
             "btn": "View Collection",
             "tags": "oil, painting, art",
-            "meta": "college, classwork",
+            "meta": "high school, college, classwork",
             "img": [
                 "oil1.jpg",
                 "oil2.jpg",
@@ -139,8 +139,8 @@
             "style": 3,
             "id": "city",
             "btn": "View Project",
-            "tags": "PowerPoint, animation, digital art, looping, video, art",
-            "meta": "college, classwork",
+            "tags": "PowerPoint, 2D animation, video, art",
+            "meta": "college, classwork, looping, animation",
             "img": [
                 "city1.jpg",
                 "city2.jpg",
@@ -156,8 +156,8 @@
             "style": 2,
             "id": "inverse",
             "btn": "View Project",
-            "tags": "Photoshop, ink, animation, painting, looping, art, video",
-            "meta": "college, classwork, digital",
+            "tags": "Photoshop, 2D animation, painting, art, video",
+            "meta": "college, classwork, looping, ink, animation",
             "img": [
                 "inverse1.jpg",
                 "inverse2.jpg",
@@ -172,8 +172,8 @@
             "style": 1,
             "id": "time",
             "btn": "View Projects",
-            "tags": "PowerPoint, ink, drawing, illustration, series, animation, interactive, art, video",
-            "meta": "college, classwork, digital",
+            "tags": "PowerPoint, illustration, 2D animation, interactive, art, video",
+            "meta": "college, classwork, ink, series, drawing, animation",
             "img": [
                 "time1.jpg",
                 "time2.jpg",
@@ -202,8 +202,8 @@
             "style": 4,
             "id": "graphite",
             "btn": "View Collection",
-            "tags": "graphite, drawing, illustration, still-life, art",
-            "meta": "college, classwork",
+            "tags": "graphite, illustration, art",
+            "meta": "college, classwork, drawing, still-life",
             "img": [
                 "graphite1.jpg",
                 "graphite2.jpg",
@@ -238,13 +238,13 @@
         },
         "yearone": {
             "title": "Year One",
-            "info": "A beautiful generative datavis book of text conversations.",
+            "info": "A beautiful generative data-vis book of text conversations.",
             "year": 2016,
             "style": 2,
             "id": "yearone",
             "btn": "View Project",
-            "tags": "Python, bash, Processing, Basil.js, datavis, CGI, new media, generative, art, code, design",
-            "meta": "college, classwork, digital",
+            "tags": "Python, bash, Processing, data-vis, new media, generative, art, code, design",
+            "meta": "college, classwork, data visualization, Basil.js, Basil.js, CGI, Java, JS",
             "img": [
                 "yearone1.jpg",
                 "yearone2.jpg",
@@ -260,8 +260,8 @@
             "style": 4,
             "id": "charcoal",
             "btn": "View Collection",
-            "tags": "charcoal, drawing, illustration, art",
-            "meta": "college, classwork",
+            "tags": "illustration, art",
+            "meta": "high school, college, classwork, drawing, drawing, charcoal",
             "img": [
                 "charcoal1.jpg",
                 "charcoal2.jpg",
@@ -296,8 +296,8 @@
             "id": "surveillancebot",
             "url": "https://vimeo.com/162565549",
             "btn": "View Video",
-            "tags": "RC car, contextual, public art, experimental, HCI, art, video",
-            "meta": "college, classwork, Slash 4x4",
+            "tags": "RC car, art, video",
+            "meta": "college, classwork, Slash 4x4, public art, HCI, experimental, contextual",
             "img": [
                 "cp1.jpg",
                 "cp3.jpg",
@@ -312,8 +312,8 @@
             "style": 3,
             "id": "piper",
             "btn": "View Project",
-            "tags": "Photoshop, After Effects, 2D, animation, short film, art, video",
-            "meta": "college, classwork, digital",
+            "tags": "Photoshop, After Effects, 2D animation, art, video",
+            "meta": "college, classwork, animation, short film",
             "img": [
                 "piper1.jpg",
                 "piper2.jpg",
@@ -345,8 +345,8 @@
             "style": 4,
             "id": "moonwalk",
             "btn": "Watch Video",
-            "tags": "Maya, Vue xStream, animation, 3D, looping, art, video",
-            "meta": "college, classwork, digital, CGI, 3D modelling",
+            "tags": "Maya, Vue xStream, 3D animation, 3D modeling, art, video",
+            "meta": "college, classwork, CGI, animation, looping",
             "img": [
                 "moonwalk1.jpg",
                 "moonwalk2.jpg",
@@ -362,8 +362,8 @@
             "style": 3,
             "id": "action",
             "btn": "View Film",
-            "tags": "short film, live action, video",
-            "meta": "college, classwork",
+            "tags": "video",
+            "meta": "college, classwork, short film, live action",
             "img": [
                 "action1.jpg",
                 "action2.jpg",
@@ -379,8 +379,8 @@
             "id": "lego",
             "url": "https://www.youtube.com/user/DerTarchin/videos",
             "btn": "View Collection",
-            "tags": "animation, stop-motion, LEGO, short film, video",
-            "meta": "brickfilm",
+            "tags": "animation, LEGO, video",
+            "meta": "brickfilm, stop-motion, short film",
             "img": [
                 "lego1.jpg",
                 "lego2.jpg",
@@ -419,8 +419,8 @@
             "style": 2,
             "id": "sna",
             "btn": "View Project",
-            "tags": "Java, JS, UI-UX, front end, design, code",
-            "meta": "college, classwork",
+            "tags": "Java, JS, UI, UX, design, code",
+            "meta": "college, classwork, front end",
             "img": [
                 "sna1.jpg",
                 "sna2.jpg",
@@ -435,8 +435,8 @@
             "style": 1,
             "id": "scrabble",
             "btn": "View Project",
-            "tags": "Java, back end, front end, full-stack, UI-UX, design, code",
-            "meta": "college, classwork, game design",
+            "tags": "Java, UI, UX, game design, code",
+            "meta": "college, classwork, back end, front end, full-stack",
             "img": [
                 "scrabble1.jpg",
                 "scrabble2.jpg",
@@ -451,8 +451,8 @@
             "style": 4,
             "id": "graphicdesign",
             "btn": "View Collection",
-            "tags": "poster, postcard, marketting, graphic design, design",
-            "meta": "professional work",
+            "tags": "graphic design, design",
+            "meta": "professional work, poster, postcard, marketing",
             "img": [
                 "graphicdesign1.jpg",
                 "graphicdesign2.jpg",
@@ -516,8 +516,8 @@
             "style": 1,
             "id": "albumart",
             "btn": "View Artworks",
-            "tags": "music, design, graphic design",
-            "meta": "commission work",
+            "tags": "graphic design, design",
+            "meta": "commission work, music",
             "img": [
                 "albumart1.jpg",
                 "albumart2.jpg",
@@ -532,8 +532,8 @@
             "style": 1,
             "id": "telle",
             "btn": "View Project",
-            "tags": "Django, Python, JS, HTML, CSS, jQuery, webapp, UI-UX, front end, back end, full-stack, code, design",
-            "meta": "college, classwork, mobile",
+            "tags": "Django, Python, JS, HTML, CSS, UI, UX, code, design",
+            "meta": "college, classwork, mobile, front end, back end, full-stack, webapp, jQuery",
             "img": [
                 "telle1.jpg",
                 "telle2.jpg",
@@ -549,8 +549,8 @@
             "style": 3,
             "id": "pixtory",
             "btn": "View Project",
-            "tags": "Python, JS, HTML, CSS, jQuery, webapp, datavis, front end, back end, UI-UX, new media, code, art, photography, design",
-            "meta": "college, classwork",
+            "tags": "Python, JS, HTML, CSS, data-vis, UI, UX, new media, code, art, photography, design",
+            "meta": "college, classwork, jQuery, webapp, front end, back end",
             "img": [
                 "pixtory1.jpg",
                 "pixtory2.jpg",
@@ -566,7 +566,7 @@
             "id": "darktheme",
             "url": "https://userstyles.org/users/412168",
             "btn": "View Project",
-            "tags": "CSS3, front end, UI-UX, code, design",
+            "tags": "CSS, front end, UI, code, design",
             "meta": "commission work",
             "img": [
                 "darktheme1.jpg",
@@ -582,8 +582,8 @@
             "style": 4,
             "id": "nickel",
             "btn": "View Project",
-            "tags": "Django, Python, JS, HTML5, CSS3, jQuery, webapp, back end, front end, full-stack, UI-UX, code, design",
-            "meta": "commission work",
+            "tags": "Django, Python, JS, HTML, CSS, UI, UX, code, design",
+            "meta": "commission work, jQuery, webapp, back end, front end, full-stack",
             "img": [
                 "nickel1.jpg",
                 "nickel2.jpg",
@@ -596,8 +596,8 @@
             "info": "Scheduling app for Pittsburgh Flag Football League.",
             "year": 2016,
             "id": "pffl",
-            "tags": "Django, Python, JS, HTML, CSS, jQuery, webapp, back end, front end, full-stack, UI-UX, code, design",
-            "meta": "professional work",
+            "tags": "Django, Python, JS, HTML, CSS, UI, UX, code, design",
+            "meta": "professional work, jQuery, webapp, back end, front end, full-stack",
             "thumb": "pffl.jpg"
         },
         "followerbot": {
@@ -607,8 +607,8 @@
             "style": 3,
             "id": "followerbot",
             "btn": "View Project",
-            "tags": "Arduino, Java, robotics, HCI, new media, RC car, code, art",
-            "meta": "college, classwork, Slash 4x4",
+            "tags": "Arduino, Java, robotics, new media, RC car, code, art",
+            "meta": "college, classwork, HCI, Slash 4x4",
             "img": [
                 "followerbot1.jpg",
                 "followerbot2.jpg",
@@ -639,8 +639,8 @@
             "info": "An arduino controlled 8-bit game.",
             "year": 2014,
             "id": "superman",
-            "tags": "Arduino, Processing, Java, game design, HCI, code",
-            "meta": "college, classwork, 8-bit, 8bit",
+            "tags": "Arduino, Processing, game design, code",
+            "meta": "college, classwork, 8-bit, 8bit, HCI, Java",
             "thumb_vid": "superman.mp4",
             "thumb": "superman.jpg"
         },
@@ -651,8 +651,8 @@
             "style": 3,
             "id": "spec",
             "btn": "View Project",
-            "tags": "Processing, Java, After Effects, music, video, motion graphics, code, design",
-            "meta": "college, classwork",
+            "tags": "Processing, After Effects, motion graphics, video, code, design",
+            "meta": "college, classwork, music, sound processing, Java",
             "img": [
                 "spec1.jpg",
                 "spec2.jpg",
@@ -668,8 +668,8 @@
             "style": 4,
             "id": "carscanner",
             "btn": "View Project",
-            "tags": "Processing, Java, RC car, HCI, new media, robotics, 3D, code, art",
-            "meta": "college, classwork, Slash 4x4, digital",
+            "tags": "Processing, RC car, new media, robotics, 3D modeling, code, art",
+            "meta": "college, classwork, Slash 4x4, HCI, Java",
             "img": [
                 "carscanner1.jpg",
                 "carscanner2.jpg",
@@ -684,8 +684,8 @@
             "year": 2017,
             "id": "stereo",
             "url": "http://golancourses.net/excap17/hizlik/04/13/hizlik-event/",
-            "tags": "stereoscopic 3d, 3d, experimental, HCI, RC car, art, video",
-            "meta": "college, classwork, Slash 4x4, digital",
+            "tags": "stereoscopic 3D, RC car, art, video",
+            "meta": "college, classwork, Slash 4x4, experimental, HCI",
             "thumb_vid": "stereo.mp4",
             "thumb": "stereo.jpg"
         },
@@ -697,7 +697,7 @@
             "id": "pro-portrait",
             "url": "http://photography.hizalcelik.com/tagged/portrait",
             "btn": "View Photos",
-            "tags": "photo",
+            "tags": "photography",
             "img": [
                 "pro-portrait1.jpg",
                 "pro-portrait3.jpg",
@@ -713,7 +713,7 @@
             "id": "pro-event",
             "url": "http://photography.hizalcelik.com/tagged/event",
             "btn": "View Photos",
-            "tags": "photo",
+            "tags": "photography",
             "img": [
                 "pro-event1.jpg",
                 "pro-event2.jpg",
@@ -729,7 +729,7 @@
             "id": "pro-wedding",
             "url": "http://photography.hizalcelik.com/tagged/wedding",
             "btn": "View Photos",
-            "tags": "photo",
+            "tags": "photography",
             "img": [
                 "pro-wedding3.jpg",
                 "pro-wedding2.jpg",
@@ -745,7 +745,7 @@
             "id": "pro-sports",
             "url": "http://photography.hizalcelik.com/tagged/professional",
             "btn": "View Photos",
-            "tags": "photo",
+            "tags": "photography",
             "img": [
                 "pro-sports1.jpg",
                 "pro-sports2.jpg",
@@ -761,7 +761,7 @@
             "id": "pro-misc",
             "url": "http://photography.hizalcelik.com/tagged/professional",
             "btn": "View Photos",
-            "tags": "photo",
+            "tags": "photography",
             "img": [
                 "pro-misc1.jpg",
                 "pro-misc2.jpg",
@@ -778,7 +778,7 @@
             "id": "photo-people",
             "url": "http://photography.hizalcelik.com/tagged/people",
             "btn": "View Photos",
-            "tags": "photo",
+            "tags": "photography",
             "img": [
                 "photo-people2.jpg",
                 "photo-people1.jpg",
@@ -795,7 +795,7 @@
             "id": "photo-place",
             "url": "http://photography.hizalcelik.com/tagged/places",
             "btn": "View Photos",
-            "tags": "photo",
+            "tags": "photography",
             "img": [
                 "photo-place1.jpg",
                 "photo-place2.jpg",
@@ -811,7 +811,7 @@
             "id": "photo-misc",
             "url": "http://photography.hizalcelik.com/tagged/personal",
             "btn": "View Photos",
-            "tags": "photo",
+            "tags": "photography",
             "img": [
                 "photo-misc1.jpg",
                 "photo-misc3.jpg",
@@ -900,8 +900,8 @@
             "year": 2016,
             "id": "novaxin",
             "url": "https://vimeo.com/185372150",
-            "tags": "found-footage, satire, art, video",
-            "meta": "college, classwork",
+            "tags": "art, video",
+            "meta": "college, classwork, found-footage, satire",
             "thumb": "novaxin.jpg"
         },
         "hayal": {
@@ -910,8 +910,8 @@
             "year": 2017,
             "id": "hayal",
             "url": "https://www.youtube.com/watch?v=PHHJsVGRomQ",
-            "tags": "sci-fi, art, video",
-            "meta": "college, classwork",
+            "tags": "art, video",
+            "meta": "college, classwork, sci-fi",
             "thumb": "hayal.jpg"
         },
         "mexico": {
@@ -930,8 +930,8 @@
             "year": 2016,
             "id": "abstract",
             "url": "https://vimeo.com/235269002",
-            "tags": "found-footage, abstract, sci-fi, art, video",
-            "meta": "college, classwork",
+            "tags": "art, video",
+            "meta": "college, classwork, found-footage, abstract, sci-fi",
             "thumb": "abstract.jpg"
         },
         "80s": {
@@ -940,8 +940,8 @@
             "year": 2015,
             "id": "80s",
             "url": "https://vimeo.com/250010179",
-            "tags": "abstract, art, video",
-            "meta": "college, classwork",
+            "tags": "art, video",
+            "meta": "college, classwork, abstract",
             "thumb": "80s.jpg"
         },
         "70s": {
@@ -950,8 +950,8 @@
             "year": 2015,
             "id": "70s",
             "url": "https://vimeo.com/250010300",
-            "tags": "found-footage, art, video",
-            "meta": "college, classwork",
+            "tags": "art, video",
+            "meta": "college, classwork, found-footage",
             "thumb": "70s.jpg"
         },
         "samsun": {
@@ -969,8 +969,8 @@
             "year": 2012,
             "id": "wwii",
             "url": "https://www.youtube.com/watch?v=BJnMcq4bR-I",
-            "tags": "found-footage, satire, art, video",
-            "meta": "classwork",
+            "tags": "art, video",
+            "meta": "high school, classwork, found-footage, satire",
             "thumb": "wwii.jpg"
         },
         "chirp": {
@@ -979,8 +979,8 @@
             "year": 2016,
             "id": "chirp",
             "url": "https://vimeo.com/250010431",
-            "tags": "Maya, Vue xStream, animation, 3D, art, video",
-            "meta": "college, classwork, digital, 3D modelling",
+            "tags": "Maya, Vue xStream, 3D animation, 3D modeling, art, video",
+            "meta": "college, classwork, animation",
             "thumb": "chirp.jpg"
         },
         "fishbowl": {
@@ -989,8 +989,8 @@
             "year": 2016,
             "id": "fishbowl",
             "url": "https://vimeo.com/250009027",
-            "tags": "Maya, 3D, animation, art, video",
-            "meta": "college, classwork, 3D modelling",
+            "tags": "Maya, 3D animation, 3D modeling, art, video",
+            "meta": "college, classwork, animation",
             "thumb": "fishbowl.jpg"
         },
         "attic": {
@@ -999,8 +999,8 @@
             "year": 2013,
             "id": "attic",
             "url": "https://www.youtube.com/watch?v=HqJLU_nOny0",
-            "tags": "3ds Max, 3D, art, video",
-            "meta": "3D modelling",
+            "tags": "3ds Max, 3D modeling, art, video",
+            "meta": "high school",
             "thumb": "attic.jpg"
         },
         "tree": {
@@ -1008,8 +1008,8 @@
             "info": "A 24-hour generative clock in the shape of a tree.",
             "year": 2016,
             "id": "tree",
-            "tags": "Processing, Java, new media, generative, art, code",
-            "meta": "college, classwork, CGI, digital",
+            "tags": "p5js, new media, generative, art, code",
+            "meta": "college, classwork, CGI, JS",
             "thumb_vid": "treeclock.mp4",
             "thumb": "treeclock.jpg"
         },
@@ -1019,8 +1019,8 @@
             "year": 2016,
             "id": "lightspeed",
             "url": "http://cmuems.com/2016/60212/hizlik/10/14/hizlik-faceosc/",
-            "tags": "Processing, Java, FaceOSC, face-tracking, new media, interactive, generative, art, code",
-            "meta": "college, classwork, CGI, digital",
+            "tags": "Processing, FaceOSC, new media, interactive, generative, art, code",
+            "meta": "college, classwork, CGI, face-tracking, Java",
             "thumb_vid": "lightspeed.mp4",
             "thumb": "lightspeed.jpg"
         },
@@ -1030,8 +1030,8 @@
             "year": 2016,
             "id": "lineplotter",
             "url": "http://cmuems.com/2016/60212/hizlik/09/30/hizlik-plot/",
-            "tags": "Processing, Java, new media, art, code",
-            "meta": "college, classwork, CGI, digital",
+            "tags": "Processing, new media, art, code",
+            "meta": "college, classwork, CGI, Java",
             "thumb": "lineplotter.jpg"
         },
         "togetheragain": {
@@ -1040,8 +1040,8 @@
             "year": 2016,
             "id": "togetheragain",
             "url": "http://cmuems.com/2016/60212/hizlik/12/16/hizlik-lastproject/",
-            "tags": "Processing, Java, game design, art, code",
-            "meta": "college, classwork",
+            "tags": "Processing, game design, art, code",
+            "meta": "college, classwork, Java",
             "thumb_vid": "togetheragain.mp4",
             "thumb": "togetheragain.jpg"
         },
@@ -1061,8 +1061,8 @@
             "year": 2016,
             "id": "publicdefense",
             "url": "http://hizalcelik.com/dev/publicdefense/",
-            "tags": "HTML, CSS, research, art, code",
-            "meta": "college, classwork",
+            "tags": "HTML, CSS, art, code",
+            "meta": "college, classwork, research",
             "thumb": "publicdefense.jpg"
         },
         "satire": {
@@ -1071,8 +1071,8 @@
             "year": 2017,
             "id": "satire",
             "url": "http://hizalcelik.com/dev/satire/",
-            "tags": "Photoshop, looping, interactive, satire, art",
-            "meta": "college, classwork",
+            "tags": "Photoshop, interactive, art",
+            "meta": "college, classwork, looping, satire",
             "thumb": "satire.jpg"
         },
         "shapes": {
@@ -1081,8 +1081,8 @@
             "year": 2017,
             "id": "shapes",
             "url": "https://vimeo.com/240554161",
-            "tags": "2D, drawing, animation, art, video",
-            "meta": "college, classwork",
+            "tags": "2D animation, art, video",
+            "meta": "college, classwork, drawing, animation",
             "thumb": "shapes.jpg"
         },
         "minecraft": {
@@ -1091,8 +1091,8 @@
             "year": 2016,
             "id": "minecraft",
             "url": "https://vimeo.com/154676267",
-            "tags": "public art, art",
-            "meta": "college, classwork, digital",
+            "tags": "art",
+            "meta": "college, classwork, public art",
             "thumb": "minecraft.jpg"
         },
         "elaineking": {
@@ -1110,8 +1110,8 @@
             "info": "Photography with a million dollar camera.",
             "year": 2017,
             "id": "sem",
-            "tags": "photography, art, scanning electron microscope",
-            "meta": "college, classwork",
+            "tags": "photography, art",
+            "meta": "college, classwork, scanning electron microscope",
             "thumb": "sem.jpg"
         },
         "ppt": {
@@ -1120,7 +1120,8 @@
             "year": 2013,
             "id": "ppt",
             "url": "https://vimeo.com/253038494",
-            "tags": "PowerPoint, game design, 2D, animation, showreel, compilation, art, video",
+            "tags": "PowerPoint, game design, 2D animation, art, video",
+            "meta": "high school, showreel, compilation, animation",
             "thumb": "ppt.jpg"
         },
         "brenizer": {
@@ -1134,12 +1135,12 @@
         },
         "carrig": {
             "title": "Car Rig",
-            "info": "Car rigged in 3ds Max for suspension and steering.",
+            "info": "Car rigged for suspension and steering.",
             "year": 2012,
             "id": "carrig",
             "url": "https://vimeo.com/253096222",
-            "tags": "3ds Max, 3D, rig, art",
-            "meta": "3D modelling",
+            "tags": "3ds Max, 3D modeling, art",
+            "meta": "high school, rig",
             "thumb": "carrig.jpg"
         },
         "catnbot": {
@@ -1148,7 +1149,7 @@
             "year": 2017,
             "id": "catnbot",
             "url": "https://vimeo.com/253096260",
-            "tags": "PowerPoint, Unity, game design, design, illustration, art",
+            "tags": "PowerPoint, Unity, game design, illustration, art",
             "meta": "college, classwork",
             "thumb": "catnbot.jpg"
         },
@@ -1167,8 +1168,8 @@
             "year": 2016,
             "id": "coffee",
             "url": "https://vimeo.com/253094867",
-            "tags": "short film, video",
-            "meta": "college, classwork",
+            "tags": "video",
+            "meta": "college, classwork, short film",
             "thumb": "coffee.jpg"
         },
         "color": {
@@ -1177,8 +1178,8 @@
             "year": 2017,
             "id": "color",
             "url": "https://vimeo.com/253094856",
-            "tags": "PowerPoint, 2D, graphic design, animation, motion graphics, design, art, video",
-            "meta": "college, classwork",
+            "tags": "PowerPoint, 2D animation, graphic design, art, video",
+            "meta": "college, classwork, animation, motion graphics, design",
             "thumb": "color.jpg"
         },
         "gtaphoto": {
@@ -1186,8 +1187,8 @@
             "info": "Travel photography from inside a video game.",
             "year": 2017,
             "id": "gtaphoto",
-            "tags": "gta v, video games, satire, new media, photography, art",
-            "meta": "college, classwork",
+            "tags": "new media, photography, art",
+            "meta": "college, classwork, GTA V, satire, video games",
             "thumb": "gta.jpg"
         },
         "heyrobot": {
@@ -1196,8 +1197,8 @@
             "year": 2014,
             "id": "heyrobot",
             "url": "/comingsoon",
-            "tags": "3D, CAD, manufacturing, wood, CNC machine, art",
-            "meta": "college, classwork, digital",
+            "tags": "3D modeling, CAD, manufacturing, art",
+            "meta": "college, classwork, wood, CNC machine",
             "thumb": "heyrobot.jpg"
         },
         "labs": {
@@ -1206,8 +1207,8 @@
             "year": 2017,
             "id": "labs",
             "url": "/comingsoon",
-            "tags": "HTML5, CSS3, JS, graphic design, UI-UX, front-end, design, code",
-            "meta": "professional work",
+            "tags": "HTML, CSS, JS, graphic design, UI, UX, design, code",
+            "meta": "professional work, front-end",
             "thumb": "labs.jpg"
         },
         "metals": {
@@ -1216,8 +1217,8 @@
             "year": 2015,
             "id": "metals",
             "url": "/comingsoon",
-            "tags": "3D, manufacturing, metal, art",
-            "meta": "college, classwork",
+            "tags": "manufacturing, art",
+            "meta": "college, classwork, metal",
             "thumb": "metals.jpg"
         },
         "theytalk": {
@@ -1226,8 +1227,8 @@
             "year": 2017,
             "id": "theytalk",
             "url": "https://vimeo.com/253096854",
-            "tags": "short film, video",
-            "meta": "college, classwork",
+            "tags": "video",
+            "meta": "college, classwork, short film",
             "thumb": "theytalk.jpg"
         },
         "ussenterprise": {
@@ -1236,8 +1237,8 @@
             "year": 2013,
             "id": "ussenterprise",
             "url": "https://vimeo.com/253094826",
-            "tags": "3ds Max, 3D, art",
-            "meta": "3D modelling",
+            "tags": "3ds Max, 3D modeling, art",
+            "meta": "high school",
             "thumb": "ussenterprise.jpg"
         },
         "photodata": {
@@ -1245,8 +1246,8 @@
             "info": "Building a portrait of a photographer through metadata.",
             "year": 2017,
             "id": "photodata",
-            "tags": "datavis, art, code",
-            "meta": "college, classwork, photography, photographer, portrait, digital",
+            "tags": "data-vis, art, photography, code",
+            "meta": "college, classwork, photographer, portrait",
             "thumb": "photodata.jpg"
         },
         "lines": {
@@ -1255,7 +1256,7 @@
             "year": 2014,
             "id": "lines",
             "tags": "Processing, interactive, new media, art, code",
-            "meta": "college, classwork, digital",
+            "meta": "college, classwork, Java",
             "thumb": "lines.jpg"
         }
     },
