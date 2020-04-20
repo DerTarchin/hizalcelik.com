@@ -22,12 +22,25 @@ ENHANCEMENTS:
 - color
 - theytalk
 - uss enterprise [dump?]
+- novaxin
+- hayal
+- mexico
+- abstract
+- 80s
+- 70s
+- samsun
+- wwii
+- chirp
+- fishbowl
+- attic
+- tree
+
+
 
 CONVERSIONS:
 - surveillancebot
-- dark theme?
+- dark theme
 - stereo
-- lightspeed
 - lineplotter
 - togetheragain
 

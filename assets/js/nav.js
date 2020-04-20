@@ -6,7 +6,7 @@ var activeCategory = "", activeWork = "", galleryCallback;
   sidenav.className = "sidenav";
 
   var ul = document.createElement("ul");
-  ul.innerHTML += "<li id='sidenav-index'><a class='direct' href='/search'>All Projects</a></li>" 
+  ul.innerHTML += "<li id='sidenav-search'><a class='direct' href='/search'>All Works</a></li>" 
                 + "<li id='sidenav-about'><a class='direct' href='/about'>About Me</a></li>"
                 // + "<li id='sidenav-dump'><a class='direct' href='/dump'>Creative Dump</a></li>"
                 + "<li class='divider'></li>";
@@ -28,7 +28,10 @@ var activeCategory = "", activeWork = "", galleryCallback;
     var page_info = $('html').attr('data-page');
     if(page_info === "about") $('#sidenav-about').addClass("active");
     else if(page_info === "dump") $('#sidenav-dump').addClass("active");
-    else if(page_info === "index") $('#sidenav-index').addClass("active");
+    else if(page_info === "search") {
+      $('#sidenav-search').addClass("active");
+      $('#nav-more').addClass("active");
+    }
     else if(page_info !== "gallery" && !window.location.href.includes('/'+page_info)) window.location.reload(); 
     else if(page_info === "gallery") {
       var params = getJsonFromUrl();
@@ -43,7 +46,7 @@ var activeCategory = "", activeWork = "", galleryCallback;
   }
   checkForActiveLinks();
 
-  $('#nav-more, #nav-mobile').on('click', function(){ $("#sidenav").addClass('vis') });
+  // $('#nav-more, #nav-mobile').on('click', function(){ $("#sidenav").addClass('vis') });
   $('#sidenav').on('click', function(){ $("#sidenav").removeClass('vis') });
   $('html[data-page="gallery"] #nav, html[data-page="gallery"] #sidenav').on('click', function(e) {
     var el = $(e.target);
@@ -88,7 +91,7 @@ var activeCategory = "", activeWork = "", galleryCallback;
         $("#sidenav").removeClass('vis');
       }
       if(e.key === 's' || e.which === 83 || e.code === 'KeyS') {
-        $("#sidenav #sidenav-index a")[0].click();
+        $("#sidenav #sidenav-search a")[0].click();
       }
     }
     if(modded) {

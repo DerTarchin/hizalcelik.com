@@ -258,6 +258,7 @@ function fillImgContainers(img_data, folder) {
   for(var g=0; g<containers.length; g++) {
     var isFull = $(containers[g]).hasClass('full');
     var thumbs = document.createDocumentFragment();
+    if(!(img_data || []).length) continue;
     for(var i=0; i<img_data[g].length; i++) {
       var a = $(document.createElement('a'));
       var data = img_data[g][i];

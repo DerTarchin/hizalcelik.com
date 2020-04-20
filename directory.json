@@ -1015,12 +1015,11 @@
         },
         "lightspeed": {
             "title": "Lightspeed",
-            "info": "Face-tracking interactive work.",
+            "info": "An interactive face-tracking lightspeed simulator.",
             "year": 2016,
             "id": "lightspeed",
-            "url": "http://cmuems.com/2016/60212/hizlik/10/14/hizlik-faceosc/",
-            "tags": "Processing, FaceOSC, new media, interactive, generative, art, code",
-            "meta": "college, classwork, CGI, face-tracking, Java",
+            "tags": "Processing, new media, interactive, generative, art, code",
+            "meta": "college, classwork, FaceOSC, CGI, face-tracking, Java",
             "thumb_vid": "lightspeed.mp4",
             "thumb": "lightspeed.jpg"
         },
