@@ -1025,10 +1025,9 @@
         },
         "lineplotter": {
             "title": "Line Plotter",
-            "info": "Robotic line plotter project.",
+            "info": "Intricate artworks using robotic drawing machine.",
             "year": 2016,
             "id": "lineplotter",
-            "url": "http://cmuems.com/2016/60212/hizlik/09/30/hizlik-plot/",
             "tags": "Processing, new media, art, code",
             "meta": "college, classwork, CGI, Java",
             "thumb": "lineplotter.jpg"
