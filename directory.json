@@ -636,7 +636,7 @@
         },
         "superman": {
             "title": "Superman",
-            "info": "An arduino controlled 8-bit game.",
+            "info": "An Arduino-controlled 8-bit game.",
             "year": 2014,
             "id": "superman",
             "tags": "Arduino, Processing, game design, code",
@@ -1025,11 +1025,11 @@
         },
         "lineplotter": {
             "title": "Line Plotter",
-            "info": "Intricate artworks using robotic drawing machine.",
+            "info": "Intricate artworks using a robotic drawing machine.",
             "year": 2016,
             "id": "lineplotter",
             "tags": "Processing, new media, art, code",
-            "meta": "college, classwork, CGI, Java",
+            "meta": "college, classwork, CGI, Java, looping",
             "thumb": "lineplotter.jpg"
         },
         "togetheragain": {
