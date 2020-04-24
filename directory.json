@@ -288,22 +288,14 @@
                 }
             ]
         },
-        "surveillancebot": {
-            "title": "SurveillanceBot",
+        "watchbot": {
+            "title": "WatchBot",
             "info": "Experimental performances conducted with a remote control car.",
             "year": 2016,
-            "style": 3,
-            "id": "surveillancebot",
-            "url": "https://vimeo.com/162565549",
-            "btn": "View Video",
+            "id": "watchbot",
             "tags": "RC car, art, video",
-            "meta": "college, classwork, Slash 4x4, public art, HCI, experimental, contextual",
-            "img": [
-                "cp1.jpg",
-                "cp3.jpg",
-                "cp2.jpg"
-            ],
-            "thumb": "surveillancebot.jpg"
+            "meta": "college, classwork, Slash 4x4, public art, HCI, experimental performance, contextual, surveillance, social experiment",
+            "thumb": "watchbot.jpg"
         },
         "piper": {
             "title": "Pied Piper of Hamelin",
