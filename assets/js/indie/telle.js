@@ -68,6 +68,12 @@ var img_data = [
       size: '1127x2000',
       title: 'Mobile Screenshot',
       cap: 'Movie gallery page'
+    },
+    {
+      img: 'episode.jpg',
+      size: '2000x1948',
+      title: 'Desktop - Episodes Page',
+      cap: 'Episodes page on desktop site'
     }
   ]
 ];

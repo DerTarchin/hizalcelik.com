@@ -44,12 +44,18 @@ python3 min.py
 
 ========================
 
+// main pic
+<div class="spaced ps-img full"></div>
+
+// double main pic
+<div class="ps-img spaced full img-double"></div>
+
 // gallery
 <blockquote class="col">
     <div class="card-gallery"><div class="ps-img img-grid"></div></div>
     <div class="text">
-        <h3>TITLE</h3>
-        <p>TEXT</a>.
+        <h3>__TITLE__</h3>
+        <p>__TEXT__</a>.
     </div>
 </blockquote>
 
@@ -57,19 +63,26 @@ python3 min.py
 <blockquote>
     <div class="card-img ps-img"></div>
     <div class="text">
-        <h3>TITLE</h3>
-        <p>TEXT</p>
+        <h3>__TITLE__</h3>
+        <p>__TEXT__</p>
     </div>
 </blockquote>
 
+// prefilled card image (for GIFs) 
+<div class="card-img ps-img prefilled">
+    <a href="/assets/media/indie/__PAGE__/__FILE__" data-size="__SIZE__" id="__ID__">
+        <img class="b-lazy" data-src="/assets/media/indie/__PAGE__/__FILE__" src="/assets/media/indie/__PAGE__/__FILE__" alt="__TITLE__" data-caption="__CAPTION__">
+    </a>
+</div>
+
 // vimeo
 <div class="responsive-embed spaced">
-    <iframe class="b-lazy" data-src="https://player.vimeo.com/video/VID_ID_HERE?color=ffffff&title=0&byline=0&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    <iframe class="b-lazy" data-src="https://player.vimeo.com/video/__VID_ID__?color=ffffff&title=0&byline=0&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 </div>
 
 // youtube (autoplay, muted)
 <div class="spaced responsive-embed">
-    <iframe class="b-lazy" src="https://www.youtube.com/embed/VID_ID_HERE?rel=0&amp;showinfo=0&autoplay=1&mute=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe class="b-lazy" src="https://www.youtube.com/embed/__VID_ID__?rel=0&amp;showinfo=0&autoplay=1&mute=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 // subtitle, right-aligned
@@ -79,26 +92,26 @@ python3 min.py
     <div class="code-window">
         <pre>
             <code>
-CODE_HERE
+__CODE__
             </code>
             <div class="srclink">
-                FILE_NAME.FILE_TYPE (<a target="_blank" href="LINK_TO_SOURCE">source</a>)
+                __FILE__ (<a target="_blank" href="__LINK__">source</a>)
             </div>
         </pre>
     </div>
     <div class="text">
-        <h4 style="display: inline-block; margin-right: 10px">TITLE</h4>
-        <em>SUBTITLE</em>
+        <h4 style="display: inline-block; margin-right: 10px">__TITLE__</h4>
+        <em>__SUBTITLE__</em>
     </div>
 </blockquote>
 
 // source code link
 <blockquote class="source">
-    <div class="card-img-static"><a target="_blank" href="LINK"><img src="/assets/media/source.jpg"></a></div>
-    <a target="_blank" href="LINK" class="text">
+    <div class="card-img-static"><a target="_blank" href="__LINK__"><img src="/assets/media/source.jpg"></a></div>
+    <a target="_blank" href="__LINK__" class="text">
         <h3>View the source code</h3>
     </a>
 </blockquote>
 
 // image opener trigger
-<a class="ps-trigger" data-target="IMAGE_NAME">TEXT</a>
+<a class="ps-trigger" data-target="__IMAGE_NAME__">__TEXT__</a>

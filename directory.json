@@ -585,7 +585,7 @@
         },
         "pffl": {
             "title": "PFFL Scheduler",
-            "info": "Scheduling app for Pittsburgh Flag Football League.",
+            "info": "Automated football match scheduler.",
             "year": 2016,
             "id": "pffl",
             "tags": "Django, Python, JS, HTML, CSS, UI, UX, code, design",
