@@ -33,14 +33,9 @@ ENHANCEMENTS:
 - fishbowl
 - attic
 
-
-
 CONVERSIONS:
-- surveillancebot
 - dark theme
 - stereo
-- lineplotter
-- togetheragain
 
 DUMP? (add info icon (?) to page to explain)
 - college plan (... is this the large web/map pptZ)

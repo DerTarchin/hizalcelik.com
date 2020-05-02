@@ -1026,10 +1026,9 @@
         },
         "togetheragain": {
             "title": "Together Again",
-            "info": "Simple but challenging mouse game.",
+            "info": "A game of time travelling trial and error to reunite.",
             "year": 2016,
             "id": "togetheragain",
-            "url": "http://cmuems.com/2016/60212/hizlik/12/16/hizlik-lastproject/",
             "tags": "Processing, game design, art, code",
             "meta": "college, classwork, Java",
             "thumb_vid": "togetheragain.mp4",
