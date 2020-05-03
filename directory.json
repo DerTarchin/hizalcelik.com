@@ -1181,13 +1181,12 @@
             "thumb": "gta.jpg"
         },
         "heyrobot": {
-            "title": "Bubble Seat",
-            "info": "Crafted a seat for a big bubble.",
+            "title": "Floating Seat",
+            "info": "Crafting a seat for a floating pod.",
             "year": 2014,
             "id": "heyrobot",
-            "url": "/comingsoon",
             "tags": "3D modeling, CAD, manufacturing, art",
-            "meta": "college, classwork, wood, CNC machine",
+            "meta": "college, classwork, wood, CNC machine, physical art",
             "thumb": "heyrobot.jpg"
         },
         "labs": {

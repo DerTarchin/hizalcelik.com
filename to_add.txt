@@ -1,7 +1,6 @@
 MAIN
 - Grata work
 - Grata logo
-- heyrobot
 - labs (liquidnet)
 - metals (small metals)
 - Art ML projects
