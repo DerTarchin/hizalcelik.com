@@ -10,7 +10,6 @@ ENHANCEMENTS:
 - public defense
 - satire
 - shapes
-- minecraft (contextual)
 - elaineking [dump?]
 - ppt (showreel)
 * all lego animations
@@ -34,7 +33,7 @@ ENHANCEMENTS:
 
 CONVERSIONS:
 - dark theme
-- stereo
+- 3D RC Vision (stereoscopic)
 
 DUMP? (add info icon (?) to page to explain)
 - college plan (... is this the large web/map pptZ)

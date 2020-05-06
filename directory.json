@@ -1074,15 +1074,14 @@
             "meta": "college, classwork, drawing, animation",
             "thumb": "shapes.jpg"
         },
-        "minecraft": {
+        "minecraftart": {
             "title": "Public Art in Minecraft",
-            "info": "Public art in Minecraft.",
+            "info": "Creating anonymous artwork on public Minecraft servers.",
             "year": 2016,
-            "id": "minecraft",
-            "url": "https://vimeo.com/154676267",
+            "id": "minecraftart",
             "tags": "art",
-            "meta": "college, classwork, public art",
-            "thumb": "minecraft.jpg"
+            "meta": "college, classwork, public art, Minecraft",
+            "thumb": "minecraftart.jpg"
         },
         "elaineking": {
             "title": "Elaine A. King Website",
