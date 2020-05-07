@@ -588,6 +588,7 @@ div.awesomplete {
   width: 100%;
   overflow: hidden;
   font-size: 2vw;
+  user-select: none;
 }
 
 .projindex .thumbs li {

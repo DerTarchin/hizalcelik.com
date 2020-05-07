@@ -76,6 +76,8 @@ template {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+
+  user-select: none;
 }
 
 .nav .name {
@@ -469,6 +471,7 @@ template {
   opacity: 0;
   -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
   outline: none!important;
+  user-select: none;
 }
 
 .overlay-tags {
@@ -540,7 +543,7 @@ template {
 }
 
 .nav-arrow {
-  fill: lightgray;
+  fill: black;
   height: 30px;
   width: 30px;
   -webkit-transition: fill .25s;
@@ -594,6 +597,7 @@ template {
       -ms-flex-align: center;
           align-items: center;
   font-size: 1vw;
+  user-select: none;
 }
 
 .gallery-info .title {
