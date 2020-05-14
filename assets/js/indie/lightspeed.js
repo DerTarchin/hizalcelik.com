@@ -9,6 +9,14 @@ var img_data = [
   ],
   [
     {
+      img: 'loop.gif',
+      size: '480x270',
+      title: 'Light Streaks',
+      cap: 'Demonstration of the angles created by the software.'
+    },
+  ],
+  [
+    {
       img: 'diagram1.jpg',
       size: '980x1278',
       cap: 'Planning the visual effects and look of the lights.'

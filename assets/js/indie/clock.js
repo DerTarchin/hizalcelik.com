@@ -13,6 +13,14 @@ var img_data = [
       title: 'Planning Clock Rotations',
     },
   ],
+  [
+    {
+      img: 'clock.gif',
+      size: '600x375',
+      title: 'Clock Clock',
+      cap: 'Group of analog clocks creating a single digital time display.'
+    },
+  ],
 ];
 
 initIndiePage(img_data, 'clock');

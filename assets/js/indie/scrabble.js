@@ -1,6 +1,13 @@
 var img_data = [
   [
     {
+      img: 'algo.gif',
+      size: '537x526',
+      title: 'Algorithm Demonstration',
+    }
+  ],
+  [
+    {
       img: 'corner.jpg',
       size: '639x639',
       title: 'Dual-direction Autocomplete Demonstration',

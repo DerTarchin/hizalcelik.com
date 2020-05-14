@@ -136,11 +136,7 @@
 
             <!-- day -->
             <blockquote>
-                <div class="card-img ps-img prefilled">
-                    <a href="/assets/media/indie/carscanner/day.gif" data-size="512x288">
-                        <img class="b-lazy" data-src="/assets/media/indie/carscanner/day.gif" src="/assets/media/indie/carscanner/day.jpg" alt="Scanning" data-caption="Driving under cars in the parking lot.">
-                    </a>
-                </div>
+                <div class="card-img ps-img"></div>
                 <div class="text">
                     When driven underneath vehicles at a constant rate of speed (capturing footage at 60fps), I am able to scan the 3D formations of the underside of a vehicle by observing the distortions of the straight line of the laser. The wide angle lens at such a close proximity to the "surface" only allows for about 1ft of horizontal resolution per frame.
                 </div>
@@ -152,20 +148,12 @@
                     <h3>1. Scan</h3>
                     <p>After some experimentation, I realized scanning at night provided a much better video of the laser compared to filming during the day. The laser was much brighter with less noise surrounding it, which helped reduce errors during the next steps.</p>
                 </div>
-                <div class="card-img ps-img prefilled">
-                    <a href="/assets/media/indie/carscanner/night.gif" data-size="512x288">
-                        <img class="b-lazy" data-src="/assets/media/indie/carscanner/night.gif" src="/assets/media/indie/carscanner/night.jpg" alt="Scanning" data-caption="Scanning at night provided clearer laser footage.">
-                    </a>
-                </div>
+                <div class="card-img ps-img"></div>
             </blockquote>
 
             <!-- algo -->
             <blockquote>
-                <div class="card-img ps-img prefilled">
-                    <a href="/assets/media/indie/carscanner/algo.gif" data-size="512x287">
-                        <img class="b-lazy" data-src="/assets/media/indie/carscanner/algo.gif" src="/assets/media/indie/carscanner/algo.jpg" alt="Laser Line Extraction" data-caption="Algo designed to extract the brightest points of the line.">
-                    </a>
-                </div>
+                <div class="card-img ps-img"></div>
                 <div class="text">
                     <h3>2. Extract</h3>
                     <p>After experimenting with Photoshop and After Effects color-matching filters, I decided to write my own Processing script to extract the laser’s shape from the footage. By extracting the line's shape I can use it for 3D point data.</p>
@@ -180,20 +168,12 @@
                     <p>Imagine each frame of the footage is a card. Now try stacking all of the cards on top of each other. When you use the extracted line data of each frame, you can get a general 3D point cloud model from this method using points for every pixel.</p>
                     <p>This data was then exported as a <code>.ply</code> file and uploaded to <a target="_blank" href="https://sketchfab.com/">Sketchfab</a>.</p>
                 </div>
-                <div class="card-img ps-img prefilled">
-                    <a href="/assets/media/indie/carscanner/pointcloud.gif" data-size="576x324">
-                        <img class="b-lazy" data-src="/assets/media/indie/carscanner/pointcloud.gif" src="/assets/media/indie/carscanner/pointcloud.jpg" alt="Point Cloud" data-caption="Every frame displayed side by side in a 3D canvas.">
-                    </a>
-                </div>
+                <div class="card-img ps-img"></div>
             </blockquote>
 
             <!-- poly -->
             <blockquote>
-                <div class="card-img ps-img prefilled">
-                    <a href="/assets/media/indie/carscanner/poly.gif" data-size="576x323">
-                        <img class="b-lazy" data-src="/assets/media/indie/carscanner/poly.gif" src="/assets/media/indie/carscanner/poly.jpg" alt="3D Polygon Model" data-caption='Point cloud "layers" connected together to form polygons.'>
-                    </a>
-                </div>
+                <div class="card-img ps-img"></div>
                 <div class="text">
                     <h3>4. Polygon Mesh</h3>
                     <p>By connecting the point cloud data with polygons, one can create a seamless 3D mesh of the surface. By using thresholds, noise reduction and other methods to reduce irregularities, you can prevent large spikes in the 3D mesh that is caused by rogue or missing pixel data.</p>
@@ -203,19 +183,7 @@
 
             <!-- car gifs -->
             <blockquote class="col">
-                <div class="card-gallery">
-                    <div class="ps-img img-grid">
-                        <a href="/assets/media/indie/carscanner/subaru1.gif" data-size="672x420">
-                            <img class="b-lazy" data-src="/assets/media/indie/carscanner/subaru1.gif" src="/assets/media/indie/carscanner/subaru1.jpg" alt="Subaru Outback" data-caption="Undercarriage of a Subaru Outback.">
-                        </a>
-                        <a href="/assets/media/indie/carscanner/subaru2.gif" data-size="672x420">
-                            <img class="b-lazy" data-src="/assets/media/indie/carscanner/subaru2.gif" src="/assets/media/indie/carscanner/subaru2.jpg" alt="Subaru Outback" data-caption="Undercarriage of a Subaru Outback.">
-                        </a>
-                        <a href="/assets/media/indie/carscanner/volvo1.gif" data-size="672x420">
-                            <img class="b-lazy" data-src="/assets/media/indie/carscanner/volvo1.gif" src="/assets/media/indie/carscanner/volvo1.jpg" alt="Volvo XC60" data-caption="Undercarriage of a Volvo XC60.">
-                        </a>
-                    </div>
-                </div>
+                <div class="card-gallery"><div class="ps-img img-grid"></div></div>
                 <div class="text">
                     Images of the 3D models uploaded to Sketchfab. The vehicles scanned are <a href="https://sketchfab.com/3d-models/subaru-886a8aa4883e4457a2a73cade32dc629" target="_blank">Subaru Outback</a> (red) and <a href="https://sketchfab.com/3d-models/volvo-xc60-1bdff1b7b3fb47f29d4aa8fccc670624" target="_blank">Volvo XC60</a> (blue).
                 </div>
@@ -238,13 +206,7 @@
             </div>
 
             <blockquote class="col">
-                <div class="card-gallery">
-                    <div class="ps-img img-grid">
-                        <a href="/assets/media/indie/carscanner/3d3.gif" data-size="576x324">
-                            <img class="b-lazy" data-src="/assets/media/indie/carscanner/3d3.gif" src="/assets/media/indie/carscanner/3d3.jpg" alt="3D Printing" data-caption="A 3D printing of the Volvo XC60 scan.">
-                        </a>
-                    </div>
-                </div>
+                <div class="card-gallery"><div class="ps-img img-grid"></div></div>
                 <div class="text">  
                     The process and results of the 3D printed scans.
                 </div>
@@ -265,16 +227,7 @@
                     <h3>Issues</h3>
                     <p>I had a few hiccups along the development of this app. The first was, embarrassingly enough, mixing the width and length values in the 3D viewer, resulting <a class="ps-trigger" data-target="issues1">in this</a>.The other issue was that some newer vehicles had particularly clean and reflective undercarriages, such as <a class="ps-trigger" data-target="issues2">this Kia Soul</a>. Data extractions from such reflective footage resulted in less than ideal <a class="ps-trigger" data-target="issues3">3D models</a>.</p>
                 </div>
-                <div class="card-gallery">
-                    <div class="ps-img img-grid">
-                        <a href="/assets/media/indie/carscanner/issues2.gif" data-size="512x288" id="issues2">
-                            <img class="b-lazy" data-src="/assets/media/indie/carscanner/issues2.gif" src="/assets/media/indie/carscanner/issues2.jpg" alt="Reflective Car Undersides" data-caption="Shiney and reflective cars cause undesirable effects in the resulting 3D models.">
-                        </a>
-                        <a href="/assets/media/indie/carscanner/issues3.gif" data-size="772x484" id="issues3">
-                            <img class="b-lazy" data-src="/assets/media/indie/carscanner/issues3.gif" src="/assets/media/indie/carscanner/issues3.jpg" alt="Bad Data Model" data-caption="Shiney and reflective cars cause undesirable effects in the resulting 3D models.">
-                        </a>
-                    </div>
-                </div>
+                <div class="card-gallery"> <div class="ps-img img-grid"></div> </div>
             </blockquote>
 
             <blockquote class="source">

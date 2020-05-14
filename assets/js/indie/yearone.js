@@ -1,22 +1,30 @@
 var img_data = [
   [
     {
+      img: '365.gif',
+      size: '480x480',
+      title: '365 Cities',
+      cap: 'A loop of all 365 uniquely generated cities.'
+    },
+  ],
+  [
+    {
       img: 'planning1.jpg',
       size: '2000x1294',
       title: 'Planning',
-      cap: 'Sketches from my sketchbook detailing building types and variables'
+      cap: 'Sketches from my sketchbook detailing building types and variables.'
     },
     {
       img: 'planning2.jpg',
       size: '2000x1294',
       title: 'Planning',
-      cap: 'Sketches from my sketchbook detailing building types and variables'
+      cap: 'Sketches from my sketchbook detailing building types and variables.'
     },
     {
       img: 'planning3.jpg',
       size: '2000x1294',
       title: 'Planning',
-      cap: 'Sketches from my sketchbook detailing building types and variables'
+      cap: 'Sketches from my sketchbook detailing building types and variables.'
     }
   ],
   [

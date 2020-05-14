@@ -23,6 +23,30 @@ var img_data = [
       title: 'Planning Tree Growth Algorithm',
     },
   ],
+  [
+    {
+      img: '24hr.gif',
+      size: '480x480',
+      title: '24 Hours',
+      cap: 'A demonstration of the 24 hours.'
+    },
+  ],
+  [
+    {
+      img: 'change.gif',
+      size: '793x788',
+      title: 'Change of the Minute',
+      cap: 'Every 60 seconds the blossoms beautifully fall off.'
+    },
+  ],
+  [
+    {
+      img: 'grow.gif',
+      size: '793x788',
+      title: '24 Hours',
+      cap: 'A demonstration of the clock\'s growth over a 24 hour period.'
+    },
+  ]
 ];
 
 initIndiePage(img_data, 'tree');

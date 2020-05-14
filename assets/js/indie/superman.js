@@ -9,6 +9,14 @@ var img_data = [
   ],
   [
     {
+      img: 'superman.gif',
+      size: '231x150',
+      title: 'Superman',
+      cap: 'An arduino controlled 8-bit game.'
+    },
+  ],
+  [
+    {
       img: 'slider.jpg',
       size: '960x648',
       title: 'Arduino Slider Control',

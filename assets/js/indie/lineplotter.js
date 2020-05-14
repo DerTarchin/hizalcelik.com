@@ -1,10 +1,36 @@
 var img_data = [
   [
     {
+      img: 'green.gif',
+      size: '480x480',
+      title: 'Cycloid Circles (Green)',
+    },
+    {
+      img: 'bw.gif',
+      size: '480x480',
+      title: 'Cycloid Circles (Green)',
+    },
+    {
       img: 'sketches.jpg',
       size: '1494x2000',
       title: 'Cycloid Circles',
       cap: 'Drafting squares, then circles, in a looping animated pattern.'
+    },
+  ],
+  [
+    {
+      img: 'draw.gif',
+      size: '739x742',
+      title: 'Drawing',
+      cap: 'Demonstration of the designs being drawn dot by dot, using the cycloid circle code as a basis.'
+    },
+  ],
+  [
+    {
+      img: 'zoom.gif',
+      size: '600x601',
+      title: 'Vector File',
+      cap: 'Line plotters use vector files to draw dots, lines and fills.'
     },
   ],
   [

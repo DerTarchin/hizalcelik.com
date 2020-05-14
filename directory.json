@@ -670,16 +670,15 @@
             "thumb_vid": "carscanner.mp4",
             "thumb": "carscanner.jpg"
         },
-        "stereo": {
-            "title": "Experimental Capture",
-            "info": "Stereoscopic video filmed from an RC car.",
+        "3drc": {
+            "title": "3D POV of an RC",
+            "info": "3D point of view footage from an RC car around the campus.",
             "year": 2017,
-            "id": "stereo",
-            "url": "http://golancourses.net/excap17/hizlik/04/13/hizlik-event/",
-            "tags": "stereoscopic 3D, RC car, art, video",
-            "meta": "college, classwork, Slash 4x4, experimental, HCI",
-            "thumb_vid": "stereo.mp4",
-            "thumb": "stereo.jpg"
+            "id": "3drc",
+            "tags": "3D, RC car, art, video",
+            "meta": "college, classwork, Slash 4x4, experimental, HCI, stereoscopic",
+            "thumb_vid": "3drc.mp4",
+            "thumb": "3drc.jpg"
         },
         "pro-portrait": {
             "dirignore": 1,
