@@ -82,7 +82,7 @@ python3 min.py
 
             // youtube (autoplay, muted)
             <div class="spaced responsive-embed">
-                <iframe class="b-lazy" src="https://www.youtube.com/embed/__VID_ID__?rel=0&amp;showinfo=0&autoplay=1&mute=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe class="b-lazy" src="https://www.youtube.com/embed/__VID_ID__?rel=0&showinfo=0&autoplay=1&mute=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
 
             // subtitle, right-aligned

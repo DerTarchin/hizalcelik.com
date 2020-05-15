@@ -376,6 +376,10 @@ blockquote .code-window .srclink {
   margin-top: 100px; 
 }
 
+.project-content p.not-spaced {
+  margin-top: 20px;
+}
+
 
 
 /* TABS */
