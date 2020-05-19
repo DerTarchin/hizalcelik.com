@@ -1,15 +1,16 @@
 var img_data = [
-  // top section
-  [
-    {
-      img: 'loop0.gif',
-      size: '634x357',
-    },
-  ],
   [
     {
       img: 'rendevous.gif',
       size: '640x360',
+      title: 'Inspiration',
+      cap: 'C’était un rendez-vous (1976)'
+    },
+  ],
+  [
+    {
+      img: 'loop0.gif',
+      size: '634x357',
     },
   ],
   [
