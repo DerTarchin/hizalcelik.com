@@ -965,13 +965,12 @@
             "thumb": "wwii.jpg"
         },
         "chirp": {
-            "title": "3D Deformers",
-            "info": "A test on deformers in Maya, environment with Vue.",
+            "title": "Chirp",
+            "info": "A beginner's attempt at 3D deformers and modelling.",
             "year": 2016,
             "id": "chirp",
-            "url": "https://vimeo.com/250010431",
             "tags": "Maya, Vue xStream, 3D animation, 3D modeling, art, video",
-            "meta": "college, classwork, animation",
+            "meta": "college, classwork, animation, 3D deformers",
             "thumb": "chirp.jpg"
         },
         "fishbowl": {

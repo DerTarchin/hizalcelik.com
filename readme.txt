@@ -115,3 +115,5 @@ __CODE__
 
             // image opener trigger
             <a class="ps-trigger" data-target="__IMAGE_NAME__">__TEXT__</a>
+
+<div style="background: #fec107; color: #654404; padding: 8px 15px; border-radius: 8px; margin-bottom: 35px"><b>Update:</b> As of 2020, an updated documentation for this project is now on my website at <b><a href="http://hizalcelik.com/PROJ_ID" style="color: #654404">hiz.al/PROJ_ID</a></b>.</div>
