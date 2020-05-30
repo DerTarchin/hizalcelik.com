@@ -27,13 +27,11 @@ ENHANCEMENTS:
 - 70s
 - samsun
 - wwii
-- chirp
 - fishbowl
 - attic
 
 CONVERSIONS:
 - dark theme
-- 3D RC Vision (stereoscopic)
 
 DUMP? (add info icon (?) to page to explain)
 - college plan (... is this the large web/map pptZ)
