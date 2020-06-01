@@ -79,6 +79,7 @@ python3 min.py
             <div class="responsive-embed spaced">
                 <iframe class="b-lazy" data-src="https://player.vimeo.com/video/__VID_ID__?color=ffffff&title=0&byline=0&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
             </div>
+            muted: autoplay=1&loop=1&color=ffffff&title=0&byline=0&portrait=0&muted=1
 
             // youtube (autoplay, muted)
             <div class="spaced responsive-embed">
