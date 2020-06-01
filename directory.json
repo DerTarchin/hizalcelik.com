@@ -963,7 +963,7 @@
         },
         "chirp": {
             "title": "Chirp",
-            "info": "A beginner's attempt at 3D deformers and modelling.",
+            "info": "A beginner's attempt at 3D deformers and modeling.",
             "year": 2016,
             "id": "chirp",
             "tags": "Maya, Vue xStream, 3D animation, 3D modeling, art, video",

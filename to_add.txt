@@ -20,12 +20,10 @@ ENHANCEMENTS:
 - theytalk
 - uss enterprise [dump?]
 - novaxin
-- mexico
 - abstract
 - 80s
 - 70s
 - samsun
-- wwii
 - fishbowl
 - attic
 
