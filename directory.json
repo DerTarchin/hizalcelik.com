@@ -955,12 +955,11 @@
         },
         "wwii": {
             "title": "WWII Fighter Planes",
-            "info": "Documentary on WWII aerial warfare.",
+            "info": "Student documentary on WWII aerial warfare.",
             "year": 2012,
             "id": "wwii",
-            "url": "https://www.youtube.com/watch?v=BJnMcq4bR-I",
-            "tags": "art, video",
-            "meta": "high school, classwork, found-footage, satire",
+            "tags": "documentary, video",
+            "meta": "high school, classwork, found-footage",
             "thumb": "wwii.jpg"
         },
         "chirp": {
