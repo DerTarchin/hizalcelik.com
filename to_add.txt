@@ -8,7 +8,6 @@ MAIN
 ENHANCEMENTS:
 - 1337 ptt
 - public defense
-- satire
 - shapes
 - elaineking [dump?]
 - ppt (showreel)

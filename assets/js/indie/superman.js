@@ -4,7 +4,7 @@ var img_data = [
       img: 'banner.jpg',
       size: '2000x724',
       title: 'Superman',
-      cap: 'An arduino controlled 8-bit game.'
+      cap: 'An Arduino controlled 8-bit game.'
     },
   ],
   [
@@ -12,7 +12,7 @@ var img_data = [
       img: 'superman.gif',
       size: '231x150',
       title: 'Superman',
-      cap: 'An arduino controlled 8-bit game.'
+      cap: 'An Arduino controlled 8-bit game.'
     },
   ],
   [

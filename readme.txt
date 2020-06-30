@@ -87,7 +87,7 @@ python3 min.py
             </div>
 
             // subtitle, right-aligned
-            <p class="sub ta-right">Attempts to demonstrate the game, but unfortunately it is difficult to keep the controller in place when only using one, non-dominant hand, while filming with the other.</p>
+            <p class="sub ta-right">TEXT</p>
 
             <blockquote class="col">
                 <div class="code-window">

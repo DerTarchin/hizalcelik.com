@@ -1049,15 +1049,14 @@
             "meta": "college, classwork, research",
             "thumb": "publicdefense.jpg"
         },
-        "satire": {
-            "title": "Post-Trump Video Games",
+        "retrotrump": {
+            "title": "Post-Trump Classic Games",
             "info": "Classic games in Post-Trump America.",
             "year": 2017,
-            "id": "satire",
-            "url": "http://hizalcelik.com/dev/satire/",
+            "id": "retrotrump",
             "tags": "Photoshop, interactive, art",
             "meta": "college, classwork, looping, satire",
-            "thumb": "satire.jpg"
+            "thumb": "retrotrump.jpg"
         },
         "shapes": {
             "title": "Shapes",

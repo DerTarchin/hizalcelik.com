@@ -1,0 +1,100 @@
+body { 
+  margin: 0;
+  background: #2b2b2b;
+  color: white;
+
+  width: 100vw;
+
+  overflow-x: hidden;
+
+  font-family: 'Press Start 2P', cursive;
+}
+
+.body {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+}
+
+* {
+  user-select: none;
+  box-sizing: content-box;
+}
+
+.hide {
+  display: none;
+}
+
+.inv {
+  opacity: 0.01;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 0.01;
+  width: 0.01;
+  pointer-events: none;
+}
+
+.gifs {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+  max-width: 1000px;
+}
+
+.gifs img {
+  width: 100%;
+  flex-shrink: 1;
+}
+
+.button {
+  cursor: pointer;
+  height: 100px;
+}
+
+.button img {
+  height: 100%;
+  width: auto;
+  user-select: none;
+  pointer-events: none;
+}
+
+.button[data-state="redup"] :not(#redup) { display: none; }
+.button[data-state="reddown"] :not(#reddown) { display: none; }
+.button[data-state="blueup"] :not(#blueup) { display: none; }
+.button[data-state="bluedown"] :not(#bluedown) { display: none; }
+
+.title {
+  margin: 0;
+  text-align: center;
+}
+
+#g2020 {
+  z-index: 1;
+}
+
+@media screen and (max-width: 767px) {
+  .button {
+    height: 50px;
+  }
+  .body {
+    margin: 25px;
+  }
+  .title {
+    font-size: 1em;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .button {
+    height: 30px;
+  }
+  .title {
+    font-size: .5em;
+  }
+  .body {
+    margin: 10px;
+  }
+}
