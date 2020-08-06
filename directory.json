@@ -933,11 +933,10 @@
             "thumb": "80s.jpg"
         },
         "70s": {
-            "title": "That 70's Show Insert",
-            "info": "Injecting our own footage into existing footage.",
+            "title": "Cake Lovers Anonymous",
+            "info": "Re-editing the context of \"That '70s Show\".",
             "year": 2015,
             "id": "70s",
-            "url": "https://vimeo.com/250010300",
             "tags": "art, video",
             "meta": "college, classwork, found-footage",
             "thumb": "70s.jpg"
