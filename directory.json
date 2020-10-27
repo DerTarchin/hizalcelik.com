@@ -678,7 +678,14 @@
             "tags": "3D, RC car, art, video",
             "meta": "college, classwork, Slash 4x4, experimental, HCI, stereoscopic, excap",
             "thumb_vid": "3drc.mp4",
-            "thumb": "3drc.jpg"
+            "thumb": "3drc.jpg",
+            "style": 2,
+            "img": [
+                "3drc2.jpg",
+                "3drc3.jpg",
+                "3drc1.jpg"
+            ],
+            "btn": "Watch Video"
         },
         "pro-portrait": {
             "dirignore": 1,
@@ -1253,7 +1260,7 @@
         "code": "nickel, telle, pixtory, yearone, scrabble, missilecommand, sna, followerbot, spec, carscanner, thoughts, clock, galleryend-code",
         "design": "telle, darktheme, pixtory, nickel, scrabble, sna, yearone, graphicdesign, galleryend-design",
         "art": "yearone, city, endless, graphite, time, inverse, oil, thoughts, pixtory, charcoal, galleryend-art",
-        "video": "singularity, endless, piper, bose, moonwalk, action, lego, galleryend-video",
+        "video": "singularity, endless, piper, bose, moonwalk, 3drc, action, lego, galleryend-video",
         "photo": "photo-people, photo-place, photo-misc, pro-portrait, pro-wedding, pro-event, pro-sports, pro-misc, galleryend-photo"
     },
     "intro": [
@@ -1317,10 +1324,5 @@
                 "piper1.jpg"
             ]
         }
-    ],
-    "need-to-make-from-gallery": {
-        "code": "clock",
-        "design": "darktheme",
-        "video": "lego"
-    }
+    ]
 }

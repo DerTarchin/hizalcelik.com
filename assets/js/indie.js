@@ -291,7 +291,7 @@ function fillImgContainers(img_data, folder) {
 
 function addTags() {
   var work = $('[data-page]').attr('data-page');
-  if(work === 'gallery') work = $('.fullpage').attr('id');
+  if(work === 'gallery') work = ($('.fullpage').attr('id') || '').substring(1);
   var tags = p_cache.work[work].tags.split(', ');
   // add meta tags as well
   if('meta' in p_cache.work[work]) tags = tags.concat(p_cache.work[work].meta.split(', '));

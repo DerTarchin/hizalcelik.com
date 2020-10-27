@@ -395,7 +395,7 @@
     var template_group = frag.querySelectorAll("[data-dynamic='template']");
 
     $(html).removeClass("vis");
-    $(html).attr('id', page_id);
+    $(html).attr('id', '_' + page_id);
     $(html).attr('close-url', window.location.href);
     for(var i=0; i<css_group.length; i++) $(html).append($(css_group[i]));
     for(var i=0; i<template_group.length; i++) $(html).append($(template_group[i]));

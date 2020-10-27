@@ -117,4 +117,55 @@ __CODE__
             // image opener trigger
             <a class="ps-trigger" data-target="__IMAGE_NAME__">__TEXT__</a>
 
-<div style="background: #fec107; color: #654404; padding: 8px 15px; border-radius: 8px; margin-bottom: 35px"><b>Update:</b> As of 2020, an updated documentation for this project is now on my website at <b><a href="http://hizalcelik.com/PROJ_ID" style="color: #654404">hiz.al/PROJ_ID</a></b>.</div>
+            <div style="background: #fec107; color: #654404; padding: 8px 15px; border-radius: 8px; margin-bottom: 35px"><b>Update:</b> As of 2020, an updated documentation for this project is now on my website at <b><a href="http://hizalcelik.com/PROJ_ID" style="color: #654404">hiz.al/PROJ_ID</a></b>.</div>
+
+
+
+========================
+
+SIZES
+(use JPEGMini and https://compressjpeg.com/)
+
+= GALLERY =
+gallery-l       2000    max-longest
+gallery-m       1200    max-longest
+gallery-s       800     max-longest
+gallery-xs      500     max-longest, quality = 10%
+
+= SEARCH =
+thumb           500     square
+thumb-s         256     square
+
+= INDIE =
+full            2000    max-longest
+thumb-2x        400     max-height
+thumb           200     max-height
+thumb-s         100     max-height
+thumb-xs        100     max-height, quality = 10%
+
+
+========================
+
+PACKAGES
+
+> main.pkgd.js
+  modernizr.min.js
+  ki.min.js
+  anime.min.js
+  tmpl.min.js
+  revealer.min.js
+  blazy.min.js
+  util.js
+  nav.js
+
+> indie.pkdg.js
+  awesomplete.min.js
+  photoswipe.min.js
+  indie.js
+
+> main.pkgd.css
+  normalize.min.css
+  animations.css
+  photoswipe.min.css
+  main.css
+  indie.css
