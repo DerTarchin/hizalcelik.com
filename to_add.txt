@@ -2,8 +2,8 @@ MAIN
 - Grata work
 - Grata logo
 - labs (liquidnet)
-- metals (small metals)
 - Art ML projects
+	> GTA GAN (expand repo in GitHub)
 
 ENHANCEMENTS:
 - 1337 ptt

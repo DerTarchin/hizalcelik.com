@@ -661,7 +661,7 @@
             "id": "carscanner",
             "btn": "View Project",
             "tags": "Processing, RC car, new media, robotics, 3D modeling, code, art",
-            "meta": "college, classwork, Slash 4x4, HCI, Java",
+            "meta": "college, classwork, Slash 4x4, HCI, Java, excap",
             "img": [
                 "carscanner1.jpg",
                 "carscanner2.jpg",
@@ -676,7 +676,7 @@
             "year": 2017,
             "id": "3drc",
             "tags": "3D, RC car, art, video",
-            "meta": "college, classwork, Slash 4x4, experimental, HCI, stereoscopic",
+            "meta": "college, classwork, Slash 4x4, experimental, HCI, stereoscopic, excap",
             "thumb_vid": "3drc.mp4",
             "thumb": "3drc.jpg"
         },
@@ -909,7 +909,7 @@
             "year": 2017,
             "id": "mexico",
             "tags": "Photoshop, new media, art, video",
-            "meta": "college, classwork",
+            "meta": "college, classwork, excap",
             "thumb": "mexico.jpg"
         },
         "abstract": {
@@ -1091,7 +1091,7 @@
             "year": 2017,
             "id": "sem",
             "tags": "photography, art",
-            "meta": "college, classwork, scanning electron microscope",
+            "meta": "college, classwork, scanning electron microscope, excap",
             "thumb": "sem.jpg"
         },
         "ppt": {
@@ -1139,7 +1139,7 @@
             "year": 2017,
             "id": "childhoodrevisited",
             "tags": "Photoshop, photography, art",
-            "meta": "college, classwork",
+            "meta": "college, classwork, excap",
             "thumb": "childhood.jpg"
         },
         "coffee": {
@@ -1191,11 +1191,10 @@
             "thumb": "labs.jpg"
         },
         "metals": {
-            "title": "Metals Pieces",
-            "info": "Small metals manufacturing and design.",
+            "title": "Metal Works",
+            "info": "Small artistic creations made with metals.",
             "year": 2015,
             "id": "metals",
-            "url": "/comingsoon",
             "tags": "manufacturing, art",
             "meta": "college, classwork, metal",
             "thumb": "metals.jpg"
@@ -1226,7 +1225,7 @@
             "year": 2017,
             "id": "photodata",
             "tags": "data-vis, art, photography, code",
-            "meta": "college, classwork, photographer, portrait",
+            "meta": "college, classwork, photographer, portrait, excap",
             "thumb": "photodata.jpg"
         },
         "lines": {
