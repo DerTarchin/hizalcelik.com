@@ -50,6 +50,7 @@ var activeCategory = "", activeWork = "", galleryCallback;
   $('#sidenav').on('click', function(){ $("#sidenav").removeClass('vis') });
   $('html[data-page="gallery"] #nav, html[data-page="gallery"] #sidenav').on('click', function(e) {
     var el = $(e.target);
+    if(el.attr('id') === "home") return; // temporary, until about me page link is restored
     if(el.parent().attr('id') === "nav-more") return;
     if(el.is("a") && !el.hasClass('direct')) { // el[0] != e.currentTarget
       $.stop(e);
