@@ -23,9 +23,6 @@ ENHANCEMENTS:
 - fishbowl
 - attic
 
-CONVERSIONS:
-- dark theme
-
 DUMP? (add info icon (?) to page to explain)
 - college plan (... is this the large web/map pptZ)
 - architecture spiral drawing (f14)
