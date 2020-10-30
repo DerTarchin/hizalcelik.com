@@ -47,7 +47,7 @@ python3 min.py
             // main pic
             <div class="spaced ps-img full"></div>
 
-            // double main pic
+            // double main pic (use class "with-gap" to add 5px space between images)
             <div class="ps-img spaced full img-double"></div>
 
             // gallery

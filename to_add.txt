@@ -6,7 +6,6 @@ MAIN
 	> GTA GAN (expand repo in GitHub)
 
 ENHANCEMENTS:
-- 1337 ptt
 - public defense
 - shapes
 - elaineking [dump?]

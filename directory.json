@@ -550,16 +550,15 @@
             ],
             "thumb": "pixtory.jpg"
         },
-        "darktheme": {
+        "darkthemes": {
             "title": "CSS Dark Themes",
-            "info": "Dark themes created for TradingView, StockTwits, and TradeTheTrend.",
+            "info": "CSS styles designed to transform a site into a dark theme.",
             "year": 2017,
             "style": 4,
-            "id": "darktheme",
-            "url": "https://userstyles.org/users/412168",
+            "id": "darkthemes",
             "btn": "View Project",
             "tags": "CSS, front end, UI, code, design",
-            "meta": "commission work",
+            "meta": "commission work, tradingview, stocktwits",
             "img": [
                 "darktheme1.jpg",
                 "darktheme2.jpg",
@@ -1257,7 +1256,7 @@
     
     "gallery": {
         "code": "nickel, telle, pixtory, yearone, scrabble, missilecommand, sna, followerbot, spec, carscanner, thoughts, clock, galleryend-code",
-        "design": "telle, darktheme, pixtory, nickel, scrabble, sna, yearone, graphicdesign, galleryend-design",
+        "design": "telle, darkthemes, pixtory, nickel, scrabble, sna, yearone, graphicdesign, galleryend-design",
         "art": "yearone, city, endless, graphite, time, inverse, oil, thoughts, pixtory, charcoal, galleryend-art",
         "video": "singularity, endless, piper, bose, moonwalk, 3drc, action, lego, galleryend-video",
         "photo": "photo-people, photo-place, photo-misc, pro-portrait, pro-wedding, pro-event, pro-sports, pro-misc, galleryend-photo"

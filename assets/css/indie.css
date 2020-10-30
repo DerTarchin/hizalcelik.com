@@ -173,10 +173,17 @@ blockquote .code-window .srclink {
 .img-double {
   display: flex;
 }
+.img-double.with-gap {
+  justify-content: space-between;
+}
 .img-double > * {
   width: 50%;
   flex-shrink: 1;
   flex-grow: 1;
+}
+.img-double.with-gap > * {
+  width: calc(50% - 2.5px);
+  flex-grow: 0;
 }
 
 .img-grid {
@@ -665,7 +672,9 @@ div.awesomplete {
   border: 1px solid white;
   padding: .3em;
   min-width: 100%;
+  word-wrap: break-all;
   word-wrap: break-word;
+  min-width: 0;
 }
 
 .projindex .thumbs video { display: none; }
