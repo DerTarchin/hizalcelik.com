@@ -1148,10 +1148,9 @@
         },
         "coffee": {
             "title": "Coffee",
-            "info": "Short film, camerwork by me.",
+            "info": "A short student film.",
             "year": 2016,
             "id": "coffee",
-            "url": "https://vimeo.com/253094867",
             "tags": "video",
             "meta": "college, classwork, short film",
             "thumb": "coffee.jpg"

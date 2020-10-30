@@ -13,7 +13,6 @@ ENHANCEMENTS:
 * all lego animations
 - car rig
 - cat'n'bot
-- coffee
 - color
 - theytalk
 - uss enterprise [dump?]
