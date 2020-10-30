@@ -1036,12 +1036,11 @@
         },
         "1337": {
             "title": "1337",
-            "info": "Interactive PowerPoint game.",
+            "info": "Interactive Microsoft PowerPoint game about cybersecurity.",
             "year": 2016,
             "id": "1337",
-            "url": "https://vimeo.com/214788939",
             "tags": "PowerPoint, interactive, game design, art",
-            "meta": "college, classwork",
+            "meta": "college, classwork, cybersecurity",
             "thumb": "1337.jpg"
         },
         "publicdefense": {

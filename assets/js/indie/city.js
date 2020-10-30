@@ -3,8 +3,8 @@ var img_data = [
     {
       img: 'screenshot.jpg',
       size: '2000x1250',
-      title: 'Screenshot',
-      cap: 'Screenshot of my screen after all shapes have been ungrouped and selected.'
+      title: '45,000 Shapes',
+      cap: 'Screenshot of all shapes ungrouped and selected.'
     }
   ],
   [
@@ -83,6 +83,12 @@ var img_data = [
       size: '800x977',
       title: 'Flying Nissan',
       cap: 'Modelled after my own \'00 Nissan Altima. Not used in the final animation, as it was meant to zoom by the camera.'
+    },
+    {
+      img: 'traffic.jpg',
+      size: '2000x1125',
+      title: 'Traffic patterns (still)',
+      cap: 'Screenshot of animated traffic patterns'
     }
   ],
   [
