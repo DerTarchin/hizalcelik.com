@@ -19,7 +19,6 @@ ENHANCEMENTS:
 - uss enterprise [dump?]
 - abstract
 - 80s
-- samsun
 - fishbowl
 - attic
 
