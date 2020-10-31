@@ -17,7 +17,6 @@ ENHANCEMENTS:
 - theytalk
 - uss enterprise [dump?]
 - abstract
-- 80s
 - fishbowl
 - attic
 
