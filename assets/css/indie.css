@@ -358,6 +358,10 @@ blockquote .code-window .srclink {
   overflow: hidden; 
   max-width: 100%; 
 } 
+.responsive-embed[data-ratio="2.35:1"],
+.responsive-embed[data-ratio="2.4:1"] {
+  padding-bottom: 41.66%;
+}
 
 .responsive-embed iframe, 
 .responsive-embed object, 

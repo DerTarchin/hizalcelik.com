@@ -16,7 +16,6 @@ ENHANCEMENTS:
 - color
 - theytalk
 - uss enterprise [dump?]
-- abstract
 - fishbowl
 - attic
 
