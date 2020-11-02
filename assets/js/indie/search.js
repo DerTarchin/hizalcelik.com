@@ -21,7 +21,13 @@
         "misc.": "miscellaneous",
         "sci-fi": "science fiction",
         "ui-ux": "user interface / experience",
-        "datavis": "data visualization"
+        "ui": "user interface",
+        "ux": "user experience",
+        "science fiction": "sci-fi",
+        "ems": "electronic media studio",
+        "ems:": "electronic media studio:",
+        "datavis": "data visualization",
+        "excap": "experimental capture"
       }
 
   function filter() {
