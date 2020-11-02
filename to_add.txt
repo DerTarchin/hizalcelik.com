@@ -7,7 +7,6 @@ MAIN
 
 ENHANCEMENTS:
 - public defense
-- shapes
 - elaineking [dump?]
 - ppt (showreel)
 * all lego animations

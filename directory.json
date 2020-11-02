@@ -1060,12 +1060,11 @@
         },
         "shapes": {
             "title": "Shapes",
-            "info": "Squares and Circles meet.",
+            "info": "A short animation about shapes.",
             "year": 2017,
             "id": "shapes",
-            "url": "https://vimeo.com/240554161",
             "tags": "2D animation, art, video",
-            "meta": "college, classwork, drawing, animation",
+            "meta": "college, classwork, drawing, animation, satire",
             "thumb": "shapes.jpg"
         },
         "minecraftart": {
