@@ -1032,7 +1032,7 @@
         },
         "1337": {
             "title": "1337",
-            "info": "Interactive Microsoft PowerPoint game about cybersecurity.",
+            "info": "Interactive PowerPoint game about cybersecurity.",
             "year": 2016,
             "id": "1337",
             "tags": "PowerPoint, interactive, game design, art",
@@ -1051,7 +1051,7 @@
         },
         "retrotrump": {
             "title": "Post-Trump Classic Games",
-            "info": "Classic games in Post-Trump America.",
+            "info": "Classic games in post-Trump America.",
             "year": 2017,
             "id": "retrotrump",
             "tags": "Photoshop, interactive, art",
@@ -1116,13 +1116,12 @@
             "thumb": "brenizer.jpg"
         },
         "carrig": {
-            "title": "Car Rig",
-            "info": "Car rigged for suspension and steering.",
+            "title": "3D Car Rig",
+            "info": "3D car rigging experiment.",
             "year": 2012,
             "id": "carrig",
-            "url": "https://vimeo.com/253096222",
             "tags": "3ds Max, 3D modeling, art",
-            "meta": "high school, rig",
+            "meta": "high school, rig, rigging, 3D",
             "thumb": "carrig.jpg"
         },
         "catnbot": {

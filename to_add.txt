@@ -11,7 +11,6 @@ ENHANCEMENTS:
 - elaineking [dump?]
 - ppt (showreel)
 * all lego animations
-- car rig
 - cat'n'bot
 - color
 - theytalk
@@ -73,3 +72,7 @@ DUMP? (add info icon (?) to page to explain)
 - photo restoration for baba dad
 - URL shortener (hiz.al)
 - in case not mentioned here, all of https://github.com/DerTarchin/cmuems-60212
+- Monty Oum / RWBY title animation 3d test (old files > KDY > archive > creative > 3d tests)
+
+
+** review all old files from Kuat Drive Yards, college, and high school (as well as before)
