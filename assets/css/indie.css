@@ -391,6 +391,10 @@ blockquote .code-window .srclink {
   margin-top: 20px;
 }
 
+.project-content > :first-child {
+  margin-top: 0!important;
+}
+
 
 
 /* TABS */

@@ -15,7 +15,6 @@ ENHANCEMENTS:
 - theytalk
 - uss enterprise [dump?]
 - fishbowl
-- attic
 
 DUMP? (add info icon (?) to page to explain)
 - college plan (... is this the large web/map pptZ)

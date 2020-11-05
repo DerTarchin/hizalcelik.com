@@ -983,11 +983,10 @@
         },
         "attic": {
             "title": "Attic",
-            "info": "Textures, lighting, some modeling and set design.",
+            "info": "A 3D project involving textures, lighting, modeling and set design.",
             "year": 2013,
             "id": "attic",
-            "url": "https://www.youtube.com/watch?v=HqJLU_nOny0",
-            "tags": "3ds Max, 3D modeling, art, video",
+            "tags": "3ds Max, 3D modeling, art",
             "meta": "high school",
             "thumb": "attic.jpg"
         },
@@ -1121,7 +1120,8 @@
             "id": "carrig",
             "tags": "3ds Max, 3D modeling, art",
             "meta": "high school, rig, rigging, 3D",
-            "thumb": "carrig.jpg"
+            "thumb": "carrig.jpg",
+            "doodle": true
         },
         "catnbot": {
             "title": "Cat 'n Bot",
@@ -1216,7 +1216,8 @@
             "url": "https://vimeo.com/253094826",
             "tags": "3ds Max, 3D modeling, art",
             "meta": "high school",
-            "thumb": "ussenterprise.jpg"
+            "thumb": "ussenterprise.jpg",
+            "doodle": true
         },
         "photodata": {
             "title": "Photographer's Data",
