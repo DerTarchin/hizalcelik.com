@@ -8,6 +8,7 @@
       blazyTimeout, // blazy timeout
       filterVal = "",
       activeList = [],
+      hidden_doodles = [],
       activeTags = [],
       abbrevs = {
         "js": "javascript",
@@ -28,13 +29,29 @@
         "ems:": "electronic media studio:",
         "datavis": "data visualization",
         "excap": "experimental capture"
+      },
+      showDoodles = !!$('#doodle').attr('checked');
+
+  function hideDoodles() {
+    hidden_doodles = [];
+    activeList.forEach((li,i) => {
+      if(showDoodles) return $(li).show();
+      var visible = true;
+      for(var j=0; j<Object.keys(dir).length; j++) {
+        if(visible && dir[Object.keys(dir)[j]].el === li && (p_cache.work[Object.keys(dir)[j]] || {}).doodle) {
+          $(li).hide();
+          hidden_doodles.push(li)
+          visible = false;
+        }
       }
+    })
+  }
 
   function filter() {
     clearTimeout(blazyTimeout);
     var currVal = awe.input.value.toLowerCase().trim();
     // exit if nothing changed
-    if(currVal === filterVal) return; 
+    if(currVal === filterVal) return hideDoodles(); 
     // show all if no filter
     else if(currVal === "") $('#index-thumbs li').show(); 
     // stricter filter so only apply to currently visible
@@ -50,7 +67,9 @@
         if(activeTags[i].includes(currVal)) {
           for(var j=0; j<dir_tags[activeTags[i]].length; j++) {
             $(dir_tags[activeTags[i]][j]).show();
-            activeList.push(dir_tags[activeTags[i]][j]);
+            if(!activeList.includes(dir_tags[activeTags[i]][j])) {
+              activeList.push(dir_tags[activeTags[i]][j]);
+            }
           }
           newActiveTags.push(activeTags[i]);
         }
@@ -83,7 +102,9 @@
         if(includes) {
           for(var i=0; i<dir_tags[tag].length; i++) {
             $(dir_tags[tag][i]).show();
-            activeList.push(dir_tags[tag][i]);
+            if(!activeList.includes(dir_tags[tag][i])) {
+              activeList.push(dir_tags[tag][i]);
+            }
           }
           activeTags.push(tag);
         }
@@ -118,6 +139,7 @@
             }
             if(hasAll) {
               $(dir[id].el).show();
+              if(!activeList.includes(dir[id].el))
               activeList.push(dir[id].el);
             }
           })
@@ -125,6 +147,8 @@
       }
     }
     filterVal = currVal;
+    hideDoodles();
+
     blazyTimeout = setTimeout(function(){ 
       blazy.revalidate();
       setTimeout(function(){ blazy.revalidate() }, 1500);
@@ -147,6 +171,10 @@
         };
         if(!dir[id].tags.includes(tag+'')) dir[id].tags.push(tag+'');
       }
+      function addHiddenTag(tag) {
+        if(!(tag in dir_tags_hidden)) dir_tags_hidden[tag] = [li];
+        else dir_tags_hidden[tag].push(li);
+      }
       // if videos supported, and video exists, use video template
       li.innerHTML = tmpl(thumb_tmpl, data);
       // append child
@@ -155,6 +183,7 @@
       
       // add title
       addTag(data.title.toLowerCase());
+
       // add shortcut-corrected title
       var shortcut_title = data.title.toLowerCase().split(' ');
       for(var i=0; i<shortcut_title.length; i++) {
@@ -180,10 +209,10 @@
         }
       }
       for(var i=0; i<years.length; i++) {
-        // e.g. convert 18 > 2018
+        // e.g. convert 18 >> 2018
         if(parseInt(years[i], 10) < 100) years[i] = parseInt(years[i], 10) + 2000;
         else years[i] = parseInt(years[i], 10);
-        addTag(years[i]);
+        addHiddenTag(years[i]);
       }
       
       // add shortcut tags
@@ -193,12 +222,19 @@
         tag = tag.join(' ');
         if(tag !== tags[i].toLowerCase()) tags.push(tag);
       }
+
       // add included tags
       for(var i=0; i<tags.length; i++) addTag(tags[i].toLowerCase())
 
+      // add ID to hidden tags
       var id = (data.group_id || data.id).toLowerCase();
-      if(!(id in dir_tags_hidden)) dir_tags_hidden[id] = [li];
-      else dir_tags_hidden[id].push(li);
+      addHiddenTag(id);
+
+      // add "doodle" status to hidden tags
+      if("doodle" in data) {
+        addHiddenTag("doodle");
+        addHiddenTag("creative experiment");
+      }
       
       // add gallery categories
       var cats = Object.keys(p_cache.gallery);
@@ -213,7 +249,10 @@
       var work = p_cache.work[w]; // current work
       if("dirignore" in work) continue; // skip directory-ignored items
       var tags = "tags" in work ? work.tags.split(', ') : [];
-      if("meta" in work) tags.push(...work.meta.split(', '));
+      if("meta" in work) {
+        var meta = work.meta.split(', ');
+        for(var m=0; m<meta.length; m++) tags.push(meta[m]);
+      }
       if("group" in p_cache.work[w]) {
         for(var j=0; j<p_cache.work[w]['group'].length; j++)
           processTmpl(p_cache.work[w]['group'][j], tags);
@@ -262,9 +301,17 @@
       },0);
     }
 
+    function doodleAndFilter(e) {
+      setTimeout(function(){
+        showDoodles = e.target.checked;
+        filter(true);
+      },0);
+    }
+
     $('#filter').on('keyup', filter);
     $('#filter').on('change', filterAndURL);
     $('#filter').on('awesomplete-select', filterAndURL);
+    $('#doodle').on('change', doodleAndFilter);
 
     if(!isMobile()) $("#filter")[0].focus();
   }

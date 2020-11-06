@@ -204,9 +204,9 @@ var checkVideoAutplaySupport = function(e) {
     if(p) {
       var playPromise = v.play();
       if (playPromise !== undefined) {
-        playPromise.then(_ => {
+        playPromise.then(function() {
           returnFn(p)
-        }).catch(error => {
+        }).catch(function(error) {
           returnFn(p)
         });
       }

@@ -341,7 +341,7 @@ function initIndiePage(img_data, page) {
   // add external gallery triggers
   $('.ps-trigger').on('click', function(e){
     $.stop(e);
-    simulateClick($(`[id="${$(this).attr('data-target')}"]`)[0]);
+    simulateClick($('[id="' + $(this).attr('data-target') + '"]')[0]);
   })
 
   // init thumbnails

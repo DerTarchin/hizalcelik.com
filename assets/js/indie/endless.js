@@ -64,10 +64,6 @@ var img_data = [
       img: 'world10.jpg',
       size: '2000x1250',
     },
-    {
-      img: 'world11.jpg',
-      size: '2000x1250',
-    },
   ],
   [
     {
