@@ -1196,7 +1196,26 @@
             "id": "metals",
             "tags": "manufacturing, art",
             "meta": "college, classwork, metal, 3d media studio: small metals",
-            "thumb": "metals.jpg"
+            "group": [
+                {
+                    "group_id": "metals",
+                    "title": "Chamber",
+                    "year": 2015,
+                    "thumb": "metals1.jpg"
+                },
+                {
+                    "group_id": "metals",
+                    "title": "Selfie Badge",
+                    "year": 2015,
+                    "thumb": "metals2.jpg"
+                },
+                {
+                    "group_id": "metals",
+                    "title": "Heart Trinkets",
+                    "year": 2015,
+                    "thumb": "metals3.jpg"
+                }
+            ]
         },
         "theytalk": {
             "title": "They Talk",
