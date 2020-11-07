@@ -484,44 +484,49 @@ template {
 .overlay-tags {
   display: inline-block;
   margin: 0;
-  padding: 0;
   list-style: none;
   text-decoration: none;
-  font-size: .5em;
+  font-size: .7em;
+  padding: .5em;
   background: white;
   max-width: 90%;
   opacity: 0;
+  overflow: auto;
+  white-space: nowrap;
+  position: relative;
   -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+}
+.overlay-tags::-webkit-scrollbar {
+  display: none;
 }
 
 .overlay-tags li {
+  z-index: 2;
+  border: 1px solid black;
+  position: relative;
+  padding: .25em;
   display: inline-block;
-  color: black;
-  font-size: 1em;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
   line-height: 1em;
-  letter-spacing: 0.5em;
+  letter-spacing: 0.3em;
   text-decoration: none;
   white-space: nowrap;
   text-transform: uppercase;
-  position: relative;  
   cursor: pointer;
-  background: white;
-  padding: 0;
-  tranform: scale(1);
-  -webkit-clip-path: polygon(0% 0%, 0% 0%, 100% 0%, 100% 0%, 100% 100%, 100% 100%, 0% 100%, 0% 100%);
-          clip-path: polygon(0% 0%, 0% 0%, 100% 0%, 100% 0%, 100% 100%, 100% 100%, 0% 100%, 0% 100%);
-  -webkit-transition:-webkit-transform .1s ease-in, -webkit-clip-path .1s ease-in;
-  transition:-webkit-transform .1s ease-in, -webkit-clip-path .1s ease-in;
-  transition:transform .1s ease-in, clip-path .1s ease-in;
-  transition: transform .1s ease-in, clip-path .1s ease-in, -webkit-transform .1s ease-in, -webkit-clip-path .1s ease-in;
+  color:  black;
+}
+.overlay-tags li:not(:last-child) {
+  margin-right: -.5em;
+  border-right: 0;
+}
+.overlay-tags li:not(:first-child) {
+  border-left: 0;
 }
 
 .hover .overlay-tags li:hover {
-  -webkit-transform: scale(1.6);
-          transform: scale(1.6);
-  z-index: 1;
-  -webkit-clip-path: polygon(0% 25%, 25% 0%, 75% 0%, 100% 25%, 100% 75%, 75% 100%, 25% 100%, 0% 75%);
-          clip-path: polygon(0% 25%, 25% 0%, 75% 0%, 100% 25%, 100% 75%, 75% 100%, 25% 100%, 0% 75%);
+  color: #b0bec5;
+  background: black;
 }
 
 .overlay-tags a {
