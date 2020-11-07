@@ -474,19 +474,24 @@ template {
   user-select: none;
 }
 
+.overlay-tags-wrapper {
+  position: absolute;
+  left: 0;
+  bottom: 5%;
+  width: 100%;
+  text-align: center;
+}
 .overlay-tags {
+  display: inline-block;
   margin: 0;
   padding: 0;
   list-style: none;
   text-decoration: none;
   font-size: .5em;
   background: white;
-  position: absolute;
   max-width: 90%;
-  bottom: 5%;
   opacity: 0;
   -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-  text-align: center;
 }
 
 .overlay-tags li {
@@ -838,6 +843,8 @@ template {
 .no-clippath .style-2 .shard-2 {
   width: 40%;
   height: 49%;
+  top: 0;
+  left: 0;
 }
 
 .no-clippath .style-2 .shard-3 {
@@ -872,6 +879,8 @@ template {
 .no-clippath .style-4 .shard-2 {
   width: 60%;
   height: 49%;
+  top: 0;
+  left: 0;
 }
 
 .no-clippath .style-4 .shard-3 {

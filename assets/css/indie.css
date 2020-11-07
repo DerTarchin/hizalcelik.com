@@ -159,11 +159,20 @@ blockquote .code-window .srclink {
 .card-img.right a { -webkit-box-pack: end; -ms-flex-pack: end; justify-content: flex-end; }
 .card-img.bottom a { -webkit-box-align: end; -ms-flex-align: end; -ms-grid-row-align: flex-end; align-items: flex-end; }
 .card-img.left a { -webkit-box-pack: start; -ms-flex-pack: start; justify-content: flex-start; }
-.card-img:hover a { opacity: .5; -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)" }
+.card-img:hover a { opacity: .5; -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)"; }
 .card-img img { position: absolute; }
 .card-img-static img {
   position: absolute;
   max-height: 100%;
+}
+/* IE hotfix */
+.no-clippath .card-img img,
+.no-clippath .card-img-static img {
+  top: 50%;
+  left: 50%;
+  -webkit-transform:translate(-50%,-50%);
+      -ms-transform:translate(-50%,-50%);
+          transform:translate(-50%,-50%);
 }
 
 .img-single {
@@ -218,13 +227,27 @@ blockquote .code-window .srclink {
 .img-grid .b-lazy,
 .card-img .b-lazy {
   margin: 0;
-  transition: filter .3s, transform .3s;
+  -webkit-transition: -webkit-filter .3s, -webkit-transform .3s;
+          transition: -webkit-filter .3s, -webkit-transform .3s;
+       -o-transition: filter .3s, transform .3s;
+          transition: filter .3s, transform .3s;
+          transition: filter .3s, transform .3s, -webkit-filter .3s, -webkit-transform .3s;
 }
 
 .img-grid .b-lazy:not(.b-loaded),
 .card-img .b-lazy:not(.b-loaded) {
-  filter: blur(10px);
-  transform: scale(1.2);
+  -webkit-filter: blur(10px);
+          filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius='10');
+          filter: blur(10px);
+  -webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.no-clippath .card-img .b-lazy:not(.b-loaded) {
+  -webkit-transform: scale(1.2) translate(-50%, -50%);
+      -ms-transform: scale(1.2) translate(-50%, -50%);
+          transform: scale(1.2) translate(-50%, -50%);
 }
 
 .img-grid.img-small img {
@@ -650,10 +673,6 @@ div.awesomplete {
   background: rgba(0,0,0,.5);
   -webkit-transform: translate3d(-100%,0,0);
           transform: translate3d(-100%,0,0);
-  -webkit-transition: -webkit-transform 0.18s;
-          transition: -webkit-transform 0.18s;
-          transition: transform 0.18s;
-          transition: transform 0.18s, -webkit-transform 0.18s;
   -webkit-transition-timing-function: cubic-bezier(0.7,0,0.3,1);
           transition-timing-function: cubic-bezier(0.7,0,0.3,1);
   text-transform: uppercase;
@@ -662,11 +681,24 @@ div.awesomplete {
   text-align: center;
   padding: .3em;
   cursor: pointer;
+
+  visibility: hidden;
+  -webkit-transition: visibility 0s 0.18s, -webkit-transform 0.18s;
+          transition: visibility 0s 0.18s, -webkit-transform 0.18s;
+       -o-transition: transform 0.18s, visibility 0s 0.18s;
+          transition: transform 0.18s, visibility 0s 0.18s;
+          transition: transform 0.18s, visibility 0s 0.18s, -webkit-transform 0.18s;
 }
 
 .projindex li:hover .thumb-overlay {
   -webkit-transform: translate3d(0,0,0);
           transform: translate3d(0,0,0);
+  visibility: visible;
+  -webkit-transition: visibility 0s 0.18s, -webkit-transform 0.18s;
+          transition: visibility 0s 0.18s, -webkit-transform 0.18s;
+       -o-transition: transform 0.18s, visibility 0s 0.18s;
+          transition: transform 0.18s, visibility 0s 0.18s;
+          transition: transform 0.18s, visibility 0s 0s, -webkit-transform 0.18s;
 }
 
 .projindex .thumbs img,
@@ -681,7 +713,6 @@ div.awesomplete {
   padding: .3em;
   min-width: 100%;
   word-wrap: break-all;
-  word-wrap: break-word;
   min-width: 0;
 }
 
@@ -692,6 +723,8 @@ div.awesomplete {
 
 .filter-checkbox {
   margin-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   align-items: center;
 }

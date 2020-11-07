@@ -34,17 +34,20 @@
 
   function hideDoodles() {
     hidden_doodles = [];
-    activeList.forEach((li,i) => {
-      if(showDoodles) return $(li).show();
-      var visible = true;
-      for(var j=0; j<Object.keys(dir).length; j++) {
-        if(visible && dir[Object.keys(dir)[j]].el === li && (p_cache.work[Object.keys(dir)[j]] || {}).doodle) {
-          $(li).hide();
-          hidden_doodles.push(li)
-          visible = false;
+    for(var i=0; i<activeList.length; i++) {
+      li = activeList[i];
+      if(showDoodles) $(li).show();
+      else {
+        var visible = true;
+        for(var j=0; j<Object.keys(dir).length; j++) {
+          if(visible && dir[Object.keys(dir)[j]].el === li && (p_cache.work[Object.keys(dir)[j]] || {}).doodle) {
+            $(li).hide();
+            hidden_doodles.push(li)
+            visible = false;
+          }
         }
       }
-    })
+    }
   }
 
   function filter() {

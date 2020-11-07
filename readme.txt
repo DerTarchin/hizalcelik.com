@@ -15,6 +15,7 @@ tools:
 https://www.minifier.org/
 https://www.uglifyjs.net/
 https://compressjpeg.com/
+https://autoprefixer.github.io/
 
 to set up venv run:
 
