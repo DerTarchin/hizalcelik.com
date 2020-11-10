@@ -133,6 +133,12 @@ blockquote .code-window .srclink {
   white-space: normal;
 }
 
+.indie p code {
+  padding: .05em .3em;
+  border-radius: 5px;
+  background: #1e1e24;
+}
+
 .card-img a,
 .card-img-static a {
   display: -webkit-box;
@@ -517,6 +523,7 @@ div.awesomplete {
   width: 100%;
   background: transparent;
   border: 1px solid #b0bec5;
+  border-radius: 0;
   color: white;
   padding: .5em 1em;
   text-transform: uppercase;

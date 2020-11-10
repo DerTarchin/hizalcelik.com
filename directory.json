@@ -1181,12 +1181,11 @@
         },
         "labs": {
             "title": "Liquidnet Labs",
-            "info": "A fresh design with unique solutions.",
+            "info": "An experimental landing page exploring parallax techniques.",
             "year": 2017,
             "id": "labs",
-            "url": "/comingsoon",
             "tags": "HTML, CSS, JS, graphic design, UI, UX, design, code",
-            "meta": "professional work, front-end",
+            "meta": "professional work, front-end, parallax",
             "thumb": "labs.jpg"
         },
         "metals": {
