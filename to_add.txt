@@ -7,7 +7,6 @@ MAIN
 - looky-findy
 
 ENHANCEMENTS:
-- public defense
 - ppt (showreel)
 * all lego animations
 - cat'n'bot
