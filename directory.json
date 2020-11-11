@@ -969,7 +969,8 @@
             "id": "chirp",
             "tags": "Maya, Vue xStream, 3D animation, 3D modeling, art, video",
             "meta": "college, classwork, animation, 3D deformers, animation art and tech (studio)",
-            "thumb": "chirp.jpg"
+            "thumb": "chirp.jpg",
+            "doodle": true
         },
         "fishbowl": {
             "title": "Fishbowl",
@@ -1075,14 +1076,13 @@
             "meta": "college, classwork, public art, Minecraft, intro to contextual practice (studio)",
             "thumb": "minecraftart.jpg"
         },
-        "elaineking": {
-            "title": "Elaine A. King Website",
-            "info": "Personal website of this CMU professor.",
+        "eak": {
+            "title": "Elaine A. King's Website",
+            "info": "Personal website of a professor at CMU.",
             "year": 2016,
-            "id": "elaineking",
-            "url": "http://artscool.cfa.cmu.edu/~king/",
-            "tags": "HTML, CSS, code",
-            "meta": "commission work",
+            "id": "eak",
+            "tags": "HTML, CSS, code, web development",
+            "meta": "commission work, website",
             "thumb": "elaineking.jpg"
         },
         "sem": {
@@ -1185,7 +1185,7 @@
             "year": 2017,
             "id": "labs",
             "tags": "HTML, CSS, JS, graphic design, UI, UX, design, code",
-            "meta": "professional work, front-end, parallax",
+            "meta": "professional work, front-end, parallax, web design, website",
             "thumb": "labs.jpg"
         },
         "metals": {

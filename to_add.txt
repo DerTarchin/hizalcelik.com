@@ -1,22 +1,22 @@
 MAIN
 - Grata work
 - Grata logo
-- labs (liquidnet)
 - Art ML projects
 	> GTA GAN (expand repo in GitHub)
+- splat squared
+- looky-findy
 
 ENHANCEMENTS:
 - public defense
-- elaineking [dump?]
 - ppt (showreel)
 * all lego animations
 - cat'n'bot
 - color
 - theytalk
-- uss enterprise [dump?]
 - fishbowl
 
 DUMP? (add info icon (?) to page to explain)
+- uss enterprise [dump?]
 - college plan (... is this the large web/map pptZ)
 - architecture spiral drawing (f14)
 - perspective home (f14)
