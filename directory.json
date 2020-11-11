@@ -977,7 +977,6 @@
             "info": "A short story of a fish discovering a portal network.",
             "year": 2016,
             "id": "fishbowl",
-            "url": "https://vimeo.com/250009027",
             "tags": "Maya, 3D animation, 3D modeling, art, video",
             "meta": "college, classwork, animation, animation art and tech (studio)",
             "thumb": "fishbowl.jpg"
@@ -1044,7 +1043,7 @@
             "info": "Informative website about the indigent defense crisis.",
             "year": 2016,
             "id": "publicdefense",
-            "tags": "HTML, CSS, JS, code",
+            "tags": "HTML, CSS, JS, art, code",
             "meta": "college, classwork, research, website, web design, digital storytelling and resistance (studio)",
             "thumb": "publicdefense.jpg"
         },
