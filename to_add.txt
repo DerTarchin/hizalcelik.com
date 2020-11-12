@@ -8,14 +8,12 @@ MAIN
 
 ENHANCEMENTS:
 - ppt (showreel)
-* all lego animations
+* all lego animations (split into projects)
 - cat'n'bot
 - color
 - theytalk
-- fishbowl
 
 DUMP? (add info icon (?) to page to explain)
-- uss enterprise [dump?]
 - college plan (... is this the large web/map pptZ)
 - architecture spiral drawing (f14)
 - perspective home (f14)

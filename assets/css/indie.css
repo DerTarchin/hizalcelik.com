@@ -728,8 +728,20 @@ div.awesomplete {
 .video.videoautoplay .projindex .thumbs video { display: block; }
 .video.videoautoplay .projindex .thumbs video + img { display: none; }
 
-.filter-checkbox {
+.filter-sub {
   margin-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.filter-sub #count {
+  opacity: .5;
+  user-select: none;
+}
+
+.filter-checkbox {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

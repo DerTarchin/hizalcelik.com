@@ -32,6 +32,11 @@
       },
       showDoodles = !!$('#doodle').attr('checked');
 
+  function updateCounter() {
+    var count = activeList.length - hidden_doodles.length;
+    $('#count')[0].innerHTML = count + ' project' + (count === 1 ? '' : 's');
+  }
+
   function hideDoodles() {
     hidden_doodles = [];
     for(var i=0; i<activeList.length; i++) {
@@ -48,6 +53,7 @@
         }
       }
     }
+    updateCounter();
   }
 
   function filter() {
@@ -163,6 +169,7 @@
 
     function processTmpl(data, tags) {
       var li = document.createElement("li");
+      activeList.push(li);
       li.setAttribute('title', data.info || data.title)
       function addTag(tag) {
         if(!dir_tags[tag]) dir_tags[tag] = [li];
@@ -307,7 +314,7 @@
     function doodleAndFilter(e) {
       setTimeout(function(){
         showDoodles = e.target.checked;
-        filter(true);
+        filter();
       },0);
     }
 
