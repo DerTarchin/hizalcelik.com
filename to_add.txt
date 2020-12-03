@@ -14,7 +14,6 @@ ENHANCEMENTS:
 * all lego animations (split into projects)
 - cat'n'bot
 - color
-- theytalk
 
 DUMP? (add info icon (?) to page to explain)
 - college plan (... is this the large web/map pptZ)
@@ -36,7 +35,7 @@ DUMP? (add info icon (?) to page to explain)
 - painting 24 (f15)
 - loop (gif) f16
 - skeleton
-- ATAT
+- ATAT (self driving rc)
 - spray paints (s15)
 - monotypes (s15)
 - 15-122 finals cheat sheet
@@ -57,7 +56,7 @@ DUMP? (add info icon (?) to page to explain)
 - outlier project (s17)
 - 3d2.gif (s17)
 - iconic history (one for every year?) (s17)
-- compare my website with older one
+- compare my website with older one (old hizalcelik.com)
 - fiyel motion graphic
 - NAHS login?
 - text counter
