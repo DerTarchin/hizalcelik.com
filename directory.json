@@ -1113,7 +1113,7 @@
         },
         "carrig": {
             "title": "3D Car Rig",
-            "info": "3D car rigging experiment.",
+            "info": "Learning to rig a 3D model car.",
             "year": 2012,
             "id": "carrig",
             "tags": "3ds Max, 3D modeling, art",
@@ -1219,7 +1219,6 @@
             "info": "A short film about world with telepathic communication.",
             "year": 2017,
             "id": "theytalk",
-            "url": "https://vimeo.com/253096854",
             "tags": "video",
             "meta": "college, classwork, short film, experimental sci-fi studio",
             "thumb": "theytalk.jpg"

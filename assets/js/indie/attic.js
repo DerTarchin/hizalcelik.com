@@ -35,7 +35,7 @@ var img_data = [
       title: 'Attic Inspiration',
     },
     {
-      img: 'inspo_attic_5.jpg',
+      img: 'inspo_attic_5.jpeg',
       size: '500x333',
       title: 'Attic Inspiration',
     },

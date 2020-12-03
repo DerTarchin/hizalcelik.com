@@ -5,6 +5,9 @@ MAIN
 	> GTA GAN (expand repo in GitHub)
 - splat squared
 - looky-findy
+- hizalcelik.com
+- deltapoint
+- dianaconnolly.me
 
 ENHANCEMENTS:
 - ppt (showreel)

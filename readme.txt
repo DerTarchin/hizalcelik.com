@@ -123,6 +123,14 @@ __CODE__
                 </a>
             </blockquote>
 
+            // media link
+            <blockquote class="source">
+                <div class="card-img-static"><a target="_blank" href="__LINK__"><img src="/assets/media/media.jpg"></a></div>
+                <a target="_blank" href="__LINK__" class="text">
+                    <h3>View the file</h3>
+                </a>
+            </blockquote>
+
             // image opener trigger
             <a class="ps-trigger" data-target="__IMAGE_NAME__">__TEXT__</a>
 
