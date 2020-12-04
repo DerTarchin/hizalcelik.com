@@ -54,7 +54,6 @@ DUMP? (add info icon (?) to page to explain)
 - color: SatSpace
 - color: Wrong
 - outlier project (s17)
-- 3d2.gif (s17)
 - iconic history (one for every year?) (s17)
 - compare my website with older one (old hizalcelik.com)
 - fiyel motion graphic

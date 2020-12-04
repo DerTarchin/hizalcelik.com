@@ -1250,6 +1250,15 @@
             "tags": "Processing, interactive, new media, art, code",
             "meta": "college, classwork, Java, ems: interactivity",
             "thumb": "lines.jpg"
+        },
+        "laptop": {
+            "title": "3D Laptop Scan",
+            "info": "A photogrammetry experiment.",
+            "year": 2017,
+            "id": "laptop",
+            "tags": "3D, art",
+            "meta": "college, classwork, photogrammetry, excap (studio)",
+            "thumb": "lines.jpg"
         }
     },
 
