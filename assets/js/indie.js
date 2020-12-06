@@ -277,7 +277,7 @@ function fillImgContainers(img_data, folder) {
         img.attr('data-src-s', img_path + p.s + data.img);
         img.attr('data-src', img_path + p.m + data.img + '|' + img_path + p.l + data.img);
       }
-      img.attr('src', img_path + (isFull ? p.s : p.xs) + data.img.replace('.gif', '.jpg'));
+      img.attr('src', img_path + (isFull ? p.s : p.xs) + data.img);
       img.attr('alt', data.title || '');
       img.attr('data-caption', data.cap || '');
 

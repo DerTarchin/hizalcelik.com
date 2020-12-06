@@ -233,6 +233,10 @@ blockquote .code-window .srclink {
   position: relative;
 }
 
+.ps-img.full {
+  overflow: hidden;
+}
+.ps-img.full .b-lazy,
 .img-grid .b-lazy,
 .card-img .b-lazy {
   margin: 0;
@@ -243,6 +247,7 @@ blockquote .code-window .srclink {
           transition: filter .3s, transform .3s, -webkit-filter .3s, -webkit-transform .3s;
 }
 
+.ps-img.full .b-lazy:not(.b-loaded),
 .img-grid .b-lazy:not(.b-loaded),
 .card-img .b-lazy:not(.b-loaded) {
   -webkit-filter: blur(10px);

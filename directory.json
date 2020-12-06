@@ -1258,7 +1258,9 @@
             "id": "laptop",
             "tags": "3D, art",
             "meta": "college, classwork, photogrammetry, excap (studio)",
-            "thumb": "lines.jpg"
+            "thumb_vid": "laptop.mp4",
+            "thumb": "laptop.jpg",
+            "doodle": true
         }
     },
 

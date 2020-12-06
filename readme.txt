@@ -141,7 +141,9 @@ __CODE__
 ========================
 
 SIZES
-(use JPEGMini and https://compressjpeg.com/)
+images >> use JPEGMini and https://compressjpeg.com/ or https://compresspng.com/
+gifs >> use https://ezgif.com/
+videos >> use Handbrake (?)
 
 = GALLERY =
 gallery-l       2000    max-longest
@@ -158,7 +160,9 @@ full            2000    max-longest
 thumb-2x        400     max-height
 thumb           200     max-height
 thumb-s         100     max-height
-thumb-xs        100     max-height, quality = 10%
+thumb-xs        100     max-height, quality = 10%      
+thumb-xs (gif)  25      max-height (with ideal size: 1-30kb)
+                        ^ can also cut framerate (slower speed), max frames to 25,50
 
 
 ========================
