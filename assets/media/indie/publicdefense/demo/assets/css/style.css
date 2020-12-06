@@ -283,3 +283,26 @@ button:active {
 	-webkit-animation-direction: alternate-reverse;
 	animation-direction: alternate-reverse; 
 }
+
+@media only screen and (max-width: 1000px) {
+  .info {
+    font-size: 12px;
+    padding-right: 35px;
+  }
+  .linkboxtext {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 680px) {
+  .info {
+    font-size: 7px;
+    padding-right: 20px;
+  }
+  .bar > .title {
+    width: auto;
+    flex: initial;
+  }
+  .linkboxtext {
+    font-size: 10px;
+  }
+}

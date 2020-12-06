@@ -369,8 +369,10 @@ var p_cache_callbacks = [], p_cache; // project cache, API callbacks
 (function(){
   function getProjectData(res, err) {
     if(err) return alert(err);
-    p_cache = JSON.parse(res);
+    parseDirectory(res);
+
+    // call all callbacks
     for(var i=0; i<p_cache_callbacks.length; i++) p_cache_callbacks[i]();
   }
-  if(typeof p_cache === "undefined") getFile(project_data_url, getProjectData);
+  if(!p_cache) getFile(project_data_url, getProjectData);
 })();

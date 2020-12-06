@@ -7,43 +7,41 @@ updating CSS/JS assets:
 $ ./min
 
 
-
 ========================
 
-tools:
 
+>> TOOLS:
 https://www.minifier.org/
 https://www.uglifyjs.net/
 https://compressjpeg.com/
+https://compresspng.com/
 https://autoprefixer.github.io/
+https://ezgif.com/
 
-to set up venv run:
-
+>> VENV SETUP:
 $ python3 -m venv venv
 $ source venv/bin/activate
 $ curl https://bootstrap.pypa.io/get-pip.py | python && pip install --upgrade setuptools
 
-to install libs run
+>> INSTALL LIBS
 $ source venv/bin/activate
 $ pip install csscompressor
 $ pip install jsmin
 
-to enter venv run*: 
+>> START VENV*: 
 von
 
-to exit venv run*: 
+>> EXIT VENV*: 
 voff
 
-to run minifier:
+>> RUN MINIFIER:
 python3 min.py
 
-* >> alias is specific to device
-
-
-
+* -> alias is specific to device
 
 
 ========================
+
 
             // main pic
             <div class="spaced ps-img full"></div>
@@ -137,10 +135,10 @@ __CODE__
             <div style="background: #fec107; color: #654404; padding: 8px 15px; border-radius: 8px; margin-bottom: 35px"><b>Update:</b> As of 2020, an updated documentation for this project is now on my website at <b><a href="http://hizalcelik.com/PROJ_ID" style="color: #654404">hiz.al/PROJ_ID</a></b>.</div>
 
 
-
 ========================
 
-SIZES
+
+>> SIZES
 images >> use JPEGMini and https://compressjpeg.com/ or https://compresspng.com/
 gifs >> use https://ezgif.com/
 videos >> use Handbrake (?)
@@ -167,7 +165,8 @@ thumb-xs (gif)  25      max-height (with ideal size: 1-30kb)
 
 ========================
 
-PACKAGES
+
+>> PACKAGES
 
 > main.pkgd.js
   modernizr.min.js
@@ -190,3 +189,19 @@ PACKAGES
   photoswipe.min.css
   main.css
   indie.css
+
+
+========================
+
+
+>> TO USE DIRECTORY / GALLERY:
+- "thumb": leave null for default `${id}.jpg`, or filename to override
+- "thumb_vid": use "true" to default to `${id}.mp4` or filename to override
+- "tags" are searchable tags, visible in project page footers and gallery projects
+- "meta" are searchable tags, visible in project page footers only
+- "url" used by All Works page to link the tile to a URL rather than project page
+- "info" is used for subtitle in gallery page and tooltip for All Works page
+== GALLERY ITEMS
+- "img" is used for gallery page shards
+- "style" defines the gallery page shart style (1-5)
+- "btn" is text in the gallery page "view project" button

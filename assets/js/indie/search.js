@@ -290,10 +290,10 @@
     // init the directory
     function getProjectData(res, err) {
       if(err) return
-      p_cache = JSON.parse(res);
+      parseDirectory(res);
       initDirectory();
     }
-    if(typeof p_cache === "undefined") getFile(project_data_url, getProjectData);
+    if(!p_cache) getFile(project_data_url, getProjectData);
     else initDirectory();
 
     setTimeout(function() { blazy.revalidate() }, 50); // avoid non-trigger glitch

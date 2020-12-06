@@ -310,7 +310,7 @@
       alert(err);
       return;
     }
-    p_cache = JSON.parse(res);
+    parseDirectory(res);
     galleryCallback();
   }
 

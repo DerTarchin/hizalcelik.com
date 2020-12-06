@@ -5,6 +5,33 @@ var project_data_url = "/directory.json",
 
 var close_tmpl = '<div class="close-container"><div class="nav-btn close"><svg viewBox="0 0 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg"><line x1="1" y1="11" x2="11" y2="1"/><line x1="1" y1="1" x2="11" y2="11"/></svg></div></div>';
 
+function parseDirectory(file) {
+  p_cache = JSON.parse(file);
+
+  // add "id" field to all projects, based on the key
+  if((p_cache || {}).work) { 
+    var keys = Object.keys(p_cache.work)
+    for(var i=0; i<keys.length; i++) {
+      // set id
+      p_cache.work[keys[i]].id = keys[i];
+      // set id for group elements
+      if(p_cache.work[keys[i]].group) {
+        for(var j=0; j<p_cache.work[keys[i]].group.length; j++) {
+          p_cache.work[keys[i]].group[j].group_id = keys[i];
+        }
+      }
+      // set thumb if it doesn't exist
+      if(!p_cache.work[keys[i]].thumb) {
+        p_cache.work[keys[i]].thumb = keys[i] + '.jpg';
+      }
+      // set thumb_vid if it needed, and isn't defined
+      if(p_cache.work[keys[i]].thumb_vid === true) {
+        p_cache.work[keys[i]].thumb_vid = keys[i] + '.mp4';
+      }
+    }
+  }
+}
+
 function getFile(url, fn) {
   var request = new XMLHttpRequest();
   request.open('GET', url, true);

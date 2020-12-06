@@ -46,7 +46,8 @@ var activeCategory = "", activeWork = "", galleryCallback;
   }
   checkForActiveLinks();
 
-  $('#nav-more, #nav-mobile').on('click', function(){ $("#sidenav").addClass('vis') });
+  // $('#nav-more, #nav-mobile').on('click', function(){ $("#sidenav").addClass('vis') });
+  $('#nav-mobile').on('click', function(){ $("#sidenav").addClass('vis') });
   $('#sidenav').on('click', function(){ $("#sidenav").removeClass('vis') });
   $('html[data-page="gallery"] #nav, html[data-page="gallery"] #sidenav').on('click', function(e) {
     var el = $(e.target);

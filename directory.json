@@ -1,697 +1,10 @@
 {
     "work": {
-        "singularity": {
-            "title": "Singularity",
-            "info": "Fractal-generated sci-fi music video for De Lirium's Order.",
-            "year": 2019,
-            "style": 4,
-            "id": "singularity",
-            "btn": "View Project",
-            "tags": "CGI, fractal, After Effects, 3D animation, art, video",
-            "meta": "commission work, music video, Photoshop, sci-fi, short film, animation",
-            "img": [
-                "singularity1.jpg",
-                "singularity3.jpg",
-                "singularity2.jpg"
-            ],
-            "thumb": "singularity.jpg"
-        },
-        "endless": {
-            "title": "Endless",
-            "info": "Fractal-generated sci-fi short film.",
-            "year": 2017,
-            "style": 2,
-            "id": "endless",
-            "btn": "View Project",
-            "tags": "CGI, fractal, 3D animation, art, video",
-            "meta": "college, classwork, short film, music video, animation, experimental sci-fi studio",
-            "img": [
-                "endless1.jpg",
-                "endless2.jpg",
-                "endless3.jpg"
-            ],
-            "thumb_vid": "endless.mp4",
-            "thumb": "endless.jpg"
-        },
-        "thoughts": {
-            "title": "Thinking Mind",
-            "info": "Sound-sensitive particle system representing thoughts.",
-            "year": 2015,
-            "style": 1,
-            "id": "thoughts",
-            "btn": "View Project",
-            "tags": "Processing, interactive, generative, new media, code, art",
-            "meta": "college, classwork, synapses, CGI, thought process, Java, concept studio: self and the human being",
-            "img": [
-                "thoughts2.jpg",
-                "thoughts1.jpg",
-                "thoughts3.jpg"
-            ],
-            "thumb_vid": "thoughts.mp4",
-            "thumb": "thoughts.jpg"
-        },
-        "clock": {
-            "title": "Clock Clock",
-            "info": "Group of analog clocks creating a single digital time display.",
-            "year": 2014,
-            "style": 3,
-            "id": "clock",
-            "btn": "View Project",
-            "tags": "Processing, new media, interactive, art, code",
-            "meta": "college, classwork, analog, CGI, Java, ems: interactivity",
-            "img": [
-                "clock1.jpg",
-                "clock2.jpg",
-                "clock3.jpg"
-            ],
-            "thumb_vid": "clock.mp4",
-            "thumb": "clock.jpg"
-        },
-        "oil": {
-            "title": "Oil paintings",
-            "info": "Oil on canvas.",
-            "year": "2011,2015",
-            "style": 4,
-            "id": "oil",
-            "btn": "View Collection",
-            "tags": "oil, painting, art",
-            "meta": "high school, college, classwork, painting studio",
-            "img": [
-                "oil1.jpg",
-                "oil2.jpg",
-                "oil3.jpg"
-            ],
-            "group": [
-                {
-                    "group_id": "oil",
-                    "title": "Self Portrait",
-                    "year": 2015,
-                    "thumb": "selfportrait.jpg"
-                },
-                {
-                    "group_id": "oil",
-                    "title": "Dress",
-                    "year": 2015,
-                    "thumb": "dress.jpg"
-                },
-                {
-                    "group_id": "oil",
-                    "title": "Uncanny",
-                    "year": 2015,
-                    "thumb": "uncanny.jpg"
-                },
-                {
-                    "group_id": "oil",
-                    "title": "Flight",
-                    "year": 2015,
-                    "thumb": "flight.jpg"
-                },
-                {
-                    "group_id": "oil",
-                    "title": "Lily",
-                    "year": 2011,
-                    "thumb": "lily.jpg"
-                },
-                {
-                    "group_id": "oil",
-                    "title": "Poly",
-                    "year": 2015,
-                    "thumb": "poly.jpg"
-                },
-                {
-                    "group_id": "oil",
-                    "title": "Wave",
-                    "year": 2011,
-                    "thumb": "wave.jpg"
-                },
-                {
-                    "group_id": "oil",
-                    "title": "Physical Painting Series",
-                    "year": 2015,
-                    "thumb": "rocks.jpg"
-                }
-            ]
-        },
-        "city": {
-            "title": "PowerPoint City",
-            "info": "Digital painting made in PowerPoint with 45k shapes.",
-            "year": 2015,
-            "style": 3,
-            "id": "city",
-            "btn": "View Project",
-            "tags": "PowerPoint, 2D animation, video, art",
-            "meta": "college, classwork, looping, animation, concept studio: self and the human being",
-            "img": [
-                "city1.jpg",
-                "city2.jpg",
-                "city3.jpg"
-            ],
-            "thumb_vid": "city.mp4",
-            "thumb": "city.jpg"
-        },
-        "inverse": {
-            "title": "Inverse",
-            "info": "A handpainted digital animation.",
-            "year": 2015,
-            "style": 2,
-            "id": "inverse",
-            "btn": "View Project",
-            "tags": "Photoshop, 2D animation, painting, art, video",
-            "meta": "college, classwork, looping, ink, animation, 2d media studio: drawing",
-            "img": [
-                "inverse1.jpg",
-                "inverse2.jpg",
-                "inverse3.jpg"
-            ],
-            "thumb": "inverse.jpg"
-        },
-        "time": {
-            "title": "Time",
-            "info": "Ink series and interactive PowerPoint animation.",
-            "year": "2015-16",
-            "style": 1,
-            "id": "time",
-            "btn": "View Projects",
-            "tags": "PowerPoint, illustration, 2D animation, interactive, art, video",
-            "meta": "college, classwork, ink, series, drawing, animation, 2d media studio: drawing, digital storytelling and resistance (studio)",
-            "img": [
-                "time1.jpg",
-                "time2.jpg",
-                "time3.jpg"
-            ],
-            "group": [
-                {   
-                    "group_id": "time",
-                    "title": "Time",
-                    "year": 2015,
-                    "thumb": "time.jpg"
-                },
-                {
-                    "group_id": "time",
-                    "title": "Time, Interactive",
-                    "year": 2016,
-                    "thumb_vid": "time_ppt.mp4",
-                    "thumb": "time_ppt.jpg"
-                }
-            ]
-        },
-        "graphite": {
-            "title": "Graphite renderings",
-            "info": "Graphite on paper.",
-            "year": 2014,
-            "style": 4,
-            "id": "graphite",
-            "btn": "View Collection",
-            "tags": "graphite, illustration, art",
-            "meta": "college, classwork, drawing, still-life, drawing studio",
-            "img": [
-                "graphite1.jpg",
-                "graphite2.jpg",
-                "graphite3.jpg"
-            ],
-            "group": [
-                {   
-                    "group_id": "graphite",
-                    "title": "Shoe",
-                    "year": 2014,
-                    "thumb": "shoe.jpg"
-                },
-                {
-                    "group_id": "graphite",
-                    "title": "Cola",
-                    "year": 2014,
-                    "thumb": "cola.jpg"
-                },
-                {
-                    "group_id": "graphite",
-                    "title": "Milkshake",
-                    "year": 2014,
-                    "thumb": "milkshake.jpg"
-                },
-                {
-                    "group_id": "graphite",
-                    "title": "Antique Car",
-                    "year": 2014,
-                    "thumb": "car.jpg"
-                }
-            ]
-        },
-        "yearone": {
-            "title": "Year One",
-            "info": "A beautiful generative data-vis book of text conversations.",
-            "year": 2016,
-            "style": 2,
-            "id": "yearone",
-            "btn": "View Project",
-            "tags": "Python, bash, Processing, data-vis, new media, generative, art, code, design",
-            "meta": "college, classwork, data visualization, Basil.js, Basil.js, CGI, Java, JS, interactivity and computation (studio)",
-            "img": [
-                "yearone1.jpg",
-                "yearone2.jpg",
-                "yearone3.jpg"
-            ],
-            "thumb_vid": "yearone.mp4",
-            "thumb": "yearone.jpg"
-        },
-        "charcoal": {
-            "title": "Charcoal drawings",
-            "info": "Charcoal on paper.",
-            "year": "2011,2014",
-            "style": 4,
-            "id": "charcoal",
-            "btn": "View Collection",
-            "tags": "illustration, art",
-            "meta": "high school, college, classwork, drawing, drawing, charcoal, drawing studio",
-            "img": [
-                "charcoal1.jpg",
-                "charcoal2.jpg",
-                "charcoal3.jpg"
-            ],
-            "group": [
-                {
-                    "group_id": "charcoal",
-                    "title": "Faces 01",
-                    "year": 2011,
-                    "thumb": "faces1.jpg"
-                },
-                {
-                    "group_id": "charcoal",
-                    "title": "Faces 02",
-                    "year": 2011,
-                    "thumb": "faces2.jpg"
-                },
-                {
-                    "group_id": "charcoal",
-                    "title": "Charcoal Studies",
-                    "year": 2014,
-                    "thumb": "charcoalstudies.jpg"
-                }
-            ]
-        },
-        "watchbot": {
-            "title": "WatchBot",
-            "info": "Experimental performances conducted with a remote control car.",
-            "year": 2016,
-            "id": "watchbot",
-            "tags": "RC car, art, video",
-            "meta": "college, classwork, Slash 4x4, public art, HCI, experimental performance, contextual, surveillance, social experiment, intro to contextual practice (studio)",
-            "thumb": "watchbot.jpg"
-        },
-        "piper": {
-            "title": "Pied Piper of Hamelin",
-            "info": "A stylized 2D animated folktale. (Unfinished)",
-            "year": 2015,
-            "style": 3,
-            "id": "piper",
-            "btn": "View Project",
-            "tags": "Photoshop, After Effects, 2D animation, art, video",
-            "meta": "college, classwork, animation, short film, ems: moving image",
-            "img": [
-                "piper1.jpg",
-                "piper2.jpg",
-                "piper3.jpg"
-            ],
-            "thumb_vid": "piper.mp4",
-            "thumb": "piper.jpg"
-        },
-        "bose": {
-            "title": "Wrong Sounds",
-            "info": "Mock Bose ad as a found-footage remix project.",
-            "year": 2015,
-            "style": 1,
-            "id": "bose",
-            "btn": "Watch Video",
-            "tags": "found-footage, remix, art, video",
-            "meta": "college, classwork, ems: moving image",
-            "img": [
-                "bose1.jpg",
-                "bose2.jpg",
-                "bose3.jpg"
-            ],
-            "thumb": "bose.jpg"
-        },
-        "moonwalk": {
-            "title": "Moon Walk",
-            "info": "A simple lunar cycle.",
-            "year": 2016,
-            "style": 4,
-            "id": "moonwalk",
-            "btn": "Watch Video",
-            "tags": "Maya, Vue xStream, 3D animation, 3D modeling, art, video",
-            "meta": "college, classwork, CGI, animation, looping, animation art and tech (studio)",
-            "img": [
-                "moonwalk1.jpg",
-                "moonwalk2.jpg",
-                "moonwalk3.jpg"
-            ],
-            "thumb_vid": "moonwalk.mp4",
-            "thumb": "moonwalk.jpg"
-        },
-        "action": {
-            "title": "Action",
-            "info": "Short action film. Director, D.P., editor.",
-            "year": 2016,
-            "style": 3,
-            "id": "action",
-            "btn": "View Film",
-            "tags": "video",
-            "meta": "college, classwork, short film, live action, technical directing (studio)",
-            "img": [
-                "action1.jpg",
-                "action2.jpg",
-                "action3.jpg"
-            ],
-            "thumb": "action.jpg"
-        },
-        "lego": {
-            "title": "Brickfilms",
-            "info": "LEGO stop-motion animations.",
-            "year": "2010-12, 2017",
-            "style": 2,
-            "id": "lego",
-            "url": "https://www.youtube.com/user/DerTarchin/videos",
-            "btn": "View Collection",
-            "tags": "animation, LEGO, video",
-            "meta": "brickfilm, stop-motion, short film",
-            "img": [
-                "lego1.jpg",
-                "lego2.jpg",
-                "lego3.jpg"
-            ],
-            "group": [
-                {
-                    "url": "https://www.youtube.com/watch?v=IdDuy7Iz3TI",
-                    "group_id": "lego",
-                    "title": "What If...",
-                    "year": 2017,
-                    "thumb_vid": "legowhatif.mp4",
-                    "thumb": "legowhatif.jpg"
-                },
-                {
-                    "url": "https://www.youtube.com/watch?v=QQ5HnVMyiiQ",
-                    "group_id": "lego",
-                    "title": "Le Mime",
-                    "year": 2011,
-                    "thumb": "legomime.jpg"
-                },
-                {
-                    "url": "https://www.youtube.com/watch?v=-XxvFD6Sfkk",
-                    "group_id": "lego",
-                    "title": "Energy-X Ad",
-                    "year": 2011,
-                    "thumb_vid": "legoenergyx.mp4",
-                    "thumb": "legoenergyx.jpg"
-                }
-            ]
-        },
-        "sna": {
-            "title": "Social Network Analyzer",
-            "info": "A modular JAVA framework and visualizer library for common APIs.",
-            "year": 2015,
-            "style": 2,
-            "id": "sna",
-            "btn": "View Project",
-            "tags": "Java, JS, UI, UX, cs, design, code",
-            "meta": "college, classwork, front end, principles of software construction (course)",
-            "img": [
-                "sna1.jpg",
-                "sna2.jpg",
-                "sna3.jpg"
-            ],
-            "thumb": "sna.jpg"
-        },
-        "scrabble": {
-            "title": "Scrabble",
-            "info": "An intuitively designed experience for a desktop game.",
-            "year": 2015,
-            "style": 1,
-            "id": "scrabble",
-            "btn": "View Project",
-            "tags": "Java, UI, UX, game design, cs, code",
-            "meta": "college, classwork, back end, front end, full-stack, principles of software construction (course)",
-            "img": [
-                "scrabble1.jpg",
-                "scrabble2.jpg",
-                "scrabble3.jpg"
-            ],
-            "thumb": "scrabble.jpg"
-        },
-        "graphicdesign": {
-            "title": "Graphic designs",
-            "info": "Miscellaneous graphic designs, posters, etc.",
-            "year": "2014-16",
-            "style": 4,
-            "id": "graphicdesign",
-            "btn": "View Collection",
-            "tags": "graphic design, design",
-            "meta": "professional work, poster, postcard, marketing",
-            "img": [
-                "graphicdesign1.jpg",
-                "graphicdesign2.jpg",
-                "graphicdesign3.jpg"
-            ],
-            "group": [
-                {
-                    "group_id": "graphicdesign",
-                    "title": "Late Night",
-                    "year": 2016,
-                    "thumb": "latenight.jpg"
-                },
-                {
-                    "group_id": "graphicdesign",
-                    "title": "PACE Events",
-                    "year": 2015,
-                    "thumb": "paceevents.jpg"
-                },
-                {
-                    "group_id": "graphicdesign",
-                    "title": "RHD",
-                    "year": 2015,
-                    "thumb": "rhd.jpg"
-                },
-                {
-                    "group_id": "graphicdesign",
-                    "title": "PACE Volunteer Fair",
-                    "year": 2015,
-                    "thumb": "pacevolunteer.jpg"
-                },
-                {
-                    "group_id": "graphicdesign",
-                    "title": "PACE Stop Hunger Now",
-                    "year": 2015,
-                    "thumb": "pacehunger.jpg"
-                },
-                {
-                    "group_id": "graphicdesign",
-                    "title": "FIRST Robotics Team Poster",
-                    "year": 2014,
-                    "thumb": "roboposter.jpg"
-                },
-                {
-                    "group_id": "graphicdesign",
-                    "title": "PACE Apply",
-                    "year": 2015,
-                    "thumb": "paceapply.jpg"
-                },
-                {
-                    "group_id": "graphicdesign",
-                    "title": "PTI, Inc Training Program",
-                    "year": 2014,
-                    "thumb": "pti.jpg"
-                }
-            ]
-        },
-        "albumart": {
-            "title": "Subsecond Album Artworks",
-            "info": "Album artworks for EPs by artist Subsecond.",
-            "year": 2014,
-            "style": 1,
-            "id": "albumart",
-            "btn": "View Artworks",
-            "tags": "graphic design, design",
-            "meta": "commission work, music",
-            "img": [
-                "albumart1.jpg",
-                "albumart2.jpg",
-                "albumart3.jpg"
-            ],
-            "thumb": "albumart.jpg"
-        },
-        "telle": {
-            "title": "Tell-e",
-            "info": "Webapp that manages your shows and movies.",
-            "year": 2016,
-            "style": 1,
-            "id": "telle",
-            "btn": "View Project",
-            "tags": "Django, Python, JS, HTML, CSS, UI, UX, cs, code, design",
-            "meta": "college, classwork, mobile, front end, back end, full-stack, webapp, jQuery, mobile iot and computing (course), web application development (course)",
-            "img": [
-                "telle1.jpg",
-                "telle2.jpg",
-                "telle3.jpg"
-            ],
-            "thumb_vid": "telle.mp4",
-            "thumb": "telle.jpg"
-        },
-        "pixtory": {
-            "title": "Pixtory",
-            "info": "Maps all images by over 16 million colors.",
-            "year": 2016,
-            "style": 3,
-            "id": "pixtory",
-            "btn": "View Project",
-            "tags": "Python, JS, HTML, CSS, data-vis, UI, UX, new media, code, art, photography, design",
-            "meta": "college, classwork, jQuery, webapp, front end, back end, concept studio: time and space",
-            "img": [
-                "pixtory1.jpg",
-                "pixtory2.jpg",
-                "pixtory3.jpg"
-            ],
-            "thumb": "pixtory.jpg"
-        },
-        "darkthemes": {
-            "title": "CSS Dark Themes",
-            "info": "CSS styles designed to transform a site into a dark theme.",
-            "year": 2017,
-            "style": 4,
-            "id": "darkthemes",
-            "btn": "View Project",
-            "tags": "CSS, front end, UI, code, design",
-            "meta": "commission work, tradingview, stocktwits",
-            "img": [
-                "darktheme1.jpg",
-                "darktheme2.jpg",
-                "darktheme3.jpg"
-            ],
-            "thumb": "tvdarktheme.jpg"
-        },
-        "nickel": {
-            "title": "Nickel",
-            "info": "Stock trend analysis and alert app.",
-            "year": 2017,
-            "style": 4,
-            "id": "nickel",
-            "btn": "View Project",
-            "tags": "Django, Python, JS, HTML, CSS, UI, UX, code, design",
-            "meta": "commission work, jQuery, webapp, back end, front end, full-stack",
-            "img": [
-                "nickel1.jpg",
-                "nickel2.jpg",
-                "nickel3.jpg"
-            ],
-            "thumb": "nickel.jpg"
-        },
-        "pffl": {
-            "title": "PFFL Scheduler",
-            "info": "Automated football match scheduler.",
-            "year": 2016,
-            "id": "pffl",
-            "tags": "Django, Python, JS, HTML, CSS, UI, UX, code, design",
-            "meta": "professional work, jQuery, webapp, back end, front end, full-stack",
-            "thumb": "pffl.jpg"
-        },
-        "followerbot": {
-            "title": "Follower-Bot",
-            "info": "Robotic car that chases specific colors.",
-            "year": 2014,
-            "style": 3,
-            "id": "followerbot",
-            "btn": "View Project",
-            "tags": "Arduino, Java, robotics, new media, RC car, code, art",
-            "meta": "college, classwork, HCI, Slash 4x4, ems: interactivity",
-            "img": [
-                "followerbot1.jpg",
-                "followerbot2.jpg",
-                "followerbot3.jpg"
-            ],
-            "thumb_vid": "followerbot.mp4",
-            "thumb": "followerbot.jpg"
-        },
-        "missilecommand": {
-            "title": "Multiplayer Missile Command",
-            "info": "A modern twist to a classic game.",
-            "year": 2014,
-            "style": 4,
-            "id": "missilecommand",
-            "btn": "View Project",
-            "tags": "Python, game design, cs, code",
-            "meta": "college, classwork, fundumentals of programming and CS (course)",
-            "img": [
-                "missilecommand1.jpg",
-                "missilecommand2.jpg",
-                "missilecommand3.jpg"
-            ],
-            "thumb_vid": "missilecommand.mp4",
-            "thumb": "missilecommand.jpg"
-        },
-        "superman": {
-            "title": "Superman",
-            "info": "An Arduino-controlled 8-bit game.",
-            "year": 2014,
-            "id": "superman",
-            "tags": "Arduino, Processing, game design, code",
-            "meta": "college, classwork, 8-bit, 8bit, HCI, Java, ems: interactivity",
-            "thumb_vid": "superman.mp4",
-            "thumb": "superman.jpg"
-        },
-        "spec": {
-            "title": "Frequency Spectrum Analyzers",
-            "info": "Real-time audio frequency spectrum visualzer.",
-            "year": 2017,
-            "style": 3,
-            "id": "spec",
-            "btn": "View Project",
-            "tags": "Processing, After Effects, motion graphics, video, code, design",
-            "meta": "music, sound processing, Java",
-            "img": [
-                "spec1.jpg",
-                "spec2.jpg",
-                "spec3.jpg"
-            ],
-            "thumb_vid": "spec.mp4",
-            "thumb": "spec.jpg"
-        },
-        "carscanner": {
-            "title": "Little 3D Car Scanner",
-            "info": "Using an RC car to 3D scan the underside of cars.",
-            "year": 2017,
-            "style": 4,
-            "id": "carscanner",
-            "btn": "View Project",
-            "tags": "Processing, RC car, new media, robotics, 3D modeling, code, art",
-            "meta": "college, classwork, Slash 4x4, HCI, Java, excap (studio)",
-            "img": [
-                "carscanner1.jpg",
-                "carscanner2.jpg",
-                "carscanner3.jpg"
-            ],
-            "thumb_vid": "carscanner.mp4",
-            "thumb": "carscanner.jpg"
-        },
-        "3drc": {
-            "title": "3D RC Car POV",
-            "info": "3D point of view footage from an RC car around the campus.",
-            "year": 2017,
-            "id": "3drc",
-            "tags": "3D, RC car, art, video",
-            "meta": "college, classwork, Slash 4x4, experimental, HCI, stereoscopic, excap (studio)",
-            "thumb_vid": "3drc.mp4",
-            "thumb": "3drc.jpg",
-            "style": 2,
-            "img": [
-                "3drc2.jpg",
-                "3drc3.jpg",
-                "3drc1.jpg"
-            ],
-            "btn": "Watch Video"
-        },
         "pro-portrait": {
             "dirignore": 1,
             "title": "Professional Portrait Photography",
             "year": "2014-19",
             "style": 2,
-            "id": "pro-portrait",
             "url": "http://photography.hizalcelik.com/tagged/portrait",
             "btn": "View Photos",
             "tags": "photography",
@@ -699,15 +12,13 @@
                 "pro-portrait1.jpg",
                 "pro-portrait3.jpg",
                 "pro-portrait2.jpg"
-            ],
-            "thumb": "pro-portrait.jpg"
+            ]
         },
         "pro-event": {
             "dirignore": 1,
             "title": "Professional Event Photography",
             "year": "2012-19",
             "style": 1,
-            "id": "pro-event",
             "url": "http://photography.hizalcelik.com/tagged/event",
             "btn": "View Photos",
             "tags": "photography",
@@ -715,15 +26,13 @@
                 "pro-event1.jpg",
                 "pro-event2.jpg",
                 "pro-event3.jpg"
-            ],
-            "thumb": "pro-event.jpg"
+            ]
         },
         "pro-wedding": {
             "dirignore": 1,
             "title": "Professional Wedding Photography",
             "year": "2012-19",
             "style": 2,
-            "id": "pro-wedding",
             "url": "http://photography.hizalcelik.com/tagged/wedding",
             "btn": "View Photos",
             "tags": "photography",
@@ -731,15 +40,13 @@
                 "pro-wedding3.jpg",
                 "pro-wedding2.jpg",
                 "pro-wedding1.jpg"
-            ],
-            "thumb": "pro-wedding.jpg"
+            ]
         },
         "pro-sports": {
             "dirignore": 1,
             "title": "Professional Sports Photography",
             "year": "2012-19",
             "style": 4,
-            "id": "pro-sports",
             "url": "http://photography.hizalcelik.com/tagged/professional",
             "btn": "View Photos",
             "tags": "photography",
@@ -747,15 +54,13 @@
                 "pro-sports1.jpg",
                 "pro-sports2.jpg",
                 "pro-sports3.jpg"
-            ],
-            "thumb": "pro-sports.jpg"
+            ]
         },
         "pro-misc": {
             "dirignore": 1,
             "title": "General Professional Photography",
             "year": "2012-19",
             "style": 1,
-            "id": "pro-misc",
             "url": "http://photography.hizalcelik.com/tagged/professional",
             "btn": "View Photos",
             "tags": "photography",
@@ -763,8 +68,7 @@
                 "pro-misc1.jpg",
                 "pro-misc2.jpg",
                 "pro-misc3.jpg"
-            ],
-            "thumb": "pro-misc.jpg"
+            ]
         },
         "photo-people": {
             "dirignore": 1,
@@ -772,7 +76,6 @@
             "info": "Portrait and street photography",
             "year": "2013-19",
             "style": 4,
-            "id": "photo-people",
             "url": "http://photography.hizalcelik.com/tagged/people",
             "btn": "View Photos",
             "tags": "photography",
@@ -780,8 +83,7 @@
                 "photo-people2.jpg",
                 "photo-people1.jpg",
                 "photo-people3.jpg"
-            ],
-            "thumb": "photo-people.jpg"
+            ]
         },
         "photo-place": {
             "dirignore": 1,
@@ -789,7 +91,6 @@
             "info": "Street and landscape photography",
             "year": "2013-19",
             "style": 3,
-            "id": "photo-place",
             "url": "http://photography.hizalcelik.com/tagged/places",
             "btn": "View Photos",
             "tags": "photography",
@@ -797,15 +98,13 @@
                 "photo-place1.jpg",
                 "photo-place2.jpg",
                 "photo-place3.jpg"
-            ],
-            "thumb": "photo-place.jpg"
+            ]
         },
         "photo-misc": {
             "dirignore": 1,
             "title": "General Photography",
             "year": "2013-19",
             "style": 2,
-            "id": "photo-misc",
             "url": "http://photography.hizalcelik.com/tagged/personal",
             "btn": "View Photos",
             "tags": "photography",
@@ -813,13 +112,11 @@
                 "photo-misc1.jpg",
                 "photo-misc3.jpg",
                 "photo-misc2.jpg"
-            ],
-            "thumb": "photo-misc.jpg"
+            ]
         },
         "galleryend-code": {
             "dirignore": 1,
             "style": 5,
-            "id": "galleryend-code",
             "url": "/search?k=code/",
             "btn": "See all code projects",
             "img": [
@@ -834,7 +131,6 @@
         "galleryend-design": {
             "dirignore": 1,
             "style": 5,
-            "id": "galleryend-design",
             "url": "/search?k=design/",
             "btn": "See all design projects",
             "img": [
@@ -849,7 +145,6 @@
         "galleryend-art": {
             "dirignore": 1,
             "style": 5,
-            "id": "galleryend-art",
             "url": "/search?k=art/",
             "btn": "See all artworks",
             "img": [
@@ -864,7 +159,6 @@
         "galleryend-video": {
             "dirignore": 1,
             "style": 5,
-            "id": "galleryend-video",
             "url": "/search?k=video/",
             "btn": "See all video projects",
             "img": [
@@ -879,7 +173,6 @@
         "galleryend-photo": {
             "dirignore": 1,
             "style": 5,
-            "id": "galleryend-photo",
             "url": "https://dertarchin.deviantart.com/gallery/",
             "btn": "View more photography",
             "img": [
@@ -891,323 +184,855 @@
                 "endphoto6.jpg"
             ]
         },
+        "singularity": {
+            "title": "Singularity",
+            "info": "Fractal-generated sci-fi music video for De Lirium's Order.",
+            "year": 2019,
+            "style": 4,
+            "btn": "View Project",
+            "tags": "CGI, fractal, After Effects, 3D animation, art, video",
+            "meta": "commission work, music video, Photoshop, sci-fi, short film, animation",
+            "img": [
+                "singularity1.jpg",
+                "singularity3.jpg",
+                "singularity2.jpg"
+            ]
+        },
+        "endless": {
+            "title": "Endless",
+            "info": "Fractal-generated sci-fi short film.",
+            "year": 2017,
+            "style": 2,
+            "btn": "View Project",
+            "tags": "CGI, fractal, 3D animation, art, video",
+            "meta": "college, classwork, short film, music video, animation, experimental sci-fi studio",
+            "img": [
+                "endless1.jpg",
+                "endless2.jpg",
+                "endless3.jpg"
+            ],
+            "thumb_vid": true
+        },
+        "thoughts": {
+            "title": "Thinking Mind",
+            "info": "Sound-sensitive particle system representing thoughts.",
+            "year": 2015,
+            "style": 1,
+            "btn": "View Project",
+            "tags": "Processing, interactive, generative, new media, code, art",
+            "meta": "college, classwork, synapses, CGI, thought process, Java, concept studio: self and the human being",
+            "img": [
+                "thoughts2.jpg",
+                "thoughts1.jpg",
+                "thoughts3.jpg"
+            ],
+            "thumb_vid": true
+        },
+        "clock": {
+            "title": "Clock Clock",
+            "info": "Group of analog clocks creating a single digital time display.",
+            "year": 2014,
+            "style": 3,
+            "btn": "View Project",
+            "tags": "Processing, new media, interactive, art, code",
+            "meta": "college, classwork, analog, CGI, Java, ems: interactivity",
+            "img": [
+                "clock1.jpg",
+                "clock2.jpg",
+                "clock3.jpg"
+            ],
+            "thumb_vid": true
+        },
+        "oil": {
+            "title": "Oil paintings",
+            "info": "Oil on canvas.",
+            "year": "2011,2015",
+            "style": 4,
+            "btn": "View Collection",
+            "tags": "oil, painting, art",
+            "meta": "high school, college, classwork, painting studio",
+            "img": [
+                "oil1.jpg",
+                "oil2.jpg",
+                "oil3.jpg"
+            ],
+            "group": [
+                {
+                    "title": "Self Portrait",
+                    "year": 2015,
+                    "thumb": "selfportrait.jpg"
+                },
+                {
+                    "title": "Dress",
+                    "year": 2015,
+                    "thumb": "dress.jpg"
+                },
+                {
+                    "title": "Uncanny",
+                    "year": 2015,
+                    "thumb": "uncanny.jpg"
+                },
+                {
+                    "title": "Flight",
+                    "year": 2015,
+                    "thumb": "flight.jpg"
+                },
+                {
+                    "title": "Lily",
+                    "year": 2011,
+                    "thumb": "lily.jpg"
+                },
+                {
+                    "title": "Poly",
+                    "year": 2015,
+                    "thumb": "poly.jpg"
+                },
+                {
+                    "title": "Wave",
+                    "year": 2011,
+                    "thumb": "wave.jpg"
+                },
+                {
+                    "title": "Physical Painting Series",
+                    "year": 2015,
+                    "thumb": "rocks.jpg"
+                }
+            ]
+        },
+        "city": {
+            "title": "PowerPoint City",
+            "info": "Digital painting made in PowerPoint with 45k shapes.",
+            "year": 2015,
+            "style": 3,
+            "btn": "View Project",
+            "tags": "PowerPoint, 2D animation, video, art",
+            "meta": "college, classwork, looping, animation, concept studio: self and the human being",
+            "img": [
+                "city1.jpg",
+                "city2.jpg",
+                "city3.jpg"
+            ],
+            "thumb_vid": true
+        },
+        "inverse": {
+            "title": "Inverse",
+            "info": "A handpainted digital animation.",
+            "year": 2015,
+            "style": 2,
+            "btn": "View Project",
+            "tags": "Photoshop, 2D animation, painting, art, video",
+            "meta": "college, classwork, looping, ink, animation, 2d media studio: drawing",
+            "img": [
+                "inverse1.jpg",
+                "inverse2.jpg",
+                "inverse3.jpg"
+            ]
+        },
+        "time": {
+            "title": "Time",
+            "info": "Ink series and interactive PowerPoint animation.",
+            "year": "2015-16",
+            "style": 1,
+            "btn": "View Projects",
+            "tags": "PowerPoint, illustration, 2D animation, interactive, art, video",
+            "meta": "college, classwork, ink, series, drawing, animation, 2d media studio: drawing, digital storytelling and resistance (studio)",
+            "img": [
+                "time1.jpg",
+                "time2.jpg",
+                "time3.jpg"
+            ],
+            "group": [
+                {   
+                    "title": "Time",
+                    "year": 2015,
+                    "thumb": "time.jpg"
+                },
+                {
+                    "title": "Time, Interactive",
+                    "year": 2016,
+                    "thumb_vid": "time_ppt.mp4",
+                    "thumb": "time_ppt.jpg"
+                }
+            ]
+        },
+        "graphite": {
+            "title": "Graphite renderings",
+            "info": "Graphite on paper.",
+            "year": 2014,
+            "style": 4,
+            "btn": "View Collection",
+            "tags": "graphite, illustration, art",
+            "meta": "college, classwork, drawing, still-life, drawing studio",
+            "img": [
+                "graphite1.jpg",
+                "graphite2.jpg",
+                "graphite3.jpg"
+            ],
+            "group": [
+                {   
+                    "title": "Shoe",
+                    "year": 2014,
+                    "thumb": "shoe.jpg"
+                },
+                {
+                    "title": "Cola",
+                    "year": 2014,
+                    "thumb": "cola.jpg"
+                },
+                {
+                    "title": "Milkshake",
+                    "year": 2014,
+                    "thumb": "milkshake.jpg"
+                },
+                {
+                    "title": "Antique Car",
+                    "year": 2014,
+                    "thumb": "car.jpg"
+                }
+            ]
+        },
+        "yearone": {
+            "title": "Year One",
+            "info": "A beautiful generative data-vis book of text conversations.",
+            "year": 2016,
+            "style": 2,
+            "btn": "View Project",
+            "tags": "Python, bash, Processing, data-vis, new media, generative, art, code, design",
+            "meta": "college, classwork, data visualization, Basil.js, Basil.js, CGI, Java, JS, interactivity and computation (studio)",
+            "img": [
+                "yearone1.jpg",
+                "yearone2.jpg",
+                "yearone3.jpg"
+            ],
+            "thumb_vid": true
+        },
+        "charcoal": {
+            "title": "Charcoal drawings",
+            "info": "Charcoal on paper.",
+            "year": "2011,2014",
+            "style": 4,
+            "btn": "View Collection",
+            "tags": "illustration, art",
+            "meta": "high school, college, classwork, drawing, drawing, charcoal, drawing studio",
+            "img": [
+                "charcoal1.jpg",
+                "charcoal2.jpg",
+                "charcoal3.jpg"
+            ],
+            "group": [
+                {
+                    "title": "Faces 01",
+                    "year": 2011,
+                    "thumb": "faces1.jpg"
+                },
+                {
+                    "title": "Faces 02",
+                    "year": 2011,
+                    "thumb": "faces2.jpg"
+                },
+                {
+                    "title": "Charcoal Studies",
+                    "year": 2014,
+                    "thumb": "charcoalstudies.jpg"
+                }
+            ]
+        },
+        "watchbot": {
+            "title": "WatchBot",
+            "info": "Experimental performances conducted with a remote control car.",
+            "year": 2016,
+            "tags": "RC car, art, video",
+            "meta": "college, classwork, Slash 4x4, public art, HCI, experimental performance, contextual, surveillance, social experiment, intro to contextual practice (studio)"
+        },
+        "piper": {
+            "title": "Pied Piper of Hamelin",
+            "info": "A stylized 2D animated folktale. (Unfinished)",
+            "year": 2015,
+            "style": 3,
+            "btn": "View Project",
+            "tags": "Photoshop, After Effects, 2D animation, art, video",
+            "meta": "college, classwork, animation, short film, ems: moving image",
+            "img": [
+                "piper1.jpg",
+                "piper2.jpg",
+                "piper3.jpg"
+            ],
+            "thumb_vid": true
+        },
+        "bose": {
+            "title": "Wrong Sounds",
+            "info": "Mock Bose ad as a found-footage remix project.",
+            "year": 2015,
+            "style": 1,
+            "btn": "Watch Video",
+            "tags": "found-footage, remix, art, video",
+            "meta": "college, classwork, ems: moving image",
+            "img": [
+                "bose1.jpg",
+                "bose2.jpg",
+                "bose3.jpg"
+            ]
+        },
+        "moonwalk": {
+            "title": "Moon Walk",
+            "info": "A simple lunar cycle.",
+            "year": 2016,
+            "style": 4,
+            "btn": "Watch Video",
+            "tags": "Maya, Vue xStream, 3D animation, 3D modeling, art, video",
+            "meta": "college, classwork, CGI, animation, looping, animation art and tech (studio)",
+            "img": [
+                "moonwalk1.jpg",
+                "moonwalk2.jpg",
+                "moonwalk3.jpg"
+            ],
+            "thumb_vid": true
+        },
+        "action": {
+            "title": "Action",
+            "info": "Short action film. Director, D.P., editor.",
+            "year": 2016,
+            "style": 3,
+            "btn": "View Film",
+            "tags": "video",
+            "meta": "college, classwork, short film, live action, technical directing (studio)",
+            "img": [
+                "action1.jpg",
+                "action2.jpg",
+                "action3.jpg"
+            ]
+        },
+        "lego": {
+            "title": "Brickfilms",
+            "info": "LEGO stop-motion animations.",
+            "year": "2010-12, 2017",
+            "style": 2,
+            "url": "https://www.youtube.com/user/DerTarchin/videos",
+            "btn": "View Collection",
+            "tags": "animation, LEGO, video",
+            "meta": "brickfilm, stop-motion, short film",
+            "img": [
+                "lego1.jpg",
+                "lego2.jpg",
+                "lego3.jpg"
+            ],
+            "group": [
+                {
+                    "url": "https://www.youtube.com/watch?v=IdDuy7Iz3TI",
+                    "title": "What If...",
+                    "year": 2017,
+                    "thumb_vid": "legowhatif.mp4",
+                    "thumb": "legowhatif.jpg"
+                },
+                {
+                    "url": "https://www.youtube.com/watch?v=QQ5HnVMyiiQ",
+                    "title": "Le Mime",
+                    "year": 2011,
+                    "thumb": "legomime.jpg"
+                },
+                {
+                    "url": "https://www.youtube.com/watch?v=-XxvFD6Sfkk",
+                    "title": "Energy-X Ad",
+                    "year": 2011,
+                    "thumb_vid": "legoenergyx.mp4",
+                    "thumb": "legoenergyx.jpg"
+                }
+            ]
+        },
+        "sna": {
+            "title": "Social Network Analyzer",
+            "info": "A modular JAVA framework and visualizer library for common APIs.",
+            "year": 2015,
+            "style": 2,
+            "btn": "View Project",
+            "tags": "Java, JS, UI, UX, cs, design, code",
+            "meta": "college, classwork, front end, principles of software construction (course)",
+            "img": [
+                "sna1.jpg",
+                "sna2.jpg",
+                "sna3.jpg"
+            ]
+        },
+        "scrabble": {
+            "title": "Scrabble",
+            "info": "An intuitively designed experience for a desktop game.",
+            "year": 2015,
+            "style": 1,
+            "btn": "View Project",
+            "tags": "Java, UI, UX, game design, cs, code",
+            "meta": "college, classwork, back end, front end, full-stack, principles of software construction (course)",
+            "img": [
+                "scrabble1.jpg",
+                "scrabble2.jpg",
+                "scrabble3.jpg"
+            ]
+        },
+        "graphicdesign": {
+            "title": "Graphic designs",
+            "info": "Miscellaneous graphic designs, posters, etc.",
+            "year": "2014-16",
+            "style": 4,
+            "btn": "View Collection",
+            "tags": "graphic design, design",
+            "meta": "professional work, poster, postcard, marketing",
+            "img": [
+                "graphicdesign1.jpg",
+                "graphicdesign2.jpg",
+                "graphicdesign3.jpg"
+            ],
+            "group": [
+                {
+                    "title": "Late Night",
+                    "year": 2016,
+                    "thumb": "latenight.jpg"
+                },
+                {
+                    "title": "PACE Events",
+                    "year": 2015,
+                    "thumb": "paceevents.jpg"
+                },
+                {
+                    "title": "RHD",
+                    "year": 2015,
+                    "thumb": "rhd.jpg"
+                },
+                {
+                    "title": "PACE Volunteer Fair",
+                    "year": 2015,
+                    "thumb": "pacevolunteer.jpg"
+                },
+                {
+                    "title": "PACE Stop Hunger Now",
+                    "year": 2015,
+                    "thumb": "pacehunger.jpg"
+                },
+                {
+                    "title": "FIRST Robotics Team Poster",
+                    "year": 2014,
+                    "thumb": "roboposter.jpg"
+                },
+                {
+                    "title": "PACE Apply",
+                    "year": 2015,
+                    "thumb": "paceapply.jpg"
+                },
+                {
+                    "title": "PTI, Inc Training Program",
+                    "year": 2014,
+                    "thumb": "pti.jpg"
+                }
+            ]
+        },
+        "albumart": {
+            "title": "Subsecond Album Artworks",
+            "info": "Album artworks for EPs by artist Subsecond.",
+            "year": 2014,
+            "style": 1,
+            "btn": "View Artworks",
+            "tags": "graphic design, design",
+            "meta": "commission work, music",
+            "img": [
+                "albumart1.jpg",
+                "albumart2.jpg",
+                "albumart3.jpg"
+            ]
+        },
+        "telle": {
+            "title": "Tell-e",
+            "info": "Webapp that manages your shows and movies.",
+            "year": 2016,
+            "style": 1,
+            "btn": "View Project",
+            "tags": "Django, Python, JS, HTML, CSS, UI, UX, cs, code, design",
+            "meta": "college, classwork, mobile, front end, back end, full-stack, webapp, jQuery, mobile iot and computing (course), web application development (course)",
+            "img": [
+                "telle1.jpg",
+                "telle2.jpg",
+                "telle3.jpg"
+            ],
+            "thumb_vid": true
+        },
+        "pixtory": {
+            "title": "Pixtory",
+            "info": "Maps all images by over 16 million colors.",
+            "year": 2016,
+            "style": 3,
+            "btn": "View Project",
+            "tags": "Python, JS, HTML, CSS, data-vis, UI, UX, new media, code, art, photography, design",
+            "meta": "college, classwork, jQuery, webapp, front end, back end, concept studio: time and space",
+            "img": [
+                "pixtory1.jpg",
+                "pixtory2.jpg",
+                "pixtory3.jpg"
+            ]
+        },
+        "darkthemes": {
+            "title": "CSS Dark Themes",
+            "info": "CSS styles designed to transform a site into a dark theme.",
+            "year": 2017,
+            "style": 4,
+            "btn": "View Project",
+            "tags": "CSS, front end, UI, code, design",
+            "meta": "commission work, tradingview, stocktwits",
+            "img": [
+                "darktheme1.jpg",
+                "darktheme2.jpg",
+                "darktheme3.jpg"
+            ]
+        },
+        "nickel": {
+            "title": "Nickel",
+            "info": "Stock trend analysis and alert app.",
+            "year": 2017,
+            "style": 4,
+            "btn": "View Project",
+            "tags": "Django, Python, JS, HTML, CSS, UI, UX, code, design",
+            "meta": "commission work, jQuery, webapp, back end, front end, full-stack",
+            "img": [
+                "nickel1.jpg",
+                "nickel2.jpg",
+                "nickel3.jpg"
+            ]
+        },
+        "pffl": {
+            "title": "PFFL Scheduler",
+            "info": "Automated football match scheduler.",
+            "year": 2016,
+            "tags": "Django, Python, JS, HTML, CSS, UI, UX, code, design",
+            "meta": "professional work, jQuery, webapp, back end, front end, full-stack"
+        },
+        "followerbot": {
+            "title": "Follower-Bot",
+            "info": "Robotic car that chases specific colors.",
+            "year": 2014,
+            "style": 3,
+            "btn": "View Project",
+            "tags": "Arduino, Java, robotics, new media, RC car, code, art",
+            "meta": "college, classwork, HCI, Slash 4x4, ems: interactivity",
+            "img": [
+                "followerbot1.jpg",
+                "followerbot2.jpg",
+                "followerbot3.jpg"
+            ],
+            "thumb_vid": true
+        },
+        "missilecommand": {
+            "title": "Multiplayer Missile Command",
+            "info": "A modern twist to a classic game.",
+            "year": 2014,
+            "style": 4,
+            "btn": "View Project",
+            "tags": "Python, game design, cs, code",
+            "meta": "college, classwork, fundumentals of programming and CS (course)",
+            "img": [
+                "missilecommand1.jpg",
+                "missilecommand2.jpg",
+                "missilecommand3.jpg"
+            ],
+            "thumb_vid": true
+        },
+        "superman": {
+            "title": "Superman",
+            "info": "An Arduino-controlled 8-bit game.",
+            "year": 2014,
+            "tags": "Arduino, Processing, game design, code",
+            "meta": "college, classwork, 8-bit, 8bit, HCI, Java, ems: interactivity",
+            "thumb_vid": true
+        },
+        "spec": {
+            "title": "Frequency Spectrum Analyzers",
+            "info": "Real-time audio frequency spectrum visualzer.",
+            "year": 2017,
+            "style": 3,
+            "btn": "View Project",
+            "tags": "Processing, After Effects, motion graphics, video, code, design",
+            "meta": "music, sound processing, Java",
+            "img": [
+                "spec1.jpg",
+                "spec2.jpg",
+                "spec3.jpg"
+            ],
+            "thumb_vid": true
+        },
+        "carscanner": {
+            "title": "Little 3D Car Scanner",
+            "info": "Using an RC car to 3D scan the underside of cars.",
+            "year": 2017,
+            "style": 4,
+            "btn": "View Project",
+            "tags": "Processing, RC car, new media, robotics, 3D modeling, code, art",
+            "meta": "college, classwork, Slash 4x4, HCI, Java, excap (studio)",
+            "img": [
+                "carscanner1.jpg",
+                "carscanner2.jpg",
+                "carscanner3.jpg"
+            ],
+            "thumb_vid": true
+        },
+        "3drc": {
+            "title": "3D RC Car POV",
+            "info": "3D point of view footage from an RC car around the campus.",
+            "year": 2017,
+            "tags": "3D, RC car, art, video",
+            "meta": "college, classwork, Slash 4x4, experimental, HCI, stereoscopic, excap (studio)",
+            "style": 2,
+            "img": [
+                "3drc2.jpg",
+                "3drc3.jpg",
+                "3drc1.jpg"
+            ],
+            "btn": "Watch Video",
+            "thumb_vid": true
+        },
         "novaxin": {
             "title": "Novaxin",
             "info": "Satirizing pharmaceutical advertisements.",
             "year": 2016,
-            "id": "novaxin",
             "tags": "art, video",
-            "meta": "college, classwork, found-footage, satire through history (studio)",
-            "thumb": "novaxin.jpg"
+            "meta": "college, classwork, found-footage, satire through history (studio)"
         },
         "hayal": {
             "title": "Hayâl",
             "info": "Building a world",
             "year": 2017,
-            "id": "hayal",
             "tags": "art, video",
-            "meta": "college, classwork, experimental sci-fi studio",
-            "thumb": "hayal.jpg"
+            "meta": "college, classwork, experimental sci-fi studio"
         },
         "mexico": {
             "title": "Infinite Mexico City",
             "info": "Building an infinite city.",
             "year": 2017,
-            "id": "mexico",
             "tags": "Photoshop, new media, art, video",
-            "meta": "college, classwork, excap (studio)",
-            "thumb": "mexico.jpg"
+            "meta": "college, classwork, excap (studio)"
         },
         "abstract": {
             "title": "Between the Lines",
             "info": "An abstract, experimental sci-fi art video.",
             "year": 2016,
-            "id": "abstract",
             "tags": "art, video",
-            "meta": "college, classwork, found-footage, abstract, experimental sci-fi studio",
-            "thumb": "abstract.jpg"
+            "meta": "college, classwork, found-footage, abstract, experimental sci-fi studio"
         },
         "80s": {
             "title": "'80s Themed Backdrop",
             "info": "A performance backdrop for Lunar Gala, a fashion show.",
             "year": 2015,
-            "id": "80s",
             "tags": "art, video",
-            "meta": "college, classwork, abstract, ems: moving image",
-            "thumb": "80s.jpg"
+            "meta": "college, classwork, abstract, ems: moving image"
         },
         "70s": {
             "title": "Cake Lovers Anonymous",
             "info": "Re-editing the context of \"That '70s Show\".",
             "year": 2015,
-            "id": "70s",
             "tags": "art, video",
-            "meta": "college, classwork, found-footage, ems: moving image",
-            "thumb": "70s.jpg"
+            "meta": "college, classwork, found-footage, ems: moving image"
         },
         "samsun": {
             "title": "Volunteering in Turkey",
             "info": "Documentary of my summer volunteering in Samsun, Turkey.",
             "year": 2013,
-            "id": "samsun",
-            "tags": "documentary, video",
-            "thumb": "samsun.jpg"
+            "tags": "documentary, video"
         },
         "wwii": {
             "title": "WWII Fighter Planes",
             "info": "Student documentary on aerial warfare during WWII.",
             "year": 2012,
-            "id": "wwii",
             "tags": "documentary, video",
-            "meta": "high school, classwork, found-footage",
-            "thumb": "wwii.jpg"
+            "meta": "high school, classwork, found-footage"
         },
         "chirp": {
             "title": "Chirp",
             "info": "A beginner's attempt at 3D deformers and modeling.",
             "year": 2016,
-            "id": "chirp",
             "tags": "Maya, Vue xStream, 3D animation, 3D modeling, art, video",
             "meta": "college, classwork, animation, 3D deformers, animation art and tech (studio)",
-            "thumb": "chirp.jpg",
             "doodle": true
         },
         "fishbowl": {
             "title": "Fishbowl",
             "info": "A short story of a fish discovering a portal network.",
             "year": 2016,
-            "id": "fishbowl",
             "tags": "Maya, 3D animation, 3D modeling, art, video",
-            "meta": "college, classwork, animation, animation art and tech (studio)",
-            "thumb": "fishbowl.jpg"
+            "meta": "college, classwork, animation, animation art and tech (studio)"
         },
         "attic": {
             "title": "Attic",
             "info": "A 3D project involving textures, lighting, modeling and set design.",
             "year": 2013,
-            "id": "attic",
             "tags": "3ds Max, 3D modeling, art",
-            "meta": "high school",
-            "thumb": "attic.jpg"
+            "meta": "high school"
         },
         "tree": {
             "title": "Tree Clock",
             "info": "A 24-hour generative clock in the shape of a tree.",
             "year": 2016,
-            "id": "tree",
             "tags": "p5js, new media, generative, art, code",
             "meta": "college, classwork, CGI, JS, interactivity and computation (studio)",
-            "thumb_vid": "treeclock.mp4",
-            "thumb": "treeclock.jpg"
+            "thumb_vid": true
         },
         "lightspeed": {
             "title": "Lightspeed",
             "info": "An interactive face-tracking lightspeed simulator.",
             "year": 2016,
-            "id": "lightspeed",
             "tags": "Processing, new media, interactive, generative, art, code",
             "meta": "college, classwork, FaceOSC, CGI, face-tracking, Java, interactivity and computation (studio)",
-            "thumb_vid": "lightspeed.mp4",
-            "thumb": "lightspeed.jpg"
+            "thumb_vid": true
         },
         "lineplotter": {
             "title": "Line Plotter",
             "info": "Intricate artworks using a robotic drawing machine.",
             "year": 2016,
-            "id": "lineplotter",
             "tags": "Processing, new media, art, code",
-            "meta": "college, classwork, CGI, Java, looping, interactivity and computation (studio)",
-            "thumb": "lineplotter.jpg"
+            "meta": "college, classwork, CGI, Java, looping, interactivity and computation (studio)"
         },
         "togetheragain": {
             "title": "Together Again",
             "info": "A game of time travelling trial and error to reunite.",
             "year": 2016,
-            "id": "togetheragain",
             "tags": "Processing, game design, art, code, interactivity and computation (studio)",
             "meta": "college, classwork, Java",
-            "thumb_vid": "togetheragain.mp4",
-            "thumb": "togetheragain.jpg"
+            "thumb_vid": true
         },
         "1337": {
             "title": "1337",
             "info": "Interactive PowerPoint game about cybersecurity.",
             "year": 2016,
-            "id": "1337",
             "tags": "PowerPoint, interactive, game design, art",
-            "meta": "college, classwork, cybersecurity, concept studio: time and space",
-            "thumb": "1337.jpg"
+            "meta": "college, classwork, cybersecurity, concept studio: time and space"
         },
         "publicdefense": {
             "title": "Public Defense Crisis",
             "info": "Informative website about the indigent defense crisis.",
             "year": 2016,
-            "id": "publicdefense",
             "tags": "HTML, CSS, JS, art, code",
-            "meta": "college, classwork, research, website, web design, digital storytelling and resistance (studio)",
-            "thumb": "publicdefense.jpg"
+            "meta": "college, classwork, research, website, web design, digital storytelling and resistance (studio)"
         },
         "retrotrump": {
             "title": "Post-Trump Classic Games",
             "info": "Classic games in post-Trump America.",
             "year": 2017,
-            "id": "retrotrump",
             "tags": "Photoshop, interactive, art",
-            "meta": "college, classwork, looping, satire through history (studio)",
-            "thumb": "retrotrump.jpg"
+            "meta": "college, classwork, looping, satire through history (studio)"
         },
         "shapes": {
             "title": "Shapes",
             "info": "A short animation about shapes.",
             "year": 2017,
-            "id": "shapes",
             "tags": "2D animation, art, video",
-            "meta": "college, classwork, drawing, animation, satire through history (studio)",
-            "thumb": "shapes.jpg"
+            "meta": "college, classwork, drawing, animation, satire through history (studio)"
         },
         "minecraftart": {
             "title": "Public Art in Minecraft",
             "info": "Creating anonymous artwork on public Minecraft servers.",
             "year": 2016,
-            "id": "minecraftart",
             "tags": "art",
-            "meta": "college, classwork, public art, Minecraft, intro to contextual practice (studio)",
-            "thumb": "minecraftart.jpg"
+            "meta": "college, classwork, public art, Minecraft, intro to contextual practice (studio)"
         },
         "eak": {
             "title": "Elaine A. King's Website",
             "info": "Personal website of a professor at CMU.",
             "year": 2016,
-            "id": "eak",
             "tags": "HTML, CSS, code, web development",
-            "meta": "commission work, website",
-            "thumb": "elaineking.jpg"
+            "meta": "commission work, website"
         },
         "sem": {
             "title": "Scanning Electron Microscope Photos",
             "info": "Photography with a million dollar camera.",
             "year": 2017,
-            "id": "sem",
             "tags": "photography, art",
-            "meta": "college, classwork, scanning electron microscope, excap (studio)",
-            "thumb": "sem.jpg"
+            "meta": "college, classwork, scanning electron microscope, excap (studio)"
         },
         "ppt": {
             "title": "PowerPoints (2013 Showreel)",
             "info": "PowerPoint games, animations and artworks from before 2013.",
             "year": 2013,
-            "id": "ppt",
             "url": "https://vimeo.com/253038494",
             "tags": "PowerPoint, game design, 2D animation, art, video",
-            "meta": "high school, showreel, compilation, animation",
-            "thumb": "ppt.jpg"
+            "meta": "high school, showreel, compilation, animation"
         },
         "brenizer": {
             "title": "Brenizer Method Series",
             "info": "Photography series focused on using the Brenizer Method.",
             "year": 2016,
-            "id": "brenizer",
             "tags": "Photoshop, photography, art",
-            "meta": "college, classwork, black and white photography (studio)",
-            "thumb": "brenizer.jpg"
+            "meta": "college, classwork, black and white photography (studio)"
         },
         "carrig": {
             "title": "3D Car Rig",
             "info": "Learning to rig a 3D model car.",
             "year": 2012,
-            "id": "carrig",
             "tags": "3ds Max, 3D modeling, art",
             "meta": "high school, rig, rigging, 3D",
-            "thumb": "carrig.jpg",
             "doodle": true
         },
         "catnbot": {
             "title": "Cat 'n Bot",
             "info": "Cats in space!",
             "year": 2017,
-            "id": "catnbot",
             "url": "https://vimeo.com/253096260",
             "tags": "PowerPoint, Unity, game design, illustration, art",
-            "meta": "college, classwork, experimental game design (studio)",
-            "thumb": "catnbot.jpg"
+            "meta": "college, classwork, experimental game design (studio)"
         },
         "childhoodrevisited": {
             "title": "Childhood Revisited",
             "info": "Blending current day me with portraits from my childhood.",
             "year": 2017,
-            "id": "childhoodrevisited",
             "tags": "Photoshop, photography, art",
-            "meta": "college, classwork, excap (studio)",
-            "thumb": "childhood.jpg"
+            "meta": "college, classwork, excap (studio)"
         },
         "coffee": {
             "title": "Coffee",
             "info": "A short student film.",
             "year": 2016,
-            "id": "coffee",
             "tags": "video",
-            "meta": "college, classwork, short film, technical directing (studio)",
-            "thumb": "coffee.jpg"
+            "meta": "college, classwork, short film, technical directing (studio)"
         },
         "color": {
             "title": "Color Theory",
             "info": "Color theory final in form of presentation.",
             "year": 2017,
-            "id": "color",
             "url": "https://vimeo.com/253094856",
             "tags": "PowerPoint, 2D animation, graphic design, art, video",
-            "meta": "college, classwork, animation, motion graphics, design, color theory (studio)",
-            "thumb": "color.jpg"
+            "meta": "college, classwork, animation, motion graphics, design, color theory (studio)"
         },
         "gtaphoto": {
             "title": "American West",
             "info": "Travel photography from inside a video game.",
             "year": 2017,
-            "id": "gtaphoto",
             "tags": "new media, photography, art",
-            "meta": "college, classwork, GTA V, satire, video games, satire through history (studio)",
-            "thumb": "gta.jpg"
+            "meta": "college, classwork, GTA V, satire, video games, satire through history (studio)"
         },
         "heyrobot": {
             "title": "Floating Seat",
             "info": "Crafting a seat for a floating pod.",
             "year": 2014,
-            "id": "heyrobot",
             "tags": "3D modeling, CAD, manufacturing, art",
-            "meta": "college, classwork, wood, CNC machine, physical art, 3d media studio: robotic tools",
-            "thumb": "heyrobot.jpg"
+            "meta": "college, classwork, wood, CNC machine, physical art, 3d media studio: robotic tools"
         },
         "labs": {
             "title": "Liquidnet Labs",
             "info": "An experimental landing page exploring parallax techniques.",
             "year": 2017,
-            "id": "labs",
             "tags": "HTML, CSS, JS, graphic design, UI, UX, design, code",
-            "meta": "professional work, front-end, parallax, web design, website",
-            "thumb": "labs.jpg"
+            "meta": "professional work, front-end, parallax, web design, website"
         },
         "metals": {
             "title": "Metal Works",
             "info": "Small artistic creations made with metals.",
             "year": 2015,
-            "id": "metals",
             "tags": "manufacturing, art",
             "meta": "college, classwork, metal, 3d media studio: small metals",
             "group": [
                 {
-                    "group_id": "metals",
                     "title": "Chamber",
                     "year": 2015,
                     "thumb": "metals1.jpg"
                 },
                 {
-                    "group_id": "metals",
                     "title": "Selfie Badge",
                     "year": 2015,
                     "thumb": "metals2.jpg"
                 },
                 {
-                    "group_id": "metals",
                     "title": "Heart Trinkets",
                     "year": 2015,
                     "thumb": "metals3.jpg"
@@ -1218,48 +1043,38 @@
             "title": "They Talk",
             "info": "A short film about a society with telepathic communication.",
             "year": 2017,
-            "id": "theytalk",
             "tags": "video",
-            "meta": "college, classwork, short film, experimental sci-fi studio",
-            "thumb": "theytalk.jpg"
+            "meta": "college, classwork, short film, experimental sci-fi studio"
         },
         "ussenterprise": {
             "title": "USS Enterprise",
             "info": "My first 3D model (incomplete).",
             "year": 2013,
-            "id": "ussenterprise",
             "tags": "3ds Max, 3D modeling, art",
             "meta": "high school",
-            "thumb": "ussenterprise.jpg",
             "doodle": true
         },
         "photodata": {
             "title": "Photographer's Data",
             "info": "Building a portrait of a photographer through metadata.",
             "year": 2017,
-            "id": "photodata",
             "tags": "data-vis, art, photography, code",
-            "meta": "college, classwork, photographer, portrait, excap (studio)",
-            "thumb": "photodata.jpg"
+            "meta": "college, classwork, photographer, portrait, excap (studio)"
         },
         "lines": {
             "title": "1, 10, 1000 Lines",
             "info": "Compositions with 1, 10, and 1000 lines responding to the cursor.",
             "year": 2014,
-            "id": "lines",
             "tags": "Processing, interactive, new media, art, code",
-            "meta": "college, classwork, Java, ems: interactivity",
-            "thumb": "lines.jpg"
+            "meta": "college, classwork, Java, ems: interactivity"
         },
         "laptop": {
             "title": "3D Laptop Scan",
             "info": "A photogrammetry experiment.",
             "year": 2017,
-            "id": "laptop",
             "tags": "3D, art",
             "meta": "college, classwork, photogrammetry, excap (studio)",
-            "thumb_vid": "laptop.mp4",
-            "thumb": "laptop.jpg",
+            "thumb_vid": true,
             "doodle": true
         }
     },
@@ -1284,7 +1099,6 @@
     "intro": [
         {
             "text": "Developer",
-            "id": "dev",
             "img": [
                 "pixtory2.jpg",
                 "scrabble2.jpg",
@@ -1296,7 +1110,6 @@
         },
         {
             "text": "Designer",
-            "id": "des",
             "img": [
                 "telle3.jpg",
                 "scrabble3.jpg",
@@ -1308,7 +1121,6 @@
         },
         {
             "text": "Artist",
-            "id": "art",
             "img": [
                 "oil1.jpg",
                 "endless2.jpg",
@@ -1320,7 +1132,6 @@
         },
         {
             "text": "Photographer",
-            "id": "photo",
             "img": [
                 "pro-sports2.jpg",
                 "pro-wedding2.jpg",
@@ -1332,7 +1143,6 @@
         },
         {
             "text": "And More...",
-            "id": "more",
             "img": [
                 "lego2.jpg",
                 "charcoal1.jpg",
