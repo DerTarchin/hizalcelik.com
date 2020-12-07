@@ -4,6 +4,7 @@
       dir_tags_hidden = {}, // not to be autocompleted
       ul = $('#index-thumbs'),
       thumb_tmpl = $('#thumb-tmpl').html(),
+      tooltip = $('#tooltip'),
       awe, // awesomplete
       blazyTimeout, // blazy timeout
       filterVal = "",
@@ -30,7 +31,8 @@
         "datavis": "data visualization",
         "excap": "experimental capture"
       },
-      showDoodles = !!$('#doodle').attr('checked');
+      showDoodles = !!$('#doodle').attr('checked'),
+      currTooltip;
 
   function updateCounter() {
     var count = activeList.length - hidden_doodles.length;
@@ -170,7 +172,15 @@
     function processTmpl(data, tags) {
       var li = document.createElement("li");
       activeList.push(li);
-      li.setAttribute('title', data.info || data.title)
+      if(data.id) li.id = data.id;
+      li.setAttribute('data-title', data.title);
+      li.setAttribute('data-year', data.year);
+      if(!data.info && data.group_id) {
+        li.setAttribute('data-info', p_cache.work[data.group_id].info)
+      } else {
+        li.setAttribute('data-info', data.info);
+      }
+      li.setAttribute('data-thumb', data.thumb);
       function addTag(tag) {
         if(!dir_tags[tag]) dir_tags[tag] = [li];
         else dir_tags[tag].push(li);
@@ -286,6 +296,7 @@
   function deferred() {
     // start Awesomplete
     awe = new Awesomplete($("#filter")[0], { minChars: 1 });
+
     // get data if not got yet
     // init the directory
     function getProjectData(res, err) {
@@ -323,7 +334,35 @@
     $('#filter').on('awesomplete-select', filterAndURL);
     $('#doodle').on('change', doodleAndFilter);
 
-    if(!isMobile()) $("#filter")[0].focus();
+    // desktop only features
+    if(!isMobile()) {
+      // auto focus on input if on desktop
+      $("#filter")[0].focus();
+
+      // track mouse movements for tooltip effect
+      var tooltipTitle = tooltip[0].querySelector('#tooltip_title');
+      var tooltipInfo = tooltip[0].querySelector('#tooltip_info');
+      var tooltipYear = tooltip[0].querySelector('#tooltip_year');
+      var tooltipImg = tooltip[0].querySelector('#tooltip_img');
+      function showTooltip(e) {
+        var li = getClosestParent(e.target, 'li');
+        if(li) {
+          var thumb = li.getAttribute('data-thumb');
+          if(thumb === currTooltip) return;
+          tooltip.addClass('show');
+          currTooltip = thumb;
+          tooltipTitle.innerHTML = li.getAttribute('data-title');
+          tooltipYear.innerHTML = li.getAttribute('data-year');
+          tooltipInfo.innerHTML = li.getAttribute('data-info');
+          tooltipImg.style.backgroundImage = 'url(/assets/media/thumb/' + li.getAttribute('data-thumb') + ')';
+        }
+      }
+      function hideTooltip(e) {
+        tooltip.removeClass('show');
+      }
+      ul.on('mousemove', showTooltip);
+      ul.on('mouseleave', hideTooltip);
+    }
   }
   if(document_loaded) deferred();
   window.addEventListener('load', deferred);

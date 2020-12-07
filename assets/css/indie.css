@@ -835,6 +835,53 @@ div.awesomplete {
   transition: stroke-dasharray .6s, stroke-dashoffset .6s;
 }
 
+.fullpage .tooltip {
+  background: black;
+  border-top: 5px solid black;
+  position: fixed;
+  left: 0;
+  width: 100vw;
+  padding: 15px 25px;
+  z-index: 1;
+  overflow: hidden;
+  color: white;
+  bottom: -108px;
+  transition: bottom .35s cubic-bezier(.12,.845,.305,1);
+  pointer-events: none;
+  user-select: none;
+}
+.fullpage .tooltip.show {
+  bottom: 0;
+}
+.fullpage .tooltip > div {
+  z-index: 10;
+}
+.fullpage #tooltip_title {
+  font-family: 'Raleway',sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+}
+.fullpage #tooltip_img {
+  position: absolute;
+  width: 120%;
+  height: 120%;
+  filter: blur(10px);
+  z-index: -1;
+  left: -10%;
+  top: -10%;
+  opacity: .5;
+  background: black center center no-repeat;
+  -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+}
+.fullpage #tooltip_year {
+  opacity: .5;
+  margin-right: 10px;
+}
+
 
 /* RESPONSIVE */
 @media screen and (min-width: 1200px) {
