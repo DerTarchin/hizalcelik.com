@@ -859,7 +859,8 @@
             "info": "A 3D project involving textures, lighting, modeling and set design.",
             "year": 2013,
             "tags": "3ds Max, 3D modeling, art",
-            "meta": "high school"
+            "meta": "high school",
+            "doodle": true
         },
         "tree": {
             "title": "Tree Clock",
@@ -1035,7 +1036,8 @@
                 {
                     "title": "Heart Trinkets",
                     "year": 2015,
-                    "thumb": "metals3.jpg"
+                    "thumb": "metals3.jpg",
+                    "doodle": true
                 }
             ]
         },
@@ -1083,6 +1085,12 @@
             "year": 2014,
             "tags": "website, web design, code",
             "url": "http://old.hizalcelik.com"
+        },
+        "comic": {
+            "title": "Ordinary Comic",
+            "info": "A comic about literally thinking outside the box.",
+            "year": 2015,
+            "tags": "comic, art"
         }
     },
 

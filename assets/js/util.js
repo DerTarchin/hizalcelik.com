@@ -30,6 +30,13 @@ function parseDirectory(file) {
       }
     }
   }
+
+  // add "id" field to intro objects for gallery
+  if((p_cache || {}).intro) {
+    for(var i=0; i<p_cache.intro.length; i++) {
+      p_cache.intro[i].id = 'intro_' + i;
+    }
+  }
 }
 
 function getFile(url, fn) {

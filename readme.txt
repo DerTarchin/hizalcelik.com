@@ -141,7 +141,7 @@ __CODE__
 >> SIZES
 images >> use JPEGMini and https://compressjpeg.com/ or https://compresspng.com/
 gifs >> use https://ezgif.com/
-videos >> use Handbrake (?)
+videos >> use https://cloudconvert.com/
 
 = GALLERY =
 gallery-l       2000    max-longest
@@ -152,6 +152,7 @@ gallery-xs      500     max-longest, quality = 10%
 = SEARCH =
 thumb           500     square
 thumb-s         256     square
+thumb (vid)     500     sqaure (use cloudconvert.com to convert to .mp4 of quality 40, no audio)
 
 = INDIE =
 full            2000    max-longest
