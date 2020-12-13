@@ -235,7 +235,7 @@
             "style": 3,
             "btn": "View Project",
             "tags": "Processing, new media, interactive, art, code",
-            "meta": "college, classwork, analog, CGI, Java, ems: interactivity",
+            "meta": "college, classwork, analog, CGI, Java, ems: interactivity (studio)",
             "img": [
                 "clock1.jpg",
                 "clock2.jpg",
@@ -451,7 +451,7 @@
             "style": 3,
             "btn": "View Project",
             "tags": "Photoshop, After Effects, 2D animation, art, video",
-            "meta": "college, classwork, animation, short film, ems: moving image",
+            "meta": "college, classwork, animation, short film, ems: moving image (studio)",
             "img": [
                 "piper1.jpg",
                 "piper2.jpg",
@@ -466,7 +466,7 @@
             "style": 1,
             "btn": "Watch Video",
             "tags": "found-footage, remix, art, video",
-            "meta": "college, classwork, ems: moving image",
+            "meta": "college, classwork, ems: moving image (studio)",
             "img": [
                 "bose1.jpg",
                 "bose2.jpg",
@@ -708,7 +708,7 @@
             "style": 3,
             "btn": "View Project",
             "tags": "Arduino, Java, robotics, new media, RC car, code, art",
-            "meta": "college, classwork, HCI, Slash 4x4, ems: interactivity",
+            "meta": "college, classwork, HCI, Slash 4x4, ems: interactivity (studio)",
             "img": [
                 "followerbot1.jpg",
                 "followerbot2.jpg",
@@ -736,7 +736,7 @@
             "info": "An Arduino-controlled 8-bit game.",
             "year": 2014,
             "tags": "Arduino, Processing, game design, code",
-            "meta": "college, classwork, 8-bit, 8bit, HCI, Java, ems: interactivity",
+            "meta": "college, classwork, 8-bit, 8bit, HCI, Java, ems: interactivity (studio)",
             "thumb_vid": true
         },
         "spec": {
@@ -817,14 +817,14 @@
             "info": "A performance backdrop for Lunar Gala, a fashion show.",
             "year": 2015,
             "tags": "art, video",
-            "meta": "college, classwork, abstract, ems: moving image"
+            "meta": "college, classwork, abstract, ems: moving image (studio)"
         },
         "70s": {
             "title": "Cake Lovers Anonymous",
             "info": "Re-editing the context of \"That '70s Show\".",
             "year": 2015,
             "tags": "art, video",
-            "meta": "college, classwork, found-footage, ems: moving image"
+            "meta": "college, classwork, found-footage, ems: moving image (studio)"
         },
         "samsun": {
             "title": "Volunteering in Turkey",
@@ -1068,7 +1068,7 @@
             "info": "Compositions with 1, 10, and 1000 lines responding to the cursor.",
             "year": 2014,
             "tags": "Processing, interactive, new media, art, code",
-            "meta": "college, classwork, Java, ems: interactivity"
+            "meta": "college, classwork, Java, ems: interactivity (studio)"
         },
         "laptop": {
             "title": "3D Laptop Scan",
@@ -1090,7 +1090,14 @@
             "title": "Ordinary Comic",
             "info": "A comic about literally thinking outside the box.",
             "year": 2015,
-            "tags": "comic, art"
+            "tags": "college, classwork, comic, art"
+        },
+        "spongehizal": {
+            "title": "SpongeHizal SquareFace",
+            "info": "Face-tracking mapped to Spongebob's face.",
+            "year": 2014,
+            "tags": "Processing, new media, interactive, generative, art, code",
+            "meta": "college, classwork, FaceOSC, CGI, Java, face-tracking, ems: interactivity (studio)"
         }
     },
 
