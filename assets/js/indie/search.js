@@ -359,6 +359,7 @@
       }
       function hideTooltip(e) {
         tooltip.removeClass('show');
+        currTooltip = null;
       }
       ul.on('mousemove', showTooltip);
       ul.on('mouseleave', hideTooltip);
