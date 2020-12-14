@@ -1109,6 +1109,14 @@
             "tags": "Arduino, art, code",
             "meta": "college, classwork, Java, ems: interactivity (studio)",
             "doodle": true
+        },
+        "everlight": {
+            "title": "Everlight",
+            "info": "A simple loop creating expanding rays.",
+            "year": 2014,
+            "tags": "Processing, art, code",
+            "meta": "college, classwork, Java, ems: interactivity (studio)",
+            "doodle": true
         }
     },
 

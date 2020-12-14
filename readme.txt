@@ -218,9 +218,9 @@ NEW PAGE CHECKLIST
 4)  all asset images compressed
 5)  search index thumbs created
 6)  to_add updated
-7)  run "shorturl -sync" in terminal once pushed up
 8)  if golan project, original link added to HTML and "edited" badge added to original documentaion
 9)  if it is a doodle, mark as such in directory
+7)  run "shorturl -sync" in terminal once pushed up
 10) if a video was linked, video has the following text:
 
 __DESCRIPTION__
