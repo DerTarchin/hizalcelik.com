@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" data-page="spec">
+<html lang="en" data-page="monkey">
   <head>
     <!-- META -->
     <meta charset="utf-8">
@@ -38,14 +38,14 @@
     <!-- /FAVICON -->
     
     <!-- PAGE-SPECIFIC -->
-    <title>Frequency Spectrum Analyzers | Hızal Çelik</title>
-    <meta property="og:title" content="Frequency Spectrum Analyzers | Hızal Çelik">
-    <meta property="og:url" content="http://hizalcelik.com/spec/">
-    <meta name="description" content="Real-time audio frequency spectrum visualzer, by Hızal Çelik">
-    <meta property="og:description" content="Real-time audio frequency spectrum visualzer, by Hızal Çelik">
+    <title>Monkey, Monkey | Hızal Çelik</title>
+    <meta property="og:title" content="Monkey, Monkey | Hızal Çelik">
+    <meta property="og:url" content="http://hizalcelik.com/monkey/">
+    <meta name="description" content="A desktop Arduino animatronic of a swinging monkey, by Hızal Çelik.">
+    <meta property="og:description" content="A desktop Arduino animatronic of a swinging monkey, by Hızal Çelik.">
     <!-- /PAGE-SPECIFIC -->
   </head>
-  
+
   <body class="dark indie">
 
     <div class="nav" id="nav">
@@ -69,19 +69,19 @@
 
     <section class="fullpage vis" data-dynamic="html">
       <div class="fullpage-content">
-        
+
         <section class="project-header">
-            <h1>Frequency Spectrum Analyzers</h1>
-            <p class="info-subtitle light">Real-time audio frequency spectrum visualzer.</p>
+            <h1>Monkey, Monkey</h1>
+            <p class="info-subtitle light">A desktop Arduino animatronic of a swinging monkey.</p>
             <div class="project-info">
                 <div class="info-block">
                     <div>
                         <h5 class="info-title muted">category</h5>
-                        <p><a href="/search?k=design/">Design</a>, <a href="/search?k=code/">Code</a></p>
+                        <p><a href="/search?k=art/">Art</a>, <a href="/search?k=code/">Code</a></p>
                     </div>
                     <div>
                         <h5 class="info-title muted">date</h5>
-                        <p><a href="/search?k=2017/">2017</a></p>
+                        <p><a href="/search?k=2014/">Fall 2014</a></p>
                     </div>
                 </div>
                 <div class="info-block">
@@ -89,72 +89,75 @@
                         <h5 class="info-title muted">technologies used</h5>
                         <p>
                             <a target="_blank" href="https://processing.org/">Processing 2</a>, 
-                            <a target="_blank" href="http://www.adobe.com/products/aftereffects.html">After Effects</a>
+                            <a target="_blank" href="https://github.com/CreativeInquiry/FaceOSC-Templates">FaceOSC</a>
                         </p>
+                    </div>
+                    <div>
+                        <h5 class="info-title muted">course</h5>
+                        <p><a target="_blank" href="http://golancourses.net/2014_60210a/">Electronic Media Studio: Interactivity</a></p>
                     </div>
                 </div>
             </div>
         </section>
-
+        
         <section class="project-content ps-gallery">
-            
-            <div>
-                <div class="responsive-embed local auto">
-                    <video class="b-lazy" data-src="/assets/media/indie/spec/spec.mp4" poster="/assets/media/indie/spec/thumb/spec.jpg" playsinline autoplay loop muted></video>
-                </div>
-                <div class="responsive-embed local non-auto">
-                    <video class="b-lazy" data-src="/assets/media/indie/spec/spec.mp4" poster="/assets/media/indie/spec/thumb/spec.jpg" loop muted webkit-playsinline playsinline controls></video>
-                </div>
-                <div class="b-lazy ps-img full"></div>
+
+            <div class="spaced responsive-embed">
+                <iframe class="b-lazy" src="https://www.youtube.com/embed/XHG6ooCUTU0?rel=0&showinfo=0&autoplay=1&mute=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
 
-            <p>This is a real-time audio frequency spectrum analyzer. I also programmed a simple beat-detector for this view. I programmed this project in Processing a few years after I used After Effects to render some circular graphic equalizers. I had been so amazed by the visualizations that I said to myself, "I need to have this in real-time, I can't wait an hour for every 3 minute song to render!"</p>
-
-            <p class="sub muted"><em>You can download the Mac app <a target="_blank" href="https://drive.google.com/open?id=1YjR4AnfTSTLMdkK6vkvdXdd8wJjfQp9v">here</a></em> to try for yourself.</p>
+            <p>This is an excersize in creating a small-scale, Arduino-powered animatronic. For this swinging monkey, I used a cereal box, three plastic knives, leaves from a tree and bush, a fridge-magnet monkey and an Arduino Uno with a servo motor. The only issue with the final product was that the monkey's magnetic hands tended to stick together rather than staying apart in a freeform, "swinging in the jungle" kidn of way.</p>
+            <p class="sub muted"><em>You can view the original project documentation <a target="_blank" href="http://golancourses.net/2014_60210a/hc/11/12/monkey-monkey/">on the class website</a>.</em></p>
 
             <blockquote>
+                <div class="card-img ps-img"></div>
                 <div class="text">
-                    <h3>Modular Design</h3>
-
-                    <p>I programmed this specifically to be able to incorporate multipe different types of views, not just a circular equalizer. Therefore I created a main class to handle all audio analysis functions, and multiple view classes that extend the analysis with thier own custom graphics.</p>
-                    <p>Each view is also modifiable, e.g. the circular can any number of times (default is twice), turn on/off the beat pulse effect, flip inside/out, change min-height of each bar, colors, etc.</p>
+                    <h3>Wiring Diagram</h3>
                 </div>
             </blockquote>
-
-            <div class="spaced responsive-embed">
-                <iframe class="b-lazy" src="https://www.youtube.com/embed/cMCBEp5XiP0?rel=0&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
 
             <blockquote class="col">
-                <div class="card-gallery">
-                    <div class="ps-img img-grid"></div>
+                <div class="code-window">
+                    <pre>
+                        <code>
+#include
+
+Servo myservo; // create servo object to control a servo
+// twelve servo objects can be created on most boards
+
+int pos = 0; // variable to store the servo position
+
+void setup()
+{
+  myservo.attach(9); // attaches the servo on pin 9 to the servo object
+}
+
+void loop()
+{
+  for(pos = 0; pos < = 120; pos += 1) // goes from 0 degrees to 180 degrees
+  { // in steps of 1 degree
+    myservo.write(pos); // tell servo to go to position in variable 'pos'
+    delay(15); // waits 15ms for the servo to reach the position
+  }
+  for(pos = 120; pos>=0; pos-=1) // goes from 180 degrees to 0 degrees
+  {
+    myservo.write(pos); // tell servo to go to position in variable 'pos'
+    delay(15); // waits 15ms for the servo to reach the position
+  }
+}
+                        </code>
+                    </pre>
                 </div>
                 <div class="text">
-                    <h3>Development Tests</h3>
+                    <h4 style="display: inline-block; margin-right: 10px">Monkey, Monkey</h4>
+                    <em>Written for Arduino</em>
                 </div>
             </blockquote>
 
-            <blockquote class="source">
-                <div class="card-img-static"><a target="_blank" href="https://github.com/DerTarchin/Spectrum-Analyzer"><img src="/assets/media/source.jpg"></a></div>
-                <a target="_blank" href="https://github.com/DerTarchin/Spectrum-Analyzer" class="text">
-                    <h3>View the source code</h3>
-                </a>
-            </blockquote>
-
-            <p>The following were the original graphic equalizers I rendered Unfortunately the Processing language is somehow limited in CPU usage and doesn't take advantage of much GPU power either, so I was unable to create the background pulse effects and particle effects in the real-time version.</p>
-
-            <div class="responsive-embed spaced">
-                <iframe class="b-lazy" data-src="https://player.vimeo.com/video/151454149?color=ffffff&title=0&byline=0&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-            </div>
-            <p class="sub muted ta-right"><em>Paradise</em> by Coldplay</p>
-
-            <div class="spaced responsive-embed">
-                <iframe src="https://www.youtube.com/embed/KQYzPIfSTcQ?rel=0&showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-            </div>
-            <p class="sub muted ta-right"><em>Skyfall</em> by Adele</p>
+            <div class="spaced ps-img full"></div>
 
         </section>
-
+        
         <div class="spaced">
             <div class="footer-tags"></div>
         </div>
@@ -170,6 +173,6 @@
     <script src="/assets/js/main.pkgd.min.js"></script>
     <script src="/assets/js/indie.pkgd.min.js"></script>
     
-    <script src="/assets/js/indie/spec.js" data-dynamic="js"></script>
+    <script src="/assets/js/indie/monkey.js" data-dynamic="js"></script>
   </body>
 </html>

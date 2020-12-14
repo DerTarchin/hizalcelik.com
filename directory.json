@@ -746,7 +746,7 @@
             "style": 3,
             "btn": "View Project",
             "tags": "Processing, After Effects, motion graphics, video, code, design",
-            "meta": "music, sound processing, Java",
+            "meta": "music, sound processing, Java, graphic equalizer, eq",
             "img": [
                 "spec1.jpg",
                 "spec2.jpg",
@@ -1090,14 +1090,24 @@
             "title": "Ordinary Comic",
             "info": "A comic about literally thinking outside the box.",
             "year": 2015,
-            "tags": "college, classwork, comic, art"
+            "tags": "college, classwork, comic, art",
+            "doodle": true
         },
         "spongehizal": {
             "title": "SpongeHizal SquareFace",
             "info": "Face-tracking mapped to Spongebob's face.",
             "year": 2014,
-            "tags": "Processing, new media, interactive, generative, art, code",
-            "meta": "college, classwork, FaceOSC, CGI, Java, face-tracking, ems: interactivity (studio)"
+            "tags": "Processing, new media, interactive, art, code",
+            "meta": "college, classwork, FaceOSC, CGI, Java, face-tracking, ems: interactivity (studio)",
+            "doodle": true
+        },
+        "monkey": {
+            "title": "Monkey, Monkey",
+            "info": "A desktop Arduino animatronic of a swinging monkey.",
+            "year": 2014,
+            "tags": "Processing, Arduino, art, code",
+            "meta": "college, classwork, Java, ems: interactivity (studio)",
+            "doodle": true
         }
     },
 

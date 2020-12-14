@@ -206,3 +206,23 @@ thumb-xs (gif)  25      max-height (with ideal size: 1-30kb)
 - "img" is used for gallery page shards
 - "style" defines the gallery page shart style (1-5)
 - "btn" is text in the gallery page "view project" button
+
+
+========================
+
+
+NEW PAGE CHECKLIST
+1)  ids, refs, descriptions correct in .js, .html
+2)  directory updated with correct tags, meta, etc
+3)  page category, tech, year and course/client is updated
+4)  all asset images compressed
+5)  search index thumbs created
+6)  to_add updated
+7)  run "shorturl -sync" in terminal once pushed up
+8)  if golan project, original link added to HTML and "edited" badge added to original documentaion
+9)  if it is a doodle, mark as such in directory
+10) if a video was linked, video has the following text:
+
+__DESCRIPTION__
+
+You can learn more about this project at http://hiz.al/__LINK__

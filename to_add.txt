@@ -8,12 +8,15 @@ MAIN
 - hizalcelik.com
 - deltapoint
 - dianaconnolly.me
+- fractals finals
 
 ENHANCEMENTS:
 - ppt (showreel)
 * all lego animations (split into projects)
-- cat'n'bot
-- color
+- cat'n'bot https://vimeo.com/253096260
+- color https://vimeo.com/253094856
+- all highschool robotics videos (kickoffs)
+
 
 DUMP? (add info icon (?) to page to explain)
 - college plan (... is this the large web/map pptZ)
@@ -21,9 +24,9 @@ DUMP? (add info icon (?) to page to explain)
 - perspective home (f14)
 - perspective basement (f14)
 - nicole (f14)
-- monkey monkey http://golancourses.net/2014_60210a/hc/11/12/monkey-monkey/
 - 112 hw8c (tetris)
 - 112 hw10 (colorful click game)
+- trump nosub https://studio.youtube.com/video/Y1_M8CgkrSA/edit
 - instructional assignment: http://golancourses.net/2014_60210a/hc/09/03/instructional-assignment-hc/
 - processing inspirations: http://golancourses.net/2014_60210a/hc/09/03/looking-outwards-2-processing-hc/
 - any looking outwards ^ ? All inspiration files in all projects?
@@ -54,7 +57,7 @@ DUMP? (add info icon (?) to page to explain)
 - outlier project (s17)
 - iconic history (one for every year?) (s17)
 - compare my website with older one (old hizalcelik.com)
-- fiyel motion graphic
+- fiyel motion graphic https://vimeo.com/119020996
 - NAHS login?
 - text counter
 - ttt logo
@@ -67,6 +70,10 @@ DUMP? (add info icon (?) to page to explain)
 - URL shortener (hiz.al)
 - in case not mentioned here, all of https://github.com/DerTarchin/cmuems-60212
 - Monty Oum / RWBY title animation 3d test (old files > KDY > archive > creative > 3d tests)
+- choco box https://vimeo.com/191286840
+- mocap https://vimeo.com/191094934
+- go through all posts for all Golan courses
+- review all old videos on YouTube, Vimeo 
 
 
 ** review all old files from Kuat Drive Yards, college, and high school (as well as before)
