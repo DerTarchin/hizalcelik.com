@@ -1134,6 +1134,14 @@
             "tags": "Processing, new media, art, code",
             "meta": "college, classwork, Java, interactive, ems: interactivity (studio)",
             "doodle": true
+        },
+        "instructions": {
+            "title": "Instruction Experiment",
+            "info": "Seeing how different people follow the same instructions",
+            "year": 2014,
+            "tags": "new media, art",
+            "meta": "college, classwork, interactive, ems: interactivity (studio)",
+            "doodle": true
         }
     },
 
