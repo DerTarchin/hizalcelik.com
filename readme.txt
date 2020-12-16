@@ -105,6 +105,9 @@ __CODE__
                 </div>
             </blockquote>
 
+            for < symbol in code:
+            
+
             // source code link
             <blockquote class="source">
                 <div class="card-img-static"><a target="_blank" href="__LINK__"><img src="/assets/media/source.jpg"></a></div>
@@ -152,7 +155,7 @@ gallery-xs      500     max-longest, quality = 10%
 = SEARCH =
 thumb           500     square
 thumb-s         256     square
-thumb (vid)     500     sqaure (use cloudconvert.com to convert to .mp4 of quality 40, no audio)
+thumb (vid)     500     sqaure (use cloudconvert.com to convert to .mp4 of quality 30-40, no audio)
 
 = INDIE =
 full            2000    max-longest
@@ -211,7 +214,7 @@ thumb-xs (gif)  25      max-height (with ideal size: 1-30kb)
 ========================
 
 
-NEW PAGE CHECKLIST
+>> NEW PAGE CHECKLIST
 1)  ids, refs, descriptions correct in .js, .html
 2)  directory updated with correct tags, meta, etc
 3)  page category, tech, year and course/client is updated

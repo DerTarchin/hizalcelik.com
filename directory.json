@@ -1117,6 +1117,15 @@
             "tags": "Processing, art, code",
             "meta": "college, classwork, Java, ems: interactivity (studio)",
             "doodle": true
+        },
+        "cute": {
+            "title": "Something Cute",
+            "info": "An interactive digital creature you can tickle.",
+            "year": 2014,
+            "tags": "Processing, new media, art, code",
+            "meta": "college, classwork, Java, interactive, ems: interactivity (studio)",
+            "doodle": true,
+            "thumb_vid": true
         }
     },
 
