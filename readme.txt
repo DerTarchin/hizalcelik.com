@@ -106,7 +106,7 @@ __CODE__
             </blockquote>
 
             for < symbol in code:
-            
+            &#x3008;
 
             // source code link
             <blockquote class="source">

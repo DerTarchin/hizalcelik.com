@@ -1126,6 +1126,14 @@
             "meta": "college, classwork, Java, interactive, ems: interactivity (studio)",
             "doodle": true,
             "thumb_vid": true
+        },
+        "jingleballs": {
+            "title": "Jingle Balls",
+            "info": "Interactive chaos and order.",
+            "year": 2014,
+            "tags": "Processing, new media, art, code",
+            "meta": "college, classwork, Java, interactive, ems: interactivity (studio)",
+            "doodle": true
         }
     },
 

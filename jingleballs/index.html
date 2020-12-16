@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" data-page="cute">
+<html lang="en" data-page="jingleballs">
   <head>
     <!-- META -->
     <meta charset="utf-8">
@@ -38,11 +38,11 @@
     <!-- /FAVICON -->
     
     <!-- PAGE-SPECIFIC -->
-    <title>Something Cute | Hızal Çelik</title>
-    <meta property="og:title" content="Something Cute | Hızal Çelik">
-    <meta property="og:url" content="http://hizalcelik.com/cute/">
-    <meta name="description" content="An interactive digital creature you can tickle, by Hızal Çelik.">
-    <meta property="og:description" content="An interactive digital creature you can tickle, by Hızal Çelik.">
+    <title>Jingle Balls | Hızal Çelik</title>
+    <meta property="og:title" content="Jingle Balls | Hızal Çelik">
+    <meta property="og:url" content="http://hizalcelik.com/jingleballs/">
+    <meta name="description" content="Interactive chaos and order, by Hızal Çelik.">
+    <meta property="og:description" content="Interactive chaos and order, by Hızal Çelik.">
     <!-- /PAGE-SPECIFIC -->
   </head>
 
@@ -71,8 +71,8 @@
       <div class="fullpage-content">
 
         <section class="project-header">
-            <h1>Something Cute</h1>
-            <p class="info-subtitle light">An interactive digital creature you can tickle.</p>
+            <h1>Jingle Balls</h1>
+            <p class="info-subtitle light">Interactive chaos and order.</p>
             <div class="project-info">
                 <div class="info-block">
                     <div>
@@ -101,142 +101,59 @@
         
         <section class="project-content ps-gallery">
 
-            <blockquote>
-                <div class="card-img ps-img"></div>
-                <div class="text">
-                    <p>A basic, interacrtive character that changes color when you click, cheers and waves at your mouse, and gets tickled if the mouse is too close.</p>
-                    <p class="sub muted"><em>You can view the original project documentation <a target="_blank" href="http://golancourses.net/2014_60210a/hc/11/12/monkey-monkey/">on the class website</a>.</em></p>
-                </div>
-            </blockquote>
+            <p style="font-size: 1.15em"><em>Not music to my ears.</em></p>
+
+            <p class="not-spaced">A basic, interacrtive software that starts with a pleasant, solid tone, and gets more and more warbled and disorderly as the user moves the mouse to the right side of the screen.</p>
+            <p class="sub muted"><em>You can view the original project documentation <a target="_blank" href="http://golancourses.net/2014_60210a/hc/09/22/jingle-balls/">on the class website</a>.</em></p>
+
+            <div class="spaced responsive-embed">
+                <iframe class="b-lazy" src="https://www.youtube.com/embed/m6KG6UvGSzY?rel=0&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
 
             <blockquote class="col">
                 <div class="code-window">
                     <pre>
                         <code>
-int skinColorR = 100;
-int skinColorG = 200;
-int skinColorB = 300;
+import ddf.minim.*;
+import ddf.minim.ugens.*;
 
-void setup() {
-  size(600, 600);
+Minim       minim;
+AudioOutput out;
+Oscil       wave;
+
+void setup(){
+  size(1000,500); 
+  minim = new Minim(this);
+  out = minim.getLineOut();
+  wave = new Oscil( 300, 0.5f, Waves.SINE );
+  wave.patch( out );
 }
-
-void draw() {
-  background(#ffffff);
-  smooth();
-
-  float randxymin = 85;
-  float randxymax = 130;
-
-  float randXL = map(mouseX, 0, width, randxymin, randxymax);
-  randXL = constrain(randXL, randxymin, randxymax); 
-  float randXR = map(width-mouseX, 0, width, randxymin, randxymax);
-  randXR = constrain(randXR, randxymin, randxymax); 
-  float randYT = map(mouseY, 0, height, randxymin, randxymax);
-  randYT = constrain(randYT, randxymin, randxymax);
-  float randYB = map(height-mouseY, 0, height, randxymin, randxymax);
-  randYB = constrain(randYT, randxymin, randxymax);
-
-  float randXS = map(mouseX, 0, width, 10, 40);
-  randXS = constrain(randXS, 10, 40); 
-  float randYS = map(mouseY, 0, height, 10, 40);
-  randYS = constrain(randYS, 10, 40); 
-
-  //define features
-  float eyeSize = (randXS+randYS)/2; 
-  float faceWidth = randXL; 
-  float faceHeight = randYT;
-
-
-  //draw features
-  strokeWeight(1);
-  fill(skinColorR, skinColorG, skinColorB);
-  ellipse (width/2, height/2, faceWidth, faceHeight); 
-  filter(BLUR, 3);
-  float eyeLX = width/2 - faceWidth*0.15;
-  float eyeRX = width/2 + faceWidth*0.15;
-  fill(#ffffff);
-  if ((mouseX>=((width/2)-(faceWidth/2))) && (mouseX<=((width/2)+(faceWidth/2))) 
-  && (mouseY>=((height/2)-(faceHeight/2))) && (mouseY<=((height/2)+(faceHeight/2)))) {
-    noFill(); 
-  strokeWeight(2);
-  arc(eyeLX, height/2-faceHeight*0.1, 20, 10, PI, TWO_PI);
-  arc(eyeRX, height/2-faceHeight*0.1, 20, 10, PI, TWO_PI);
-  } else {
-    ellipse (eyeLX, height/2-faceHeight*0.1, 20, eyeSize); 
-    ellipse (eyeRX, height/2-faceHeight*0.1, 20, eyeSize);
-    fill(0, 0, 0);
-    ellipse (eyeLX, height/2-faceHeight*0.1, 8, 8); 
-    ellipse (eyeRX, height/2-faceHeight*0.1, 8, 8); 
+ 
+void draw(){
+  background(255);
+  smooth(); 
+ 
+ //golan's randomness
+  float randomness = map(mouseX, 0,width, 0,1);
+  randomness = constrain(randomness, 0,1);
+ 
+  for (int i=1; i&#x3008;width/50; i++){
+    float rand1 = randomness * random(-15,15); 
+    float rand2 = randomness * random(-15,15);
+    float freq = 200+ randomness* random(0, 680);
+    wave.setFrequency( freq );
+    fill(0+randomness*255);
+    ellipse (i*50,height/2+rand1,20+rand1,20+rand2);
   }
-  strokeWeight(1);
-    fill(0, 0, 0);
-  if ((mouseX>=((width/2)-(faceWidth/2))) && (mouseX<=((width/2)+(faceWidth/2)))) {
-    if ((mouseY>=((height/2)-(faceHeight/2))) && (mouseY<=((height/2)+(faceHeight/2)))) {
-      float mouthHeight = random(10, 30);
-      arc(width/2, height/2+faceHeight*0.1, 30, mouthHeight, 0, PI, PIE);
-    }
-  }
-    float MXS = map(mouseX, 0, width, -100, 100);
-  MXS = constrain(MXS, -100, 100); 
- float MYS = map(mouseY, 0, height, -100, 100);
-  MYS = constrain(MYS, -100, 100); 
-
-    float space1 = random(-3,3);
-    float space2 = random(-3,3);
-  
-    float armLength = 40;
-    float LarmStartX = width/2-faceWidth*0.38;
-    float LarmStartY = height/2+faceHeight*0.05;
-   float LarmMidInsideX = (width/2)-70+MXS*.5+space2/3;
-   float LarmMidInsideY = (height/2)+50+MYS+space1/3;
-   float LarmMidOutsideX = LarmMidInsideX+(MXS);
-   LarmMidOutsideX = constrain(LarmMidOutsideX,LarmStartX-armLength*.8,LarmStartX+armLength*.8);
-   float LarmMidOutsideY = LarmMidInsideY+(MYS);
-      LarmMidOutsideY = constrain(LarmMidOutsideY,LarmStartY-armLength*.8,LarmStartY+armLength*.8);
-   float LarmEndX = mouseX-10;
-   LarmEndX = constrain(LarmEndX,LarmStartX-armLength,LarmStartX+armLength)+space1;
-   float LarmEndY = mouseY-10;
-   LarmEndY = constrain(LarmEndY,LarmStartY-armLength,LarmStartY+armLength)+space2;
-  
-  
-   float RarmStartX = width/2+faceWidth*0.38;
-    float RarmStartY = height/2+faceHeight*0.05;
-   float RarmMidInsideX = (width/2)+70+MXS*.5+space2/3;
-   float RarmMidInsideY = (height/2)+50+MYS+space1/3;
-   float RarmMidOutsideX = RarmMidInsideX+(MXS*.5);
-   RarmMidOutsideX = constrain(RarmMidOutsideX,RarmStartX-armLength*.8,RarmStartX+armLength*.8);
-   float RarmMidOutsideY = RarmMidInsideY+(MYS*.5);
-   RarmMidOutsideY = constrain(RarmMidOutsideY,RarmStartY-armLength*.8,RarmStartY+armLength*.8);   
-   float RarmEndX = mouseX+10;
-   RarmEndX = constrain(RarmEndX,RarmStartX-armLength,RarmStartX+armLength)+space2;
-   float RarmEndY = mouseY-10;
-   RarmEndY = constrain(RarmEndY,RarmStartY-armLength,RarmStartY+armLength)+space1;
-  
-  noFill();
-  stroke(0);
-  strokeWeight(3);
-  bezier(LarmStartX, LarmStartY, 
-  LarmMidInsideX, LarmMidInsideY,//height/2+faceHeight*0.8, 
-  LarmMidOutsideX, LarmMidOutsideY, LarmEndX, LarmEndY);
-  bezier(RarmStartX, RarmStartY, 
-  RarmMidInsideX, RarmMidInsideY,//height/2+faceHeight*0.8, 
-  RarmMidOutsideX, RarmMidOutsideY, RarmEndX, RarmEndY);
-}
-
-void mousePressed() {
-  skinColorR = int(random (0, 255));
-  skinColorG = int(random (0, 255));
-  skinColorB = int(random (0, 255));
 }
                         </code>
                         <div class="srclink">
-                            cute.pde (<a target="_blank" href="/assets/media/indie/cute/cute.pde">source</a>)
+                            chaos_vs_order.pde (<a target="_blank" href="/assets/media/indie/jingleballs/chaos_vs_order.pde">source</a>)
                         </div>
                     </pre>
                 </div>
                 <div class="text">
-                    <h4 style="display: inline-block; margin-right: 10px">Something Cute</h4>
+                    <h4 style="display: inline-block; margin-right: 10px">Jingle Balls</h4>
                     <em>Written with Processing 2</em>
                 </div>
             </blockquote>
@@ -258,6 +175,6 @@ void mousePressed() {
     <script src="/assets/js/main.pkgd.min.js"></script>
     <script src="/assets/js/indie.pkgd.min.js"></script>
     
-    <script src="/assets/js/indie/cute.js" data-dynamic="js"></script>
+    <script src="/assets/js/indie/jingleballs.js" data-dynamic="js"></script>
   </body>
 </html>
