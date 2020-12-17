@@ -49,7 +49,6 @@ DUMP? (add info icon (?) to page to explain)
 - inventory1.jpg, inventory2.jpg
 - Process 1 p2.png (and process video)
 - gif versions of all color theory powerpoints (s17)
-- color: SatSpace
 - color: Wrong
 - outlier project (s17)
 - iconic history (one for every year?) (s17)

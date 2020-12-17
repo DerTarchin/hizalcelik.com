@@ -143,6 +143,7 @@ blockquote .code-window .srclink {
 }
 
 .card-img a,
+.ps-img.full a,
 .card-img-static a {
   display: -webkit-box;
   display: -ms-flexbox;

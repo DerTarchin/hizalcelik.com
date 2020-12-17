@@ -889,8 +889,8 @@
             "title": "Together Again",
             "info": "A game of time travelling trial and error to reunite.",
             "year": 2016,
-            "tags": "Processing, game design, art, code, interactivity and computation (studio)",
-            "meta": "college, classwork, Java",
+            "tags": "p5js, game design, art, code, interactivity and computation (studio)",
+            "meta": "college, classwork, JS",
             "thumb_vid": true
         },
         "1337": {
@@ -1141,6 +1141,14 @@
             "year": 2014,
             "tags": "new media, art",
             "meta": "college, classwork, interactive, ems: interactivity (studio)",
+            "doodle": true
+        },
+        "satstudy": {
+            "title": "Color Study: Saturation",
+            "info": "A study on saturation within a limited value spectrum.",
+            "year": 2017,
+            "tags": "p5js, art, code",
+            "meta": "college, classwork, JS, color theory (studio)",
             "doodle": true
         }
     },
