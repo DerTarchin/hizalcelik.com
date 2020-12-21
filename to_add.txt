@@ -13,7 +13,6 @@ MAIN
 ENHANCEMENTS:
 - ppt (showreel)
 * all lego animations (split into projects)
-- cat'n'bot https://vimeo.com/253096260
 - color https://vimeo.com/253094856
 - all highschool robotics videos (kickoffs)
 

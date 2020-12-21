@@ -966,10 +966,9 @@
             "doodle": true
         },
         "catnbot": {
-            "title": "Cat 'n Bot",
-            "info": "Cats in space!",
+            "title": "Cats in Space with No Fuel",
+            "info": "A cat and a robot helper exploring space!",
             "year": 2017,
-            "url": "https://vimeo.com/253096260",
             "tags": "PowerPoint, Unity, game design, illustration, art",
             "meta": "college, classwork, experimental game design (studio)"
         },

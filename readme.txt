@@ -78,12 +78,13 @@ python3 min.py
             <div class="responsive-embed spaced">
                 <iframe class="b-lazy" data-src="https://player.vimeo.com/video/__VID_ID__?color=ffffff&title=0&byline=0&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
             </div>
-            muted: autoplay=1&loop=1&color=ffffff&title=0&byline=0&portrait=0&muted=1
+            muted autoplay: autoplay=1&loop=1&color=ffffff&title=0&byline=0&portrait=0&muted=1
 
             // youtube (autoplay, muted)
             <div class="spaced responsive-embed">
-                <iframe class="b-lazy" src="https://www.youtube.com/embed/__VID_ID__?rel=0&showinfo=0&autoplay=1&mute=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe class="b-lazy" src="https://www.youtube.com/embed/__VID_ID__?rel=0&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
+            muted autoplay: autoplay=1&mute=1
 
             // subtitle, right-aligned
             <p class="sub ta-right">TEXT</p>
