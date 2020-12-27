@@ -1149,6 +1149,13 @@
             "tags": "p5js, art, code",
             "meta": "college, classwork, JS, color theory (studio)",
             "doodle": true
+        },
+        "diana": {
+            "title": "Diana Connolly's Website",
+            "info": "Personal website of artist Diana Connolly.",
+            "year": 2020,
+            "tags": "HTML, CSS, React, JS, code, web development",
+            "meta": "commission work, website"
         }
     },
 

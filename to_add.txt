@@ -7,15 +7,15 @@ MAIN
 - looky-findy
 - hizalcelik.com
 - deltapoint
-- dianaconnolly.me
-- fractals finals
+- fractals (sr proj)
+- josh gift (Smash)
 
 ENHANCEMENTS:
 - ppt (showreel)
 * all lego animations (split into projects)
 - color https://vimeo.com/253094856
-- all highschool robotics videos (kickoffs)
 
+- all highschool robotics videos (kickoffs)
 
 DUMP? (add info icon (?) to page to explain)
 - college plan (... is this the large web/map pptZ)
@@ -51,7 +51,6 @@ DUMP? (add info icon (?) to page to explain)
 - color: Wrong
 - outlier project (s17)
 - iconic history (one for every year?) (s17)
-- compare my website with older one (old hizalcelik.com)
 - fiyel motion graphic https://vimeo.com/119020996
 - NAHS login?
 - text counter
@@ -69,6 +68,10 @@ DUMP? (add info icon (?) to page to explain)
 - mocap https://vimeo.com/191094934
 - go through all posts for all Golan courses
 - review all old videos on YouTube, Vimeo 
+- promposal arduino
+- activity booklet (d)
+- anne bday music video
+- review every project in Projects folder, every bday gift, etc
 
 
 ** review all old files from Kuat Drive Yards, college, and high school (as well as before)
