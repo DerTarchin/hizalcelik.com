@@ -1,14 +1,25 @@
 MAIN
-- Grata work
-- Grata logo
 - Art ML projects
 	> GTA GAN (expand repo in GitHub)
 - splat squared
 - looky-findy
 - hizalcelik.com
-- deltapoint
 - fractals (sr proj)
+- "viz" for grata repos
+
+
+POST-COLLEGE:
+- grata work
+- grata logo
+- deltapoint
 - josh gift (Smash)
+- LiveEQ / ZoomEQ
+- anne birthday fractals
+- coupon gifts to Diana
+- activity booklet (diana)
+- Bean ?
+- (if completed): security cam scan code
+
 
 ENHANCEMENTS:
 - ppt (showreel)
