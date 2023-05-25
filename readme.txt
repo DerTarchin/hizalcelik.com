@@ -147,6 +147,8 @@ images >> use JPEGMini and https://compressjpeg.com/ or https://compresspng.com/
 gifs >> use https://ezgif.com/
 videos >> use https://cloudconvert.com/
 
+(for below)     size    jpegmini, compress_.com
+
 = GALLERY =
 gallery-l       2000    max-longest
 gallery-m       1200    max-longest
@@ -225,7 +227,7 @@ thumb-xs (gif)  25      max-height (with ideal size: 1-30kb)
 8)  if golan project, original link added to HTML and "edited" badge added to original documentaion
 9)  if it is a doodle, mark as such in directory
 7)  run "shorturl -sync" in terminal once pushed up
-10) if a video was linked, video has the following text:
+10) if a video was linked, video has the following text in description (YT/Vimeo):
 
 __DESCRIPTION__
 

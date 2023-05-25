@@ -321,7 +321,7 @@
             "style": 2,
             "btn": "View Project",
             "tags": "Photoshop, 2D animation, painting, art, video",
-            "meta": "college, classwork, looping, ink, animation, 2d media studio: drawing",
+            "meta": "college, classwork, looping, ink, animation, 2d media studio: imaging",
             "img": [
                 "inverse1.jpg",
                 "inverse2.jpg",
@@ -335,7 +335,7 @@
             "style": 1,
             "btn": "View Projects",
             "tags": "PowerPoint, illustration, 2D animation, interactive, art, video",
-            "meta": "college, classwork, ink, series, drawing, animation, 2d media studio: drawing, digital storytelling and resistance (studio)",
+            "meta": "college, classwork, ink, series, drawing, animation, 2d media studio: imaging, digital storytelling and resistance (studio)",
             "img": [
                 "time1.jpg",
                 "time2.jpg",
@@ -362,7 +362,7 @@
             "style": 4,
             "btn": "View Collection",
             "tags": "graphite, illustration, art",
-            "meta": "college, classwork, drawing, still-life, drawing studio",
+            "meta": "college, classwork, drawing, still-life, drawing studio, 2D media studio: drawing",
             "img": [
                 "graphite1.jpg",
                 "graphite2.jpg",
@@ -413,7 +413,7 @@
             "style": 4,
             "btn": "View Collection",
             "tags": "illustration, art",
-            "meta": "high school, college, classwork, drawing, drawing, charcoal, drawing studio",
+            "meta": "high school, college, classwork, drawing, drawing, charcoal, drawing studio, 2D media studio: drawing",
             "img": [
                 "charcoal1.jpg",
                 "charcoal2.jpg",

@@ -1,3 +1,19 @@
+~~ up next ~~
+- add "Drawing Documentation 4" to charcoal studies (and "doodle" in directory)
+- add "Drawing Documentation 13" to charcoal studies (and "doodle" in directory)
+- make new Sketches page (and add "doodle" in directory values):
+	- Drawing Documentation 1
+	- Drawing Documentation 2
+	- Drawing Documentation 3
+	- Drawing Documentation 5
+	- Drawing Documentation 6
+	- Drawing Documentation 8
+	- Drawing Documentation 9
+	- Drawing Documentation 12
+~~~~~~~~~~~~~
+
+
+
 MAIN
 - Art ML projects
 	> GTA GAN (expand repo in GitHub)
@@ -6,6 +22,7 @@ MAIN
 - hizalcelik.com
 - fractals (sr proj)
 - "viz" for grata repos
+- AI artwork (harry potter) books
 
 
 POST-COLLEGE:
@@ -19,6 +36,7 @@ POST-COLLEGE:
 - activity booklet (diana)
 - Bean ?
 - (if completed): security cam scan code
+- ai artworks in general?
 
 
 ENHANCEMENTS:
@@ -30,10 +48,6 @@ ENHANCEMENTS:
 
 DUMP? (add info icon (?) to page to explain)
 - college plan (... is this the large web/map pptZ)
-- architecture spiral drawing (f14)
-- perspective home (f14)
-- perspective basement (f14)
-- nicole (f14)
 - 112 hw8c (tetris)
 - 112 hw10 (colorful click game)
 - trump nosub https://studio.youtube.com/video/Y1_M8CgkrSA/edit

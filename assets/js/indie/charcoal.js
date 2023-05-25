@@ -17,12 +17,6 @@ var img_data = [
       size: '2000x1500',
       title: 'Faces 02',
       cap: 'Charcoal on paper, 2011'
-    },
-    {
-      img: 'faces02_detail.jpg',
-      size: '2000x1560',
-      title: 'Faces 02 (detail)',
-      cap: 'Charcoal on paper, 2011'
     }
   ],
   [
@@ -35,15 +29,27 @@ var img_data = [
     {
       img: 'hands.jpg',
       size: '2000x1532',
-      title: 'Hand Study',
+      title: 'Hand Studies',
       cap: 'Hand drawing study. Charcoal on paper, 2014'
     },
     {
       img: 'figure02.jpg',
       size: '1494x2000',
+      title: 'Portrait',
+      cap: 'Portrait drawing study. Charcoal on paper, 2014'
+    },
+    {
+      img: 'study.jpg',
+      size: '1489x2000',
+      title: 'Study',
+      cap: 'Figure drawing study. Charcoal on paper, 2014'
+    },
+    {
+      img: 'figure03.jpg',
+      size: '2000x1500',
       title: 'Figure 02',
       cap: 'Figure drawing study. Charcoal on paper, 2014'
-    }
+    },
   ]
 ];
 
