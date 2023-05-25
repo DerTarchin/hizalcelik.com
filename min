@@ -3,5 +3,5 @@
 BASEDIR=$(dirname "$0")
 cd "$BASEDIR"
 source "venv/bin/activate"
-python min.py
+python3 min.py
 deactivate
