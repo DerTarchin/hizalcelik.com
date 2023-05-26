@@ -1,15 +1,6 @@
 ~~ up next ~~
-- add "Drawing Documentation 4" to charcoal studies (and "doodle" in directory)
-- add "Drawing Documentation 13" to charcoal studies (and "doodle" in directory)
-- make new Sketches page (and add "doodle" in directory values):
-	- Drawing Documentation 1
-	- Drawing Documentation 2
-	- Drawing Documentation 3
-	- Drawing Documentation 5
-	- Drawing Documentation 6
-	- Drawing Documentation 8
-	- Drawing Documentation 9
-	- Drawing Documentation 12
+"3d painting" (F15) << own page
+	- use original (?) or vector sketches 
 ~~~~~~~~~~~~~
 
 

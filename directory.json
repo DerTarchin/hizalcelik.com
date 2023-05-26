@@ -434,6 +434,12 @@
                     "title": "Charcoal Studies",
                     "year": 2014,
                     "thumb": "charcoalstudies.jpg"
+                },
+                {
+                    "title": "Charcoal Studies",
+                    "year": 2014,
+                    "thumb": "charcoalstudies2.jpg",
+                    "doodle": true
                 }
             ]
         },
@@ -1156,16 +1162,31 @@
             "year": 2020,
             "tags": "HTML, CSS, React, JS, code, web development",
             "meta": "commission work, website"
+        },
+        "sketches": {
+            "title": "Sketches",
+            "info": "Sketches across different mediums.",
+            "year": 2014,
+            "tags": "graphite, painting, charcoal, illustration, art",
+            "meta": "college, classwork, drawing, still-life, drawing studio, 2D media studio: drawing",
+            "doodle": true,
+            "group": [
+                {   
+                    "title": "Sketches",
+                    "year": 2014,
+                    "thumb": "sketches1.jpg",
+                    "doodle": true
+                },
+                {
+                    "title": "Sketches",
+                    "year": 2014,
+                    "thumb": "sketches2.jpg",
+                    "doodle": true
+                }
+            ]
         }
     },
-
-
-
-
-
-
-
-    
+  
 
 
     
