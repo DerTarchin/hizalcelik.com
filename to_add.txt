@@ -1,6 +1,7 @@
 ~~ up next ~~
-"3d painting" (F15) << own page
-	- use original (?) or vector sketches 
+- "3d painting" (F15) << own page
+	- use vector sketches "due to low fidelity.. also, because art."
+- mocap / skeleton https://vimeo.com/191094934
 ~~~~~~~~~~~~~
 
 
@@ -42,12 +43,10 @@ DUMP? (add info icon (?) to page to explain)
 - 112 hw8c (tetris)
 - 112 hw10 (colorful click game)
 - trump nosub https://studio.youtube.com/video/Y1_M8CgkrSA/edit
-- instructional assignment: http://golancourses.net/2014_60210a/hc/09/03/instructional-assignment-hc/
 - processing inspirations: http://golancourses.net/2014_60210a/hc/09/03/looking-outwards-2-processing-hc/
 - any looking outwards ^ ? All inspiration files in all projects?
 - painting 24 (f15)
 - loop (gif) f16
-- skeleton
 - ATAT (self driving rc)
 - spray paints (s15)
 - monotypes (s15)
@@ -81,7 +80,6 @@ DUMP? (add info icon (?) to page to explain)
 - in case not mentioned here, all of https://github.com/DerTarchin/cmuems-60212
 - Monty Oum / RWBY title animation 3d test (old files > KDY > archive > creative > 3d tests)
 - choco box https://vimeo.com/191286840
-- mocap https://vimeo.com/191094934
 - go through all posts for all Golan courses
 - review all old videos on YouTube, Vimeo 
 - promposal arduino

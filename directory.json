@@ -250,7 +250,7 @@
             "style": 4,
             "btn": "View Collection",
             "tags": "oil, painting, art",
-            "meta": "high school, college, classwork, painting studio",
+            "meta": "high school, college, classwork, painting studio, 2d media studio: painting",
             "img": [
                 "oil1.jpg",
                 "oil2.jpg",
@@ -1168,7 +1168,7 @@
             "info": "Sketches across different mediums.",
             "year": 2014,
             "tags": "graphite, painting, charcoal, illustration, art",
-            "meta": "college, classwork, drawing, still-life, drawing studio, 2D media studio: drawing",
+            "meta": "college, classwork, drawing, still-life, painting studio, drawing studio, 2D media studio: drawing, 2D media studio: painting",
             "doodle": true,
             "group": [
                 {   
@@ -1184,6 +1184,14 @@
                     "doodle": true
                 }
             ]
+        },
+        "painting3d": {
+            "title": "Girl in Tree",
+            "info": "A 2D composition using physical objects.",
+            "year": 2014,
+            "tags": "graphite, illustration, art",
+            "meta": "college, classwork, sculpture, portrait, painting studio, 2D media studio: painting",
+            "doodle": true
         }
     },
   
