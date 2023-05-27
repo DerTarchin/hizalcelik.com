@@ -53,38 +53,38 @@ var img_data = [
     {
       img: 'painting_studies1.JPG',
       size: '1333x2000',
-      title: 'Paint Studies',
-      cap: 'Ink drawing on paper, 2015'
+      title: 'Helmet',
+      cap: 'Ink painting on cardboard, 2015'
     },
     {
       img: 'painting_studies2.JPG',
       size: '1333x2000',
-      title: 'Paint Studies',
-      cap: 'Ink drawing on paper, 2015'
+      title: 'Still Life',
+      cap: 'Ink painting on wood board, 2015'
     },
     {
       img: 'painting_studies3.JPG',
       size: '1333x2000',
-      title: 'Paint Studies',
-      cap: 'Ink drawing on paper, 2015'
+      title: 'Sculpture Arm',
+      cap: 'Ink painting on cardboard, 2015'
     },
     {
       img: 'painting_studies4.JPG',
       size: '1333x2000',
-      title: 'Paint Studies',
-      cap: 'Ink drawing on paper, 2015'
+      title: 'Metal Coin',
+      cap: 'Ink painting on cardboard, 2015'
     },
     {
       img: 'painting_studies5.JPG',
       size: '1333x2000',
-      title: 'Paint Studies',
-      cap: 'Ink drawing on paper, 2015'
+      title: 'Bulb',
+      cap: 'Ink painting on cardboard, 2015'
     },
     {
       img: 'painting_studies6.JPG',
       size: '1333x2000',
-      title: 'Paint Studies',
-      cap: 'Ink drawing on paper, 2015'
+      title: 'Jewelry',
+      cap: 'Ink painting on cardboard, 2015'
     },
   ]
 ];
