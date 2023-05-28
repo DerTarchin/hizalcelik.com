@@ -1190,8 +1190,17 @@
             "info": "A 2D composition using physical objects.",
             "year": 2014,
             "tags": "graphite, illustration, art",
-            "meta": "college, classwork, sculpture, portrait, painting studio, 2D media studio: painting",
+            "meta": "college, classwork, sculpture, portrait, painting studio, 3D painting, 2D media studio: painting",
             "doodle": true
+        },
+        "mocap": {
+            "title": "MoCap",
+            "info": "An experimental motion capture.",
+            "year": 2016,
+            "tags": "Processing, new media, art, code",
+            "meta": "college, classwork, CGI, Java, motion capture, interactivity and computation (studio)",
+            "doodle": true,
+            "thumb_vid": true
         }
     },
   

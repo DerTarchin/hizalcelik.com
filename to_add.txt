@@ -1,7 +1,5 @@
 ~~ up next ~~
-- "3d painting" (F15) << own page
-	- use vector sketches "due to low fidelity.. also, because art."
-- mocap / skeleton https://vimeo.com/191094934
+
 ~~~~~~~~~~~~~
 
 
@@ -35,8 +33,9 @@ ENHANCEMENTS:
 - ppt (showreel)
 * all lego animations (split into projects)
 - color https://vimeo.com/253094856
-
+- add inspo to hiz.al/mexico/ (place) tiled image project: http://golancourses.net/excap17/hizlik/02/28/hizlik-placeproposal/
 - all highschool robotics videos (kickoffs)
+- link to original site for F16-60212 mocap/seleton project (once golan reinstates it)
 
 DUMP? (add info icon (?) to page to explain)
 - college plan (... is this the large web/map pptZ)

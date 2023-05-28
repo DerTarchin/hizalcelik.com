@@ -136,6 +136,7 @@ __CODE__
             // image opener trigger
             <a class="ps-trigger" data-target="__IMAGE_NAME__">__TEXT__</a>
 
+            // golan's websites
             <div style="background: #fec107; color: #654404; padding: 8px 15px; border-radius: 8px; margin-bottom: 35px"><b>Update:</b> As of 2020, an updated documentation for this project is now on my website at <b><a href="http://hizalcelik.com/PROJ_ID" style="color: #654404">hiz.al/PROJ_ID</a></b>.</div>
 
 
@@ -225,6 +226,7 @@ thumb-xs (gif)  25      max-height (with ideal size: 1-30kb)
 5)  search index thumbs created
 6)  to_add updated
 8)  if golan project, original link added to HTML and "edited" badge added to original documentaion
+    <div style="background: #fec107; color: #654404; padding: 8px 15px; border-radius: 8px"><b>Update:</b> As of 2020, an updated documentation for this project is now on my website at <b><a href="http://hizalcelik.com/LINK" style="color: #654404">hiz.al/carscanner</a></b>.</div>
 9)  if it is a doodle, mark as such in directory
 7)  run "shorturl -sync" in terminal once pushed up
 10) if a video was linked, video has the following text in description (YT/Vimeo):

@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en" data-page="mocap">
+  <head>
+    <!-- META -->
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="robots" content="index,follow">
+    <meta name="googlebot" content="index,follow">
+    <meta name="google-site-verification" content="4R3-f952b3IserPtunBg8n4djQFMs7IXuB0yzWW5mcE" />
+    <meta name="subject" content="Hızal Çelik's Portfolio">
+    <meta property="og:image" content="http://hizalcelik.com/assets/media/card-thumb.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <!-- /META -->
+
+    <!-- GOOGLE -->
+    <script>
+    window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+    ga('create', 'UA-70907063-1', 'auto'); ga('send', 'pageview');
+    </script>
+    <script async src='https://www.google-analytics.com/analytics.js'></script>
+    <!-- /GOOGLE -->
+
+    <!-- CSS -->
+    <link type="text/css" rel="stylesheet" href="/assets/css/main.pkgd.min.css">
+    <link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300">
+    <link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:900">
+    <!-- /CSS -->
+
+    <!-- FAVICON -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/assets/favicon/site.webmanifest">
+    <meta name="theme-color" content="#ffffff">
+    <!-- /FAVICON -->
+    
+    <!-- PAGE-SPECIFIC -->
+    <title>Girl in Tree | Hızal Çelik</title>
+    <meta property="og:title" content="Girl in Tree | Hızal Çelik">
+    <meta property="og:url" content="http://hizalcelik.com/mocap/">
+    <meta name="description" content="An experimental motion capture, by Hızal Çelik.">
+    <meta property="og:description" content="An experimental motion capture, by Hızal Çelik.">
+    <!-- /PAGE-SPECIFIC -->
+  </head>
+
+  <body class="dark indie">
+
+    <div class="nav" id="nav">
+      <a class="name" id="home" href="/about">Hızal Çelik</a>
+      <ul>
+        <li id="nav-code"><a data-letters="Code" href="/?c=code">Code</a></li>
+        <li id="nav-design"><a data-letters="Design" href="/?c=design">Design</a></li>
+        <li id="nav-art"><a data-letters="Art" href="/?c=art">Art</a></li>
+        <li id="nav-video"><a data-letters="Video" href="/?c=video">Video</a></li>
+        <li id="nav-photo"><a data-letters="Photo" href="/?c=photo">Photo</a></li>
+        <li id="nav-more"><a data-letters="All Works" href="/search">All Works</a></li>
+      </ul>
+      <div id="nav-mobile">
+        <svg viewBox="0 0 12 12" version="1.1" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+          <line x1="0" y1="1" x2="12" y2="1"/>
+          <line x1="0" y1="6" x2="12" y2="6"/>
+          <line x1="0" y1="11" x2="12" y2="11"/>
+        </svg>
+      </div>
+    </div>
+
+    <section class="fullpage vis" data-dynamic="html">
+      <div class="fullpage-content">
+
+        <section class="project-header">
+            <h1>MoCap Skeleton</h1>
+            <p class="info-subtitle light">An experimental motion capture.</p>
+            <div class="project-info">
+                <div class="info-block">
+                    <div>
+                        <h5 class="info-title muted">category</h5>
+                        <p><a href="/search?k=art/">Art</a>, <a href="/search?k=code/">Code</a></p>
+                    </div>
+                    <div>
+                        <h5 class="info-title muted">date</h5>
+                        <p><a href="/search?k=2016/">Fall 2016</a></p>
+                    </div>
+                </div>
+                <div class="info-block">
+                    <div>
+                        <h5 class="info-title muted">technologies used</h5>
+                        <p>
+                            <a target="_blank" href="https://processing.org/">Processing 2</a>, 
+                            <a target="_blank" href="http://mocap.cs.cmu.edu/">CMU Motion Capture Lab</a>
+                        </p>
+                    </div>
+                    <div>
+                        <h5 class="info-title muted">course</h5>
+                        <p><a target="_blank" href="http://cmuems.com/2016/60212/">Interactivty and Computation</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="project-content ps-gallery">
+
+            <p>In this project, I explored motion capture technology and experimented with unconventional, abstract visualization of body-tracking datapoints. I learned how to read and interpret skeleton-tracking datapoints from a <code>.bvh</code> file (generated by a motion capture lab at CMU). I modified a given BVH parser code directly to access the bone-by-bone data, instead of using an API, in a separate Processing file.</p>
+            <!-- <p class="sub muted"><em>You can view the original project code <a target="_blank" href="...">on the class website</a>.</em></p> -->
+
+            <blockquote class="col">
+                <div class="code-window">
+                    <pre>
+                        <code>
+HIERARCHY
+ROOT hip
+{
+  OFFSET 0 0 0
+  CHANNELS 6 Xposition Yposition Zposition Zrotation Yrotation Xrotation
+  JOINT abdomen
+  {
+    OFFSET 0 20.6881 -0.73152
+    CHANNELS 3 Zrotation Xrotation Yrotation
+    JOINT chest
+    {
+      OFFSET 0 11.7043 -0.48768
+      CHANNELS 3 Zrotation Xrotation Yrotation
+      JOINT neck
+      {
+        OFFSET 0 22.1894 -2.19456
+        CHANNELS 3 Zrotation Xrotation Yrotation
+        JOINT head
+        {
+          OFFSET -0.24384 7.07133 1.2192
+          CHANNELS 3 Zrotation Xrotation Yrotation
+          JOINT leftEye
+          {
+            OFFSET 4.14528 8.04674 8.04672
+            CHANNELS 3 Zrotation Xrotation Yrotation
+            End Site
+            {
+              OFFSET 1 0 0
+            }
+          }
+          JOINT rightEye
+          {
+            OFFSET -3.6576 8.04674 8.04672
+            CHANNELS 3 Zrotation Xrotation Yrotation
+            End Site
+            {
+              OFFSET 1 0 0
+            }
+          }
+        }
+      }
+      JOINT rCollar
+      {
+        OFFSET -2.68224 19.2634 -4.8768
+        CHANNELS 3 Zrotation Xrotation Yrotation
+        JOINT rShldr
+        {
+          OFFSET -8.77824 -1.95073 1.46304
+          CHANNELS 3 Zrotation Xrotation Yrotation
+          JOINT rForeArm
+          {
+            OFFSET -28.1742 -1.7115 0.48768
+            CHANNELS 3 Zrotation Xrotation Yrotation
+            JOINT rHand
+            {
+              OFFSET -22.5879 0.773209 7.07136
+              CHANNELS 3 Zrotation Xrotation Yrotation
+              JOINT rThumb1
+              {
+                OFFSET -1.2192 -0.487915 3.41376
+                CHANNELS 3 Zrotation Xrotation Yrotation
+                JOINT rThumb2
+                {
+                  OFFSET -3.37035 -0.52449 3.41376
+                  CHANNELS 3 Zrotation Xrotation Yrotation
+                  End Site
+                  {
+                    OFFSET -1.78271 -1.18214 1.43049
+                  }
+                }
+              }
+              JOINT rIndex1
+              {
+                OFFSET -7.75947 0.938293 5.60832
+                CHANNELS 3 Zrotation Xrotation Yrotation
+                JOINT rIndex2
+                {
+                  OFFSET -2.54057 -0.884171 1.56538
+                  CHANNELS 3 Zrotation Xrotation Yrotation
+                  End Site
+                  {
+                    OFFSET -1.62519 -0.234802 1.16502
+                  }
+                }
+              }
+              JOINT rMid1
+              {
+                OFFSET -8.24714 1.18213 3.41376
+                CHANNELS 3 Zrotation Xrotation Yrotation
+                JOINT rMid2
+                {
+                  OFFSET -3.10165 -0.590103 1.0647
+                  CHANNELS 3 Zrotation Xrotation Yrotation
+                  End Site
+                  {
+                    OFFSET -2.48547 -0.328903 0.83742
+                  }
+                }
+              }
+              JOINT rRing1
+              {
+                OFFSET -8.82822 0.546677 1.51678
+                CHANNELS 3 Zrotation Xrotation Yrotation
+                JOINT rRing2
+                {
+                  OFFSET -2.60934 -0.819778 -0.0198488
+                  CHANNELS 3 Zrotation Xrotation Yrotation
+                  End Site
+                  {
+                    OFFSET -2.33842 -0.294052 0.168128
+                  }
+                }
+              }
+              JOINT rPinky1
+              {
+                OFFSET -8.27202 -0.0477905 -0.4584
+                CHANNELS 3 Zrotation Xrotation Yrotation
+                JOINT rPinky2
+                {
+                  OFFSET -1.82734 -0.647385 -0.700984
+                  CHANNELS 3 Zrotation Xrotation Yrotation
+                  End Site
+                  {
+                    OFFSET -1.69225 -0.51767 -0.607171
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+      JOINT lCollar
+      {
+        OFFSET 2.68224 19.2634 -4.8768
+        CHANNELS 3 Zrotation Xrotation Yrotation
+        JOINT lShldr
+        {
+          OFFSET 8.77824 -1.95073 1.46304
+          CHANNELS 3 Zrotation Xrotation Yrotation
+          JOINT lForeArm
+          {
+            OFFSET 28.1742 -1.7115 0.48768
+            CHANNELS 3 Zrotation Xrotation Yrotation
+            JOINT lHand
+            {
+              OFFSET 22.5879 0.773209 7.07136
+              CHANNELS 3 Zrotation Xrotation Yrotation
+              JOINT lThumb1
+              {
+                OFFSET 1.2192 -0.487915 3.41376
+                CHANNELS 3 Zrotation Xrotation Yrotation
+                JOINT lThumb2
+                {
+                  OFFSET 3.37035 -0.52449 3.41376
+                  CHANNELS 3 Zrotation Xrotation Yrotation
+                  End Site
+                  {
+                    OFFSET 1.78271 -1.18214 1.43049
+                  }
+                }
+              }
+              JOINT lIndex1
+              {
+                OFFSET 7.75947 0.938293 5.60832
+                CHANNELS 3 Zrotation Xrotation Yrotation
+                JOINT lIndex2
+                {
+                  OFFSET 2.54057 -0.884171 1.56538
+                  CHANNELS 3 Zrotation Xrotation Yrotation
+                  End Site
+                  {
+                    OFFSET 1.62519 -0.234802 1.16502
+                  }
+                }
+              }
+              JOINT lMid1
+              {
+                OFFSET 8.24714 1.18213 3.41376
+                CHANNELS 3 Zrotation Xrotation Yrotation
+                JOINT lMid2
+                {
+                  OFFSET 3.10165 -0.590103 1.0647
+                  CHANNELS 3 Zrotation Xrotation Yrotation
+                  End Site
+                  {
+                    OFFSET 2.48547 -0.328903 0.83742
+                  }
+                }
+              }
+              JOINT lRing1
+              {
+                OFFSET 8.82822 0.546677 1.51678
+                CHANNELS 3 Zrotation Xrotation Yrotation
+                JOINT lRing2
+                {
+                  OFFSET 2.60934 -0.819778 -0.0198488
+                  CHANNELS 3 Zrotation Xrotation Yrotation
+                  End Site
+                  {
+                    OFFSET 2.33842 -0.294052 0.168128
+                  }
+                }
+              }
+              JOINT lPinky1
+              {
+                OFFSET 8.27202 -0.0477905 -0.4584
+                CHANNELS 3 Zrotation Xrotation Yrotation
+                JOINT lPinky2
+                {
+                  OFFSET 1.82734 -0.647385 -0.700984
+                  CHANNELS 3 Zrotation Xrotation Yrotation
+                  End Site
+                  {
+                    OFFSET 1.69225 -0.51767 -0.607171
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  JOINT rButtock
+  {
+    OFFSET -8.77824 4.35084 1.2192
+    CHANNELS 3 Zrotation Xrotation Yrotation
+    JOINT rThigh
+    {
+      OFFSET 0 -1.70687 -2.19456
+      CHANNELS 3 Zrotation Xrotation Yrotation
+      JOINT rShin
+      {
+        OFFSET 0 -36.8199 0.73152
+        CHANNELS 3 Zrotation Xrotation Yrotation
+        JOINT rFoot
+        {
+          OFFSET 0.73152 -45.1104 -5.12064
+          CHANNELS 3 Zrotation Xrotation Yrotation
+          End Site
+          {
+            OFFSET -1.1221 -3.69964 12.103
+          }
+        }
+      }
+    }
+  }
+  JOINT lButtock
+  {
+    OFFSET 8.77824 4.35084 1.2192
+    CHANNELS 3 Zrotation Xrotation Yrotation
+    JOINT lThigh
+    {
+      OFFSET 0 -1.70687 -2.19456
+      CHANNELS 3 Zrotation Xrotation Yrotation
+      JOINT lShin
+      {
+        OFFSET 0 -36.8199 0.73152
+        CHANNELS 3 Zrotation Xrotation Yrotation
+        JOINT lFoot
+        {
+          OFFSET -0.73152 -45.1104 -5.12064
+          CHANNELS 3 Zrotation Xrotation Yrotation
+          End Site
+          {
+            OFFSET 1.1221 -3.69964 12.103
+          }
+        }
+      }
+    }
+  }
+}
+MOTION
+Frames: 592
+Frame Time: 0.00833333
+15.3137 84.8855 152.037 0.0 0.0 0.0 -0.188091 -0.00125237 -0.00538531 -0.0519266 -0.00198482 -0.00899599 9.27476e-16 0.0 6.83322e-17 2.82958e-15 3.18055e-15 2.0655e-16 -0.0 0.0 0.0 -0.0 0.0 0.0 4.9566e-16 1.55301e-18 1.98785e-16 1.19007e-14 7.45443e-17 1.59028e-15 1.72644e-13 -4.96962e-14 2.54444e-14 1.97338e-12 5.92627e-14 1.20861e-13 4.6541e-12 1.76179e-14 3.40319e-13 8.02812e-12 2.8625e-14 5.78066e-13 4.65912e-12 1.94809e-14 3.30778e-13 7.73091 5.47488 0.417314 4.65489e-12 1.80894e-14 3.40319e-13 2.90554 0.965183 0.102902 4.66527e-12 1.799e-14 3.36344e-13 10.2786 0.731801 0.0259123 4.65534e-12 1.70955e-14 3.49861e-13 2.22167 -0.733487 -0.20892 3.98899e-16 1.55301e-18 -9.93923e-17 7.98235e-15 -1.86361e-17 0.0 1.7006e-13 5.48646e-14 2.8625e-14 1.97459e-12 -4.06515e-14 1.39944e-13 4.65535e-12 2.6555e-14 3.40319e-13 8.04839e-12 4.13472e-14 5.89198e-13 4.64798e-12 2.8625e-14 3.49861e-13 -7.73091 5.47488 -0.417314 4.65395e-12 2.69353e-14 3.40319e-13 -2.90554 0.965183 -0.102902 4.64407e-12 2.71341e-14 3.39524e-13 -10.2786 0.731801 -0.0259123 4.65912e-12 2.78299e-14 3.37139e-13 -2.22167 -0.733487 0.20892 -2.03217e-16 0.0 -3.88251e-19 0.336734 -2.83766 -0.0337241 -0.00646394 -0.412343 -0.0567805 -0.478874 3.24961 0.120274 2.03217e-16 0.0 3.88251e-19 -0.623535 -3.58112 0.0516575 0.00431627 0.934347 0.0368639 0.481733 2.64641 -0.108456
+13.5585 81.9462 146.03 176.763 -59.1987 -158.376 -2.46068 -4.60557 0.233053 0.354285 -1.55493 0.0658666 -1.87797 -0.281619 -2.19851 2.00096 1.5638 -4.15964 -0.0 0.0 0.0 -0.0 0.0 0.0 7.65153e-14 -3.31409e-13 2.90362e-14 11.3211 -31.0768 3.41814 -1.74473 -0.579838 2.91239 1.67246 29.4194 2.39584 -3.22702e-10 9.38411e-10 5.25266e-10 -4.94137e-10 1.30904e-09 9.10659e-10 -3.22699e-10 9.38414e-10 5.25257e-10 7.73091 5.47488 0.417314 -3.22703e-10 9.38413e-10 5.25265e-10 2.90554 0.965183 0.102902 -3.22691e-10 9.38413e-10 5.25262e-10 10.2786 0.731801 0.0259123 -3.22701e-10 9.38412e-10 5.25273e-10 2.22167 -0.733487 -0.20892 7.64336e-14 -3.31412e-13 2.87345e-14 -1.18094 -7.52415 2.57248 2.50317 -0.928147 -4.10751 -0.423596 14.5401 -1.81458 -5.21725e-11 -1.22889e-09 1.0053e-09 -4.65239e-11 -2.21621e-09 1.7317e-09 -5.21786e-11 -1.22889e-09 1.00531e-09 -7.73091 5.47488 -0.417314 -5.21735e-11 -1.22889e-09 1.0053e-09 -2.90554 0.965183 -0.102902 -5.21802e-11 -1.22889e-09 1.0053e-09 -10.2786 0.731801 -0.0259123 -5.21648e-11 -1.22889e-09 1.0053e-09 -2.22167 -0.733487 0.20892 -2.03217e-16 0.0 -3.88251e-19 1.3764 -13.1772 0.781364 -0.0206334 9.17523 0.0535074 -0.5034 3.77905 -5.02658 2.03217e-16 0.0 3.88251e-19 1.53347 -8.44123 -0.640826 -0.100144 8.95271 -0.255 2.12193 -10.6482 6.88046
+13.5951 83.0444 145.353 175.981 -58.7281 -157.765 -4.81345 -9.48478 0.47823 0.791319 -3.18422 0.141924 -3.87803 -0.596318 -4.53053 4.32936 3.14811 -8.56986 -0.0 0.0 0.0 -0.0 0.0 0.0 1.60354e-13 -7.026e-13 5.80234e-14 31.9298 -63.3798 13.6557 -3.526 -1.18819 5.99358 -1.7037 60.3706 8.70213 -6.89256e-10 2.00211e-09 1.11305e-09 -1.05659e-09 2.7963e-09 1.92946e-09 -6.89254e-10 2.00212e-09 1.11304e-09 7.73091 5.47488 0.417314 -6.89258e-10 2.00212e-09 1.11305e-09 2.90554 0.965183 0.102902 -6.89245e-10 2.00212e-09 1.11305e-09 10.2786 0.731801 0.0259123 -6.89255e-10 2.00212e-09 1.11306e-09 2.22167 -0.733487 -0.20892 1.6029e-13 -7.02607e-13 5.77159e-14 -1.68016 -15.5394 5.45181 5.00603 -1.89393 -8.45474 0.270946 29.9384 -4.17872 -1.07539e-10 -2.56828e-09 2.0895e-09 -9.50026e-11 -4.63009e-09 3.59906e-09 -1.07544e-10 -2.56828e-09 2.08951e-09 -7.73091 5.47488 -0.417314 -1.0754e-10 -2.56828e-09 2.08951e-09 -2.90554 0.965183 -0.102902 -1.07543e-10 -2.56828e-09 2.0895e-09 -10.2786 0.731801 -0.0259123 -1.07527e-10 -2.56829e-09 2.0895e-09 -2.22167 -0.733487 0.20892 -2.03217e-16 0.0 -3.88251e-19 2.82255 -24.1415 1.75132 -0.0774464 19.3721 0.181142 -0.449311 4.17656 -10.4457 2.03217e-16 0.0 3.88251e-19 3.76622 -13.5502 -1.42451 -0.119262 17.4239 -0.587095 7.68737 -24.3035 15.3819
+13.7131 84.0414 144.527 176.082 -58.3406 -158.038 -6.888 -13.8133 0.72875 1.17892 -4.6608 0.216234 -5.69858 -0.839883 -6.59616 6.67994 4.5925 -12.5151 -0.0 0.0 0.0 -0.0 0.0 0.0 2.28555e-13 -9.94229e-13 8.67109e-14 139.735 -80.6005 110.811 -5.05803 -1.72155 8.74069 -66.4167 83.5197 75.0579 -9.77415e-10 2.8152e-09 1.57512e-09 -1.49847e-09 3.92707e-09 2.73082e-09 -9.77415e-10 2.8152e-09 1.57511e-09 7.73091 5.47488 0.417314 -9.77418e-10 2.8152e-09 1.57511e-09 2.90554 0.965183 0.102902 -9.77405e-10 2.8152e-09 1.57511e-09 10.2786 0.731801 0.0259123 -9.77414e-10 2.8152e-09 1.57512e-09 2.22167 -0.733487 -0.20892 2.28503e-13 -9.94238e-13 8.64022e-14 -1.38276 -22.3828 8.27853 7.11332 -2.72726 -12.3351 2.36739 43.4107 -7.26279 -1.65828e-10 -3.68671e-09 3.01521e-09 -1.55668e-10 -6.64871e-09 5.19392e-09 -1.65832e-10 -3.68671e-09 3.01522e-09 -7.73091 5.47488 -0.417314 -1.65828e-10 -3.68671e-09 3.01522e-09 -2.90554 0.965183 -0.102902 -1.65829e-10 -3.68672e-09 3.01521e-09 -10.2786 0.731801 -0.0259123 -1.65813e-10 -3.68673e-09 3.01521e-09 -2.22167 -0.733487 0.20892 -2.03217e-16 0.0 -3.88251e-19 4.49371 -33.8276 2.82892 -0.170972 28.35 0.309099 -0.272579 4.70842 -15.3401 2.03217e-16 0.0 3.88251e-19 5.47861 -18.1515 -2.1098 -0.0427632 24.9869 -0.915048 16.6037 -34.732 25.2236
+...and 590 more lines...
+                        </code>
+                        <div class="srclink">
+                            pirouette.bvh (<a target="_blank" href="/assets/media/indie/mocap/pirouette.bvh">source</a>)
+                        </div>
+                    </pre>
+                </div>
+                <div class="text">
+                    <h4 style="display: inline-block; margin-right: 10px">Example motion capture data</h4>
+                </div>
+            </blockquote>
+
+            <p>This project was a fun learning experience. I randomly drew lines from each bone element to two other bones in the body, and connected them to form a semi-opaque triangle. I made the triangles change position every frame to create a more abstract and dynamic effect than a static triangle shape following the bone movement.</p>
+
+            <div class="responsive-embed spaced">
+                <iframe class="b-lazy" data-src="https://player.vimeo.com/video/191094934?autoplay=1&loop=1&color=ffffff&title=0&byline=0&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            </div>
+
+            <blockquote>
+                <div class="text">
+                    <h3>Issues Faced</h3>
+                    <p>
+                        I faced some challenges in this project: I could access bone data more easily by modifying the parser library than by using the three.js library, so I decided to use Processing for my final project. I also encountered glitches with some BVH/mocap recordings I found online.
+                    </p>
+                    <p>
+                        I had a folder full of hundreds of recordings, mostly martial arts-based movements. They worked fine in the three.js demo file, but they looked weird and glitchy in Processing, without any code errors. I’m not sure what caused this problem.
+                    </p>
+                </div>
+                <div class="card-img ps-img"></div>
+            </blockquote>
+
+            <blockquote class="source">
+                <div class="card-img-static"><a target="_blank" href="https://github.com/DerTarchin/cmuems-60212/tree/master/randomLines"><img src="/assets/media/source.jpg"></a></div>
+                <a target="_blank" href="https://github.com/DerTarchin/cmuems-60212/tree/master/randomLines" class="text">
+                    <h3>View the source code</h3>
+                </a>
+            </blockquote>
+
+        </section>
+        
+        <div class="spaced">
+            <div class="footer-tags"></div>
+        </div>
+
+        <!-- PhotoSwipe module -->
+        <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true"><div class="pswp__bg"></div><div class="pswp__scroll-wrap"><div class="pswp__container"><div class="pswp__item"></div><div class="pswp__item"></div><div class="pswp__item"></div></div><div class="pswp__ui pswp__ui--hidden"><div class="pswp__top-bar"><div class="pswp__counter"></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button><button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button><button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button><div class="pswp__preloader"><div class="pswp__preloader__icn"><div class="pswp__preloader__cut"><div class="pswp__preloader__donut"></div></div></div></div></div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"> </button><button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"> </button><div class="pswp__caption"><div class="pswp__caption__center"></div></div></div></div></div>
+        <!-- End PhotoSwipe module -->
+
+      </div>
+    </section>
+
+    <!-- JS --> 
+    <script src="/assets/js/main.pkgd.min.js"></script>
+    <script src="/assets/js/indie.pkgd.min.js"></script>
+    
+    <script src="/assets/js/indie/mocap.js" data-dynamic="js"></script>
+  </body>
+</html>

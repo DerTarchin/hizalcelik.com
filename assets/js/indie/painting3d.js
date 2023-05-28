@@ -1,7 +1,7 @@
 var img_data = [
   [
     {
-      img: 'paintin3d.JPG',
+      img: 'painting3d.JPG',
       size: '2000x1333',
       title: 'Girl in Tree',
       cap: 'Carpet, beads, filing cabinet paneling, newspaper, shells, misc. materials. 12"x12", 2015'
