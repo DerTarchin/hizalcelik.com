@@ -1195,7 +1195,7 @@
         },
         "mocap": {
             "title": "MoCap",
-            "info": "An experimental motion capture.",
+            "info": "An experimental motion capture visualization.",
             "year": 2016,
             "tags": "Processing, new media, art, code",
             "meta": "college, classwork, CGI, Java, motion capture, interactivity and computation (studio)",
