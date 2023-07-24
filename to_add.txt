@@ -1,5 +1,6 @@
 ~~ up next ~~
-
+- monotypes, including hand-drawn (s15)
+- AI artwork (harry potter) books (add to gallery...?)
 ~~~~~~~~~~~~~
 
 
@@ -7,12 +8,12 @@
 MAIN
 - Art ML projects
 	> GTA GAN (expand repo in GitHub)
+	> *include* photos from exhibition
 - splat squared
 - looky-findy
 - hizalcelik.com
 - fractals (sr proj)
 - "viz" for grata repos
-- AI artwork (harry potter) books
 
 
 POST-COLLEGE:
@@ -21,12 +22,15 @@ POST-COLLEGE:
 - deltapoint
 - josh gift (Smash)
 - LiveEQ / ZoomEQ
-- anne birthday fractals
+- anne birthday fractals (YT: https://youtu.be/93nnhh3Lniw)
 - coupon gifts to Diana
 - activity booklet (diana)
 - Bean ?
 - (if completed): security cam scan code
 - ai artworks in general?
+- cem amca .NET UI
+- Bean illustrations + art
+- Bean photography
 
 
 ENHANCEMENTS:
@@ -45,10 +49,8 @@ DUMP? (add info icon (?) to page to explain)
 - processing inspirations: http://golancourses.net/2014_60210a/hc/09/03/looking-outwards-2-processing-hc/
 - any looking outwards ^ ? All inspiration files in all projects?
 - painting 24 (f15)
-- loop (gif) f16
 - ATAT (self driving rc)
 - spray paints (s15)
-- monotypes (s15)
 - 15-122 finals cheat sheet
 - glitch tree wallpaper (s16)
 - test7.jpg (s16)
@@ -83,7 +85,6 @@ DUMP? (add info icon (?) to page to explain)
 - review all old videos on YouTube, Vimeo 
 - promposal arduino
 - activity booklet (d)
-- anne bday music video
 - review every project in Projects folder, every bday gift, etc
 
 
