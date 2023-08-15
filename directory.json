@@ -713,7 +713,7 @@
             "year": 2014,
             "style": 3,
             "btn": "View Project",
-            "tags": "Arduino, Java, robotics, new media, RC car, code, art",
+            "tags": "Arduino, Java, robotics, new media, self driving, RC car, code, art",
             "meta": "college, classwork, HCI, Slash 4x4, ems: interactivity (studio)",
             "img": [
                 "followerbot1.jpg",
@@ -940,6 +940,13 @@
             "year": 2016,
             "tags": "HTML, CSS, code, web development",
             "meta": "commission work, website"
+        },
+        "gratabookmark": {
+            "title": "Grata Book Club Bookmark",
+            "info": "A.I. generated bookmark design.",
+            "year": 2022,
+            "tags": "ai, midjourney, grata",
+            "meta": "professional work"
         },
         "sem": {
             "title": "Scanning Electron Microscope Photos",

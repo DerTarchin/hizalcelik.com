@@ -14,6 +14,7 @@ MAIN
 - hizalcelik.com
 - fractals (sr proj)
 - "viz" for grata repos
+- senior show (VR fractals)
 
 
 POST-COLLEGE:

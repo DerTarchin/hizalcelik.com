@@ -29,7 +29,8 @@
         "ems": "electronic media studio",
         "ems:": "electronic media studio:",
         "datavis": "data visualization",
-        "excap": "experimental capture"
+        "excap": "experimental capture",
+        "ai": "a.i."
       },
       showDoodles = !!$('#doodle').attr('checked'),
       currTooltip;
