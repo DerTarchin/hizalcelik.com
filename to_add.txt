@@ -20,6 +20,7 @@ MAIN
 POST-COLLEGE:
 - grata work
 - grata logo
+- grata ext
 - deltapoint
 - josh gift (Smash)
 - LiveEQ / ZoomEQ
@@ -32,6 +33,7 @@ POST-COLLEGE:
 - cem amca .NET UI
 - Bean illustrations + art
 - Bean photography
+- Vidya's V Magazines
 
 
 ENHANCEMENTS:
@@ -87,6 +89,7 @@ DUMP? (add info icon (?) to page to explain)
 - promposal arduino
 - activity booklet (d)
 - review every project in Projects folder, every bday gift, etc
+- drawing of nicole + chanel : "Nicole Chanel 1.jpg"
 
 
 ** review all old files from Kuat Drive Yards, college, and high school (as well as before)
