@@ -44,20 +44,13 @@
 
   function hideDoodles() {
     hidden_doodles = [];
-    for(var i=0; i<activeList.length; i++) {
-      li = activeList[i];
+    activeList.forEach(li => {
       if(showDoodles) $(li).show();
-      else {
-        var visible = true;
-        for(var j=0; j<Object.keys(dir).length; j++) {
-          if(visible && dir[Object.keys(dir)[j]].el === li && (p_cache.work[Object.keys(dir)[j]] || {}).doodle) {
-            $(li).hide();
-            hidden_doodles.push(li)
-            visible = false;
-          }
-        }
+      else if($(li).attr('data-doodle')) {
+        $(li).hide();
+        hidden_doodles.push(li)
       }
-    }
+    });
     updateCounter();
   }
 
@@ -189,6 +182,9 @@
       } else {
         li.setAttribute('data-info', data.info);
       }
+      if(data.doodle || (data.group_id && p_cache.work[data.group_id].doodle)) {
+        li.setAttribute('data-doodle', true)
+      }
       li.setAttribute('data-thumb', data.thumb);
       function addTag(tag) {
         if(!dir_tags[tag]) dir_tags[tag] = [li];
@@ -301,8 +297,10 @@
 
   // Process current URL, set value of searchbox
   var params = getJsonFromUrl();
-  if(params.k) {
-    $('#filter')[0].value = params.k.split('/')[0];
+  if(params.k) $('#filter')[0].value = params.k.split('/')[0];
+  if(params.d === "0") { 
+    $('#doodle')[0].checked = false;
+    showDoodles = false;
   }
 
   // deferred scripts until page load
@@ -326,23 +324,24 @@
     function filterAndURL() {
       setTimeout(function(){
         filter();
-        var url_addition = filterVal === "" ? "" : "?k=" + filterVal + "/";
-        var new_url = window.location.href.split('?')[0] + url_addition;
-        history.replaceState(null, null, new_url);
-        var ga_page = "/search/" + url_addition;
-        ga('set', 'page', ga_page);
+        const filterParam = filterVal ? `k=${filterVal}` : "";
+        const doodleParam = showDoodles ? "" : "d=0";
+        const params = [filterParam, doodleParam].filter(Boolean).join('&');
+        const urlAddition = params ? `?${params}` : '';
+        const newUrl = window.location.href.split('?')[0] + urlAddition;
+        history.replaceState(null, null, newUrl);
+        var gaPage = "/search/" + urlAddition;
+        ga('set', 'page', gaPage);
         ga('send', 'pageview');
       },0);
     }
 
     function doodleAndFilter(e) {
-      setTimeout(function(){
-        showDoodles = e.target.checked;
-        filter();
-      },0);
+      showDoodles = e.target.checked;
+      filterAndURL();
     }
 
-    $('#filter').on('keyup', filter);
+    $('#filter').on('keyup', filterAndURL);
     $('#filter').on('change', filterAndURL);
     $('#filter').on('awesomplete-select', filterAndURL);
     $('#doodle').on('change', doodleAndFilter);
