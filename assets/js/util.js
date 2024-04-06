@@ -25,7 +25,7 @@ function parseDirectory(file) {
         p_cache.work[keys[i]].thumb = keys[i] + '.jpg';
       }
       // set thumb_vid if it needed, and isn't defined
-      if(p_cache.work[keys[i]].thumb_vid === true) {
+      if([true,1].includes(p_cache.work[keys[i]].thumb_vid)) {
         p_cache.work[keys[i]].thumb_vid = keys[i] + '.mp4';
       }
     }

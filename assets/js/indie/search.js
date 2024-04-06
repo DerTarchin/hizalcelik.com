@@ -32,10 +32,10 @@
         "datavis": "data visualization",
         "excap": "experimental capture",
         "ai": "a.i.",
-        "classwork": "assignment",
       },
       showDoodles = !!$('#doodle').attr('checked'),
-      currTooltip;
+      currTooltip,
+      COLLEGE_TAGS = ['course', 'academic', 'college', 'coursework', 'classwork', 'assignment'];
 
   function updateCounter() {
     var count = activeList.length - hidden_doodles.length;
@@ -260,7 +260,7 @@
       addHiddenTag(id);
 
       // add "doodle" status to hidden tags
-      if("doodle" in data) {
+      if(data.doodle) {
         addHiddenTag("doodle");
         addHiddenTag("creative experiment");
       }
@@ -269,22 +269,26 @@
       var cats = Object.keys(p_cache.gallery);
       for(var i=0; i<cats.length; i++) {
         for(var j=0; j<p_cache.gallery[cats[i]].split(", ").length; j++) {
-          if(p_cache.gallery[cats[i]].split(", ")[j].includes(id) && "group_id" in data) addTag(p_cache.work[id].title.toLowerCase())
+          if(p_cache.gallery[cats[i]].split(", ")[j].includes(id) && data.group_id) addTag(p_cache.work[id].title.toLowerCase())
         }
       }
     }
 
     for(var w in p_cache.work) { // iterate through projects
       var work = p_cache.work[w]; // current work
-      if("dirignore" in work) continue; // skip directory-ignored items
-      var tags = "tags" in work ? work.tags.split(', ') : [];
-      if("meta" in work) {
+      if(work.dirignore) continue; // skip directory-ignored items
+      var tags = work.tags?.split(', ') ?? [];
+      if(work.meta) {
         var meta = work.meta.split(', ');
         for(var m=0; m<meta.length; m++) tags.push(meta[m]);
       }
-      if("group" in p_cache.work[w]) {
-        for(var j=0; j<p_cache.work[w]['group'].length; j++)
-          processTmpl(p_cache.work[w]['group'][j], tags);
+      if(work.course || work.courses) {
+        const coursesToAdd = work.course ? [work.course] : work.courses;
+        tags.push(...coursesToAdd, ...COLLEGE_TAGS)
+      }
+      if(p_cache.work[w].group) {
+        for(var j=0; j<p_cache.work[w].group.length; j++)
+          processTmpl(p_cache.work[w].group[j], tags);
       }
       else processTmpl(p_cache.work[w], tags);
     }
@@ -297,7 +301,7 @@
 
   // Process current URL, set value of searchbox
   var params = getJsonFromUrl();
-  if("k" in params) {
+  if(params.k) {
     $('#filter')[0].value = params.k.split('/')[0];
   }
 
