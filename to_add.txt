@@ -17,6 +17,14 @@ MAIN
 - senior show (VR fractals)
 
 
+GRATA:
+- general work
+- grata logo
+- chrome ext
+- technical achievements like...
+	> CSS-only tree (ownership, end customers)
+	> ... (other technical acheivements)
+
 POST-COLLEGE:
 - grata work
 - grata logo

@@ -9,6 +9,7 @@
       blazyTimeout, // blazy timeout
       filterVal = "",
       activeList = [],
+      completeList = [],
       hidden_doodles = [],
       activeTags = [],
       abbrevs = {
@@ -30,7 +31,8 @@
         "ems:": "electronic media studio:",
         "datavis": "data visualization",
         "excap": "experimental capture",
-        "ai": "a.i."
+        "ai": "a.i.",
+        "classwork": "assignment",
       },
       showDoodles = !!$('#doodle').attr('checked'),
       currTooltip;
@@ -65,7 +67,11 @@
     // exit if nothing changed
     if(currVal === filterVal) return hideDoodles(); 
     // show all if no filter
-    else if(currVal === "") $('#index-thumbs li').show(); 
+    else if(currVal === "") {
+      $('#index-thumbs li').show();
+      activeList = [...completeList];
+      hideDoodles();
+    }
     // stricter filter so only apply to currently visible
     else if(currVal.length > 1 && filterVal.length > 1
         && currVal.length > filterVal.length 
@@ -158,6 +164,7 @@
         }
       }
     }
+
     filterVal = currVal;
     hideDoodles();
 
@@ -173,6 +180,7 @@
     function processTmpl(data, tags) {
       var li = document.createElement("li");
       activeList.push(li);
+      completeList.push(li);
       if(data.id) li.id = data.id;
       li.setAttribute('data-title', data.title);
       li.setAttribute('data-year', data.year);
